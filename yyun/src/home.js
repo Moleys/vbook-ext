@@ -10,6 +10,5 @@ function execute() {
 		{title: "恐怖小说", input: "https://www.yyun.net/kongbuxiaoshuo/", script: "gen.js"},
 		{title: "其他小说", input: "https://www.yyun.net/qitaxiaoshuo/", script: "gen.js"},
 		{title: "完结小说", input: "https://www.yyun.net/quanbenxiaoshuo/1/", script: "gen.js"},
-		{title: "排行", input: "https://www.yyun.net/top/", script: "gen.js"}
     ]);
 }

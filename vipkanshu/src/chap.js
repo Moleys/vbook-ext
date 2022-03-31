@@ -1,5 +1,5 @@
 function execute(url) {
-    url = url.replace('m.xinwanben.com', 'www.xinwanben.com');
+    url = url.replace('m.vipkanshu.vip', 'www.vipkanshu.vip');
     let response = fetch(url);
 
     if (response.ok) {

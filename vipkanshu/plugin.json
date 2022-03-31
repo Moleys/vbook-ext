@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "yyun",
+    "name": "vipkanshu",
     "author": "Moleys",
     "version": 1,
-    "source": "https://www.yyun.net",
-    "regexp": "(www.|m.)?yyun.net/(xs|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang https://www.yyun.net",
+    "source": "https://www.vipkanshu.vip",
+    "regexp": "(www.|m.)?vipkanshu.vip/(shu|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang https://www.vipkanshu.vip",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

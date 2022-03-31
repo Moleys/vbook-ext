@@ -4,6 +4,61 @@
     "description": "🧐"
   },
   "data": [
+    {
+      "name": "147xs",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/plugin.zip",
+      "version": 1,
+      "source": "https://www.147xs.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/icon.png",
+      "description": "Đọc truyện trên trang https://www.147xs.org"
+    },
+    {
+      "name": "xinwanben",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/plugin.zip",
+      "version": 1,
+      "source": "https://www.xinwanben.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/icon.png",
+      "description": "Đọc truyện trên trang https://www.xinwanben.com"
+    },
+    {
+      "name": "trxsme",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/plugin.zip",
+      "version": 1,
+      "source": "https://www.xinwanben.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/icon.png",
+      "description": "Đọc truyện trên trang https://trxs.me"
+    },
+    {
+      "name": "yyun",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/plugin.zip",
+      "version": 1,
+      "source": "https://www.yyun.me",
+      "icon": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/icon.png",
+      "description": "Đọc truyện trên trang https://www.yyun.me"
+    },
+    {
+      "name": "xinwanben",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/plugin.zip",
+      "version": 1,
+      "source": "https://www.xinwanben.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/icon.png",
+      "description": "Đọc truyện trên trang https://www.xinwanben.com"
+    },
+    {
+      "name": "vipkanshu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/plugin.zip",
+      "version": 1,
+      "source": "https://www.vipkanshu.vip",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/icon.png",
+      "description": "Đọc truyện trên trang https://www.vipkanshu.vip"
+    },
+
 
   ]
 }
