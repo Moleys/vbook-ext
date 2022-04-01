@@ -38,17 +38,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "trxsorg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsorg/plugin.zip",
-      "version": 1,
-      "source": "https://www.trxs.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsorg/icon.png",
-      "description": "Đọc truyện trên trang https://trxs.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "yyun",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyun/plugin.zip",
