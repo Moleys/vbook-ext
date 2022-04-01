@@ -11,7 +11,7 @@
       "version": 1,
       "source": "https://www.147xs.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/icon.png",
-      "description": "Đọc truyện trên trang https://www.147xs.org"
+      "description": "Đọc truyện trên trang https://www.147xs.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -22,7 +22,7 @@
       "version": 1,
       "source": "https://www.xinwanben.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/icon.png",
-      "description": "Đọc truyện trên trang https://www.xinwanben.com"
+      "description": "Đọc truyện trên trang https://www.xinwanben.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -33,7 +33,7 @@
       "version": 1,
       "source": "https://www.trxs.me",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/icon.png",
-      "description": "Đọc truyện trên trang https://trxs.me"
+      "description": "Đọc truyện trên trang https://trxs.me",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -44,7 +44,7 @@
       "version": 1,
       "source": "https://www.trxs.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsorg/icon.png",
-      "description": "Đọc truyện trên trang https://trxs.org"
+      "description": "Đọc truyện trên trang https://trxs.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -55,7 +55,7 @@
       "version": 1,
       "source": "https://www.yyun.net",
       "icon": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/icon.png",
-      "description": "Đọc truyện trên trang https://www.yyun.net"
+      "description": "Đọc truyện trên trang https://www.yyun.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -66,7 +66,7 @@
       "version": 1,
       "source": "https://www.vipkanshu.vip",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/icon.png",
-      "description": "Đọc truyện trên trang https://www.vipkanshu.vip"
+      "description": "Đọc truyện trên trang https://www.vipkanshu.vip",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -77,7 +77,7 @@
       "version": 1,
       "source": "https://www.biduoxs.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biduoxs/icon.png",
-      "description": "Đọc truyện trên trang https://www.biduoxs.com"
+      "description": "Đọc truyện trên trang https://www.biduoxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },  
@@ -88,7 +88,7 @@
       "version": 1,
       "source": "https://www.biqugeabc.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/icon.png",
-      "description": "Đọc truyện trên trang https://www.biqugeabc.com"
+      "description": "Đọc truyện trên trang https://www.biqugeabc.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -99,7 +99,7 @@
       "version": 1,
       "source": "https://www.chenxixsw.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chenxixsw/icon.png",
-      "description": "Đọc truyện trên trang https://www.chenxixsw.com"
+      "description": "Đọc truyện trên trang https://www.chenxixsw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -110,7 +110,7 @@
       "version": 1,
       "source": "http://www.paoshu8.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/paoshu8/icon.png",
-      "description": "Đọc truyện trên trang http://www.paoshu8.com"
+      "description": "Đọc truyện trên trang http://www.paoshu8.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -121,7 +121,7 @@
       "version": 1,
       "source": "http://www.biqugexs.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugexs/icon.png",
-      "description": "Đọc truyện trên trang http://www.biqugexs.com"
+      "description": "Đọc truyện trên trang http://www.biqugexs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -132,7 +132,7 @@
       "version": 1,
       "source": "http://www.biqugse.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugse/icon.png",
-      "description": "Đọc truyện trên trang http://www.biqugse.com"
+      "description": "Đọc truyện trên trang http://www.biqugse.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -143,7 +143,7 @@
       "version": 1,
       "source": "http://www.piaotianzw.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaotianzw/icon.png",
-      "description": "Đọc truyện trên trang http://www.piaotianzw.com"
+      "description": "Đọc truyện trên trang http://www.piaotianzw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -154,7 +154,7 @@
       "version": 1,
       "source": "http://www.qmxs123.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qmxs123/icon.png",
-      "description": "Đọc truyện trên trang http://www.qmxs123.com"
+      "description": "Đọc truyện trên trang http://www.qmxs123.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -165,7 +165,7 @@
       "version": 1,
       "source": "http://www.rengshu.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rengshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.rengshu.com"
+      "description": "Đọc truyện trên trang http://www.rengshu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -176,7 +176,7 @@
       "version": 1,
       "source": "http://www.tcknh.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tcknh/icon.png",
-      "description": "Đọc truyện trên trang http://www.tcknh.com"
+      "description": "Đọc truyện trên trang http://www.tcknh.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -187,7 +187,7 @@
       "version": 1,
       "source": "http://www.uuks.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/uuksorg/icon.png",
-      "description": "Đọc truyện trên trang http://www.uuks.org"
+      "description": "Đọc truyện trên trang http://www.uuks.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -198,7 +198,7 @@
       "version": 1,
       "source": "http://www.xinshuhaige.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinshuhaige/icon.png",
-      "description": "Đọc truyện trên trang http://www.xinshuhaige.net"
+      "description": "Đọc truyện trên trang http://www.xinshuhaige.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -209,7 +209,7 @@
       "version": 1,
       "source": "http://www.xswang.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xswang/icon.png",
-      "description": "Đọc truyện trên trang http://www.xswang.com"
+      "description": "Đọc truyện trên trang http://www.xswang.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
