@@ -7,6 +7,10 @@ function execute(url, page) {
     else{
         url = url + "&page=" + page;
     }
+    if(url.indexOf("articlelist.php") !== -1)
+    {
+        url = url.replace("&page","?page")
+    }
     
     console.log(url)
 
