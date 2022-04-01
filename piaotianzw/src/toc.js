@@ -1,16 +1,17 @@
 function execute(url) {
-	url = url.replace('m.yyun.net', 'www.yyun.net');
+	url = url.replace('m.piaotianzw.com', 'www.piaotianzw.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let el = doc.select("#list dd a")
+        let el1 = doc.select("#list").last()
+        let el = el1.select("dd a")
         const data = [];
-        for (let i = 9;i < el.size(); i++) {
+        for (let i = 12;i < el.size(); i++) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: e.attr("href"),
-                host: "https://www.yyun.net"
+                url: url + "/"+ e.attr("href"),
+                host: "https://www.piaotianzw.com"
             })
         }
         return Response.success(data);

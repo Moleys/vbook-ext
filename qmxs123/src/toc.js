@@ -4,6 +4,8 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         let el1 = doc.select(".listmain").last()
+        el1.select("dd.more").remove();
+
         let el = el1.select("dd a")
         const data = [];
         for (let i = 0;i < el.size(); i++) {

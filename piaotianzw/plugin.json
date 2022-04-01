@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "biqugse",
+    "name": "piaotianzw",
     "author": "Moleys",
     "version": 1,
-    "source": "http://www.biqugse.com",
-    "regexp": "(www.|m.)?biqugse.com/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.biqugse.com",
+    "source": "https://www.piaotianzw.com",
+    "regexp": "(www.|m.)?piaotianzw.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang https://www.piaotianzw.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

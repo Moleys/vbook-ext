@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "biqugse",
+    "name": "rengshu",
     "author": "Moleys",
     "version": 1,
-    "source": "http://www.biqugse.com",
-    "regexp": "(www.|m.)?biqugse.com/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.biqugse.com",
+    "source": "http://www.rengshu.com",
+    "regexp": "(www.|m.)?rengshu.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.rengshu.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
