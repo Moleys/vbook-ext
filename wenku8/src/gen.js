@@ -1,4 +1,15 @@
 function execute(url, page) {
+    if(!page) page = '1';
+    if(url.indexOf("&page=") !== -1){
+        url =  url.slice(0, -1);
+        url = url + page;
+    }
+    else{
+        url = url + "&page=" + page;
+    }
+    
+    console.log(url)
+
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gbk');
@@ -18,7 +29,9 @@ function execute(url, page) {
         });
 
 
-        return Response.success(data)
+        var next = parseInt(page, 10) + 1;
+
+        return Response.success(data, next.toString());
     }
     return null;
 }

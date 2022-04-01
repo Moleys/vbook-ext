@@ -1,17 +1,20 @@
 function execute(url) {
-	url = url.replace('m.paoshu8.com', 'www.paoshu8.com');
+    url = "https://www.wenku8.net/modules/article/reader.php?aid=" + url.split(/[/ ]+/).pop().replace(".htm","");
+    console.log(url)
+    console.log("j")
+
     let response = fetch(url);
     if (response.ok) {
-        let doc = response.html();
-        let el1 = doc.select("#list").last()
-        let el = el1.select("dd a")
+        let doc = response.html('gbk');
+        let el1 = doc.select("table").last()
+        let el = el1.select("td.ccss a")
         const data = [];
-        for (let i = 9;i < el.size(); i++) {
+        for (let i = 0;i < el.size(); i++) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url:"http://www.paoshu8.com" + e.attr("href"),
-                host: "http://www.paoshu8.com"
+                url: e.attr("href"),
+                host: "https://www.wenku8.net"
             })
         }
         return Response.success(data);

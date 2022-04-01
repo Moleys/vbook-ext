@@ -1,20 +1,23 @@
 function execute(url) {
-    url = url.replace('m.paoshu8.com', 'www.paoshu8.com');
     let response = fetch(url);
     if (response.ok) {
 
-        let doc = response.html();
-        let coverImg = doc.select("#fmimg img").first().attr("src");
-        if (coverImg.startsWith("/")) {
-            coverImg = "http://www.paoshu8.com" + coverImg;
-        }
+        let doc = response.html('gbk');
+		let ele1 =  doc.select('table[width="100%"]').get(2);
+        let coverImg = ele1.select("img").first().attr("src");
+        let title = doc.select("title").text().split("-");
+        
+        // let coverImg = doc.select("#fmimg img").get(2).attr("src");
+        // if (coverImg.startsWith("/")) {
+        //     coverImg = "http://www.wenku8.net" + coverImg;
+        // }
         return Response.success({
-            name: doc.select("#info h1").text(),
+            name: title[0].trim(),
             cover: coverImg,
-            author: doc.select("#info p").first().text().replace(/作\s*者：/g, ""),
-            description: doc.select("#intro").text(),
-            detail: doc.select("#info p").last().html(),
-            host: "http://www.paoshu8.com"
+            author: title[1].trim(),
+            description: ele1.select("span").last().text(),
+            detail: ele1.select("span").get(4).html(),
+            host: "http://www.wenku8.net"
         });
     }
     return null;
