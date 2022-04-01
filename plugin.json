@@ -212,7 +212,17 @@
       "description": "Đọc truyện trên trang http://www.xswang.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "wenku8",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
+      "version": 1,
+      "source": "http://www.wenku8.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/icon.png",
+      "description": "Đọc truyện trên trang http://www.wenku8.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
-	
   ]
 }
