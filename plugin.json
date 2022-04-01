@@ -217,7 +217,7 @@
       "name": "wenku8",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://www.wenku8.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/icon.png",
       "description": "Đọc truyện trên trang http://www.wenku8.net",
