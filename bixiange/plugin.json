@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "bixiange",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.bixiange.top",
+    "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)",
+    "description": "Đọc truyện trên trang http://www.bixiange.top",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
