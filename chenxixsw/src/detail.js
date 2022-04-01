@@ -1,12 +1,13 @@
+
 function execute(url) {
-    url = url.replace('m.piaotianzw.com', 'www.piaotianzw.com');
-    let response = fetch(url);
+    url = url.replace('m.chenxixsw.com', 'www.chenxixsw.com');
+    let response = fetch(url+"/");
     if (response.ok) {
 
-        let doc = response.html();
+        var doc = response.html('gbk');
         let coverImg = doc.select("#fmimg img").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "http://www.piaotianzw.com" + coverImg;
+            coverImg = "https://www.chenxixsw.com" + coverImg;
         }
         return Response.success({
             name: doc.select("#info h1").text(),
@@ -14,7 +15,7 @@ function execute(url) {
             author: doc.select("#info p").first().text().replace(/作\s*者：/g, ""),
             description: doc.select("#intro").text(),
             detail: doc.select("#info p").html(),
-            host: "http://www.piaotianzw.com"
+            host: "https://www.chenxixsw.com"
         });
     }
     return null;

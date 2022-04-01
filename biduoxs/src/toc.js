@@ -1,17 +1,17 @@
 function execute(url) {
-	url = url.replace('m.piaotianzw.com', 'www.piaotianzw.com');
-    let response = fetch(url);
+	url = url.replace('m.biduoxs.com', 'www.biduoxs.com');
+    let response = fetch(url +"/");
     if (response.ok) {
         let doc = response.html();
         let el1 = doc.select("#list").last()
         let el = el1.select("dd a")
         const data = [];
-        for (let i = 12;i < el.size(); i++) {
+        for (let i = 0;i < el.size(); i++) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: url + "/"+ e.attr("href"),
-                host: "http://www.piaotianzw.com"
+                url: "https://www.biduoxs.com" + e.attr("href"),
+                host: "https://www.biduoxs.com"
             })
         }
         return Response.success(data);

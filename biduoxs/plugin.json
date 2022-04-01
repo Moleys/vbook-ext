@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "piaotianzw",
+    "name": "biduoxs",
     "author": "Moleys",
     "version": 1,
-    "source": "http://www.piaotianzw.com",
-    "regexp": "(www.|m.)?piaotianzw.com/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.piaotianzw.com",
+    "source": "http://www.biduoxs.com",
+    "regexp": "(www.|m.)?biduoxs.com/(biquge|book)/\\d+_\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.biduoxs.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
