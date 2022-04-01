@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "xinshuhaige",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.xinshuhaige.net",
+    "regexp": "(www.|m.)?xinshuhaige.net/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.xinshuhaige.net",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
