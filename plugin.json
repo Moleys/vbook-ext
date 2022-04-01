@@ -25,10 +25,10 @@
     {
       "name": "trxsme",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/plugin.zip",
       "version": 1,
-      "source": "https://www.xinwanben.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/icon.png",
+      "source": "https://www.trxs.me",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/icon.png",
       "description": "Đọc truyện trên trang https://trxs.me"
     },
     {
@@ -36,18 +36,9 @@
       "author": "Moleys",
       "path": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/plugin.zip",
       "version": 1,
-      "source": "https://www.yyun.me",
+      "source": "https://www.yyun.net",
       "icon": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/icon.png",
-      "description": "Đọc truyện trên trang https://www.yyun.me"
-    },
-    {
-      "name": "xinwanben",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/plugin.zip",
-      "version": 1,
-      "source": "https://www.xinwanben.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/icon.png",
-      "description": "Đọc truyện trên trang https://www.xinwanben.com"
+      "description": "Đọc truyện trên trang https://www.yyun.net"
     },
     {
       "name": "vipkanshu",
@@ -57,8 +48,46 @@
       "source": "https://www.vipkanshu.vip",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/icon.png",
       "description": "Đọc truyện trên trang https://www.vipkanshu.vip"
+    },
+      "name": "biduoxs",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biduoxs/plugin.zip",
+      "version": 1,
+      "source": "https://www.biduoxs.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biduoxs/icon.png",
+      "description": "Đọc truyện trên trang https://www.biduoxs.com"
+    },    
+      "name": "biqugeabc",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/plugin.zip",
+      "version": 1,
+      "source": "https://www.biqugeabc.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/icon.png",
+      "description": "Đọc truyện trên trang https://www.biqugeabc.com"
+    },
+      "name": "chenxixsw",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chenxixsw/plugin.zip",
+      "version": 1,
+      "source": "https://www.chenxixsw.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chenxixsw/icon.png",
+      "description": "Đọc truyện trên trang https://www.chenxixsw.com"
+    },
+      "name": "cool18",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/plugin.zip",
+      "version": 1,
+      "source": "https://www.cool18.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/icon.png",
+      "description": "Đọc truyện trên trang https://www.cool18.com"
+    },
+      "name": "paoshu8",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/plugin.zip",
+      "version": 1,
+      "source": "https://www.paoshu8.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/paoshu8/icon.png",
+      "description": "Đọc truyện trên trang https://www.paoshu8.com"
     }
-
-
   ]
 }
