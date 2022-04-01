@@ -1,5 +1,7 @@
 function execute(url) {
     url = url.replace('m.twbook.cc', 'www.twbook.cc');
+    if(url.slice(-1) !== "/")
+        url = url + "/"
     let response = fetch(url);
     if (response.ok) {
 
