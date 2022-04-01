@@ -25,9 +25,9 @@
     {
       "name": "trxsme",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/plugin.zip",
       "version": 1,
-      "source": "https://www.xinwanben.com",
+      "source": "https://www.trxs.me",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxs/icon.png",
       "description": "Đọc truyện trên trang https://trxs.me"
     },
@@ -36,9 +36,9 @@
       "author": "Moleys",
       "path": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/plugin.zip",
       "version": 1,
-      "source": "https://www.yyun.me",
+      "source": "https://www.yyun.net",
       "icon": "https://raw.githubusercontent.me/Moleys/vbook-ext/main/yyun/icon.png",
-      "description": "Đọc truyện trên trang https://www.yyun.me"
+      "description": "Đọc truyện trên trang https://www.yyun.net"
     },
     {
       "name": "xinwanben",
