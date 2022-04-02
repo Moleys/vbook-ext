@@ -4,7 +4,7 @@ function execute(url) {
     if (response.ok) {
 
         let doc = response.html();
-        let coverImg = doc.select("#fmimg img").first().attr("src");
+        let coverImg = doc.select("#fmimg img").first().attr("data-original");
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.jingwubook.com" + coverImg;
         }
