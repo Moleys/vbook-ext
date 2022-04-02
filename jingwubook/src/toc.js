@@ -14,7 +14,7 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: url + "/"+ e.attr("href"),
+                url: "http://www.jingwubook.com" + e.attr("href"),
                 host: "http://www.jingwubook.com"
             })
         }
