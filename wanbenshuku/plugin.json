@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "wanbenshuku",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.wanbenshuku.com",
+    "regexp": "(www.|m.)?wanbenshuku.com/(xiaoshuo|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.wanbenshuku.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
