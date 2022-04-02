@@ -4,7 +4,7 @@
     "author": "Moleys",
     "version": 1,
     "source": "http://trxs.me",
-    "regexp": "(www\\.)?trxs\\.me/tongren/\\d+\\.html",
+    "regexp": "(www\\.)?trxs\\.(me|org)/tongren/\\d+\\.html",
     "description": "Đọc truyện trên trang http://trxs.me",
     "locale": "zh_CN",
     "language": "javascript",

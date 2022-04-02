@@ -30,21 +30,10 @@
       "name": "trxsme",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.trxs.me",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/icon.png",
       "description": "Đọc truyện trên trang https://trxs.me",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "trxsorg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsorg/plugin.zip",
-      "version": 1,
-      "source": "https://www.trxs.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsorg/icon.png",
-      "description": "Đọc truyện trên trang https://trxs.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -221,6 +210,28 @@
       "source": "http://www.wenku8.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/icon.png",
       "description": "Đọc truyện trên trang http://www.wenku8.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "wdbqg",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wdbqg/plugin.zip",
+      "version": 1,
+      "source": "http://www.wdbqg.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wdbqg/icon.png",
+      "description": "Đọc truyện trên trang http://www.wdbqg.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "twbook",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/twbook/plugin.zip",
+      "version": 1,
+      "source": "http://www.twbook.cc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/twbook/icon.png",
+      "description": "Đọc truyện trên trang http://www.twbookg.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
