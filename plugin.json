@@ -308,7 +308,7 @@
       "version": 1,
       "source": "http://www.tongrenquan.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tongrenquan/icon.png",
-      "description": "Đọc truyện trên trang http://www.tongrenquan.com",
+      "description": "Đọc truyện trên trang http://www.tongrenquan.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
