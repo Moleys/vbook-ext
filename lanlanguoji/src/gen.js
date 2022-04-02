@@ -1,5 +1,5 @@
 function execute(url, page) {
-	url = url.replace('m.biqugeabc.com', 'www.biqugeabc.com');
+	url = url.replace('m.lanlanguoji.com', 'www.lanlanguoji.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -9,7 +9,7 @@ function execute(url, page) {
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "http://www.biqugeabc.com"
+                host: "http://www.lanlanguoji.com"
             })
         });
 

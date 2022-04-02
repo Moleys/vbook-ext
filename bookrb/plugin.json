@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "biqugeabc",
+    "name": "bookrb",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.biqugeabc.com",
-    "regexp": "(www.|m.)?biqugeabc.com/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.biqugeabc.com",
+    "version": 1,
+    "source": "http://www.bookrb.com",
+    "regexp": "(www.|m.)?bookrb.com/\\d+/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.bookrb.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
