@@ -234,6 +234,85 @@
       "description": "Đọc truyện trên trang http://www.twbookg.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "lanlanguoji",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lanlanguoji/plugin.zip",
+      "version": 1,
+      "source": "http://www.lanlanguoji.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lanlanguoji/icon.png",
+      "description": "Đọc truyện trên trang http://www.lanlanguoji.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "jingwubook",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/plugin.zip",
+      "version": 1,
+      "source": "http://www.jingwubook.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/icon.png",
+      "description": "Đọc truyện trên trang http://www.jingwubook.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "bookrb",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bookrb/plugin.zip",
+      "version": 1,
+      "source": "http://www.bookrb.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bookrb/icon.png",
+      "description": "Đọc truyện trên trang http://www.bookrb.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "mengyuanshucheng",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mengyuanshucheng/plugin.zip",
+      "version": 1,
+      "source": "http://www.mengyuanshucheng.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mengyuanshucheng/icon.png",
+      "description": "Đọc truyện trên trang http://www.mengyuanshucheng.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "yuanshuku",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuanshuku/plugin.zip",
+      "version": 1,
+      "source": "http://www.yuanshuku.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuanshuku/icon.png",
+      "description": "Đọc truyện trên trang http://www.yuanshuku.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "wanbenshuku",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanbenshuku/plugin.zip",
+      "version": 1,
+      "source": "http://www.wanbenshuku.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanbenshuku/icon.png",
+      "description": "Đọc truyện trên trang http://www.wanbenshuku.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "tongrenquan",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tongrenquan/plugin.zip",
+      "version": 1,
+      "source": "http://www.tongrenquan.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tongrenquan/icon.png",
+      "description": "Đọc truyện trên trang http://www.tongrenquan.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
+	
+	
   ]
 }
