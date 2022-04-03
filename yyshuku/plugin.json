@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "yyshuku",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.yyshuku.com",
+    "regexp": "(www.|m.)?yyshuku.com/article/(.*?)",
+    "description": "Đọc truyện trên trang http://www.yyshuku.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
