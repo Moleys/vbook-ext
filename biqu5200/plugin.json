@@ -1,15 +1,14 @@
 {
   "metadata": {
-    "name": "cool18",
+    "name": "biqu5200",
     "author": "Moleys",
     "version": 1,
-    "source": "https://www.cool18.com",
-    "regexp": "(www.|wap.)?cool18.com/(.*?)",
-    "description": "Đọc truyện trên trang https://www.cool18.com",
+    "source": "http://www.biqu5200.net",
+    "regexp": "(www.|m.)?biqu5200.net/\\d+_\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.biqu5200.net",
     "locale": "zh_CN",
     "language": "javascript",
-    "type": "chinese_novel",
-    "tag": "nsfw"
+    "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
