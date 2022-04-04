@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "yousuu",
+    "name": "jxla",
     "author": "Moleys",
     "version": 1,
-    "source": "https://www.yousuu.com",
-    "regexp": "(www.|m.)?yousuu.com/book/\\d+/?$",
-    "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
+    "source": "http://www.jx.la",
+    "regexp": "(www.|m.)?jx.la/book/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.jx.la",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

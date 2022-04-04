@@ -4,14 +4,14 @@ function execute(url) {
     let page = 1;
 
     const data = [];
-
+    
     while (true) {
         let url1 =  url + "?type=&page=" + page;
         let response = fetch(url1);
         if (response.ok){
             let doc = response.html();
-            let el1 = doc.select(".result").last().text().length;
-            if(el1 < 1 || page >5)
+            let el1 = doc.select(".result").last().text().length; //kiểm tra xem trang tiêp theo có cmt không~
+            if(el1 < 1 || page >5) //fetch quấ nhiều sẽ bị ban trong vài tiếng, nên chỉ lấy 5 page đầu
             {
                 return Response.success(data);
             }

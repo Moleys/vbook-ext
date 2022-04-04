@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "yousuu",
+    "name": "sdyfcm",
     "author": "Moleys",
     "version": 1,
-    "source": "https://www.yousuu.com",
-    "regexp": "(www.|m.)?yousuu.com/book/\\d+/?$",
-    "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
+    "source": "https://www.sdyfcm.com",
+    "regexp": "(www.|m.)?sdyfcm.com/\\d+/?$",
+    "description": "Đọc truyện trên trang https://www.sdyfcm.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
