@@ -5,6 +5,8 @@ function execute(url, page) {
     let response = fetch(url + "p=" + page);
     if (response.ok) {
         let doc = response.html();
+        var next = doc.select(".ta-page").select("a.colorFfc").last().attr("href");
+
         let el1 = doc.select(".ta-right").last()
         let el = el1.select("div.ta-show-list")
         const data = [];
@@ -16,9 +18,8 @@ function execute(url, page) {
                 host: "https://www.cool18.com"
             })
         }
-        var next = parseInt(page, 10) + 1;
 
-        return Response.success(data, next.toString());
+        return Response.success(data, next);
     }
     return null;
 }
