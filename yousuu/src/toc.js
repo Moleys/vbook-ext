@@ -6,7 +6,6 @@ function execute(url) {
     
     let bookID = url.split(/[/ ]+/).pop();
     url = "https://api.yousuu.com/api/book/" + bookID +"/comment";
-console.log(bookID)
     let response = fetch(url);
     if (response.ok) {
         let json = response.json();
