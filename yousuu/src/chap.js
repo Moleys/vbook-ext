@@ -15,7 +15,10 @@ function execute(url) {
             else if(score===2) score = "★★★";
             else if(score===2) score = "★★★★";
             else score = "★★★★★";
-            let commentInfo ="#" +(i+1) + " " + author +" : " + score +"<br>" + createdAt.split("T")[0] +"<br>▲" + praiseCount+"<br>" + content;
+            let xn ="\/-n".replace("-","")
+            let xn2 = xn;
+            console.log(content.replace(/(?:\r\n|\r|\n)/g, '<br>'));
+            let commentInfo ="--------------<br>#" +(i+1) + " " + author +" : " + score +"<br>评论时间: " + createdAt.split("T")[0] +"<br>▲" + praiseCount+"<br>" + content.replace(/(?:\r\n|\r|\n)/g, '<br>');
             commentsAll = commentsAll + commentInfo + "<br><br>";
         }
 
