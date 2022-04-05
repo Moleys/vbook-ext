@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "zz0516",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.zz0516.com",
+    "regexp": "(www.|m.)?zz0516.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.zz0516.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

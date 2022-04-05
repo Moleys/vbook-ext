@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "min-yuan",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.min-yuan.com",
+    "regexp": "(www.|m.)?min-yuan.com/book/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.min-yuan.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

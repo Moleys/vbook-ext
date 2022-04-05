@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "imcap",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.imcap.cn",
+    "regexp": "(www.|m.)?imcap.cn/\\d+_\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.imcap.cn",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
