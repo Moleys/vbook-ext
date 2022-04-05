@@ -8,12 +8,13 @@ function execute(url) {
         if (coverImg.startsWith("//")) {
             coverImg = "https:" + coverImg;
         }
+        let author = doc.select("#info p").first().text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select("#info h1").text(),
             cover: coverImg,
-            author: doc.select("#info p").first().text().replace(/作\s*者：/g, ""),
+            author: author,
             description: doc.select("#intro").text(),
-            detail: doc.select("#info p").html(),
+            detail: author + "<br>" + doc.select("#info p").html(),
             host: "https://www.yyun.net"
         });
     }

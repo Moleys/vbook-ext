@@ -8,12 +8,13 @@ function execute(url) {
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.zz0516.com" + coverImg;
         }
+        let author = doc.select(".msg em").first().text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select("h1").text(),
             cover: coverImg,
-            author: doc.select(".msg em").first().text().replace(/作\s*者：/g, ""),
+            author: author,
             description: doc.select(".intro").text(),
-            detail: doc.select(".msg em").last().text(),
+            detail: author + "<br>" + doc.select(".msg em").last().text(),
             host: "http://www.zz0516.com"
         });
     }

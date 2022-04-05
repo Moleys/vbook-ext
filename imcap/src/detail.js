@@ -10,13 +10,13 @@ function execute(url) {
         }
         let description = doc.select(".intro").first();
         description.select("h2").remove();
-        
+        let author = doc.select(".novel_info_title i").first().text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select(".novel_info_title h1").text(),
             cover: coverImg,
-            author: doc.select(".novel_info_title i").first().text().replace(/作\s*者：/g, ""),
+            author: ,
             description: description.text(),
-            detail: doc.select(".flex.to100").last().text(),
+            detail: author + "<br>" + doc.select(".flex.to100").last().text(),
             host: "http://www.imcap.cn"
         });
     }
