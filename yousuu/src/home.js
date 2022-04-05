@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        {title: "新书入库", input: "https://www.yousuu.com/newbooks", script: "gen.js"},
+        // {title: "新书入库", input: "https://www.yousuu.com/newbooks", script: "gen.js"},
         {title: "今日热门小说", input: "https://www.yousuu.com/rank/today", script: "gen.js"},
         {title: "呵护幼苗", input: "https://www.yousuu.com/rank/week-0", script: "gen.js"},
         {title: "龙粮种草", input: "https://www.yousuu.com/rank/week-1", script: "gen.js"},
