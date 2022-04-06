@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "fanfanq",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://bbs.fanfanq.com",
+    "regexp": "(www.|bbs.)?fanfanq.com/(.*?)",
+    "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
