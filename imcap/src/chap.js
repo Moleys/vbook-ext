@@ -2,7 +2,7 @@ function execute(url) {
     url = url.replace('m.imcap.cn', 'www.imcap.cn');
 
 
-    let cvData;
+    let cvData="";
     let part1 = url.replace("http://www.imcap.cn", "").replace(".html","");
     var next = part1;
     while (next.includes(part1)) {
@@ -14,7 +14,7 @@ function execute(url) {
             let htm = doc.select("#content").html();
             cvData = cvData + htm;
         } else {
-            return null;
+            break;
         }
     }
     if (cvData) {

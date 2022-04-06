@@ -2,7 +2,7 @@
   "metadata": {
     "name": "yyun",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.yyun.net",
     "regexp": "(www.|m.)?yyun.net/(xs|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.yyun.net",
