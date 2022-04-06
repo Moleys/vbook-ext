@@ -8,7 +8,10 @@ function execute(url) {
     if (response.ok) {
         let json = response.json();
         let total = json.data.total;
-        let page = Math.round(total/20);
+        let page  = parseInt(total/20, 10); 
+        if(total/20>page)
+            page++;
+
         for (let i = 1; i <= page; i++) {
             data.push({
                 name: "页" + i,
