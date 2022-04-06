@@ -26,7 +26,7 @@ function execute(key, page) {
             });
         });
 
-        var next = null;
+        var next = "";
         if(next < totalPage) 
             next  =  parseInt(page, 10) + 1;
 

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "yousuu",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://www.yousuu.com",
     "regexp": "(www.|api.)?yousuu.com/book/\\d+/?$",
     "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
