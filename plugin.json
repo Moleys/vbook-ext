@@ -322,8 +322,106 @@
       "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
-	
+    },
+    {
+      "name": "biqu5200",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqu5200/plugin.zip",
+      "version": 1,
+      "source": "http://www.biqu5200.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqu5200/icon.png",
+      "description": "Đọc truyện trên trang http://www.biqu5200.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "yyshuku",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyshuku/plugin.zip",
+      "version": 1,
+      "source": "http://www.yyshuku.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyshuku/icon.png",
+      "description": "Đọc truyện trên trang http://www.yyshuku.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "jxla",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jxla/plugin.zip",
+      "version": 1,
+      "source": "http://www.jx.la",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jxla/icon.png",
+      "description": "Đọc truyện trên trang http://www.jx.la",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "bixiange",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/plugin.zip",
+      "version": 1,
+      "source": "http://bixiange.top",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/icon.png",
+      "description": "Đọc truyện trên trang http://www.wanbenshuku.top",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "sdyfcm",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sdyfcm/plugin.zip",
+      "version": 1,
+      "source": "http://www.sdyfcm.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sdyfcm/icon.png",
+      "description": "Đọc truyện trên trang http://www.sdyfcm.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "min-yuan",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/min-yuan/plugin.zip",
+      "version": 1,
+      "source": "http://www.min-yuan.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/min-yuan/icon.png",
+      "description": "Đọc truyện trên trang http://www.min-yuan.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "imcap",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/imcap/plugin.zip",
+      "version": 1,
+      "source": "http://www.imcap.cn",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/imcap/icon.png",
+      "description": "Đọc truyện trên trang http://www.imcap.cn",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "wanben",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/plugin.zip",
+      "version": 1,
+      "source": "http://www.wanben.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/icon.png",
+      "description": "Đọc truyện trên trang http://www.wanben.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "zwduxs",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zwduxs/plugin.zip",
+      "version": 1,
+      "source": "http://www.zwduxs.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zwduxs/icon.png",
+      "description": "Đọc truyện trên trang http://www.zwduxs.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
 	
   ]
 }
