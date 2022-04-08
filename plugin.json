@@ -455,6 +455,19 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
+    {
+      "name": "soshuw",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soshuw/plugin.zip",
+      "version": 1,
+      "source": "http://www.soshuw.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soshuw/icon.png",
+      "description": "Đọc truyện trên trang http://www.soshuw.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
+	
+	
 	
   ]
 }
