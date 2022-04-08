@@ -443,6 +443,18 @@
       "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "xsbiquge",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xsbiquge/plugin.zip",
+      "version": 2,
+      "source": "https://www.xsbiquge.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xsbiquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.xsbiquge.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	
   ]
 }

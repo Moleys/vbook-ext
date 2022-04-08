@@ -19,7 +19,7 @@ function execute(url) {
         }
     }
     if (cvData) {
-        return Response.success(cvData);
+        return Response.success(url);
     }
     return null;
 
