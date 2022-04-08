@@ -421,7 +421,28 @@
       "description": "Đọc truyện trên trang http://www.zwduxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "ijjxs",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ijjxs/plugin.zip",
+      "version": 1,
+      "source": "http://www.ijjxs.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ijjxs/icon.png",
+      "description": "Đọc truyện trên trang http://www.ijjxs.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "fanfanq",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/plugin.zip",
+      "version": 1,
+      "source": "http://bbs.fanfanq.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/icon.png",
+      "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
-	
   ]
 }

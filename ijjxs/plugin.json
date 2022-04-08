@@ -4,7 +4,7 @@
     "author": "Moleys",
     "version": 1,
     "source": "http://www.ijjxs.com",
-    "regexp": "(www.|m.)?ijjxs.com/\\d+_\\d+/?$",
+    "regexp": "(www.|m.)?ijjxs.com/txt/\\d+(.html|.htm)",
     "description": "Đọc truyện trên trang http://www.ijjxs.com",
     "locale": "zh_CN",
     "language": "javascript",
