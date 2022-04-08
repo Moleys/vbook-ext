@@ -465,6 +465,17 @@
       "description": "Đọc truyện trên trang http://www.soshuw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "truyenfullorg",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyenfullorg/plugin.zip",
+      "version": 1,
+      "source": "http://truyenfull.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyenfullorg/icon.png",
+      "description": "Đọc truyện trên trang http://truyenfull.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
 	
 	
