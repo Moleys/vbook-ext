@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "botruyen",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://botruyen.com",
+    "regexp": "https://botruyen.com/book/(.*?)/?$",
+    "description": "Đọc truyện trên trang https://botruyen.com",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "new": "new.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

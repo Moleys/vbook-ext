@@ -477,7 +477,18 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
-	
+,
+    {
+      "name": "botruyen",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/botruyen/plugin.zip",
+      "version": 1,
+      "source": "http://botruyen.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/botruyen/icon.png",
+      "description": "Đọc truyện trên trang http://botruyen.com",
+      "type": "novel",
+      "locale": "vi-VN"
+    }
 	
 	
   ]
