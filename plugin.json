@@ -487,8 +487,18 @@
       "description": "Đọc truyện trên trang http://botruyen.com",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "WikiNam",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wikinam/plugin.zip",
+      "version": 1,
+      "source": "https://wikinam.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wikinam/icon.png",
+      "description": "Đọc truyện trên trang https://wikinam.net/ cho người dùng nước ngoài",
+      "type": "novel",
+      "locale": "vi-VN"
     }
-	
 	
   ]
 }

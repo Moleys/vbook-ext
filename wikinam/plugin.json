@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "name": "WikiNam",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://wikinam.net",
+    "regexp": "(www.)?(wikidich.com|wikidth.com|wikidth.net|wikidth.org|wikinam.net|wikinu.net)/truyen/[^/]+/?$",
+    "description": "Đọc truyện trên trang WikiNam",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "thread_num": 1,
+    "delay": 3000
+  }
+}
