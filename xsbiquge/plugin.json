@@ -2,7 +2,7 @@
   "metadata": {
     "name": "xsbiquge",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.xsbiquge.net",
     "regexp": "(www.|m.)?xsbiquge.net/\\d+_\\d+/?$",
     "description": "Đọc truyện trên trang http://www.xsbiquge.net",

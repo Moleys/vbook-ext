@@ -1,5 +1,5 @@
 function execute(url) {
-    if(url==="this_is_chapter_vip_"){
+    if(url.indexOf("this_is_chapter_vip_") !== -1){
         var html = "Đây là chương VIP. Nếu muốn đọc mời bạn mua trên web để đọc ^^! <br>Vì mình không có VIP nên không rõ có load được chương VIP đã mua không!";
         return Response.success(html);
     }
