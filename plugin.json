@@ -476,8 +476,7 @@
       "description": "Đọc truyện trên trang http://truyenfull.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
-,
+    },
     {
       "name": "botruyen",
       "author": "Moleys",
