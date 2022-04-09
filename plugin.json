@@ -474,8 +474,8 @@
       "source": "http://truyenfull.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyenfullorg/icon.png",
       "description": "Đọc truyện trên trang http://truyenfull.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
+      "type": "novel",
+      "locale": "vi-VN"
     },
     {
       "name": "botruyen",
@@ -509,6 +509,17 @@
       "description": "Đọc báo trên trang https://tuoitre.vn",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "jjwxc",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/plugin.zip",
+      "version": 1,
+      "source": "https://www.jjwxc.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/icon.png",
+      "description": "Đọc truyện trên trang https://www.jjwxc.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
 	
   ]

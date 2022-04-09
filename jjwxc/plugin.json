@@ -4,7 +4,7 @@
     "author": "Moleys",
     "version": 1,
     "source": "http://www.jjwxc.net",
-    "regexp": "(www.|m.)?jjwxc.net/onebook(.*?)",
+    "regexp": "(www.|my.)?jjwxc.net/onebook(.*?)",
     "description": "Đọc truyện trên trang http://www.jjwxc.net",
     "locale": "zh_CN",
     "language": "javascript",
