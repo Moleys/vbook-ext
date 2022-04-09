@@ -504,9 +504,9 @@
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/plugin.zip",
       "version": 1,
-      "source": "https://baotuoitre.vn",
+      "source": "https://tuoitre.vn",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/icon.png",
-      "description": "Đọc báo trên trang http://tuoitre.vn",
+      "description": "Đọc báo trên trang https://tuoitre.vn",
       "type": "novel",
       "locale": "vi-VN"
     }
