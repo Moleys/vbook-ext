@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Báo Tuổi Trẻ",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://tuoitre.vn",
     "regexp": "tuoitre.vn/(.*)",
     "description": "Đọc báo trên trang http://tuoitre.vn",
