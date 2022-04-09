@@ -498,6 +498,17 @@
       "description": "Đọc truyện trên trang https://wikinam.net/ cho người dùng nước ngoài",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "Báo Tuổi Trẻ",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/plugin.zip",
+      "version": 1,
+      "source": "https://baotuoitre.vn",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/icon.png",
+      "description": "Đọc báo trên trang http://tuoitre.vn",
+      "type": "novel",
+      "locale": "vi-VN"
     }
 	
   ]
