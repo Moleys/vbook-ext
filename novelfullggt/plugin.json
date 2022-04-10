@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Novel Full + Google Translate ! Không Download Truyện",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://novelfull.com/",
+    "regexp": "(www.)?novelfull.com/[0-9a-z].+html$",
+    "description": "Đọc truyện tại Novel Full + nội dung được dịch bởi Google Translate",
+    "local": "en-US",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
