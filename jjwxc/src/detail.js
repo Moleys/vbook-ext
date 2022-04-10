@@ -14,9 +14,8 @@ function execute(url) {
         }
     }
 
-    console.log(bookID)
 
-    let response = fetch("https://www.jjwxc.net/onebook.php?novelid=" + bookID);
+    let response = fetch("http://www.jjwxc.net/onebook.php?novelid=" + bookID);
     if (response.ok) {
         let doc = response.html('gbk');
         let name = doc.select('h1[itemprop="name"]').text();
@@ -29,7 +28,7 @@ function execute(url) {
 
         let coverImg = doc.select("img.noveldefaultimage").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "https://www.jjwxc.net/" + coverImg;
+            coverImg = "http://www.jjwxc.net/" + coverImg;
         }
 
         return Response.success({
@@ -38,7 +37,7 @@ function execute(url) {
             author: author,
             description: doc.select("#novelintro").html(),
             detail: "作者： " + author  + "<br>" + detail,
-            host: "https://www.jjwxc.net/"
+            host: "http://www.jjwxc.net/"
         });
     }
     return null;

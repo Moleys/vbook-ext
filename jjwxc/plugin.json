@@ -2,7 +2,7 @@
   "metadata": {
     "name": "jjwxc",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.jjwxc.net",
     "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
     "description": "Đọc truyện trên trang http://www.jjwxc.net",

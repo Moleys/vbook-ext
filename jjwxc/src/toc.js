@@ -1,7 +1,20 @@
 function execute(url) {
 
-    let bookID = url.split("novelid=")[1];
-    console.log(bookID)
+    var bookID = '0';
+    if(url.indexOf("book2") !== -1)
+    {
+        bookID = url.split(/[/ ]+/).pop();
+    }
+    if(url.indexOf("novelid=") !== -1)
+    {
+        if(url.slice(-1) === "/")
+	        url = url.slice(0, -1)
+        bookID = url.split("novelid=")[1]
+        if(url.indexOf("&chapterid=") !== -1){
+            bookID = bookI.split("&chapterid=")[0];
+        }
+    }
+
 
     let response = fetch(url);
     if (response.ok) {
@@ -15,20 +28,23 @@ function execute(url) {
             var e = el.get(i);
 
             let name =  e.select('a[itemprop="url"]').first().text();
-            // let chaperID = e.select("td").first().text();
             let chaperID = i+1;
             name = chaperID +". " + name.trim();
             if(name.length === 0)
                 name = "[锁]";
 
-            let link = e.select("a").first().attr("href");
-            if(link.length===0) {
-                link = "http://my.jjwxc.net/onebook_vip.php?novelid=" +  bookID + "&chapterid=" +chaperID;
+            let link = e.select("a[itemprop=\"url\"]").first().attr("href");
+            let checkVIP = e.select("a[itemprop=\"url\"]").first().attr("id");
+
+            if(checkVIP.includes("vip")) {
+                link = e.select("a[itemprop=\"url\"]").first().attr("rel");
+                name = name + " [VIP]";
+                // link = "http://my.jjwxc.net/onebook_vip.php?novelid=" +  bookID + "&chapterid=" +chaperID;
             }
             data.push({
                 name: name,
                 url: link ,
-                host: "https://www.jjwxc.net"
+                host: "http://www.jjwxc.net"
             })
         }
         return Response.success(data);

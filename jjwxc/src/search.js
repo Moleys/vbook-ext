@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://www.jjwxc.net/search.php', {
+    let response = fetch('http://www.jjwxc.net/search.php', {
         method: "GET",
         queries: {
             kw : key,
@@ -28,7 +28,7 @@ function execute(key, page) {
                     name: name,
                     link: link,
                     detail: author,
-                    host: "https://botruyen.com"
+                    host: "http://botruyen.com"
                 });     
             }
         });

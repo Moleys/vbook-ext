@@ -10,9 +10,9 @@ function execute(url, page) {
             let link = e.select("td").get(2).select("a").attr("href");
             data.push({
                 name: name,
-                link: "https://www.jjwxc.net/" + link,
+                link: "http://www.jjwxc.net/" + link,
                 description: e.select("td").get(1).text(),
-                host: "https://www.jjwxc.net/"
+                host: "http://www.jjwxc.net/"
             })
         });
         return Response.success(data)
