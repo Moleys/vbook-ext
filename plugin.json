@@ -509,6 +509,17 @@
       "description": "Đọc truyện trên trang https://www.jjwxc.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Vietnovel",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/plugin.zip",
+      "version": 1,
+      "source": "https://www.vietnovel.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/icon.png",
+      "description": "Đọc truyện trên trang https://www.vietnovel.com",
+      "type": "novel",
+      "locale": "vi-VN"
     }
 	
   ]
