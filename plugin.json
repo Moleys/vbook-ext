@@ -520,7 +520,17 @@
       "description": "Đọc truyện trên trang https://www.vietnovel.com",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "nhasachmienphi",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/plugin.zip",
+      "version": 1,
+      "source": "http://nhasachmienphi.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/icon.png",
+      "description": "Đọc truyện trên trang http://nhasachmienphi.com",
+      "type": "novel",
+      "locale": "vi-VN"
     }
-	
   ]
 }

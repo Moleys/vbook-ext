@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "haitang123",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.haitang123.co",
+    "regexp": "(www.|m.)?haitang123.co/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.haitang123.co",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
