@@ -2,7 +2,7 @@
   "metadata": {
     "name": "nhasachmienphi",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://nhasachmienphi.com",
     "regexp": "(www.|m.)?nhasachmienphi.com/(.*?)",
     "description": "Đọc truyện trên trang http://nhasachmienphi.com",
