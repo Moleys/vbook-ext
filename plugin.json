@@ -586,6 +586,6 @@
       "description": "Đọc truyện trên trang http://www.ttzw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
+    }
   ]
 }
