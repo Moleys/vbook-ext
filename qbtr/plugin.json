@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "qbtr",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.qbtr.cc",
+    "regexp": "(www.|m.)?qbtr.cc/tongren/\\d+\\.html",
+    "description": "Đọc truyện trên trang http://www.qbtr.cc",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

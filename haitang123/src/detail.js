@@ -2,7 +2,6 @@ function execute(url) {
     url = url.replace('m.haitang123.co', 'www.haitang123.co');
     let response = fetch(url);
     if (response.ok) {
-
         let doc = response.html();
         let coverImg = doc.select(".BGsectionOne-top-left img").first().attr("src");
         let  name = doc.select("p.title").text();

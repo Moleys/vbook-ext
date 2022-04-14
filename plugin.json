@@ -542,6 +542,17 @@
       "description": "Đọc truyện trên trang https://www.banxia.tv",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "qbtr",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qbtr/plugin.zip",
+      "version": 1,
+      "source": "https://www.qbtr.cc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qbtr/icon.png",
+      "description": "Đọc truyện trên trang https://www.qbtr.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

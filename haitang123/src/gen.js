@@ -9,7 +9,6 @@ function execute(url, page) {
         const data = [];
         let next = ""
         next = doc.select("a#next").attr("href").replace(".html","").split(/[/ ]+/).pop();
-
 		doc.select("div.CGsectionTwo-right-content div.CGsectionTwo-right-content-unit").forEach(e => {
             data.push({
                 name: e.select("a.title").first().text(),
@@ -18,8 +17,6 @@ function execute(url, page) {
                 host: "http://www.haitang123.co"
             })
         });
-
-
         return Response.success(data, next);
     }
     return null;
