@@ -360,7 +360,7 @@
       "name": "bixiange",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://bixiange.top",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/icon.png",
       "description": "Đọc truyện trên trang http://www.wanbenshuku.top",
@@ -553,6 +553,39 @@
       "description": "Đọc truyện trên trang https://www.qbtr.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "80k",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/80k/plugin.zip",
+      "version": 1,
+      "source": "http://www.80k.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/80k/icon.png",
+      "description": "Đọc truyện trên trang http://www.80k.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ffxs8",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ffxs8/plugin.zip",
+      "version": 1,
+      "source": "http://www.ffxs8.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ffxs8/icon.png",
+      "description": "Đọc truyện trên trang http://www.ffxs8.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ttzw",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ttzw/plugin.zip",
+      "version": 1,
+      "source": "http://www.ttzw.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ttzw/icon.png",
+      "description": "Đọc truyện trên trang http://www.ttzw.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
   ]
 }

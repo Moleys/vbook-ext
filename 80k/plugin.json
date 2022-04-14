@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "bixiange",
+    "name": "80k",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.bixiange.top",
-    "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)/\\d+/?$",
-    "description": "Đọc truyện trên trang http://www.bixiange.top",
+    "version": 1,
+    "source": "http://www.80k.net",
+    "regexp": "(www.|m.)?80k.net/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.80k.net",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

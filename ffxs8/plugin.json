@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "bixiange",
+    "name": "ffxs8",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.bixiange.top",
-    "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)/\\d+/?$",
-    "description": "Đọc truyện trên trang http://www.bixiange.top",
+    "version": 1,
+    "source": "http://www.ffxs8.ffxs8",
+    "regexp": "(www.|m.)?ffxs8.com/(.*?)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.ffxs8.ffxs8",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
