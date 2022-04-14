@@ -2,7 +2,7 @@
   "metadata": {
     "name": "ttzw",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.ttzw.com",
     "regexp": "(www.|m.)?ttzw.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.ttzw.com",
