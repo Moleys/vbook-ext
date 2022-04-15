@@ -586,6 +586,17 @@
       "description": "Đọc truyện trên trang http://www.ttzw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Mip Ciweimao",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mipciweimao/plugin.zip",
+      "version": 1,
+      "source": "http://mip.ciweimao.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mipciweimao/icon.png",
+      "description": "Đọc truyện trên trang http://mip.ciweimao.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
