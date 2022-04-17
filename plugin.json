@@ -619,7 +619,17 @@
       "description": "Đọc truyện trên trang http://www.haitang16.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "txt520",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt520/plugin.zip",
+      "version": 1,
+      "source": "http://www.txt520.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt520/icon.png",
+      "description": "Đọc truyện trên trang http://www.txt520.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
-	
   ]
 }

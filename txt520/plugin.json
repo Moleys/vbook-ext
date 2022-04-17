@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "txt520",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.txt520.com",
+    "regexp": "(www.|m.)?txt520.com/(.*?)/\\d+.html",
+    "description": "Đọc truyện trên trang http://www.txt520.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
