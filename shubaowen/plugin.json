@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "shubaowen",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.shubaowen.com",
+    "regexp": "(www.|m.)?shubaowen.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.shubaowen.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
