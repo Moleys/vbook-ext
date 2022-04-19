@@ -390,17 +390,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "imcap",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/imcap/plugin.zip",
-      "version": 1,
-      "source": "http://www.imcap.cn",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/imcap/icon.png",
-      "description": "Đọc truyện trên trang http://www.imcap.cn",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "wanben",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/plugin.zip",
