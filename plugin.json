@@ -641,7 +641,17 @@
       "description": "Đọc truyện trên trang http://www.51kanshug.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "hetushu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hetushu/plugin.zip",
+      "version": 1,
+      "source": "http://www.hetushu.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hetushu/icon.png",
+      "description": "Đọc truyện trên trang http://www.hetushu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
-	
   ]
 }
