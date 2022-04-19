@@ -652,6 +652,17 @@
       "description": "Đọc truyện trên trang http://www.hetushu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "STV Limited ver CN",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/plugin.zip",
+      "version": 1,
+      "source": "https://sangtacviet.info",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
+      "description": "Đọc truyện trên trang https://sangtacviet.info",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
