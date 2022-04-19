@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "piaoyuxuan",
+    "name": "31bz",
     "author": "Moleys",
     "version": 1,
-    "source": "https://www.piaoyuxuan.com",
-    "regexp": "(www.|m.)?piaoyuxuan.com/(b|book)/(.*?)(/?|\\.html)",
-    "description": "Đọc truyện trên trang https://www.piaoyuxuan.com",
+    "source": "http://www.31bz.org",
+    "regexp": "(www.|m.|s.)?31bz.org/\\d+_\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.31bz.org",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

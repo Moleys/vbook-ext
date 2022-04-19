@@ -652,6 +652,28 @@
       "description": "Đọc truyện trên trang https://sangtacviet.info",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "31bz",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/plugin.zip",
+      "version": 1,
+      "source": "https://www.31bz.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/icon.png",
+      "description": "Đọc truyện trên trang https://www.31bz.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "piaoyuxuan",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaoyuxuan/plugin.zip",
+      "version": 1,
+      "source": "http://www.piaoyuxuan.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaoyuxuan/icon.png",
+      "description": "Đọc truyện trên trang http://www.piaoyuxuan.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

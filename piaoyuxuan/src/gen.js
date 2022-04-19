@@ -10,7 +10,7 @@ function execute(url, page) {
                     name: e.select("td a").first().text(),
                     link: e.select("td a").first().attr("href"),
                     description: e.select("td a").get(1).text(),
-                    host: "http://www.piaoyuxuan.com"
+                    host: "https://www.piaoyuxuan.com"
                 })
             }
         });

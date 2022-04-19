@@ -6,7 +6,7 @@ function execute(url) {
     var next = part1;
 
     while (next.includes(part1)) {
-        let response = fetch("http://www.piaoyuxuan.com" + next +".html");
+        let response = fetch("https://www.piaoyuxuan.com" + next +".html");
         if (response.ok) {
 
             let doc = response.html();
@@ -19,7 +19,7 @@ function execute(url) {
         }
     }
     if (cvData) {
-        return Response.success(url);
+        return Response.success(cvData);
     }
     return null;
 

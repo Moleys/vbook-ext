@@ -9,8 +9,8 @@ function execute(url) {
             cover: doc.select('meta[property="og:image"]').attr("content"),
             author: author,
             description: doc.select('meta[property="og:description"]').attr("content"),
-            detail: author + "<br>" + doc.select(".pull-left").first().text(),
-            host: "http://www.piaoyuxuan.com"
+            detail: "作者： " + author + "<br>" + doc.select(".pull-left").first().text(),
+            host: "https://www.piaoyuxuan.com"
         });
     }
     return null;
