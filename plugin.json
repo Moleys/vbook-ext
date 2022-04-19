@@ -96,7 +96,7 @@
       "name": "paoshu8",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/paoshu8/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.paoshu8.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/paoshu8/icon.png",
       "description": "Đọc truyện trên trang http://www.paoshu8.com",
@@ -630,6 +630,18 @@
       "description": "Đọc truyện trên trang http://www.txt520.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "51kanshu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/51kanshu/plugin.zip",
+      "version": 1,
+      "source": "http://www.51kanshu.cc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/51kanshu/icon.png",
+      "description": "Đọc truyện trên trang http://www.51kanshug.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
+	
   ]
 }
