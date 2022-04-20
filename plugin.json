@@ -674,6 +674,17 @@
       "description": "Đọc truyện trên trang http://www.piaoyuxuan.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "haitang123",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/plugin.zip",
+      "version": 1,
+      "source": "http://www.haitang123.co",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/icon.png",
+      "description": "Đọc truyện trên trang http://www.haitang123.co",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
