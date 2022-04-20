@@ -685,6 +685,17 @@
       "description": "Đọc truyện trên trang http://www.haitang123.co",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "bijibaba",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/plugin.zip",
+      "version": 1,
+      "source": "http://www.bijibaba.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/icon.png",
+      "description": "Đọc truyện trên trang http://www.bijibaba.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
