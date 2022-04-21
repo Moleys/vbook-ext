@@ -360,10 +360,10 @@
       "name": "bixiange",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://bixiange.top",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bixiange/icon.png",
-      "description": "Đọc truyện trên trang http://www.wanbenshuku.top",
+      "description": "Đọc truyện trên trang http://www.bixiange.top",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

@@ -8,10 +8,11 @@ function execute(url) {
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.bixiange.top" + coverImg;
         }
+        let author = doc.select(".descTip p").get(1).text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select("h1").text(),
             cover: coverImg,
-            author: doc.select(".descTip p").get(1).text().replace(/作\s*者：/g, ""),
+            author: author,
             description: doc.select(".descInfo p").text(),
             detail: "作者： " + author + "<br>" + doc.select(".descTip p").last().text(),
             host: "http://www.bixiange.top"
