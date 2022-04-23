@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "sbooktxt",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.sbooktxt.com",
+    "regexp": "(www.|m.)sbooktxt.com/(.*?)",
+    "description": "Đọc truyện trên trang http://www.sbooktxt.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

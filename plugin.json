@@ -696,6 +696,28 @@
       "description": "Đọc truyện trên trang http://www.bijibaba.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "mijiashe",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mijiashe/plugin.zip",
+      "version": 1,
+      "source": "http://www.mijiashe.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mijiashe/icon.png",
+      "description": "Đọc truyện trên trang http://www.mijiashe.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	    {
+      "name": "sbooktxt",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/plugin.zip",
+      "version": 1,
+      "source": "http://www.sbooktxt.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/icon.png",
+      "description": "Đọc truyện trên trang http://www.sbooktxt.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
