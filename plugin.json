@@ -393,7 +393,7 @@
       "name": "wanben",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.wanben.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/icon.png",
       "description": "Đọc truyện trên trang http://www.wanben.org",
@@ -708,7 +708,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-	    {
+	{
       "name": "sbooktxt",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/plugin.zip",
@@ -716,6 +716,17 @@
       "source": "http://www.sbooktxt.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/icon.png",
       "description": "Đọc truyện trên trang http://www.sbooktxt.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "jpxs123",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jpxs123/plugin.zip",
+      "version": 1,
+      "source": "http://jpxs123.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jpxs123/icon.png",
+      "description": "Đọc truyện trên trang http://jpxs123.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

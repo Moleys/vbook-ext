@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "imcap",
+    "name": "jpxs123",
     "author": "Moleys",
     "version": 1,
-    "source": "http://www.imcap.cn",
-    "regexp": "(www.|m.)?imcap.cn/\\d+_\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.imcap.cn",
+    "source": "http://jpxs123.com",
+    "regexp": "(www\\.)?jpxs123\\.com/tongren/\\d+\\.html",
+    "description": "Đọc truyện trên trang http://jpxs123.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
