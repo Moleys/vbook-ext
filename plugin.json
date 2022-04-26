@@ -765,6 +765,17 @@
       "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+	{
+      "name": "biqiudu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/plugin.zip",
+      "version": 1,
+      "source": "http://www.biqiudu.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/icon.png",
+      "description": "Đọc truyện trên trang http://www.biqiudu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
