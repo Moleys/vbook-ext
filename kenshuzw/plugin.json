@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "kenshuzw",
-    "author": "vBook",
-    "version": 1,
+    "author": "Moleys",
+    "version": 2,
     "source": "https://www.kenshuzw.com",
     "regexp": "(www.|m.)kenshuzw.com/[a-z]+/\\d+/?$",
     "description": "Đọc truyện trên trang kenshuzw.com",

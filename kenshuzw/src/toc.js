@@ -1,4 +1,5 @@
 function execute(url) {
+    url = url.replace("m.kenshuzw.com", "www.kenshuzw.com");
     if(url.slice(-1) !== "/")
         url = url + "/";
     let response = fetch(url+ "0/");
