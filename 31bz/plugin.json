@@ -2,13 +2,14 @@
   "metadata": {
     "name": "31bz",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.31bz.org",
     "regexp": "(www.|m.|s.)?31bz.org/\\d+_\\d+/?$",
     "description": "Đọc truyện trên trang http://www.31bz.org",
     "locale": "zh_CN",
     "language": "javascript",
-    "type": "chinese_novel"
+    "type": "chinese_novel",
+    "tag": "nsfw"
   },
   "script": {
     "home": "home.js",

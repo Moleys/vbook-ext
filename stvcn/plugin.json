@@ -1,8 +1,8 @@
 {
     "metadata": {
-        "name": "STV Limited ver CN",
-        "author": "Nhocconsr",
-        "version": 8,
+        "name": "STV Limited ver Chinese",
+        "author": "Moleys",
+        "version": 9,
         "source": "https://sangtacviet.info",
         "regexp": "(www.)?sangtacviet.(info|com|xyz)/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
         "description": "Updated ^^!. Fix linh tinh. Site lol",

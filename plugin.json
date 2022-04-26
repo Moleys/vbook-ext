@@ -591,22 +591,24 @@
       "name": "shubaowen",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shubaowen/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.shubaowen.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shubaowen/icon.png",
       "description": "Đọc truyện trên trang http://www.shubaowen.com",
       "type": "chinese_novel",
+	  "tag": "nsfw",
       "locale": "zh_CN"
     },
     {
       "name": "haitang16",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang16/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.haitang16.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang16/icon.png",
       "description": "Đọc truyện trên trang http://www.haitang16.com",
       "type": "chinese_novel",
+	  "tag": "nsfw",
       "locale": "zh_CN"
     },
     {
@@ -643,10 +645,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "STV Limited ver CN",
+      "name": "STV Limited ver Chinese",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/plugin.zip",
-      "version": 1,
+      "version": 9,
       "source": "https://sangtacviet.info",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
       "description": "Đọc truyện trên trang https://sangtacviet.info",
@@ -657,11 +659,12 @@
       "name": "31bz",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.31bz.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/icon.png",
       "description": "Đọc truyện trên trang https://www.31bz.org",
       "type": "chinese_novel",
+	  "tag": "nsfw",
       "locale": "zh_CN"
     },
     {

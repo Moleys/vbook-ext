@@ -2,13 +2,14 @@
   "metadata": {
     "name": "haitang16",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.haitang16.com",
     "regexp": "(www.|m.)?haitang16.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.haitang16.com",
     "locale": "zh_CN",
     "language": "javascript",
-    "type": "chinese_novel"
+    "type": "chinese_novel",
+    "tag": "nsfw"
   },
   "script": {
     "home": "home.js",
