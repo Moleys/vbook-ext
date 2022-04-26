@@ -489,10 +489,10 @@
       "locale": "vi-VN"
     },
     {
-      "name": "jjwxc",
+      "name": "jjwxc [Tấn Giang]",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "https://www.jjwxc.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/icon.png",
       "description": "Đọc truyện trên trang https://www.jjwxc.net",

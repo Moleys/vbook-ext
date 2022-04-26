@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "jjwxc",
+    "name": "jjwxc [Tấn Giang]",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.jjwxc.net",
     "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
     "description": "Đọc truyện trên trang http://www.jjwxc.net",
