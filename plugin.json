@@ -651,7 +651,7 @@
       "version": 9,
       "source": "https://sangtacviet.info",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
-      "description": "Đọc truyện trên trang https://sangtacviet.info",
+      "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -730,6 +730,28 @@
       "source": "http://jpxs123.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jpxs123/icon.png",
       "description": "Đọc truyện trên trang http://jpxs123.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "kenshuzw",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kenshuzw/plugin.zip",
+      "version": 1,
+      "source": "http://kenshuzw.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kenshuzw/icon.png",
+      "description": "Đọc truyện trên trang http://kenshuzw.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "qiuxiaoshuo",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "http://qiuxiaoshuo.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang http://qiuxiaoshuo.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

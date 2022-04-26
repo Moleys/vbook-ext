@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "qiuxiaoshuo",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.qiuxiaoshuo.org",
+    "regexp": "(www.|m.)?qiuxiaoshuo.org/(book-|book/)\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.qiuxiaoshuo.org",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
