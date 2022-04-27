@@ -2,7 +2,7 @@
   "metadata": {
     "name": "min-yuan",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.min-yuan.com",
     "regexp": "(www.|m.)?min-yuan.com/book/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.min-yuan.com",
