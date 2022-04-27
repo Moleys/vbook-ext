@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "jingwubook",
+    "name": "123ds",
     "author": "Moleys",
     "version": 2,
-    "source": "http://www.jingwubook.com",
-    "regexp": "(www.|m.)?jingwubook.com/(.*?)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.jingwubook.com",
+    "source": "http://www.123ds.org",
+    "regexp": "(www.|m.)?123ds.org/\\d+_\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.123ds.org",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

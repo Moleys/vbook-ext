@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "jingwubook",
+    "name": "shumilou",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.jingwubook.com",
-    "regexp": "(www.|m.)?jingwubook.com/(.*?)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.jingwubook.com",
+    "version": 1,
+    "source": "http://www.shumilou.co",
+    "regexp": "(www.|m.)?shumilou.co/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.shumilou.co",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
+    "genre": "genre.js",
     "chap": "chap.js"
   }
 }

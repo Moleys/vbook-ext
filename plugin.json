@@ -250,7 +250,7 @@
       "name": "jingwubook",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.jingwubook.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/icon.png",
       "description": "Đọc truyện trên trang http://www.jingwubook.com",
@@ -785,6 +785,17 @@
       "source": "http://520banxia.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/520banxia/icon.png",
       "description": "Đọc truyện trên trang http://520banxia.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "shumilou",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/plugin.zip",
+      "version": 1,
+      "source": "http://www.shumilou.co",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/icon.png",
+      "description": "Đọc truyện trên trang http://www.shumilou.co",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
