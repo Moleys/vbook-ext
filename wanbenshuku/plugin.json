@@ -2,7 +2,7 @@
   "metadata": {
     "name": "wanbenshuku",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.wanbenshuku.com",
     "regexp": "(www.|m.)?wanbenshuku.com/(xiaoshuo|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.wanbenshuku.com",

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "sdyfcm",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.sdyfcm.com",
     "regexp": "(www.|m.)?sdyfcm.com/\\d+/?$",
     "description": "Đọc truyện trên trang https://www.sdyfcm.com",
