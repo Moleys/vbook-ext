@@ -393,7 +393,7 @@
       "name": "wanben",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://www.wanben.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/icon.png",
       "description": "Đọc truyện trên trang http://www.wanben.org",
@@ -774,6 +774,17 @@
       "source": "http://www.biqiudu.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/icon.png",
       "description": "Đọc truyện trên trang http://www.biqiudu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "520banxia",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/520banxia/plugin.zip",
+      "version": 1,
+      "source": "http://520banxia.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/520banxia/icon.png",
+      "description": "Đọc truyện trên trang http://520banxia.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "wanben",
+    "name": "520banxia",
     "author": "Moleys",
-    "version": 3,
-    "source": "http://www.wanben.org",
-    "regexp": "(www.|m.)?wanben.org/\\d+(/?|\\d+.html)",
-    "description": "Đọc truyện trên trang http://www.wanben.org",
+    "version": 1,
+    "source": "http://520banxia.com",
+    "regexp": "520banxia.com/txt/\\d+.html",
+    "description": "Đọc truyện trên trang http://520banxia.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

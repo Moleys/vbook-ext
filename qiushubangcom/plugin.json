@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "wanben",
+    "name": "qiushubangcom",
     "author": "Moleys",
-    "version": 3,
-    "source": "http://www.wanben.org",
-    "regexp": "(www.|m.)?wanben.org/\\d+(/?|\\d+.html)",
-    "description": "Đọc truyện trên trang http://www.wanben.org",
+    "version": 2,
+    "source": "http://www.qiushubang.com",
+    "regexp": "(www.|m.)?qiushubang.(com|me)/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.qiushubang.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
