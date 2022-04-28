@@ -745,6 +745,17 @@
       "locale": "zh_CN"
     },
 	{
+      "name": "qiuxiaoshuo",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "http://qiuxiaoshuo.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang http://qiuxiaoshuo.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
 	  "name": "Chivi ver Tiếng Trung",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chivicn/plugin.zip",

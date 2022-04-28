@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "123ds",
+    "name": "qiuxiaoshuo",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.123ds.org",
-    "regexp": "(www.|m.)?123ds.org/\\d+_\\d+/?$",
-    "description": "Đọc truyện trên trang http://www.123ds.org",
+    "version": 1,
+    "source": "http://www.qiuxiaoshuo.org",
+    "regexp": "(www.|m.)?qiuxiaoshuo.org/(book-|book/)\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.qiuxiaoshuo.org",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
