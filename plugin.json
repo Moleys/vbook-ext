@@ -831,6 +831,18 @@
       "description": "Đọc truyện trên trang https://book.sfacg.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+	{
+      "name": "cool18",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/plugin.zip",
+      "version": 1,
+      "source": "https://www.cool18.com/bbs4/index.php",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/icon.png",
+      "description": "Đọc truyện trên trang https://www.cool18.com/bbs4/index.php",
+      "type": "chinese_novel",
+      "locale": "zh_CN",
+      "tag": "nsfw"
     }
   ]
 }
