@@ -798,6 +798,28 @@
       "description": "Đọc truyện trên trang http://www.shumilou.co",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+	{
+      "name": "76kanshu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/76kanshu/plugin.zip",
+      "version": 1,
+      "source": "http://www.76kanshu.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/76kanshu/icon.png",
+      "description": "Đọc truyện trên trang http://www.76kanshu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "yodu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/plugin.zip",
+      "version": 1,
+      "source": "http://www.yodu.org",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/icon.png",
+      "description": "Đọc truyện trên trang http://www.yodu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
