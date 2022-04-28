@@ -2,7 +2,7 @@
   "metadata": {
     "name": "xinwanben",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.xinwanben.com",
     "regexp": "(www.|m.)?xinwanben.com/\\d+/?",
     "description": "Đọc truyện trên trang https://www.xinwanben.com",
