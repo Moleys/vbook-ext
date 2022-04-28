@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "Jjwxc [Tấn Giang] 💰",
+    "name": "Sfacg 💰",
     "author": "Moleys",
-    "version": 4,
-    "source": "http://www.jjwxc.net",
-    "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
-    "description": "Đọc truyện trên trang http://www.jjwxc.net",
+    "version": 1,
+    "source": "https://book.sfacg.com",
+    "regexp": "(book.|m.)?sfacg.com/(Novel|b)/\\d+/?$",
+    "description": "Đọc truyện trên trang https://book.sfacg.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

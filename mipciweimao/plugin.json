@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "Mip Ciweimao",
+    "name": "Mip Ciweimao 💰",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://mip.ciweimao.com",
     "regexp": "(mip.|wap.|www.)ciweimao.com/(book|chapter)/(\\d+)",
     "description": "Đọc truyện trên trang https://mip.ciweimao.com",

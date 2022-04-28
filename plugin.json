@@ -489,10 +489,10 @@
       "locale": "vi-VN"
     },
     {
-      "name": "jjwxc [Tấn Giang]",
+      "name": "Jjwxc [Tấn Giang] 💰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/plugin.zip",
-      "version": 3,
+      "version": 4,
       "source": "https://www.jjwxc.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/icon.png",
       "description": "Đọc truyện trên trang https://www.jjwxc.net",
@@ -577,7 +577,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Mip Ciweimao",
+      "name": "Mip Ciweimao 💰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mipciweimao/plugin.zip",
       "version": 1,
@@ -818,6 +818,17 @@
       "source": "http://www.yodu.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/icon.png",
       "description": "Đọc truyện trên trang http://www.yodu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+	{
+      "name": "Sfacg 💰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sfacg/plugin.zip",
+      "version": 1,
+      "source": "https://book.sfacg.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sfacg/icon.png",
+      "description": "Đọc truyện trên trang https://book.sfacg.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
