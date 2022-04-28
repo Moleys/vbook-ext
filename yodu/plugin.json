@@ -2,14 +2,13 @@
   "metadata": {
     "name": "yodu",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.yodu.org",
     "regexp": "(www.|m.)?yodu.org/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.yodu.org",
     "locale": "zh_CN",
     "language": "javascript",
-    "type": "chinese_novel",
-    "tag": "nsfw"
+    "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
