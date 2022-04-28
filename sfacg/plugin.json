@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Sfacg 💰",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://book.sfacg.com",
     "regexp": "(book.|m.)?sfacg.com/(Novel|b)/\\d+/?$",
     "description": "Đọc truyện trên trang https://book.sfacg.com",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
