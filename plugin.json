@@ -313,10 +313,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yousuu",
+      "name": "yousuu 💬",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yousuu/plugin.zip",
-      "version": 4,
+      "version": 5,
       "source": "https://www.yousuu.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yousuu/icon.png",
       "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
@@ -423,10 +423,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "fanfanq",
+      "name": "fanfanq 💬",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://bbs.fanfanq.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/icon.png",
       "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
@@ -833,10 +833,10 @@
       "locale": "zh_CN"
     },
 	{
-      "name": "cool18",
+      "name": "cool18 💬",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.cool18.com/bbs4/index.php",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/icon.png",
       "description": "Đọc truyện trên trang https://www.cool18.com/bbs4/index.php",

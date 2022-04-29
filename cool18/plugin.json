@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "cool18",
+    "name": "cool18 💬",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.cool18.com/bbs4/index.php",
     "regexp": "(www.|wap.)?cool18.com/(.*?)",
     "description": "Đọc truyện trên trang https://www.cool18.com/bbs4/index.php",
