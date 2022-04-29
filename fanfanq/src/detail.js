@@ -19,10 +19,9 @@ function execute(url) {
         // if(description.indexOf("span") !== -1)
         //     description  = description.split(/[span ]+/).pop();
 
-        let url1 = "https://bbs.fanfanq.com/" +doc.select("a:contains(在线阅读已开放)").first().attr("href");
+        let url1 = "https://bbs.fanfanq.com/" +doc.select("a[href^=ydn]").first().attr("href");
         
-        
-        
+        console.log(url1)
         
 
         return Response.success({
