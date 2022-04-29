@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "wenku8",
+    "name": "wenku8 📖",
     "author": "Moleys",
-    "version": 4,
+    "version": 5,
     "source": "http://www.wenku8.net/index.php",
     "regexp": "(www.|m.)?wenku8.net/(novel|book)/\\d+(/?|\\.htm)",
     "description": "Đọc truyện trên trang http://www.wenku8.net",

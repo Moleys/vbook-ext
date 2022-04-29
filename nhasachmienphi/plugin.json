@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "nhasachmienphi",
+    "name": "nhasachmienphi 📚",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://nhasachmienphi.com",
     "regexp": "(www.|m.)?nhasachmienphi.com/(.*?)",
     "description": "Đọc truyện trên trang http://nhasachmienphi.com",

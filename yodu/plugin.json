@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "yodu",
+    "name": "yodu 📚📖",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.yodu.org",
     "regexp": "(www.|m.)?yodu.org/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.yodu.org",

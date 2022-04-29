@@ -203,10 +203,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wenku8",
+      "name": "wenku8 📖",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
-      "version": 4,
+      "version": 5,
       "source": "http://www.wenku8.net/index.php",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/icon.png",
       "description": "Đọc truyện trên trang http://www.wenku8.net",
@@ -511,10 +511,10 @@
       "locale": "vi-VN"
     },
     {
-      "name": "nhasachmienphi",
+      "name": "nhasachmienphi 📚",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://nhasachmienphi.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/icon.png",
       "description": "Đọc truyện trên trang http://nhasachmienphi.com",
@@ -811,10 +811,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yodu",
+      "name": "yodu 📚📖",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://www.yodu.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/icon.png",
       "description": "Đọc truyện trên trang http://www.yodu.org",
@@ -843,6 +843,17 @@
       "type": "chinese_novel",
       "locale": "zh_CN",
       "tag": "nsfw"
+    },
+	{
+      "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fuxsb/plugin.zip",
+      "version": 1,
+      "source": "http://www.fuxsb.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fuxsb/icon.png",
+      "description": "Đọc truyện trên trang http://www.fuxsb.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
