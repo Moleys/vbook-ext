@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "fanfanq 💬",
+    "name": "fanfanq Beta 💬",
     "author": "Moleys",
-    "version": 6,
-    "source": "http://bbs.fanfanq.com",
-    "regexp": "(www.|bbs.)?fanfanq.com/(.*?).html",
+    "version": 1,
+    "source": "https://bbs.fanfanq.com/link.php?action=tag&tagname=TXT",
+    "regexp": "(www.|bbs.)?fanfanq.com/ydn\\d+/?$",
     "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
     "locale": "zh_CN",
     "language": "javascript",
