@@ -1,7 +1,6 @@
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
-
         let doc = response.html('gbk');
         let coverImg = doc.select("img.lazy").first().attr("data-original");
         let author = doc.select("title").text().split("作者：")[1].split("【")[0].trim();
@@ -18,18 +17,12 @@ function execute(url) {
             description  = description.split("文案")[1];
         // if(description.indexOf("span") !== -1)
         //     description  = description.split(/[span ]+/).pop();
-
-        let url1 = "https://bbs.fanfanq.com/" +doc.select("a[href^=ydn]").first().attr("href");
-        
-        console.log(url1)
-        
-
         return Response.success({
             name: doc.select("div#breadCrumb a").last().text().split("》")[0].replace("《",""),
             cover: coverImg,
             author: author,
-            description: description+"<br><br><br>LINK TRUYỆN<br>" +url1,            detail: author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
-            detail: author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
+            description: description,
+            detail: "作者： " + author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
             host: "http://bbs.fanfanq.com"
         });
     }
