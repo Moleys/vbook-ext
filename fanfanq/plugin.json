@@ -2,7 +2,7 @@
   "metadata": {
     "name": "fanfanq 💬",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://bbs.fanfanq.com",
     "regexp": "(www.|bbs.)?fanfanq.com/(.*?)",
     "description": "Đọc truyện trên trang http://bbs.fanfanq.com",

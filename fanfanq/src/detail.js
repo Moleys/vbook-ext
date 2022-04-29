@@ -19,7 +19,7 @@ function execute(url) {
         // if(description.indexOf("span") !== -1)
         //     description  = description.split(/[span ]+/).pop();
 
-        
+        let url1 = "https://bbs.fanfanq.com/" +doc.select("a:contains(在线阅读已开放)").first().attr("href");
         
         
         
@@ -29,7 +29,7 @@ function execute(url) {
             name: doc.select("div#breadCrumb a").last().text().split("》")[0].replace("《",""),
             cover: coverImg,
             author: author,
-            description: description,
+            description: description+"<br><br><br>LINK TRUYỆN<br>" +url1,            detail: author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
             detail: author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
             host: "http://bbs.fanfanq.com"
         });
