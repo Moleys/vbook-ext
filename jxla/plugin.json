@@ -2,7 +2,7 @@
   "metadata": {
     "name": "jxla",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.jx.la",
     "regexp": "(www.|m.)?jx.la/book/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.jx.la",
@@ -13,6 +13,8 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
+    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

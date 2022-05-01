@@ -10,12 +10,13 @@ function execute(url) {
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.jx.la" + coverImg;
         }
+        let author = doc.select(".info p.author").first().text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select("h2.name").text(),
             cover: coverImg,
-            author: doc.select(".info p.author").first().text().replace(/作\s*者：/g, ""),
+            author: author,
             description: doc.select(".book-intro").text(),
-            detail: doc.select(".info p").html(),
+            detail: "作者：" + author + "<br>" + doc.select(".info p.type").text() + "<br>" + doc.select(".info p.time").text(),
             host: "http://www.jx.la"
         });
     }

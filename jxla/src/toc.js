@@ -10,7 +10,6 @@ function execute(url) {
         console.log(elr1)
         elr1.forEach((element) => {
             let url1 = "https://www.jx.la" + element.attr("value");
-
             let response2 = fetch(url1);
             if (response2.ok) {
                 let doc = response2.html();
