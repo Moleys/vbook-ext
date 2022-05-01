@@ -865,6 +865,17 @@
       "description": "Đọc truyện trên trang http://www.665txt.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "rsilu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rsilu/plugin.zip",
+      "version": 1,
+      "source": "https://www.rsilu.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rsilu/icon.png",
+      "description": "Đọc truyện trên trang https://www.rsilu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }, 
   ]
 }
