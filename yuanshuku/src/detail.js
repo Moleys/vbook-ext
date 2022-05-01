@@ -8,12 +8,13 @@ function execute(url) {
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.yuanshuku.com" + coverImg;
         }
+        let author  = doc.select("#info p").first().text().replace(/作\s*者：/g, "");
         return Response.success({
             name: doc.select("#info h1").text(),
             cover: coverImg,
-            author: doc.select("#info p").first().text().replace(/作\s*者：/g, ""),
+            author: author,
             description: doc.select("#intro").text(),
-            detail: doc.select("#info p").last().html(),
+            detail: "作者：" + author + "<br>" +doc.select("#info p").last().html(),
             host: "http://www.yuanshuku.com"
         });
     }

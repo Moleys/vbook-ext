@@ -2,7 +2,7 @@
   "metadata": {
     "name": "yuanshuku",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.yuanshuku.com",
     "regexp": "(www.|m.)?yuanshuku.com/(xiaoshuo|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.yuanshuku.com",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
