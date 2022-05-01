@@ -2,7 +2,7 @@
   "metadata": {
     "name": "mijiashe",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "http://www.mijiashe.com",
     "regexp": "(www.|m.)?mijiashe.com/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.mijiashe.com",
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "search": "search.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

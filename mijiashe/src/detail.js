@@ -6,16 +6,22 @@ function execute(url) {
         let doc = response.html();
         let coverImg = doc.select("#fmimg img").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "http://www.mijiashe.com" + coverImg;
+            coverImg = "https://www.mijiashe.com" + coverImg;
         }
-        let author =  doc.select("#info p").first().text().replace(/作\s*者：/g, "");
+        let detail = doc.select("#info").first()
+        let author = detail.select("p").first().text().replace(/作\s*者：/g, "").replace("作 者:","").trim()
+        let name = detail.select("h1").text()
+        detail.select("p").last().remove()
+        detail.select("h1").remove()
+        let description = doc.select("#intro").last()
+        description.select("p").last().remove()
         return Response.success({
-            name: doc.select("#info h1").text(),
+            name: name,
             cover: coverImg,
             author: author,
-            description: doc.select("#intro").text(),
-            detail: "作者： " + author + "<br>" + doc.select("#info p").last().text(),
-            host: "http://www.mijiashe.com"
+            description: description.html(),
+            detail: detail.html().replace(/\&nbsp;/g, ""),
+            host: "https://www.mijiashe.com"
         });
     }
     return null;
