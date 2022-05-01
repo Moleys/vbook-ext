@@ -2,7 +2,7 @@
   "metadata": {
     "name": "wanben",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "http://www.wanben.org",
     "regexp": "(www.|m.)?wanben.org/\\d+(/?|\\d+.html)",
     "description": "Đọc truyện trên trang http://www.wanben.org",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
