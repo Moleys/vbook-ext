@@ -13,8 +13,8 @@ function execute(url) {
             name: doc.select("#info h1").text(),
             cover: coverImg,
             author: author,
-            description: doc.select("#intro").text(),
-            detail: "作者： " + author + "<br>" + doc.select("#info p").last().text(),
+            description: doc.select("#intro").html().split("<br>")[0],
+            detail: "作者： " + author + "<br>" + doc.select("#info p").get(1).text()+ "<br>" + doc.select("#info p").get(2).text(),
             host: "http://www.biqiudu.com"
         });
     }
