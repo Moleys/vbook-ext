@@ -1,7 +1,7 @@
 function execute(url) {
     if(url.slice(-1) !== "/")
         url = url + "/";
-	url = url.replace('m.665txt.com', 'www.665txt.com');
+	url = url.replace('m.665txt.com', 'www.665txt.com').replace('wap.665txt.com', 'www.665txt.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gbk');
