@@ -8,12 +8,17 @@ function execute(url) {
         if (coverImg.startsWith("/")) {
             coverImg = "https://www.xswang.com" + coverImg;
         }
+        let detail = doc.select("#info").first()
+        let author = detail.select("p a").first().text().replace(/作\s*者：/g, "").trim()
+        let name = detail.select("h1").text()
+        detail.select("p").last().remove()
+        detail.select("h1").remove()
         return Response.success({
-            name: doc.select("#info h1").text(),
+            name: name,
             cover: coverImg,
-            author: doc.select("#info p").first().text().replace(/作\s*者：/g, ""),
-            description: doc.select("#intro").text(),
-            detail: doc.select("#info p").html(),
+            author: author,
+            description: doc.select("#intro").last().html().split("<br>")[0],
+            detail: detail.html(),
             host: "https://www.xswang.com"
         });
     }

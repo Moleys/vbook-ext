@@ -2,7 +2,7 @@
   "metadata": {
     "name": "xswang",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "https://www.xswang.com",
     "regexp": "(www.|m.)?xswang.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.xswang.com",
