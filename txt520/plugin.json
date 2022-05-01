@@ -2,7 +2,7 @@
   "metadata": {
     "name": "txt520",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.txt520.com",
     "regexp": "(www.|m.)?txt520.com/(.*?)/\\d+.html",
     "description": "Đọc truyện trên trang http://www.txt520.com",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
