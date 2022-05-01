@@ -2,7 +2,7 @@
   "metadata": {
     "name": "haitang123",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.haitang123.co",
     "regexp": "(www.|m.)?haitang123.co/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.haitang123.co",
@@ -14,6 +14,8 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
+    "search": "search.js",
+    "genre": "genre.js",
     "chap": "chap.js"
   }
 }
