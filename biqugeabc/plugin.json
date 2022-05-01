@@ -2,7 +2,7 @@
   "metadata": {
     "name": "biqugeabc",
     "author": "Moleys",
-    "version": 3,
+    "version": 5,
     "source": "http://www.biqugeabc.com",
     "regexp": "(www.|m.)?biqugeabc.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.biqugeabc.com",
@@ -14,6 +14,8 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
+    "search": "search.js",
+    "genre": "genre.js",
     "chap": "chap.js"
   }
 }
