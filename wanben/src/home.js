@@ -1,6 +1,5 @@
 function execute() {
     return Response.success([
-        {title: "最新更新列表", input: "http://www.wanben.org/", script: "gen.js"}
-
+        {title: "最近更新", input:  "https://www.wanben.org/all/0_lastupdate_0_0_", script: "gen.js"}
     ]);
 }

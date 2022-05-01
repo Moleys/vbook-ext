@@ -393,7 +393,7 @@
       "name": "wanben",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/plugin.zip",
-      "version": 3,
+      "version": 4,
       "source": "http://www.wanben.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanben/icon.png",
       "description": "Đọc truyện trên trang http://www.wanben.org",
