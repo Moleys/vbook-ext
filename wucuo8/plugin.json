@@ -13,7 +13,6 @@
   "script": {
     "home": "home.js",
     "genre": "genre.js",
-    "detail": "detail.js",
-    "search": "search.js"
+    "detail": "detail.js"
   }
 }
