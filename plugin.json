@@ -52,7 +52,7 @@
       "name": "vipkanshu",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.vipkanshu.vip",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/icon.png",
       "description": "Đọc truyện trên trang https://www.vipkanshu.vip",
@@ -500,10 +500,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Vietnovel",
+      "name": "Vietnovel ✍",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.vietnovel.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/icon.png",
       "description": "Đọc truyện trên trang https://www.vietnovel.com",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "Vietnovel",
+    "name": "Vietnovel ✍",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.vietnovel.com",
     "regexp": "(www.|m.)?vietnovel.com/(.*?)",
     "description": "Đọc truyện trên trang https://www.vietnovel.com",

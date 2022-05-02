@@ -2,7 +2,7 @@
   "metadata": {
     "name": "vipkanshu",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.vipkanshu.vip",
     "regexp": "(www.|m.)?vipkanshu.vip/(shu|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.vipkanshu.vip",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
