@@ -1,16 +1,16 @@
 function execute(url, page) {
+    // let page ='2'
     if(url.slice(-1) !== "/")
         url = url + "/";
     if(page){
         url = url +"index_"+ page+".html";
     }
-
-	url = url.replace('m.wucuo8.com', 'www.wucuo8.com');
+    console.log(url)
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
         const data = [];
-        let next = doc.select("div.pageBox a").first().text()
+        let next = doc.select("div.pageBox span.cur +a").first().text()
 
 		doc.select("div.row.md.bread.w15-1 div.content-box").forEach(e => {
             data.push({

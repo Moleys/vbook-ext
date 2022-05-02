@@ -30,10 +30,21 @@
       "name": "[TXT] wucuo8 🛠",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.wucuo8.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/icon.png",
       "description": "Tải truyện trên trang https://www.wucuo8.com",      
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "[TXT] zxcs 🛠",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zxcs/plugin.zip",
+      "version": 1,
+      "source": "http://zxcs.me",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zxcs/icon.png",
+      "description": "Tải truyện trên trang http://zxcs.me",      
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

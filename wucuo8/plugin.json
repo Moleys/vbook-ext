@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[TXT] wucuo8 🛠",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.wucuo8.com",
     "regexp": "(www.|m.)?wucuo8.com/[a-z-]/[a-z-].html",
     "description": "Tải truyện trên trang https://www.wucuo8.com",
