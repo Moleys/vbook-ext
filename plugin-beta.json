@@ -25,6 +25,17 @@
       "description": "Tải truyện trên trang https://www.15huang.com",      
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[TXT] wucuo8 🛠",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/plugin.zip",
+      "version": 1,
+      "source": "https://www.wucuo8.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/icon.png",
+      "description": "Tải truyện trên trang https://www.wucuo8.com",      
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
