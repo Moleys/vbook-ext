@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Mip Ciweimao 💰",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://mip.ciweimao.com",
     "regexp": "(mip.|wap.|www.)ciweimao.com/(book|chapter)/(\\d+)",
     "description": "Đọc truyện trên trang https://mip.ciweimao.com",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
