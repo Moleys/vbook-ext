@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[App] Ciweimao 🛠💰",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.ciweimao.com",
     "regexp": "(mip.|wap.|www.)ciweimao.com/book/(\\d+)",
     "description": "Đọc truyện trên trang https://www.ciweimao.com",

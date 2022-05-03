@@ -22,10 +22,10 @@ function execute(key, page) {
         book_list.forEach(e => {
             data.push({
                 name: e.book_name,
-                link: "https://wap.ciweimao.com/book/" + e.book_id,
+                link: "https://mip.ciweimao.com/book/" + e.book_id,
                 cover:  e.cover,
                 description: e.author_name,
-                host: "https://wap.ciweimao.com/"
+                host: "https://mip.ciweimao.com/"
             });
         });
 
