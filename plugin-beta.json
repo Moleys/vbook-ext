@@ -47,6 +47,17 @@
       "description": "Tải truyện trên trang http://zxcs.me",      
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[App] Ciweimao 🛠💰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/appciweimao/plugin.zip",
+      "version": 1,
+      "source": "https://www.ciweimao.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/appciweimao/icon.png",
+      "description": "Đọc truyện trên trang https://www.ciweimao.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
