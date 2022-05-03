@@ -2,7 +2,7 @@
   "metadata": {
     "name": "bixiange",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "http://www.bixiange.top",
     "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.bixiange.top",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

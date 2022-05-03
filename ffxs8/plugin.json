@@ -2,10 +2,10 @@
   "metadata": {
     "name": "ffxs8",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://www.ffxs8.ffxs8",
+    "version": 2,
+    "source": "http://www.ffxs8.com",
     "regexp": "(www.|m.)?ffxs8.com/(.*?)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.ffxs8.ffxs8",
+    "description": "Đọc truyện trên trang http://www.ffxs8.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

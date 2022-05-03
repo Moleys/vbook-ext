@@ -13,20 +13,6 @@ function execute(url, page) {
                 host: "http://www.ffxs8.com"
             })
         });
-        
-		if (data.length === 0) {
-			doc.select("ul.clearfix li").forEach(e => {
-                data.push({
-                    name: e.select("strong").first().text(),
-                    link: e.select("a").first().attr("href"),
-                    description: e.select(".descript").first().text(),
-                    cover: "http://www.ffxs8.com" + e.select("img").first().attr("src"),
-                    host: "http://www.ffxs8.com"
-                })
-            
-            }
-            ); 
-		}
 
         return Response.success(data)
     }

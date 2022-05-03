@@ -13,20 +13,6 @@ function execute(url, page) {
                 host: "http://www.bixiange.top"
             })
         });
-        
-		if (data.length === 0) {
-			doc.select("ul.clearfix li").forEach(e => {
-                data.push({
-                    name: e.select("strong").first().text(),
-                    link: e.select("a").first().attr("href"),
-                    description: e.select(".descript").first().text(),
-                    cover: "http://www.bixiange.top" + e.select("img").first().attr("src"),
-                    host: "http://www.bixiange.top"
-                })
-            
-            }
-            ); 
-		}
 
         return Response.success(data)
     }
