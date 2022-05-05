@@ -888,6 +888,17 @@
       "type": "chinese_novel",
 	  "tag": "nsfw",
       "locale": "zh_CN"
+    },
+    {
+      "name": "biquge123",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biquge123/plugin.zip",
+      "version": 1,
+      "source": "http://www.biquge123.cc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biquge123/icon.png",
+      "description": "Đọc truyện trên trang http://www.biquge123.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "biquge123",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.biquge123.cc",
+    "regexp": "(www.|m.)?biquge123.cc/xs/\\d+/\\d+/?$",
+    "description": "Đọc truyện trên trang https://www.biquge123.cc",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
