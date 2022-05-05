@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Chivi ver Tiếng Trung",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://chivi.app",
     "regexp": "(www.)?chivi.(xyz|app)/[^/+]+/?$",
     "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
@@ -16,6 +16,7 @@
     "search": "search.js",
     "page": "page.js",
     "toc": "toc.js",
+    "genre": "genre.js",
     "chap": "chap.js"
   }
 }

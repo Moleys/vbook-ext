@@ -12,7 +12,7 @@ function execute(url) {
             next = doc.select("a.m-btn._fill.navi-item._primary").last().attr("href");
             let json1 = JSON.parse(doc.select('script[type="application/json"]').last().html());
             let json2 = JSON.parse(json1.body.split("\\").join("")).props.zhtext;
-            let theRemovedElement = json2.shift();
+            // let theRemovedElement = json2.shift();
             Array.prototype.push.apply(cvData, json2);
         } else {
             return null;
