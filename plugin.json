@@ -876,6 +876,18 @@
       "description": "Đọc truyện trên trang https://www.rsilu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "netxsw",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/netxsw/plugin.zip",
+      "version": 1,
+      "source": "http://www.netxsw.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/netxsw/icon.png",
+      "description": "Đọc truyện trên trang http://www.netxsw.com",
+      "type": "chinese_novel",
+	  "tag": "nsfw",
+      "locale": "zh_CN"
     }
   ]
 }

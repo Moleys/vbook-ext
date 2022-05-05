@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "netxsw",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.netxsw.com",
+    "regexp": "(www.|m.)?netxsw.com/books/details\\d+.html",
+    "description": "Đọc truyện trên trang https://www.netxsw.com",
+    "locale": "zh_CN",
+	"tag": "nsfw",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
