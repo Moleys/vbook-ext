@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "sosadfun",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.sosadfun.org",
+    "regexp": "(www.|m.)?sosadfun.org/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.sosadfun.org",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}

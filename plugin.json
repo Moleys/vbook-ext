@@ -910,6 +910,17 @@
       "description": "Đọc truyện trên trang http://daoquan.vn",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "ddxsss",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ddxsss/plugin.zip",
+      "version": 1,
+      "source": "https://www.ddxsss.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ddxsss/icon.png",
+      "description": "Đọc truyện trên trang https://www.ddxsss.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
