@@ -899,6 +899,17 @@
       "description": "Đọc truyện trên trang http://www.biquge123.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "daoquan",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/daoquan/plugin.zip",
+      "version": 1,
+      "source": "http://daoquan.vn",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/daoquan/icon.png",
+      "description": "Đọc truyện trên trang http://daoquan.vn",
+      "type": "novel",
+      "locale": "vi-VN"
     }
   ]
 }

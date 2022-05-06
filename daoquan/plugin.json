@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "daoquan",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://daoquan.vn",
+    "regexp": "(www.|m.)?daoquan.vn/doc-truyen/(.*?)",
+    "description": "Đọc truyện trên trang https://daoquan.vn",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
