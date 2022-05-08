@@ -2,7 +2,7 @@
     "metadata": {
         "name": "STV Limited ver Tiếng Trung",
         "author": "Moleys",
-        "version": 10,
+        "version": 11,
         "source": "https://sangtacviet.info",
         "regexp": "(www.)?sangtacviet.(info|com|xyz)/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
       "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",

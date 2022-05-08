@@ -28,13 +28,14 @@ function execute(url) {
     });
     if(response.ok){
         var content = response.json().data;
+        content = content.replace(/<a href=.*?<\/a>/g, "");
         const regex1 = /<i h='(.*?)'t='(.*?)'v='(.*?)'p='(.*?)'>(.*?)<\/i>/g;
         content = content.replace(regex1, "$2").replace(/ /g,"").replace(/\n/g, "<br>");
         content = content.replace(/<(\/)?i.*?>/g, "");
         content = content.replace(/<span.*?>(.*?)<\/span>(<br>)?/g, "");
         content = content.replace(/(\n)?\t/g, "<br>");
         content = content.replace(/\s{2,}/g, " ");
-        content = content.replace(/<a href=.*?<\/a>/g, "");
+        
         if (url.indexOf("bxwxorg") > 0) {
             content = content.replace(/<\/?p.*?>/g, "");
             content = content.replace(/(Ta chiếm được.*:?)/g, "");
