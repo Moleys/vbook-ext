@@ -18,10 +18,10 @@
     {
       "name": "[TXT] 15huang 🛠",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/15huang/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_15huang/plugin.zip",
       "version": 1,
       "source": "https://www.15huang.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/15huang/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_15huang/icon.png",
       "description": "Tải truyện trên trang https://www.15huang.com",      
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -29,10 +29,10 @@
     {
       "name": "[TXT] wucuo8 🛠",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_wucuo8/plugin.zip",
       "version": 2,
       "source": "https://www.wucuo8.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wucuo8/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_wucuo8/icon.png",
       "description": "Tải truyện trên trang https://www.wucuo8.com",      
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -40,10 +40,10 @@
     {
       "name": "[TXT] zxcs 🛠",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zxcs/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_zxcs/plugin.zip",
       "version": 1,
       "source": "http://zxcs.me",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zxcs/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_zxcs/icon.png",
       "description": "Tải truyện trên trang http://zxcs.me",      
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -62,10 +62,10 @@
     {
       "name": "[Báo] Tuổi Trẻ 🛠📰",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bao_tuoitre/plugin.zip",
       "version": 3,
       "source": "https://tuoitre.vn",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bao_tuoitre/icon.png",
       "description": "Đọc báo trên trang https://tuoitre.vn",
       "type": "novel",
       "locale": "vi-VN"
@@ -73,10 +73,10 @@
     {
       "name": "[Ảnh] hentaiz gallery 🛠📷",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anhhentaiz/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_hentaiz/plugin.zip",
       "version": 1,
       "source": "https://hentaiz.cc/gallery/",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anhhentaiz/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_hentaiz/icon.png",
       "description": "Xem ảnh trên trang https://hentaiz.cc/gallery/",
       "type": "comic",
       "tag": "nsfw",
