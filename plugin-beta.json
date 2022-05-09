@@ -69,6 +69,18 @@
       "description": "Đọc báo trên trang https://tuoitre.vn",
       "type": "novel",
       "locale": "vi-VN"
+    },
+    {
+      "name": "[Ảnh] hentaiz gallery 🛠📷",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anhhentaiz/plugin.zip",
+      "version": 1,
+      "source": "https://tuoitre.vn",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anhhentaiz/icon.png",
+      "description": "Xem ảnh trên trang https://tuoitre.vn",
+      "type": "comic",
+      "tag": "nsfw",
+      "locale": "vi-VN"
     }
   ]
 }
