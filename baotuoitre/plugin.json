@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "[Ảnh] Tuổi Trẻ 🛠📷",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://hentaiz.cc/gallery/",
+    "regexp": "hentaiz.cc/gallery/(.*)",
+    "description": "Xem ảnh trên trang https://hentaiz.cc/gallery/",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

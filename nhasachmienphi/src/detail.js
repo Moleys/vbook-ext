@@ -15,14 +15,17 @@ function execute(url) {
         if(el1.length === 0){
             description = "<h1>KHÔNG HỖ TRỢ ĐỌC TRÊN VBOOK</h1><br><br>" + description;
         }
-
+        let theloai = doc.select(".mg-tb-10").text().replace("Thể loại:","").trim();
+        console.log(theloai)
         return Response.success({
             name: doc.select("h1.tblue").text(),
             cover: coverImg,
             author: author.replace("Tác giả: ", ""),
             description: description,
             detail: author +  "<br>" + doc.select(".mg-tb-10").text(),
-            host: "http://nhasachmienphi.com"
+            host: "http://nhasachmienphi.com",
+            type: theloai==="Truyện Tranh" ? "comic" : "novel"
+
         });
     }
     return null;

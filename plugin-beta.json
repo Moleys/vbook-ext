@@ -58,6 +58,17 @@
       "description": "Đọc truyện trên trang https://www.ciweimao.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Báo] Tuổi Trẻ 🛠📰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/plugin.zip",
+      "version": 3,
+      "source": "https://tuoitre.vn",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baotuoitre/icon.png",
+      "description": "Đọc báo trên trang https://tuoitre.vn",
+      "type": "novel",
+      "locale": "vi-VN"
     }
   ]
 }
