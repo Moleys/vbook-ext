@@ -33,13 +33,18 @@ function execute(url) {
                 let text_encrypt = response_chapter_list.text();
                 // console.log(text_encrypt)
                 let chapter_list = JSON.parse(decrypt(text_encrypt)).data.chapter_list;
-                chapter_list.forEach(e => {
+                chapter_list.forEach((e,index) => {
                     let url = "https://mip.ciweimao.com/chapter/"+e.chapter_id;
                     let name = e.chapter_title;
                     if(e.is_paid > 0){
                         name = "[VIP] " + name;
                         url = url + "?vip=true";
                     }
+                    if(index==0){
+                        name =  division.division_name +"BOOK" +name;
+                        console.log(name)
+                    }
+
                     data.push({
                         name: name,
                         url: url,
