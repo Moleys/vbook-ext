@@ -1,69 +1,22 @@
 function execute(url, page) {
-    const data = [];
-    data.push({
-        name: "#non-hentai",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=616622316356501515",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#ảnh-ecchi-hentai-18",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=616616204781617152",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#video-hentai",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=620657451687084042",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#3D-hentai",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=852377613498318888",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#video-irl",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=620657953917370378",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#ảnh-gái-xinh",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=781870041862897684",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#ảnh-gái-xinh-18",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=781870218192355329",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#yuri",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=616622475773476884",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#futa",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=616622496765968427",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#yaoi",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=622677459690717185",
-        host: "https://hentaiz.cc/gallery/"
-    })
-
-    data.push({
-        name: "#furry",
-        link: "https://hentaiz.cc/gallery/?channels%5B%5D=622677550065516554",
-        host: "https://hentaiz.cc/gallery/"
-    })
-    return Response.success(data)
+    // url = url.replace(".html","")
+    if (!page) page = '1';
+    let response = fetch(url + "_"+ page+".html");
+    if (response.ok) {
+        let doc = response.html();
+        const data = [];
+        // var next = doc.select("div.pagelists a").first().attr("href").split(/[_ ]+/).pop().replace(".html","");
+        let next = (parseInt(page) + 1).toString()
+		doc.select("ul.l-meinv-wrapp.cl li").forEach(e => {
+            data.push({
+                name: e.select("div.title").first().text(),
+                link: "http://www.mm4000.com" + e.select("div.timg a").first().attr("href"),
+                cover: e.select("div.timg img").first().attr("data-original"),
+                description: e.select("div.times").first().text(),
+                host: "http://www.mm4000.com/meinv/"
+            })
+        });
+        return Response.success(data, next);
+    }
+    return null;
 }

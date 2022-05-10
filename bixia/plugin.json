@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "sosadfun",
+    "name": "bixia",
     "author": "Moleys",
     "version": 1,
-    "source": "http://www.sosadfun.org",
-    "regexp": "(www.|m.)?sosadfun.org/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.sosadfun.org",
+    "source": "http://www.bixia.org",
+    "regexp": "(www.|m.)?bixia.org/book/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.bixia.org",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -13,9 +13,9 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
-    "toc": "toc.js",
-    "search": "search.js",
     "genre": "genre.js",
+    "search": "search.js",
+    "toc": "toc.js",
     "chap": "chap.js"
   }
 }

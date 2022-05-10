@@ -1,15 +1,13 @@
 {
   "metadata": {
-    "name": "[Ảnh] hentaiz gallery 🛠📷",
+    "name": "[Ảnh] mm4000 meinv 🛠📷",
     "author": "Moleys",
     "version": 1,
-    "source": "https://hentaiz.cc/gallery/",
-    "regexp": "https://hentaiz.cc/(.*)",
-    "description": "Xem ảnh trên trang https://hentaiz.cc/gallery/",
-    "locale": "vi_VN",
-	"tag": "nsfw",
-    "language": "javascript",
-    "type": "comic"
+    "source": "http://www.mm4000.com/meinv/",
+    "regexp": "http://www.mm4000.com/meinv/(.*)",
+    "description": "Xem ảnh trên trang http://www.mm4000.com/meinv/",
+    "type": "chinese_novel",
+    "language": "javascript"
   },
   "script": {
     "home": "home.js",
