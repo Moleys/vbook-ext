@@ -2,7 +2,7 @@
   "metadata": {
     "name": "qmxs123",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.qmxs123.com",
     "regexp": "(www.|m.)?qmxs123.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.qmxs123.com",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
