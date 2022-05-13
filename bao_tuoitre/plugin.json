@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "[Ảnh] Tuổi Trẻ 🛠📷",
+    "name": "[Báo] Tuổi Trẻ 🛠📰",
     "author": "Moleys",
-    "version": 1,
-    "source": "https://hentaiz.cc/gallery/",
-    "regexp": "hentaiz.cc/gallery/(.*)",
-    "description": "Xem ảnh trên trang https://hentaiz.cc/gallery/",
+    "version": 4,
+    "source": "http://tuoitre.vn",
+    "regexp": "tuoitre.vn/(.*)",
+    "description": "Đọc báo trên trang http://tuoitre.vn",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"
