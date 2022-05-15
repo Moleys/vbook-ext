@@ -932,6 +932,17 @@
       "description": "Đọc truyện trên trang https://www.bixia.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "mozhua6 💬",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mozhua6/plugin.zip",
+      "version": 1,
+      "source": "https://www.mozhua6.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mozhua6/icon.png",
+      "description": "Đọc truyện trên trang https://www.mozhua6.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
