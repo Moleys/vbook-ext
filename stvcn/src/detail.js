@@ -1,6 +1,5 @@
 function execute(url) {
-    url = "http://14.225.254.182/truyen/" + url.split('/truyen/')[1]
-    console.log(url)
+
     if(url.slice(-1) !== "/")
 	    url = url + "/";
     let response = fetch(url);
@@ -19,7 +18,7 @@ function execute(url) {
             description: des,
             detail: _detail,
             ongoing: true,
-            host: "http://14.225.254.182"
+            host: "https://sangtacviet.me"
         });
     }
     return null;  

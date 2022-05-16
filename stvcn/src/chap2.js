@@ -3,7 +3,7 @@ function execute(url) {
         url = url + "/";
     let el1 =""
     var browser = Engine.newBrowser() // Khởi tạo browser
-    let doc = browser.launch(url, 3000) // Mở trang web với timeout, trả về Document object
+    let doc = browser.launch(url, 5000) // Mở trang web với timeout, trả về Document object
     el1 = doc.select("#content-container")
     browser.close()
     console.log(el1)
