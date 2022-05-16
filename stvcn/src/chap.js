@@ -1,4 +1,4 @@
-load('libs.js');
+
 function execute(url) {
     if(url.slice(-1) !== "/")
         url = url + "/";
