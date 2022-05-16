@@ -1,3 +1,4 @@
+load('libs.js');
 function execute(url) {
     if(url.slice(-1) !== "/")
         url = url + "/";
@@ -14,6 +15,7 @@ function execute(url) {
         method: "POST",
         headers: {
             'Content-type': 'application/x-www-form-urlencoded',
+            'Cookie': 'PHPSESSID=63j57mbd4bi46qec35qn7s38eo; arouting=e; hideavatar=false; _ac=b9723f776bb39d5fb89c42bc02475aba; _gac=c7fae8ae342befff69fe4bc5573680cdKqcKTWFXVNYTPkalY2ZhvJgpdJm5B8/mGYFeDkioe+d5ReDmkRinNLMq4gDdGQE=',
             'Referer': url
         },
         queries: {
