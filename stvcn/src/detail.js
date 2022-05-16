@@ -1,5 +1,9 @@
 function execute(url) {
-    let response = fetch(url+'/');
+    url = "http://14.225.254.182/truyen/" + url.split('/truyen/')[1]
+    console.log(url)
+    if(url.slice(-1) !== "/")
+	    url = url + "/";
+    let response = fetch(url);
     if(response.ok){
         let doc = response.html();
         let author = doc.html().match(/Tác giả:.*?\s+(.*?)\s*</);
@@ -15,7 +19,7 @@ function execute(url) {
             description: des,
             detail: _detail,
             ongoing: true,
-            host: "https://sangtacviet.me"
+            host: "http://14.225.254.182"
         });
     }
     return null;  

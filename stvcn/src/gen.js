@@ -14,7 +14,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: img || 'https://i.imgur.com/KP0Z6Eh.png',
                 description: e.select(".searchtag").first().text(),
-                host: "https://sangtacviet.me"
+                host: "http://14.225.254.182"
             })
         });
         return Response.success(data, next)

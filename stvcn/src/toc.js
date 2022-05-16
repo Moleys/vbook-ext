@@ -1,8 +1,13 @@
 function execute(url) {
-    let doc = fetch(url + '/').html();
+    url = "http://14.225.254.182/truyen/" + url.split('/truyen/')[1]
+    console.log(url)
+    if(url.slice(-1) !== "/")
+	    url = url + "/";
+    let response = fetch(url);
+    let doc = response.html();
     let source = url.split('/')[4]
     let bookId = doc.select("span[id=hiddenid]").first().text().split(';')[0]
-    let newUrl = 'https://sangtacviet.me/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
+    let newUrl = 'http://14.225.254.182/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
     let list = [];
     let reponse = fetch(newUrl.replace(/&amp;/g, "&"))
     if(reponse.ok){
@@ -37,7 +42,7 @@ function execute(url) {
                     list.push({
                         name: name.replace('\n','').trim().replace(/\s\s+/g, ' ' ),
                         url: url + "/" + chap[1],
-                        host: "https://sangtacviet.me"
+                        host: "http://14.225.254.182"
                     });
                 }
             }
