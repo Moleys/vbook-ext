@@ -943,6 +943,17 @@
       "description": "Đọc truyện trên trang https://www.mozhua6.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "lnmtl ver Tiếng Trung",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lnmtl/plugin.zip",
+      "version": 1,
+      "source": "https://lnmtl.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lnmtl/icon.png",
+      "description": "Đọc truyện trên trang https://lnmtl.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
