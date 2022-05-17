@@ -81,6 +81,17 @@
       "type": "comic",
       "tag": "nsfw",
       "locale": "vi-VN"
+    },
+    {
+      "name": "[Ảnh] mm4000 meinv 🛠📷",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_mm4000/plugin.zip",
+      "version": 1,
+      "source": "http://www.mm4000.com/meinv/",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_mm4000/icon.png",
+      "description": "Xem ảnh trên trang http://www.mm4000.com/meinv/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

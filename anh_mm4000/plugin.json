@@ -7,6 +7,7 @@
     "regexp": "http://www.mm4000.com/meinv/(.*)",
     "description": "Xem ảnh trên trang http://www.mm4000.com/meinv/",
     "type": "chinese_novel",
+    "locale": "zh_CN",
     "language": "javascript"
   },
   "script": {
