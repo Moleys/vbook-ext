@@ -103,6 +103,17 @@
       "description": "Xem ảnh trên trang https://www.coserba.net/mzjs",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Ảnh] Moleys's Girls Collection 🛠📷",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_moleys-gc/plugin.zip",
+      "version": 1,
+      "source": "https://github.com/Moleys/vbook-ext/anh_moleys-gc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_moleys-gc/icon.png",
+      "description": "Xem ảnh ở bộ sưu tập của Moleys",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
