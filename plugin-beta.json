@@ -92,6 +92,17 @@
       "description": "Xem ảnh trên trang http://www.mm4000.com/meinv/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Ảnh] coserba 🛠📷",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_coserba/plugin.zip",
+      "version": 1,
+      "source": "https://www.coserba.net/mzjs",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_coserba/icon.png",
+      "description": "Xem ảnh trên trang https://www.coserba.net/mzjs",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
