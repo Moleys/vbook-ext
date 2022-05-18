@@ -3,7 +3,7 @@ function execute(url) {
         url = url + "/";
     let el1 =""
     var browser = Engine.newBrowser() // Khởi tạo browser
-    let doc = browser.launch(url, 5000) // Mở trang web với timeout, trả về Document object
+    let doc = browser.launch(url, 6000) // Mở trang web với timeout, trả về Document object
     el1 = doc.select(".contentbox")
     browser.close()
     console.log(el1)
@@ -11,15 +11,20 @@ function execute(url) {
     el1.select("span").remove()
     el1 = el1.html()
     el1 = el1.replace(/\"/g,"'")
-    const regex1 = /h='(.*?)'/g;
-    const regex2 = /p='(.*?)'/g;
-    const regex3 = /v='(.*?)'/g;
-    const regex4 = /id='(.*?)'/g;
-    const regex5 = /<it='(.*?)'>(.*?)<\/i>/g;
+    // const regex1 = /h='(.*?)'/g;
+    // const regex2 = /p='(.*?)'/g;
+    // const regex3 = /v='(.*?)'/g;
+    // const regex4 = /id='(.*?)'/g;
+    // const regex5 = /<it='(.*?)'>(.*?)<\/i>/g;
     
 
-    el1 = el1.replace(regex1, "").replace(regex2, "").replace(regex3, "").replace(regex4, "").replace(/ /g,"").replace(regex5, "$1").replace("Đọctrênwebđểcóchấtlượngdịchcaovàủnghộwebsite.", "")
+    // el1 = el1.replace(regex1, "").replace(regex2, "").replace(regex3, "").replace(regex4, "").replace(/ /g,"").replace(regex5, "$1").replace("Đọctrênwebđểcóchấtlượngdịchcaovàủnghộwebsite.", "")
 
+    console.log(el1)
+
+    const regex1 = /<i h='(.*?)' t='(.*?)' v='(.*?)' p='(.*?)' id='(.*?)'>(.*?)<\/i>/g;
+    const regex2 = /<i (.*?)>(.*?)<\/i>/g;
+    el1 = el1.replace(regex1, "$2").replace(regex2, "").replace(/ /g,"").replace("Đọctrênwebđểcóchấtlượngdịchcaovàủnghộwebsite.", "")
 
 
     // el1 = el1.replace(/\"/g,"'")
