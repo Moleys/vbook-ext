@@ -313,10 +313,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yousuu 💬",
+      "name": "[Review] yousuu 💬",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yousuu/plugin.zip",
-      "version": 5,
+      "version": 6,
       "source": "https://www.yousuu.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yousuu/icon.png",
       "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",

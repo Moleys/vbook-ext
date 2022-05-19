@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "yousuu 💬",
+    "name": "[Review] yousuu 💬",
     "author": "Moleys",
-    "version": 5,
+    "version": 6,
     "source": "https://www.yousuu.com",
     "regexp": "(www.|api.)?yousuu.com/book/\\d+/?$",
     "description": "Xem đánh giá truyện trên trang https://www.yousuu.com",
