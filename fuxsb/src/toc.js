@@ -4,7 +4,7 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         const data = [];
-        let total = doc.select("div.art_pege li a").first().text().match(/(\d+)/)[0]
+        let total = doc.select("ul").get(1).select("li a").first().text().match(/(\d+)/)[0]
         data.push({
             name: "第1章",
             url: url,
