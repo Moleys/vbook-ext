@@ -1,4 +1,5 @@
 function execute(url) {
+    url = url.replace("bbs.fanfanq.com","bbs.fanfanc.com")
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gbk');
@@ -23,7 +24,7 @@ function execute(url) {
             author: author,
             description: description,
             detail: "作者： " + author + "<br>" +doc.select("title").text().split("作者：")[1].split("【")[1].replace("】","").split("-")[0],
-            host: "http://bbs.fanfanq.com"
+            host: "http://bbs.fanfanc.com"
         });
     }
     return null;

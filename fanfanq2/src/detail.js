@@ -13,7 +13,7 @@ function execute(url) {
             author: author,
             description: description,
             detail: "作者： " + author,
-            host: "http://bbs.fanfanq.com"
+            host: "http://bbs.fanfanc.com"
         });
     }
     return null;

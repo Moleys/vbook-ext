@@ -11,9 +11,9 @@ function execute(url, page) {
             if(cate !== null && cate !== '') {
                 data.push({
                     name: e.select("td.subject a.subject_t.f12").first().text().split("》")[0].replace("《",""),
-                    link: "https://bbs.fanfanq.com/" + e.select("td.subject a.subject_t.f12").first().attr("href"),
+                    link: "https://bbs.fanfanc.com/" + e.select("td.subject a.subject_t.f12").first().attr("href"),
                     description: cate,
-                    host: "http://bbs.fanfanq.com"
+                    host: "http://bbs.fanfanc.com"
                 });
             }
         });
