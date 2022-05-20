@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "sololeveling",
+    "author": "SL",
+    "version": 1,
+    "source": "https://sololeveling.ga",
+    "regexp": "sololeveling.ga(.*?)",
+    "description": "Đọc truyện trên trang https://sololeveling.ga",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

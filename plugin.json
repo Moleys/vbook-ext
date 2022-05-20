@@ -954,6 +954,29 @@
       "description": "Đọc truyện trên trang https://lnmtl.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+
+    {
+      "name": "sololeveling",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sololeveling/plugin.zip",
+      "version": 1,
+      "source": "https://sololeveling.ga",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sololeveling/icon.png",
+      "description": "Đọc truyện trên trang https://sololeveling.ga",
+      "type": "novel",
+      "locale": "vi-VN"
+    },
+    {
+      "name": "liudabook 💬",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/liudabook/plugin.zip",
+      "version": 1,
+      "source": "https://www.liudabook.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/liudabook/icon.png",
+      "description": "Đọc truyện trên trang https://www.liudabook.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
