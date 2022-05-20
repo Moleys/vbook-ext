@@ -3,10 +3,12 @@ function execute(url) {
         url = url + "/";
     let el1 =""
     var browser = Engine.newBrowser() // Khởi tạo browser
-    let doc = browser.launch(url, 6000) // Mở trang web với timeout, trả về Document object
+    let doc = browser.launch(url, 5500) // Mở trang web với timeout, trả về Document object
     el1 = doc.select(".contentbox")
+    el1.select("i[hd=\"\"]").remove()
+
     browser.close()
-    console.log(el1)
+    // console.log(el1)
     el1.select("img").remove()
     el1.select("span").remove()
     el1 = el1.html()
