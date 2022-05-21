@@ -682,7 +682,7 @@
       "name": "haitang123",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://www.haitang123.co",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/icon.png",
       "description": "Đọc truyện trên trang http://www.haitang123.co",
@@ -693,7 +693,7 @@
       "name": "bijibaba",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "http://www.bijibaba.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/icon.png",
       "description": "Đọc truyện trên trang http://www.bijibaba.com",
@@ -975,6 +975,17 @@
       "source": "https://www.liudabook.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/liudabook/icon.png",
       "description": "Đọc truyện trên trang https://www.liudabook.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "duread8 💰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/duread8/plugin.zip",
+      "version": 1,
+      "source": "https://www.duread8.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/duread8/icon.png",
+      "description": "Đọc truyện trên trang https://www.duread8.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

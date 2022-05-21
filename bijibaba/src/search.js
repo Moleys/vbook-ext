@@ -1,4 +1,6 @@
 function execute(key, page) {
+
+    if(!page) page = '1';
     let response = fetch('https://www.bijibaba.com/search/'+key+"/"+page);
 
     if (response.ok) {

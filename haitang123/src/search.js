@@ -1,4 +1,5 @@
 function execute(key, page) {
+    if(!page) page = '1';
     let response = fetch('https://www.haitang123.co/search/'+key+"/"+page);
 
     if (response.ok) {

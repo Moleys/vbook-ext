@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "haitang123",
+    "name": "duread8 💰",
     "author": "Moleys",
-    "version": 3,
-    "source": "http://www.haitang123.co",
-    "regexp": "(www.|m.)?haitang123.co/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.haitang123.co",
+    "version": 1,
+    "source": "https://www.duread8.com",
+    "regexp": "(m.|www.)?duread8.com/book/book_detail/\\d+",
+    "description": "Đọc truyện trên trang https://www.duread8.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
