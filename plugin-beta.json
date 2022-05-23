@@ -114,6 +114,17 @@
       "description": "Xem ảnh ở bộ sưu tập của Moleys",
       "type": "comic",
       "locale": "vi_VN"
+    },
+    {
+      "name": "coloredmanga 🛠",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/coloredmanga/plugin.zip",
+      "version": 1,
+      "source": "https://coloredmanga.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/coloredmanga/icon.png",
+      "description": "Đọc truyện trên trang https://coloredmanga.com",
+      "type": "comic",
+      "locale": "en_US"
     }
   ]
 }
