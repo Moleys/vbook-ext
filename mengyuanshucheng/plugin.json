@@ -2,9 +2,9 @@
   "metadata": {
     "name": "mengyuanshucheng",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.mengyuanshucheng.com",
-    "regexp": "(www.|wap.)?mengyuanshucheng.com/(my|index)/(.*?)",
+    "regexp": "(www.|wap.)?mengyuanshucheng.com/(my|index)/(.*?).html",
     "description": "Đọc truyện trên trang http://www.mengyuanshucheng.com",
     "locale": "zh_CN",
     "language": "javascript",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

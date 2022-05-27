@@ -6,18 +6,19 @@ function execute(url, page) {
     let response = fetch(url + page + ".html");
     if (response.ok) {
         let doc = response.html();
-        const data = [];
         var next = doc.select("#pagelink a").last().attr("href").split(/[/ ]+/).pop().replace(".html","");
-		doc.select("table.grid.searall tbody tr#nr").forEach(e => {
+        const data = [];
+		doc.select("#sitebox dl").forEach(e => {
             data.push({
-                name: e.select("a").first().text(),
+                name: e.select("h3 a").first().text().replace("《","").replace("》",""),
                 link: "https://www.mengyuanshucheng.com" + e.select("a").first().attr("href"),
-                description: e.select("td.odd").get(1).text(),
+                cover: e.select("img").first().attr("src"),
+                description: e.select(".book_other").get(1).text(),
                 host: "https://www.mengyuanshucheng.com"
             })
         });
 
-        return Response.success(data,next)
+        return Response.success(data, next)
     }
     return null;
 }
