@@ -105,10 +105,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Ảnh] Moleys's Girls Collection 🛠📷",
+      "name": "[Ảnh] Bộ sưu tập ảnh gái xinh của Mol 🛠📷",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_moleys-gc/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://github.com/Moleys/vbook-ext/anh_moleys-gc",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_moleys-gc/icon.png",
       "description": "Xem ảnh ở bộ sưu tập của Moleys",

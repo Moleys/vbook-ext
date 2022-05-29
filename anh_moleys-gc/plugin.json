@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "[Ảnh] Moleys's Girls Collection 🛠📷",
+    "name": "[Ảnh] Bộ sưu tập ảnh gái xinh của Mol 🛠📷",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://github.com/Moleys/vbook-ext/anh_moleys-gc",
     "regexp": "github.com/Moleys/vbook-ext/anh_moleys-gc/(.*?)",
     "description": "Xem ảnh ở bộ sưu tập của Moleys",

@@ -1,11 +1,11 @@
 function execute(url) {
     return Response.success({
-        name: "Moleys's Girls Collection",
+        name: "Bộ sưu tập ảnh gái xinh của Mol",
         cover: "https://i.imgur.com/a2ztHgtm.jpg",
         author: "Moleys",
-        description: "Hí hí",
+        description: "╰(*´︶`*)╯♡	",
         detail: "Sưu tầm",
-        host: "http://www.mm4000.com/meinv/",
+        host: "http://github.com/Moleys/vbook-ext/anh_moleys-gc/",
         type: "comic"
 
     });
