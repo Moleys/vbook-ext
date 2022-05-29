@@ -999,6 +999,17 @@
       "description": "Đọc truyện trên trang https://readcomiconline.li",
       "type": "comic",
       "locale": "en_US"
+    },
+    {
+      "name": "ibiquge",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ibiquge/plugin.zip",
+      "version": 1,
+      "source": "https://www.ibiquge.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ibiquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.ibiquge.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
