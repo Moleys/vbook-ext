@@ -1016,9 +1016,9 @@
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/koushoku/plugin.zip",
       "version": 1,
-      "source": "https://koushoku.org"",
+      "source": "https://koushoku.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/koushoku/icon.png",
-      "description": "Đọc truyện trên trang https://koushoku.org"",
+      "description": "Đọc truyện trên trang https://koushoku.org",
       "type": "comic",
 	  "tag": "nsfw",
       "locale": "en_US"
