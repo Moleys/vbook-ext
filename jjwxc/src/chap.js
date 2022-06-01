@@ -6,7 +6,7 @@ function execute(url) {
             let htm = doc.select(".noveltext");
             let content =  htm.html();
             if(content.length === 0){
-                var html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP rồi đăng nhập tài khoản vào trình duyệt của Vbook.<br>Nếu đã mua rồi mà vẫn không đọc được thì chủ đề thông báo lỗi nha!";
+                var html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP rồi đăng nhập tài khoản vào trình duyệt của Vbook.<br>Nếu đã mua rồi mà vẫn không đọc được thì lập chủ đề báo lỗi nha!";
                 return Response.success(html1);
             }
             content = content.replace("<div id=\"show\"><\/div>","").split('<div style="clear:both;"></div>')[1].split("<div")[0];

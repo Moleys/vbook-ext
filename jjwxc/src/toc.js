@@ -1,5 +1,4 @@
 function execute(url) {
-
     var bookID = '0';
     if(url.indexOf("book2") !== -1)
     {
@@ -14,32 +13,20 @@ function execute(url) {
             bookID = bookI.split("&chapterid=")[0];
         }
     }
+    let url1 = "https://app-cdn.jjwxc.net/androidapi/chapterList?novelId="+ bookID +"&more=0&whole=1";
 
-
-    let response = fetch(url);
+    let response = fetch(url1);
     if (response.ok) {
-        let doc = response.html('gbk');
-        let table = doc.select("#oneboolt").first()
-
-        let checkName = true;
-        let el = table.select('tr[itemtype="http://schema.org/Chapter"]');
+        let el = response.json().chapterlist;
         const data = [];
-        for (let i = 0;i < el.size(); i++) {
-            var e = el.get(i);
-
-            let name =  e.select('a[itemprop="url"]').first().text();
-            let chaperID = i+1;
-            name = chaperID +". " + name.trim();
-            if(name.length === 0)
-                name = "[锁]";
-
-            let link = e.select("a[itemprop=\"url\"]").first().attr("href");
-            let checkVIP = e.select("a[itemprop=\"url\"]").first().attr("id");
-
-            if(checkVIP.includes("vip")) {
-                link = e.select("a[itemprop=\"url\"]").first().attr("rel");
-                name = name + " [VIP]";
-                // link = "http://my.jjwxc.net/onebook_vip.php?novelid=" +  bookID + "&chapterid=" +chaperID;
+        for (let i = 0;i < el.length; i++) {
+            let name =  el[i].chaptername;
+            name = el[i].chapterid +". " + name.trim();
+            let link = "http://www.jjwxc.net/onebook.php?novelid="+ bookID +"&chapterid=" + el[i].chapterid;
+            let checkVIP = el[i].isvip;
+            if(checkVIP>0) {
+                name =  name + " [VIP]";
+                link = "http://my.jjwxc.net/onebook_vip.php?novelid=" + bookID + "&chapterid=" + el[i].chapterid;
             }
             data.push({
                 name: name,

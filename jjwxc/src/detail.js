@@ -15,28 +15,20 @@ function execute(url) {
     }
 
 
-    let response = fetch("http://www.jjwxc.net/onebook.php?novelid=" + bookID);
+    let response = fetch("http://app.jjwxc.net/androidapi/novelbasicinfo?novelId=" + bookID);
     if (response.ok) {
-        let doc = response.html('gbk');
-        let name = doc.select('h1[itemprop="name"]').text();
-        let author = doc.select('meta[name="Author"]').attr("content");
-        var ele1 = doc.select(".righttd li");
-        let detail = "";
-        for (var i = 0; i < 2; i++) {
-            detail += ele1.get(i).text() + "<br>";
-        }
-
-        let coverImg = doc.select("img.noveldefaultimage").first().attr("src");
-        if (coverImg.startsWith("/")) {
-            coverImg = "http://www.jjwxc.net/" + coverImg;
-        }
-
+        let doc = response.json();
+        let name = doc.novelName;
+        let author = doc.authorName;
+        let novelTags = doc.novelTags;
+        // let coverImg = doc.novelCover;
+        let coverImg = "https://images.weserv.nl/?url=" + doc.novelCover +"&output=jpg&w=300";
         return Response.success({
             name: name,
             cover: coverImg,
             author: author,
-            description: doc.select("#novelintro").html(),
-            detail: "作者： " + author  + "<br>" + detail,
+            description: doc.novelIntro.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/<br\/><br\/>/g, "<br/>").replace(/<br\/><br\/>/g, "<br/>").replace(/<br\/>/g, "<br>"),
+            detail: "作者： " + author  + "<br>" + novelTags,
             host: "http://www.jjwxc.net/"
         });
     }
