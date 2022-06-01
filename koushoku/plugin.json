@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "koushoku",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://koushoku.org",
+    "regexp": "koushoku.org/archive/\\d+/[A-Za-z0-9_.-]+$",
+    "description": "Đọc truyện trên trang https://koushoku.org",
+    "locale": "en_US",
+	"tag": "nsfw",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}

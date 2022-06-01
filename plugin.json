@@ -1010,6 +1010,18 @@
       "description": "Đọc truyện trên trang https://www.ibiquge.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "koushoku",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/koushoku/plugin.zip",
+      "version": 1,
+      "source": "https://koushoku.org"",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/koushoku/icon.png",
+      "description": "Đọc truyện trên trang https://koushoku.org"",
+      "type": "comic",
+	  "tag": "nsfw",
+      "locale": "en_US"
     }
   ]
 }
