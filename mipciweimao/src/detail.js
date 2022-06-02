@@ -8,7 +8,7 @@ function execute(url) {
         return Response.success({
             name: doc.select(".info h3.book").text(),
             cover: coverImg,
-            author: doc.select(".cnt-inner h3").first().text().replace(/作\s*者：/g, ""),
+            author: doc.select(".author").first().text().split(" 著 / ")[0],
             description: doc.select(".desc-cnt").html(),
             detail: doc.select(".info p"),
             host: "https://mip.ciweimao.com"

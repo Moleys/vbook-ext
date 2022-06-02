@@ -7,7 +7,7 @@ function execute(url) {
             let htm = doc.select("#J_BookRead");
             htm.select("span").remove();
             htm.select("a").remove();
-            htm = htm.html().replace(/\&nbsp;/g, "");
+            htm = htm.html().replace(/\&nbsp;/g, "").replace(/<p class=\"chapter\">/g,"<p>");
             return Response.success(htm);
         }
         catch (err) {
