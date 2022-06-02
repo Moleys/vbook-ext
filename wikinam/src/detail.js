@@ -4,6 +4,8 @@ function execute(url) {
     url = url.replace("wikidth.org", "wikinam.net");
     url = url.replace("wikidth.net", "wikinam.net");
     url = url.replace("wikinu.net", "wikinam.net");
+    url = url.replace("wikidichvip.com", "wikinam.net");
+    url = url.replace("wikidichz.com", "wikinam.net");
 
     let response = fetch(url);
 
