@@ -2,15 +2,15 @@
 // ==UserScript==
 // @name         STV Translate
 // @namespace    https://chivi.app/books/@Numeron/
-// @version      0.1
+// @version      1
 // @description  Dịch tiếng Trung với API STV
 // @author       Nummeron
-// @match           *://*/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=sangtacviet.me
+// @match        *://*/*
+// @icon         https://i.imgur.com/89Gaurs.png
 // @require      https://bafybeienll27v7sxwaoiksspve6unufhzng2ciywbbgkmmfhtuc7nnaqzm.ipfs.infura-ipfs.io/?filename=stv-translate.min.js
-// @resource   IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.infura-ipfs.io/?filename=button.css
-// @grant      GM_getResourceText
-// @grant      GM_addStyle
+// @resource     IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.infura-ipfs.io/?filename=button.css
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {

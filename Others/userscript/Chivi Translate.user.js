@@ -1,15 +1,15 @@
 
 // ==UserScript==
 // @name         Chivi Translate
-// @namespace    https://chivi.app/books/@Numeron/
-// @version      0.1
+// @namespace    https://github.com/Moleys
+// @version      1
 // @description  Dịch tiếng Trung với API Chivi
-// @author       Nummeron
-// @match           *://*/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=chivi.app
-// @resource   IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.infura-ipfs.io/?filename=button.css
-// @grant      GM_getResourceText
-// @grant      GM_addStyle
+// @author       Moleys
+// @match        *://*/*
+// @icon         https://i.imgur.com/yIvta1M.png
+// @resource     IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.infura-ipfs.io/?filename=button.css
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
