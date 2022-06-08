@@ -1,10 +1,10 @@
 
 // ==UserScript==
 // @name         STV Translate
-// @namespace    https://chivi.app/books/@Numeron/
+// @namespace    https://github.com/Moleys
 // @version      1
 // @description  Dịch tiếng Trung với API STV
-// @author       Nummeron
+// @author       Moleys
 // @match        *://*/*
 // @icon         https://i.imgur.com/89Gaurs.png
 // @require      https://bafybeienll27v7sxwaoiksspve6unufhzng2ciywbbgkmmfhtuc7nnaqzm.ipfs.infura-ipfs.io/?filename=stv-translate.min.js
