@@ -7,6 +7,7 @@ function execute(url, page) {
     {
         url = url +"/index_" + page + ".html";
     }
+    console.log(url)
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -14,11 +15,12 @@ function execute(url, page) {
         let next = doc.select("a:contains(下一页)").first().attr("href").replace(".html","").split("index_")[1]
 		doc.select(".content-wrap article.excerpt").forEach(e => {
             let link = e.select("a").first().attr("href");
-            if(link.includes(".html") && link.includes("/b/"))
+            let description = e.select(".auth-span").first().text();
+            if(link.includes(".html") && description)
                 data.push({
                     name: e.select("a").first().text(),
                     link: link,
-                    description: e.select(".auth-span").first().text(),
+                    description: description,
                     host: "https://www.52shuku.vip"
                 });
         });

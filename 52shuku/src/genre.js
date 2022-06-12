@@ -1,7 +1,7 @@
 function execute() {
     return Response.success([
         {title: "综漫同人", input:  "https://www.52shuku.vip/bl/", script: "gen.js"},
-        {title: "GL百合", input:  "https://www.52shuku.vip/bl/", script: "gen.js"},
+        {title: "GL百合", input:  "https://www.52shuku.vip/gl/", script: "gen.js"},
 
         {title: "古架耽美", input:  "https://www.52shuku.vip/jiakong/", script: "gen.js"},
         {title: "穿越耽美", input:  "https://www.52shuku.vip/chongsheng/", script: "gen.js"},
@@ -15,7 +15,7 @@ function execute() {
 
         {title: "悬疑推理小说", input:  "https://www.52shuku.vip/tuili/", script: "gen.js"},
         {title: "恐怖灵异小说", input:  "https://www.52shuku.vip/kongbulingyi/", script: "gen.js"},
-        {title: "文学著作", input:  "https://www.52shuku.vip/wenxue/", script: "gen.js"},
+        {title: "文学著作", input:  "https://www.52shuku.vip/wenxue/", script: "gen.js"}
 
     ]);
 }
