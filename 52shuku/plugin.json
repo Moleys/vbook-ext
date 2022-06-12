@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "52shuku",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.52shuku.vip",
+    "regexp": "52shuku.vip/(.*?)/b/(.*?).html",
+    "description": "Đọc truyện trên trang https://www.52shuku.vip",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

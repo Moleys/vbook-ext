@@ -1022,6 +1022,17 @@
       "type": "comic",
 	  "tag": "nsfw",
       "locale": "en_US"
+    },
+    {
+      "name": "52shuku",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/52shuku/plugin.zip",
+      "version": 1,
+      "source": "https://www.52shuku.vip",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/52shuku/icon.png",
+      "description": "Đọc truyện trên trang https://www.52shuku.vip",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
