@@ -12,14 +12,6 @@ function execute(url) {
                 author = author.split("【")[0];
             }
         }
-        let cover  =  "";
-        let response1 = fetch("https://api.yousuu.com/api/search/?type=title&value="+name);
-        console.log("https://api.yousuu.com/api/search/?type=title&value="+name)
-        if (response1.ok) {
-            let json = response1.json();
-            if(json.data.total>0)
-                cover = "https://images.weserv.nl/?url=" + json.data.books[0].cover +"&output=jpg&w=300";
-        }
 
         let description = doc.select("article.article-content p").get(1);
         if(description.html().includes("　　"))
@@ -27,7 +19,6 @@ function execute(url) {
 
         return Response.success({
             name: name,
-            cover: cover,
             author: author,
             description: description,
             detail: "作者： " + author + "<br>" + doc.select(".meta time.muted").text(),
