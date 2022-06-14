@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "lightnovel.us 🛠📖",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.lightnovel.us",
+    "regexp": "(www.|m.)?lightnovel.us/series/\\d+",
+    "description": "Đọc truyện trên trang https://www.lightnovel.us",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -125,6 +125,17 @@
       "description": "Đọc truyện trên trang https://coloredmanga.com",
       "type": "comic",
       "locale": "en_US"
+    },
+    {
+      "name": "lightnovel.us 🛠📖",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lightnovelus/plugin.zip",
+      "version": 1,
+      "source": "http://zxcs.me",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lightnovelus/icon.png",
+      "description": "Đọc truyện trên trang http://zxcs.me",      
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
