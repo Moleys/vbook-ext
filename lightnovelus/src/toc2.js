@@ -2,8 +2,7 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let ele2 = doc.html().split("<script>window.__NUXT__=")[1].split("<\/script>")[0].split("return")[0].split("{")[1].split(";");
-        // console.log(ele2)
+        let ele2 = doc.html().split("<script>window.__NUXT__=")[1].split("<\/script>")[0].split("return")[0].split("{")[1].split(";");;
 
         const data = [];
         let data_order = [];
@@ -15,16 +14,7 @@ function execute(url) {
             if(e.includes(".aid="))
                 data_aid.push("https://www.lightnovel.us/detail/" + e.split(".aid=")[1]);
             if(e.includes(".title="))
-            {
-                let temp0 = e.split(".title=")[1]
-                try {
-                    temp0 = JSON.parse(e.split(".title=")[1]);
-                }
-                catch(err) {
-                }
-                data_title.push(temp0)
-            }
-                
+                data_title.push(JSON.parse(e.split(".title=")[1]));
 	    }); 
         for (let i = 0; i < data_order.length; i++) {
             data.push({
