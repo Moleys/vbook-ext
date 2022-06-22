@@ -2,7 +2,7 @@
   "metadata": {
     "name": "bixia",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.bixia.org",
     "regexp": "(www.|m.)?bixia.org/book/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.bixia.org",
@@ -16,6 +16,7 @@
     "genre": "genre.js",
     "search": "search.js",
     "toc": "toc.js",
+    "page": "page.js",
     "chap": "chap.js"
   }
 }
