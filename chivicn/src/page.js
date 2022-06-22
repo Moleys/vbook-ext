@@ -1,17 +1,13 @@
 function execute(url) {
     url = url.replace("chivi.xyz", "chivi.app");
     let response = fetch(url + "/chaps");
-    
 
     if (response.ok) {
         let doc = response.html();
-        let story = doc.html().split('<script type=\"application\/json\" sveltekit:data-type=\"data\" sveltekit:data-url=\"')[2].split('"')[0].split('?pg=')[0];
-
-        // console.log(story)
-
-
+        let story = doc.html().split('<script type=\"application\/json\" sveltekit:data-type=\"data\" sveltekit:data-url=\"')[2].split('"')[0]
+        let book_id = doc.html().split(',\"body\":\"{\\\"nvinfo\\\":{\\\"id\\\":')[1].split(',')[0];
+        let sname = story.split(/[/ ]+/).pop();
         let lastPage = doc.html().match(/pgmax.*?:(\d+)/);
- 
         if (lastPage) {
             lastPage = parseInt(lastPage[1]);
         } else {
@@ -19,7 +15,7 @@ function execute(url) {
         }
         const pageList = [];
         for (let i = 1; i <= lastPage; i++) {
-            pageList.push(url + " https://chivi.app" + story + "?pg=" + i);
+            pageList.push(book_id + " https://chivi.app" + story + "/" + i +" " + sname);
         }
 
         return Response.success(pageList);

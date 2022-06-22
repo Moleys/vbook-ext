@@ -1,27 +1,32 @@
 function execute(url) {
-    if(url.slice(-1) === "/")
-        url = url.slice(0, -1)
-    url = url.replace("chivi.xyz", "chivi.app");
-    let cvData = [];
-    let part1 = url.replace("https://chivi.app", "");
-    var next = part1;
-    while (next.replace(next.split(/[/ ]+/).pop().split("-")[0],"").replace(/-/g,"").includes(part1.replace(part1.split(/[/ ]+/).pop().split("-")[0],"").replace(/-/g,""))) {
-        let response = fetch("https://chivi.app" + next);
-        if (response.ok) {
-            let doc = response.html();
-            next = doc.select("a.m-btn._fill.navi-item._primary").last().attr("href");
-            let json1 = JSON.parse(doc.select('script[type="application/json"]').last().html());
-
-            let json2 = JSON.parse(json1.body.split("\\").join("")).zhtext;
-            // let theRemovedElement = json2.shift();
-            Array.prototype.push.apply(cvData, json2);
-        } else {
-            return null;
+    let total_parts = url.split("?parts=")[1];
+    if(total_parts<1) total_parts = 1;
+    url = url.split("?parts=")[0];
+    let cvdata = [];
+    for(let i = 0; i < total_parts; i++){
+        let response_parts = fetch(url+"/"+i);
+        console.log(url+"/"+i)
+        if (response_parts.ok) {
+            let data_i = response_parts.json()
+            let cvzh_i = data_i.zhtext;
+            let cvdata_i = data_i.cvdata;
+            if(checkParts(cvdata_i,total_parts)===true){
+                cvzh_i.shift();
+            }
+            Array.prototype.push.apply(cvdata, cvzh_i);
         }
     }
-    if (cvData) {
-        let htm = cvData.join("<br>");
+    if(cvdata){
+        let htm = cvdata.join("<br>");
         return Response.success(htm);
     }
     return null;
+}
+
+function checkParts(content, total_parts) {
+    let heading = content.split("\n")[0];
+    if(heading.includes("/"+total_parts+"]")){
+        return true
+    }
+    return false;
 }
