@@ -1121,6 +1121,17 @@
       "description": "Đọc truyện trên trang http://www.sosadfun.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "56bok",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/plugin.zip",
+      "version": 1,
+      "source": "http://www.56bok.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/icon.png",
+      "description": "Đọc truyện trên trang http://www.56bok.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

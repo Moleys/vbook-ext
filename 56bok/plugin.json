@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "56bok",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.56bok.com",
+    "regexp": "(www.|m.)?56bok.com/list/\\d+/\\d+.html",
+    "description": "Đọc truyện trên trang https://www.56bok.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "page": "page.js",
+    "chap": "chap.js"
+  }
+}
