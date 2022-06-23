@@ -2,7 +2,7 @@
   "metadata": {
     "name": "bijibaba",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "http://www.bijibaba.com",
     "regexp": "(www.|m.)?bijibaba.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.bijibaba.com",
