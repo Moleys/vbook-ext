@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "zhuyuqing",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.zhuyuqing.com",
+    "regexp": "(www.|m.)?zhuyuqing.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.zhuyuqing.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "page": "page.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}
