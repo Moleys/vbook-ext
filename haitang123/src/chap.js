@@ -15,7 +15,7 @@ function execute(url) {
         let a = text0.split("\", \"")[0].trim().replace(/\\/g,"");
         let b = text0.split("\", \"")[1].split("\"));")[0].trim();
 
-        htm = htm + d(a,b);
+        htm = d(a,b);
 
         return Response.success(htm);
     }
