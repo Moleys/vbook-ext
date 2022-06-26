@@ -71,18 +71,6 @@
       "locale": "vi-VN"
     },
     {
-      "name": "[Ảnh] hentaiz gallery 🛠📷",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_hentaiz/plugin.zip",
-      "version": 1,
-      "source": "https://hentaiz.cc/gallery/",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_hentaiz/icon.png",
-      "description": "Xem ảnh trên trang https://hentaiz.cc/gallery/",
-      "type": "comic",
-      "tag": "nsfw",
-      "locale": "vi-VN"
-    },
-    {
       "name": "[Ảnh] mm4000 meinv 🛠📷",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_mm4000/plugin.zip",
