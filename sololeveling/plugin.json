@@ -2,7 +2,7 @@
   "metadata": {
     "name": "sololeveling",
     "author": "SL",
-    "version": 1,
+    "version": 2,
     "source": "https://sololeveling.ga",
     "regexp": "sololeveling.ga(.*?)",
     "description": "Đọc truyện trên trang https://sololeveling.ga",

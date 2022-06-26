@@ -958,9 +958,9 @@
 
     {
       "name": "sololeveling",
-      "author": "Moleys",
+      "author": "SL",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sololeveling/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://sololeveling.ga",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sololeveling/icon.png",
       "description": "Đọc truyện trên trang https://sololeveling.ga",

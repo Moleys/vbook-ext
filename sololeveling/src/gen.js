@@ -1,5 +1,5 @@
 function execute(url, page) {
-    let response = fetch(url);
+    let response = fetch("https://sololeveling.ga/");
     if (response.ok) {
         const data = [];
 

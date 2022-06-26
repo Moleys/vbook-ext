@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        {title: "Trang chủ", input: "https://sololeveling.ga", script: "gen.js"}
+        {title: "Trang chủ", input: "0", script: "gen.js"}
 
     ]);
 }
