@@ -40,7 +40,7 @@ function execute(url) {
                 if (name) {
                     list.push({
                         name: name.replace('\n','').trim().replace(/\s\s+/g, ' ' ),
-                        url: url  + chap[1],
+                        url: url + "/" + chap[1],
                         host: "https://sangtacviet.me"
                     });
                 }
