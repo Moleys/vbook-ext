@@ -1,14 +1,14 @@
 {
     "metadata": {
-        "name": "STV Limited ver Tiếng Trung",
+        "name": "STV Browser",
         "author": "Moleys",
-        "version": 20,
+        "version": 1,
         "source": "https://sangtacviet.me",
         "regexp": "(www.)?sangtacviet.(info|com|xyz|me)/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
-      "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
-        "locale": "zh_CN",
+        "description": "Không fix",
+        "locale": "vi_VN",
         "language": "javascript",
-        "type": "chinese_novel"
+        "type": "novel"
     },
     "script": {
         "home": "home.js",
@@ -16,6 +16,6 @@
         "search": "search.js",
         "detail": "detail.js",
         "toc": "toc.js",
-        "chap": "chap.js"
+        "chap": "chap2.js"
     }
 }

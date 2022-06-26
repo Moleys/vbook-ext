@@ -645,15 +645,15 @@
       "locale": "zh_CN"
     },
     {
-      "name": "STV Limited ver Tiếng Trung",
+      "name": "STV Browser",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/plugin.zip",
-      "version": 20,
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/plugin.zip",
+      "version": 1,
       "source": "https://sangtacviet.info",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
-      "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/icon.png",
+      "description": "Không fix",
+      "type": "novel",
+      "locale": "vi_VN"
     },
     {
       "name": "31bz",
@@ -1125,10 +1125,10 @@
     {
       "name": "56bok",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/56bok/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/plugin.zip",
       "version": 1,
       "source": "http://www.56bok.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/56bok/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/icon.png",
       "description": "Đọc truyện trên trang http://www.56bok.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
