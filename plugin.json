@@ -645,17 +645,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "STV Browser",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/plugin.zip",
-      "version": 1,
-      "source": "https://sangtacviet.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/icon.png",
-      "description": "Không fix",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "31bz",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/plugin.zip",
