@@ -2,7 +2,7 @@
   "metadata": {
     "name": "wdbqg",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.wdbqg.com",
     "regexp": "(www.|m.)?wdbqg.com/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.wdbqg.com",
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "genre": "genre.js",
+    "page": "page.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
