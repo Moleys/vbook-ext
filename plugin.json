@@ -645,6 +645,17 @@
       "locale": "zh_CN"
     },
     {
+      "name": "STV Limited ver Tiếng Trung",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/plugin.zip",
+      "version": 21,
+      "source": "https://sangtacviet.info",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
+      "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "31bz",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/plugin.zip",
