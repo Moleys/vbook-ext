@@ -1,5 +1,8 @@
 function execute(url) {
-    let response = fetch(url+'/');
+
+    if(url.slice(-1) !== "/")
+	    url = url + "/";
+    let response = fetch(url);
     if(response.ok){
         let doc = response.html();
         let author = doc.html().match(/Tác giả:.*?\s+(.*?)\s*</);

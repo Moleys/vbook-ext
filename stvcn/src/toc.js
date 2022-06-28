@@ -1,5 +1,9 @@
 function execute(url) {
-    let doc = fetch(url + '/').html();
+    console.log(url)
+    if(url.slice(-1) !== "/")
+	    url = url + "/";
+    let response = fetch(url);
+    let doc = response.html();
     let source = url.split('/')[4]
     let bookId = doc.select("span[id=hiddenid]").first().text().split(';')[0]
     let newUrl = 'https://sangtacviet.me/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
