@@ -1113,11 +1113,22 @@
     {
       "name": "56bok",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/56bok/plugin.zip",
       "version": 1,
       "source": "http://www.56bok.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/icon.png",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/56bok/icon.png",
       "description": "Đọc truyện trên trang http://www.56bok.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "longmabook [Long Mã/Hải Đường] 🛠💰✅",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/longmabook/plugin.zip",
+      "version": 1,
+      "source": "https://ebook.longmabook.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/longmabook/icon.png",
+      "description": "Đọc truyện trên trang https://ebook.longmabook.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
