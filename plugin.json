@@ -1130,6 +1130,17 @@
       "description": "Đọc truyện trên trang https://www.linovel.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "shencou 📖",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shencou/plugin.zip",
+      "version": 1,
+      "source": "http://m.shencou.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shencou/icon.png",
+      "description": "Đọc truyện trên trang http://m.shencou.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "shencou 📖",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://m.shencou.com",
+    "regexp": "(www.|m.)?shencou.com/(books/read_\\d+.html|info.php(.)aid=\\d+)",
+    "description": "Đọc truyện trên trang http://m.shencou.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
