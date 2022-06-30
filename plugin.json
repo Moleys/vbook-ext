@@ -1131,6 +1131,17 @@
       "description": "Đọc truyện trên trang https://ebook.longmabook.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "linovel 📖💰❌",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/plugin.zip",
+      "version": 1,
+      "source": "https://www.linovel.net",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/icon.png",
+      "description": "Đọc truyện trên trang https://www.linovel.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
