@@ -1,6 +1,6 @@
 function execute(url) {
-    let host = "https://" + url.replace("https://","").split("/")[0]
-    console.log(host)
+    // let host = "https://" + url.replace("https://","").split("/")[0]
+    // console.log(host)
     let response_0 = fetch(url);
     if (response_0.ok) {
         let doc = response_0.html();
@@ -10,7 +10,7 @@ function execute(url) {
         );
         let paperidInner = m[1];
         let vercodechkInner = m[2];
-        let response = fetch(host+"/showpapercolor.php", {
+        let response = fetch("https://ebook.longmabook.com/showpapercolor.php", {
         "headers": {
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "x-requested-with": "XMLHttpRequest"

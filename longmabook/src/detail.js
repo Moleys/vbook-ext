@@ -1,6 +1,6 @@
 function execute(url) {
-    let host = "https://" + url.replace("https://","").split("/")[0]
-    console.log(host)
+    // let host = "https://" + url.replace("https://","").split("/")[0]
+    // console.log(host)
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -20,7 +20,7 @@ function execute(url) {
             description: info,
             detail: "作者： " + author + "<br>" + tags,
             ongoing: ongoing.indexOf("完結") === -1,
-            host: host
+            host: "https://ebook.longmabook.com"
         });
     }
     return null;

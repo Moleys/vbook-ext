@@ -1,8 +1,8 @@
 function execute(url) {
-    let host = "https://" + url.replace("https://","").split("/")[0]
-    console.log(host)
+    // let host = "https://" + url.replace("https://","").split("/")[0]
+    // console.log(host)
     const bookid = url.match(/bookid=(\d+)/)[1]
-    let response = fetch(host+"/showbooklist.php", {
+    let response = fetch("https://ebook.longmabook.com/showbooklist.php", {
         "headers": {
             "accept": "*/*",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -36,8 +36,8 @@ function execute(url) {
                 }
                 data.push({
                     name: cart + name,
-                    url: host + e.select("a").attr("href"),
-                    host: host
+                    url: "https://ebook.longmabook.com" + e.select("a").attr("href"),
+                    host: "https://ebook.longmabook.com"
                 });
             }
         }
