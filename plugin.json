@@ -833,18 +833,6 @@
       "locale": "zh_CN"
     },
 	{
-      "name": "cool18 💬",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/plugin.zip",
-      "version": 2,
-      "source": "https://www.cool18.com/bbs4/index.php",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cool18/icon.png",
-      "description": "Đọc truyện trên trang https://www.cool18.com/bbs4/index.php",
-      "type": "chinese_novel",
-      "locale": "zh_CN",
-      "tag": "nsfw"
-    },
-	{
       "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fuxsb/plugin.zip",
