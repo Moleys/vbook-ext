@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "wenku8 📖🔑",
+    "name": "masiro 📖🔑",
     "author": "Moleys",
-    "version": 6,
-    "source": "http://www.wenku8.net/index.php",
-    "regexp": "(www.|m.)?wenku8.net/(novel|book)/\\d+(/?|\\.htm)",
-    "description": "Đọc truyện trên trang http://www.wenku8.net",
+    "version": 1,
+    "source": "https://masiro.me",
+    "regexp": "masiro.me/admin/novelView(.*?)",
+    "description": "Đọc truyện trên trang https://masiro.me",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

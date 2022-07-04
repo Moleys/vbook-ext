@@ -206,7 +206,7 @@
       "name": "wenku8 📖",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
-      "version": 5,
+      "version": 6,
       "source": "http://www.wenku8.net/index.php",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/icon.png",
       "description": "Đọc truyện trên trang http://www.wenku8.net",
@@ -1139,6 +1139,17 @@
       "source": "http://m.shencou.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shencou/icon.png",
       "description": "Đọc truyện trên trang http://m.shencou.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "masiro 📖🔑",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/masiro/plugin.zip",
+      "version": 1,
+      "source": "ttps://masiro.me",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/masiro/icon.png",
+      "description": "Đọc truyện trên trang https://masiro.me",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
