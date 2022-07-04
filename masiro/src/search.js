@@ -1,12 +1,7 @@
-function execute(url, page) {
-    let ori = "";
+function execute(key, page) {
     if(!page) page = '1';
-    if(url === "trans")
-        ori = "&ori=0"
-    if(url === "ori")
-        ori = "&ori=1"
-    let url1 = "https://masiro.me/admin/loadMoreNovels?page=" + page;
-    let response = fetch(url1+ori);
+    let url1 = "https://masiro.me/admin/loadMoreNovels?page=" + page +"&keyword=" + key;
+    let response = fetch(url1);
     if (response.ok) {
         let doc = response.json();
         doc = doc.html
