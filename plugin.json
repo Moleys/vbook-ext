@@ -203,7 +203,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wenku8 📖",
+      "name": "wenku8 📖🔑",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
       "version": 6,
@@ -648,7 +648,7 @@
       "name": "STV Limited ver Tiếng Trung",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/plugin.zip",
-      "version": 22,
+      "version": 23,
       "source": "https://sangtacviet.info",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvcn/icon.png",
       "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
