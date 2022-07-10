@@ -357,17 +357,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "fanfanq 💬",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/plugin.zip",
-      "version": 7,
-      "source": "http://bbs.fanfanq.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq/icon.png",
-      "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "xsbiquge",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xsbiquge/plugin.zip",
