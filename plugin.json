@@ -280,17 +280,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yyshuku",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyshuku/plugin.zip",
-      "version": 1,
-      "source": "http://www.yyshuku.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyshuku/icon.png",
-      "description": "Đọc truyện trên trang http://www.yyshuku.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "jxla",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jxla/plugin.zip",
