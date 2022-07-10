@@ -36,29 +36,7 @@
       "description": "Đọc truyện trên trang https://trxs.me",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "yyun",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyun/plugin.zip",
-      "version": 2,
-      "source": "https://www.yyun.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yyun/icon.png",
-      "description": "Đọc truyện trên trang https://www.yyun.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "vipkanshu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/plugin.zip",
-      "version": 2,
-      "source": "https://www.vipkanshu.vip",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vipkanshu/icon.png",
-      "description": "Đọc truyện trên trang https://www.vipkanshu.vip",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+    }, 
     {
       "name": "biduoxs",
       "author": "Moleys",
