@@ -148,28 +148,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "xinshuhaige",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinshuhaige/plugin.zip",
-      "version": 1,
-      "source": "http://www.xinshuhaige.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinshuhaige/icon.png",
-      "description": "Đọc truyện trên trang http://www.xinshuhaige.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "xswang",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xswang/plugin.zip",
-      "version": 4,
-      "source": "http://www.xswang.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xswang/icon.png",
-      "description": "Đọc truyện trên trang http://www.xswang.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "wenku8 📖🔑",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
