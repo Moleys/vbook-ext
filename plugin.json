@@ -82,17 +82,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biqugexs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugexs/plugin.zip",
-      "version": 1,
-      "source": "http://www.biqugexs.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugexs/icon.png",
-      "description": "Đọc truyện trên trang http://www.biqugexs.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biqugse",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugse/plugin.zip",
