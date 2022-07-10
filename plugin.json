@@ -756,29 +756,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "rsilu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rsilu/plugin.zip",
-      "version": 1,
-      "source": "https://www.rsilu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rsilu/icon.png",
-      "description": "Đọc truyện trên trang https://www.rsilu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "netxsw",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/netxsw/plugin.zip",
-      "version": 1,
-      "source": "http://www.netxsw.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/netxsw/icon.png",
-      "description": "Đọc truyện trên trang http://www.netxsw.com",
-      "type": "chinese_novel",
-	  "tag": "nsfw",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biquge123",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biquge123/plugin.zip",
