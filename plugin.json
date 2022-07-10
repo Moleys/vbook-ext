@@ -368,17 +368,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "soshuw",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soshuw/plugin.zip",
-      "version": 1,
-      "source": "http://www.soshuw.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soshuw/icon.png",
-      "description": "Đọc truyện trên trang http://www.soshuw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "truyenfullorg",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyenfullorg/plugin.zip",
@@ -443,17 +432,6 @@
       "description": "Đọc truyện trên trang http://nhasachmienphi.com",
       "type": "novel",
       "locale": "vi-VN"
-    },
-    {
-      "name": "banxia",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/banxia/plugin.zip",
-      "version": 1,
-      "source": "https://www.banxia.tv",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/banxia/icon.png",
-      "description": "Đọc truyện trên trang https://www.banxia.tv",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     },
     {
       "name": "qbtr",
