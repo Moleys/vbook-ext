@@ -1042,6 +1042,17 @@
       "type": "chinese_novel",
 	  "tag": "nsfw",
       "locale": "zh_CN"
+    },
+    {
+      "name": "STV Icky",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/plugin.zip",
+      "version": 1,
+      "source": "https://sangtacviet.me",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/stvbr/icon.png",
+      "description": "Đọc truyện trên trang https://sangtacviet.me",
+      "type": "novel",
+      "locale": "vi_VN"
     }
   ]
 }

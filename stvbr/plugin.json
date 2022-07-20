@@ -1,0 +1,21 @@
+{
+    "metadata": {
+        "name": "STV Icky",
+        "author": "Moleys",
+        "version": 1,
+        "source": "https://sangtacviet.me",
+        "regexp": "(www.)?sangtacviet.(info|com|xyz|me)/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
+        "description": "Không fix",
+        "locale": "vi_VN",
+        "language": "javascript",
+        "type": "novel"
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "search": "search.js",
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}
