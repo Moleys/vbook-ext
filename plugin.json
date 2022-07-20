@@ -657,17 +657,6 @@
       "locale": "zh_CN"
     },
 	{
-	  "name": "Chivi ver Tiếng Trung",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chivicn/plugin.zip",
-      "version": 6,
-	  "source": "https://chivi.app",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/chivicn/icon.png",
-      "description": "Ngôn ngữ của extension này là tiếng TRUNG QUỐC, không phải TIẾNG VIỆT",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-	{
       "name": "biqiudu",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/plugin.zip",
