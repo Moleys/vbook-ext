@@ -1041,6 +1041,18 @@
       "description": "Đọc truyện trên trang https://www.novel543.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "yazhouse8",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yazhouse8/plugin.zip",
+      "version": 1,
+      "source": "https://yazhouse8.com/article.php",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yazhouse8/icon.png",
+      "description": "Đọc truyện trên trang https://yazhouse8.com/article.php",
+      "type": "chinese_novel",
+	  "tag": "nsfw",
+      "locale": "zh_CN"
     }
   ]
 }
