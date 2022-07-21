@@ -1053,6 +1053,17 @@
       "description": "Đọc truyện trên trang https://sangtacviet.me",
       "type": "novel",
       "locale": "vi_VN"
+    },
+    {
+      "name": "bairuizhuyao",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bairuizhuyao/plugin.zip",
+      "version": 1,
+      "source": "http://www.bairuizhuyao.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bairuizhuyao/icon.png",
+      "description": "Đọc truyện trên trang http://www.bairuizhuyao.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "bairuizhuyao",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.bairuizhuyao.com",
+    "regexp": "(www.|m.)?bairuizhuyao.com/(b|book|bqg)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.bairuizhuyao.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}
