@@ -1064,6 +1064,17 @@
       "description": "Đọc truyện trên trang http://www.bairuizhuyao.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "sjks88",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sjks88/plugin.zip",
+      "version": 1,
+      "source": "http://www.sjks88.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sjks88/icon.png",
+      "description": "Đọc truyện trên trang http://www.sjks88.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
