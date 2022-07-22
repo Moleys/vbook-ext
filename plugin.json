@@ -1086,6 +1086,17 @@
       "description": "Đọc truyện trên trang http://www.babayu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "linovelib 📖",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/plugin.zip",
+      "version": 1,
+      "source": "http://w.linovelib.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/icon.png",
+      "description": "Đọc truyện trên trang http://w.linovelib.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
