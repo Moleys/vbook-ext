@@ -1075,6 +1075,17 @@
       "description": "Đọc truyện trên trang http://www.sjks88.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "babayu",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/babayu/plugin.zip",
+      "version": 1,
+      "source": "http://www.babayu.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/babayu/icon.png",
+      "description": "Đọc truyện trên trang http://www.babayu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
