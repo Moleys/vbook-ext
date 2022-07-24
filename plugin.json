@@ -1097,6 +1097,17 @@
       "description": "Đọc truyện trên trang http://w.linovelib.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "powanjuan",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/powanjuan/plugin.zip",
+      "version": 1,
+      "source": "http://www.powanjuan.cc",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/powanjuan/icon.png",
+      "description": "Đọc truyện trên trang http://www.powanjuan.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
