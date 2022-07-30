@@ -124,6 +124,17 @@
       "description": "Đọc truyện trên trang http://zxcs.me",      
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "pixiv 🛠",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/pixiv/plugin.zip",
+      "version": 1,
+      "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/pixiv/icon.png",
+      "description": "Đọc truyện trên trang https://www.pixiv.net",      
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
