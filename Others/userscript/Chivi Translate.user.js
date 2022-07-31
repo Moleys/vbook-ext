@@ -75,7 +75,6 @@
     const my_css = GM_getResourceText("IMPORTED_CSS");
     GM_addStyle(my_css);
     var button = document.createElement("button");
-    button.innerHTML = '<img src="https://i.imgur.com/epynPm6.png" width="100%">';
     button.className = "cv-btn";
     var body = document.getElementsByTagName("body")[0];
     body.appendChild(button);
