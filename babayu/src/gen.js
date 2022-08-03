@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://www.babayu.com/'+url).params({page: page}).html();
+    const doc = Http.get('https://www.babayu.tv/'+url).params({page: page}).html();
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
@@ -14,7 +14,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".author").first().text().replace('作者：',''),
-            host: "https://www.babayu.com"
+            host: "https://www.babayu.tv"
         })
     }
 
