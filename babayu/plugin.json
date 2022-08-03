@@ -2,7 +2,7 @@
   "metadata": {
     "name": "babayu",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.babayu.tv",
     "regexp": "(www.)?(m.)?babayu.tv/(.*?)/book_\\d+.html",
     "description": "Đọc truyện trên trang https://www.babayu.tv",
