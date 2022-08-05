@@ -1097,6 +1097,17 @@
       "description": "Đọc truyện trên trang http://truyentranhtuan.com",
       "type": "comic",
       "locale": "vi_VN"
+    },
+    {
+      "name": "aixdzs",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aixdzs/plugin.zip",
+      "version": 1,
+      "source": "http://m.aixdzs.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aixdzs/icon.png",
+      "description": "Đọc truyện trên trang http://m.aixdzs.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
