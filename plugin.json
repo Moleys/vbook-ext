@@ -1108,6 +1108,17 @@
       "description": "Đọc truyện trên trang http://m.aixdzs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "dghsym",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/dghsym/plugin.zip",
+      "version": 1,
+      "source": "https://www.dghsym.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/dghsym/icon.png",
+      "description": "Đọc truyện trên trang https://www.dghsym.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
