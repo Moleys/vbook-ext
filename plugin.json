@@ -1119,6 +1119,17 @@
       "description": "Đọc truyện trên trang https://www.dghsym.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "mangabit",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mangabit/plugin.zip",
+      "version": 1,
+      "source": "https://mangabit.top",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mangabit/icon.png",
+      "description": "Đọc truyện trên trang https://mangabit.top",
+      "type": "comic",
+      "locale": "vi_VN"
+    },
   ]
 }
