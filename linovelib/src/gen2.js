@@ -10,15 +10,15 @@ function execute(url, page) {
             if(name){
                 data.push({
                     name: name,
-                    link: "http://w.linovelib.com" + e.select("a").first().attr("href"),
+                    link: e.select("a").first().attr("href"),
                     description: e.select(".book-author").first().text().split("作者 ")[1],
                     cover: e.select("img.book-cover").first().attr("data-original"),
                     host: "http://w.linovelib.com"
                 })
             }
         });
-        let next = doc.select("#pagelink a.next").attr("href").split(/[/ ]+/).pop().replace(".html","")
-        if(next === "#"){
+        let next = doc.select("#pagelink").select("strong + a").first().text();
+        if(!next){
             next =""
         }
             

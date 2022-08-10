@@ -980,7 +980,7 @@
       "name": "linovel 📖💰❌",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.linovel.net",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/icon.png",
       "description": "Đọc truyện trên trang https://www.linovel.net",
@@ -1069,7 +1069,7 @@
       "name": "linovelib 📖",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://w.linovelib.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/icon.png",
       "description": "Đọc truyện trên trang http://w.linovelib.com",
@@ -1130,6 +1130,18 @@
       "description": "Đọc truyện trên trang https://mangabit.top",
       "type": "comic",
       "locale": "vi_VN"
+    },
+    {
+      "name": "po18gv",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18gv/plugin.zip",
+      "version": 1,
+      "source": "https://www.po18gv.vip",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18gv/icon.png",
+      "description": "Đọc truyện trên trang https://www.po18gv.vip",
+      "type": "chinese_novel",
+	  "tag": "nsfw",
+      "locale": "zh_CN"
     }
   ]
 }

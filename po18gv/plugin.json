@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "name": "linovel 📖💰❌",
+    "name": "po18gv",
     "author": "Moleys",
-    "version": 2,
-    "source": "https://www.linovel.net",
-    "regexp": "(www.|m.)?linovel.net/book/\\d+.html",
-    "description": "Đọc truyện trên trang https://www.linovel.net",
+    "version": 1,
+    "source": "http://www.po18gv.vip",
+    "regexp": "(www.|m.)?po18gv.vip/(books|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.po18gv.vip",
     "locale": "zh_CN",
     "language": "javascript",
+    "tag": "nsfw",
     "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
-    "search": "search.js",
     "genre": "genre.js",
     "chap": "chap.js"
   }
