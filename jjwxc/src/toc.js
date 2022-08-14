@@ -21,18 +21,24 @@ function execute(url) {
         const data = [];
         for (let i = 0;i < el.length; i++) {
             let name =  el[i].chaptername;
-            name = el[i].chapterid +". " + name.trim();
-            let link = "http://www.jjwxc.net/onebook.php?novelid="+ bookID +"&chapterid=" + el[i].chapterid;
-            let checkVIP = el[i].isvip;
-            if(checkVIP>0) {
-                name =  name + " [VIP]";
-                link = "http://my.jjwxc.net/onebook_vip.php?novelid=" + bookID + "&chapterid=" + el[i].chapterid;
+
+            if(el[i].chaptertype != '1')
+            {
+                name = el[i].chapterid +". " + name.trim();
+                let link = "http://www.jjwxc.net/onebook.php?novelid="+ bookID +"&chapterid=" + el[i].chapterid;
+                let checkVIP = el[i].isvip;
+                if(checkVIP>0) {
+                    name =  name + " [VIP]";
+                    link = "http://my.jjwxc.net/onebook_vip.php?novelid=" + bookID + "&chapterid=" + el[i].chapterid;
+                }
+                data.push({
+                    name: name,
+                    url: link ,
+                    host: "http://www.jjwxc.net"
+                })
+
             }
-            data.push({
-                name: name,
-                url: link ,
-                host: "http://www.jjwxc.net"
-            })
+
         }
         return Response.success(data);
     }

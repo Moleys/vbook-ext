@@ -11,6 +11,11 @@ function execute(url) {
             return Response.success(html1);
         }
         let chap_content = res_json.content.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/<br><br>/g, "<br>");
+        let sayBody = res_json.sayBody
+        console.log(sayBody)
+        if(sayBody.length>0){
+            chap_content = chap_content + "<br>-------------<br>" + sayBody.replace(/\r\n/g,"<br>")
+        }
         return Response.success(chap_content);
     }
 }
