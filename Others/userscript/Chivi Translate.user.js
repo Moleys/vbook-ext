@@ -7,7 +7,7 @@
 // @author       Moleys
 // @match        *://*/*
 // @icon         https://i.imgur.com/yIvta1M.png
-// @resource     IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.infura-ipfs.io/?filename=button.css
+// @resource     IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.cf-ipfs.com/?filename=button.css
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // ==/UserScript==
