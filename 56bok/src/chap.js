@@ -6,7 +6,7 @@ function execute(url) {
         let doc = response.html('gbk');
         let bookid = url.replace("https://www.56bok.com/chapter/","").replace("https://www.56bok.com/chapter/","").split("/")[1];
         console.log(bookid)
-        let htm = doc.select(".back_r"+bookid).html();
+        let htm = doc.select(".back_r0"+bookid).html();
         htm = htm.replace(/\&nbsp;/g, "");
         return Response.success(htm);
     }

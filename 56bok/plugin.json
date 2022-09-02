@@ -2,7 +2,7 @@
   "metadata": {
     "name": "56bok",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.56bok.com",
     "regexp": "(www.|m.)?56bok.com/list/\\d+/\\d+.html",
     "description": "Đọc truyện trên trang https://www.56bok.com",
