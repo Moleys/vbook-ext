@@ -1153,6 +1153,17 @@
       "description": "Đọc truyện trên trang https://www.aduosw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "ranwen",
+      "author": "bi",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ranwen/plugin.zip",
+      "version": 1,
+      "source": "http://www.ranwen.la",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ranwen/icon.png",
+      "description": "Đọc truyện trên trang http://www.ranwen.la",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
