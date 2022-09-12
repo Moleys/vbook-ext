@@ -7,7 +7,7 @@
 // @author       Moleys
 // @match        *://*/*
 // @icon         https://i.imgur.com/89Gaurs.png
-// @require      https://bafybeienll27v7sxwaoiksspve6unufhzng2ciywbbgkmmfhtuc7nnaqzm.ipfs.cf-ipfs.com/?filename=stv-translate.min.js
+// @require      https://bafkreibub2mny6dhz5teknjcqaxxiqur7guh4redorfvwnhnrvrkekvs3u.ipfs.cf-ipfs.com/?filename=stv-translate.min.js
 // @resource     IMPORTED_CSS https://bafybeied7rm3y3iyoidmnr2oi6rpnmoancaqotrqs7chdcs6i36qammd74.ipfs.cf-ipfs.com/?filename=button.css
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
