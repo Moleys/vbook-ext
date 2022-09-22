@@ -2,7 +2,7 @@
   "metadata": {
     "name": "mijiashe",
     "author": "Moleys",
-    "version": 4,
+    "version": 5,
     "source": "http://www.mijiashe.com",
     "regexp": "(www.|m.)?mijiashe.com/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.mijiashe.com",
