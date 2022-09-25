@@ -135,6 +135,17 @@
       "description": "Đọc truyện trên trang https://www.pixiv.net",      
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[GG Dịch] Novel Full 🛠",
+      "author": "Cá mụp cắn cáp > Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novelfull/plugin.zip",
+      "version": 1,
+      "source": "https://novelfull.com/",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novelfull/icon.png",
+      "description": "Đọc truyện trên trang Novellfull.com",      
+      "type": "novel",
+      "locale": "en-US"
     }
   ]
 }
