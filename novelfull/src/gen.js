@@ -25,4 +25,3 @@ function execute(url,page) {
     return Response.success(bookList,next);   
 
 } 
-// https://novelfull.com/the-legendary-mechanic.html
