@@ -1,4 +1,6 @@
 function execute(url) {
+    if(url.slice(-1) !== "/")
+        url = url + "/";
     url = url.replace("xsbiquge.net/","xsbiquge.net/indexlist/");
     let response = fetch(url);
     if (response.ok) {
