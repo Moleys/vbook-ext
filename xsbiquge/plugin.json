@@ -2,7 +2,7 @@
   "metadata": {
     "name": "xsbiquge",
     "author": "Moleys",
-    "version": 5,
+    "version": 6,
     "source": "http://www.xsbiquge.net",
     "regexp": "(www.|m.)?xsbiquge.net/\\d+_\\d+/?$",
     "description": "Đọc truyện trên trang http://www.xsbiquge.net",
@@ -16,6 +16,7 @@
     "genre": "genre.js",
     "search": "search.js",
     "toc": "toc.js",
+    "page": "page.js",
     "chap": "chap.js"
   }
 }

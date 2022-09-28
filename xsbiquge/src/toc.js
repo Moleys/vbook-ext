@@ -3,17 +3,16 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let el1 = doc.select("#list").last();
-        let el = el1.select("a")
-        console.log(el1)
+        let el = doc.select("#content_1 a")
         const data = [];
-        for (let i = 10;i < el.size(); i++) {
+        for (let i = 0;i < el.size(); i++) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
                 url:"http://www.xsbiquge.net" + e.attr("href"),
                 host: "http://www.xsbiquge.net"
-            })
+            });
+            
         }
         return Response.success(data);
     }
