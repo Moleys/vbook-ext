@@ -13,19 +13,6 @@ function execute(url, page) {
             })
         });
 
-		if (data.length === 0) {
-			let ele1 = doc.select("#hotcontent  div.item")
-            ele1.forEach(e => {
-				data.push({
-					name: e.select("a").get(1).text(),
-                    cover: e.select("img").first().attr("data-original"),
-					link: e.select("a").get(1).attr("href"),
-                    description: e.select("dd").last().text(),
-					host: "http://www.jingwubook.com"
-				})
-			}); 
-		}
-
 
         return Response.success(data)
     }
