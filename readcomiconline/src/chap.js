@@ -13,20 +13,17 @@ function execute(url) {
         data.shift()
         return Response.success(data);
     }
-
-
     return null;
 }
-
-
 
 function beau(it){
     if(it.startsWith("https"))
         return it;
-    let containsS0 = it.includes("=s0")
     it = it.replace(/_x236/g, "d").replace(/_x945/g, "g")
-    if (containsS0) it = it.substring(0, it.length - 3)
-    else it = it.substring(0, it.length - 6)
+    let containsS0 = it.includes("=s0")
+    let containsS0_v2 = it.includes("=s0?")
+    var x = it.substring(it.indexOf("?"))[0]
+    it = it.substring(0, (containsS0_v2) ? it.indexOf("=s0?") : it.indexOf("=s1600?"))
     it = it.substring(4, 22) + it.substring(25)
     it = it.substring(0, it.length - 6) + it[it.length - 2] + it[it.length - 1]
     // it = decodeURIComponent(window.atob(it));
@@ -34,5 +31,5 @@ function beau(it){
     it = it.substring(0, 13) + it.substring(17)
     if (containsS0) it = it.substring(0, it.length - 2) + "=s0"
     else it = it.substring(0, it.length - 2) + "=s1600"
-    return "https://2.bp.blogspot.com/" + it
+    return "https://2.bp.blogspot.com/" + it + x
 }

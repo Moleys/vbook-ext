@@ -825,7 +825,7 @@
       "name": "readcomiconline",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readcomiconline/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://readcomiconline.li",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readcomiconline/icon.png",
       "description": "Đọc truyện trên trang https://readcomiconline.li",
