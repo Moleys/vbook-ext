@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Jjwxc [Tấn Giang] 💰✅",
     "author": "Moleys",
-    "version": 9,
+    "version": 10,
     "source": "http://www.jjwxc.net",
     "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
     "description": "Đọc truyện trên trang http://www.jjwxc.net",
@@ -14,7 +14,6 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
-    "genre": "genre.js",
     "search": "search.js",
     "chap": "chap.js"
   }

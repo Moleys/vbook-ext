@@ -3,7 +3,7 @@ function execute(url) {
     let url1 = url.split("?novelid=")[1];
     let chapterid = url1.split("&chapterid=")[1];
     let novelid =  url1.split("&chapterid=")[0];
-    let response = fetch("http://app-cdn.jjwxc.net/androidapi/chapterContent?novelId="+novelid+"&chapterId="+chapterid);
+    let response = fetch("https://android.jjwxc.com/androidapi/chapterContent?readState=readahead&novelId="+novelid+"&chapterId="+chapterid);
     if (response.ok) {
         let res_json = response.json();
         if(res_json.message){

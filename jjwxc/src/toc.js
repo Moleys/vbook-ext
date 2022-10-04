@@ -13,7 +13,7 @@ function execute(url) {
             bookID = bookI.split("&chapterid=")[0];
         }
     }
-    let url1 = "https://app-cdn.jjwxc.net/androidapi/chapterList?novelId="+ bookID +"&more=0&whole=1";
+    let url1 = "https://android.jjwxc.com/androidapi/chapterList?novelId="+ bookID +"&more=0&whole=1";
 
     let response = fetch(url1);
     if (response.ok) {
