@@ -15,7 +15,7 @@ function execute(url) {
     }
 
 
-    let response = fetch("https://android.jjwxc.com/androidapi/novelbasicinfo?novelId=" + bookID);
+    let response = fetch("http://app.jjwxc.net/androidapi/novelbasicinfo?novelId=" + bookID);
     if (response.ok) {
         let doc = response.json();
         let name = doc.novelName;
