@@ -7,7 +7,7 @@ function execute(url) {
     if (response.ok) {
         let res_json = response.json();
         if(res_json.message){
-            var html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP rồi đăng nhập tài khoản vào trình duyệt của Vbook.<br>Nếu đã mua rồi mà vẫn không đọc được thì lập chủ đề báo lỗi nha!";
+            var html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP rồi đăng nhập tài khoản vào trình duyệt của Vbook.<br>Nếu bạn vừa mới đăng nhập thì reload - tải lại chương này để cập nhật nội dung.<br>Nếu vẫn không đọc được thì lập chủ đề bên Góp ý báo lỗi!";
             return Response.success(html1);
         }
         let chap_content = res_json.content.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/<br><br>/g, "<br>");

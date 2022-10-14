@@ -38,7 +38,6 @@ function execute(url) {
                 })
 
             }
-
         }
         return Response.success(data);
     }

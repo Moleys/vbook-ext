@@ -4,16 +4,14 @@ function execute(url, page) {
         url =  url.slice(0, -1);
         url = url + page;
     }
-    else{
+    else
+    {
         url = url + "&page=" + page;
     }
     if(url.indexOf("articlelist.php") !== -1)
     {
         url = url.replace("&page","?page")
     }
-    
-    console.log(url)
-
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gbk');
@@ -33,8 +31,11 @@ function execute(url, page) {
 
 
         var next = parseInt(page, 10) + 1;
-
-        return Response.success(data, next.toString());
+        if(data.length > 0)
+        {
+            return Response.success(data, next.toString());
+        }
+        return Response.error("Bạn phải đăng nhập ở website này để có thể đọc.");
     }
     return null;
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "masiro 📖🔑",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://masiro.me",
     "regexp": "masiro.me/admin/novelView(.*?)",
     "description": "Đọc truyện trên trang https://masiro.me",

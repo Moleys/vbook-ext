@@ -2,7 +2,7 @@
   "metadata": {
     "name": "wenku8 📖🔑",
     "author": "Moleys",
-    "version": 6,
+    "version": 7,
     "source": "http://www.wenku8.net/index.php",
     "regexp": "(www.|m.)?wenku8.net/(novel|book)/\\d+(/?|\\.htm)",
     "description": "Đọc truyện trên trang http://www.wenku8.net",
