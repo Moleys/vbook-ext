@@ -2,9 +2,9 @@
   "metadata": {
     "name": "lwread",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.lwread.org",
-    "regexp": "(www.|m.)?lwread.org/(b|book)/\\d+(/?|\\.html)",
+    "regexp": "(www.|m.)?(lwread.org|lewenkanshu.com)/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.lwread.org",
     "locale": "zh_CN",
     "language": "javascript",
