@@ -6,6 +6,8 @@ function execute(url) {
     url = url.replace("wikinu.net", "wikinam.net");
     url = url.replace("wikidichvip.com", "wikinam.net");
     url = url.replace("wikidichz.com", "wikinam.net");
+    url = url.replace("wikisach.com", "wikinam.net");
+    url = url.replace("wikidichz.net", "wikinam.net");
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();

@@ -2,9 +2,9 @@
   "metadata": {
     "name": "WikiNam",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://wikinam.net",
-    "regexp": "(www.)?(wikidich.com|wikidichvip.com|wikidichz.com|wikidth.com|wikidth.net|wikidth.org|wikinam.net|wikinu.net)/truyen/[^/]+/?$",
+    "regexp": "(www.)?(wikidich.com|wikidichvip.com|wikidichz.com|wikidth.com|wikidth.net|wikidth.org|wikinam.net|wikinu.net|wikisach.com|wikidichz.net)/truyen/[^/]+/?$",
     "description": "Đọc truyện trên trang WikiNam",
     "locale": "vi_VN",
     "type": "novel",
