@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://botruyen.com/page/' + page, {
+    let response = fetch('https://botruyen.vip/page/' + page, {
         method: "GET",
         queries: {
             s : key,
@@ -25,7 +25,7 @@ function execute(key, page) {
                     link: e.select("h2.title a").first().attr("href"),
                     detail: e.select("div.chap").first().text(),
                     cover: coverImg,
-                    host: "https://botruyen.com"
+                    host: "https://botruyen.vip"
                 });     
             }
         });
