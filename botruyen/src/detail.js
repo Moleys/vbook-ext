@@ -12,7 +12,7 @@ function execute(url) {
         return Response.success({
             name: doc.select("h1.title").text(),
             cover: doc.select("div.thumb img.img-responsive").attr("src"),
-            host: "https://botruyen.com",
+            host: "https://botruyen.vip",
             author: doc.select("div.info div.item a").first().text(),
             description: doc.select("div.brief").html(),
             detail: detail,

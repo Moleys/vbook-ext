@@ -382,10 +382,10 @@
       "name": "botruyen",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/botruyen/plugin.zip",
-      "version": 1,
-      "source": "http://botruyen.com",
+      "version": 2,
+      "source": "http://botruyen.vip",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/botruyen/icon.png",
-      "description": "Đọc truyện trên trang http://botruyen.com",
+      "description": "Đọc truyện trên trang http://botruyen.vip",
       "type": "novel",
       "locale": "vi-VN"
     },
