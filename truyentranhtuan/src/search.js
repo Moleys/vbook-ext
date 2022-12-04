@@ -1,5 +1,5 @@
 function execute(key) {
-    let response = fetch("http://truyentranhtuan.com/wp-content/themes/nos/js/search.js");
+    let response = fetch("http://truyentuan.com/wp-content/themes/nos/js/search.js");
     if (response.ok) {
         let doc = response.html();
         let newkey = slugify(key)
@@ -9,13 +9,13 @@ function execute(key) {
         // console.log(search_arr)
         const data = [];
 		search_arr.forEach(e => {
-            let slug_name = e.url.replace("http://truyentranhtuan.com/","").slice(0, -1)
+            let slug_name = e.url.replace("http://truyentuan.com/","").slice(0, -1)
             if(slug_name.includes(newkey)){
                 data.push({
                     name: e.label,
                     link: e.url,
                     description: "",
-                    host: "http://truyentranhtuan.com"
+                    host: "http://truyentuan.com"
                 })
             }
         

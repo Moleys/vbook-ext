@@ -1,5 +1,5 @@
 function execute(url, page) {
-    if(page) url = "http://truyentranhtuan.com/page/" + page;
+    if(page) url = "http://truyentuan.com/page/" + page;
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -10,7 +10,7 @@ function execute(url, page) {
                 link: e.select("a.manga-update-name").first().attr("href"),
                 cover: e.select("img").first().attr("src"),
                 description: e.select("a.manga-update-chapter").first().text(),
-                host: "http://truyentranhtuan.com"
+                host: "http://truyentuan.com"
             })
         });
 
