@@ -21,7 +21,7 @@ function execute(url, page) {
                     link: e.select("h2.title a").first().attr("href"),
                     cover: coverImg,
                     detail: e.select("div.chap").first().text(),
-                    host: "https://botruyen.com"
+                    host: "https://botruyen.vip"
                 });     
             }
         });

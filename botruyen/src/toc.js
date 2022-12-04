@@ -4,7 +4,7 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         let bookID = doc.select("#sky_follow").last().attr("data-id");
-        let response1 = fetch("https://botruyen.com/wp-admin/admin-ajax.php", {
+        let response1 = fetch("https://botruyen.vip/wp-admin/admin-ajax.php", {
             method: "POST",
             body: {
                     action: "sky_show_chapter",
@@ -24,7 +24,7 @@ function execute(url) {
                 data.push({
                     name: e.select("a").text(),
                     url: e.attr("href"),
-                    host: "https://botruyen.com"
+                    host: "https://botruyen.vip"
                 })
             }
             data.reverse();

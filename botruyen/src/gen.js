@@ -28,7 +28,7 @@ function execute(url, page) {
                     link: link,
                     detail: detail,
                     cover: coverImg,
-                    host: "https://botruyen.com"
+                    host: "https://botruyen.vip"
                 });     
             }
         });
