@@ -6,9 +6,12 @@ function execute(url) {
         let doc = response.html();
         doc.select("script").remove();
         doc.select(".adsbygoogle").remove();
+        doc.select(".adBlock").remove();
+
+        
 
 
-        let htm = doc.select("#text-content").html();
+        let htm = doc.select(".content").html();
         htm = htm.replace(/\&nbsp;/g, "");
         return Response.success(htm);
     }
