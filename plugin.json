@@ -1175,6 +1175,17 @@
       "description": "Đọc truyện trên trang https://nhimmeo.cf",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "soruncg",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg/plugin.zip",
+      "version": 1,
+      "source": "http://www.soruncg.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg/icon.png",
+      "description": "Đọc truyện trên trang http://www.soruncg.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
