@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "[Ciweimao] Nhimmeo 💰",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://nhimmeo.cf",
+    "regexp": "nhimmeo.cf/detail/(\\d+)",
+    "description": "Đọc truyện trên trang https://nhimmeo.cf",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}

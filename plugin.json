@@ -1164,6 +1164,17 @@
       "description": "Đọc truyện trên trang jiaston",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Ciweimao] Nhimmeo 💰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo/plugin.zip",
+      "version": 1,
+      "source": "https://nhimmeo.cf",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo/icon.png",
+      "description": "Đọc truyện trên trang https://nhimmeo.cf",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
