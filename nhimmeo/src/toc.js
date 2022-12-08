@@ -9,17 +9,16 @@ function execute(url) {
     if (response_chapter_list.ok) {
         let text_encrypt = response_chapter_list.text();
         let chapter_infoCatatog = JSON.parse(decrypt(text_encrypt)).data.chapter_list
-        chapter_infoCatatog.forEach((division ) => {
+        chapter_infoCatatog.forEach(division => {
             let chapter_list = division.chapter_list;
-            chapter_list.forEach(e => {
-                console.log(e.chapter_title)
+			chapter_list.forEach((e,index) => {
                 data.push({
                     name: e.chapter_title,
                     url: "https://nhimmeo.cf/chap/" + e.chapter_id,
                     host: "https://nhimmeo.cf"
                 })
-            }); 
-        }); 
+			}); 
+        });
         return Response.success(data)
     }
     return null;
