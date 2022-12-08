@@ -7,7 +7,7 @@ function execute(url) {
         let doc = response.html();
         let elr1 = doc.select('select[name="pageselect"]').first().select("option");
         elr1.forEach((element) => {
-            let url1 = url + element.attr("value");
+            let url1 = "http://www.soruncg.com" + element.attr("value");
             data.push(url1)
         })
         if(data.length === 0){

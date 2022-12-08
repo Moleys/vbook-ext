@@ -2,7 +2,7 @@
   "metadata": {
     "name": "soruncg",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.soruncg.com",
     "regexp": "(www.|m.)?soruncg.com/ldks/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.soruncg.com",
