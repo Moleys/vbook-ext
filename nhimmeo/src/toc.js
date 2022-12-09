@@ -8,7 +8,7 @@ function execute(url) {
     let response_chapter_list = fetch(url_division)
     if (response_chapter_list.ok) {
         let text_encrypt = response_chapter_list.text();
-        let chapter_infoCatatog = JSON.parse(decrypt(text_encrypt)).data.chapter_list
+        let chapter_infoCatatog = JSON.parse(decrypt(text_encrypt.trim())).data.chapter_list
         chapter_infoCatatog.forEach(division => {
             let chapter_list = division.chapter_list;
 			chapter_list.forEach((e,index) => {
