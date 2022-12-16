@@ -1,4 +1,4 @@
-load("crypto.js");
+
 function execute(url) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1);  
@@ -7,13 +7,17 @@ function execute(url) {
     let url_division = "https://nhimmeo.cf/api/catalog.php?q=" + book_id;
     let response_chapter_list = fetch(url_division)
     if (response_chapter_list.ok) {
-        let text_encrypt = response_chapter_list.text();
-        let chapter_infoCatatog = JSON.parse(decrypt(text_encrypt.trim())).data.chapter_list
+        let text_encrypt = response_chapter_list.json();
+        let chapter_infoCatatog = text_encrypt.data.chapter_list
         chapter_infoCatatog.forEach(division => {
             let chapter_list = division.chapter_list;
 			chapter_list.forEach((e,index) => {
+                let name = e.chapter_title;
+                if(e.is_paid > 0){
+                    name = "[VIP] " + name;
+                }
                 data.push({
-                    name: e.chapter_title,
+                    name: name,
                     url: "https://nhimmeo.cf/chap/" + e.chapter_id,
                     host: "https://nhimmeo.cf"
                 })
@@ -24,14 +28,3 @@ function execute(url) {
     return null;
 }
 
-
-function decrypt(data, key) {
-    const iv = CryptoJS.enc.Hex.parse('00000000000000000000000000000000')
-    key = CryptoJS.SHA256(key ? key : 'zG2nSeEfSHfvTCHy5LCcqtBbQehKNLXn')
-    var decrypted = CryptoJS.AES.decrypt(data, key, {
-        mode: CryptoJS.mode.CBC,
-        iv: iv,
-        padding: CryptoJS.pad.Pkcs7,
-    })
-    return decrypted.toString(CryptoJS.enc.Utf8)
-}

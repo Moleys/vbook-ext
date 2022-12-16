@@ -1,4 +1,4 @@
-load("crypto.js");
+
 function execute(url) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1);
@@ -7,9 +7,9 @@ function execute(url) {
     let response = fetch(url)
     if (response.ok) {
         const data = [];
-		let text_encrypt = response.text().trim();
+		let text_encrypt = response.json();
         console.log(text_encrypt)
-        let book_info = JSON.parse(decrypt(text_encrypt)).data.book_info;
+        let book_info = text_encrypt.data.book_info;
         return Response.success({
             name: book_info.book_name,
             cover: book_info.cover,
@@ -20,15 +20,4 @@ function execute(url) {
         });
     }
     return null;
-}
-
-function decrypt(data, key) {
-    const iv = CryptoJS.enc.Hex.parse('00000000000000000000000000000000')
-    key = CryptoJS.SHA256(key ? key : 'zG2nSeEfSHfvTCHy5LCcqtBbQehKNLXn')
-    var decrypted = CryptoJS.AES.decrypt(data, key, {
-        mode: CryptoJS.mode.CBC,
-        iv: iv,
-        padding: CryptoJS.pad.Pkcs7,
-    })
-    return decrypted.toString(CryptoJS.enc.Utf8)
 }
