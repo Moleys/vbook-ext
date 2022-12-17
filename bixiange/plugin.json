@@ -2,9 +2,9 @@
   "metadata": {
     "name": "bixiange",
     "author": "Moleys",
-    "version": 4,
+    "version": 5,
     "source": "http://www.bixiange.top",
-    "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)/\\d+/?$",
+    "regexp": "(www.|m.)?bixiange.(top|me)/(.*?)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.bixiange.top",
     "locale": "zh_CN",
     "language": "javascript",
