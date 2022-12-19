@@ -2,9 +2,9 @@
   "metadata": {
     "name": "TruyenTranhTuan",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://truyentranhtuan.com",
-    "regexp": "(truyentranhtuan|truyentranhtuan).com/(.*?)",
+    "regexp": "(truyentuan|truyentranhtuan).com/(.*?)",
     "description": "Đọc truyện trên trang http://truyentranhtuan.com",
     "locale": "vi_VN",
     "language": "javascript",
