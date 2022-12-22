@@ -11,7 +11,7 @@ function execute(key, page) {
         book_list.forEach(e => {
             data.push({
                 name: e.book_name,
-                link: "https://nhimmeo.cf/detail/" + e.book_id,
+                link: "https://nhimmeo.cf/book/" + e.book_id,
                 cover:  e.cover,
                 description: e.author_name,
                 host: "https://nhimmeo.cf"
