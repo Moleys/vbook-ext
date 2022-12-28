@@ -17,7 +17,7 @@ function execute(url, page) {
                 name: e.select("a").first().text(),
                 link: e.select("a").first().attr("href"),
                 description: e.select("div.col-xs-2").first().text(),
-                host: "https://www.qiuxiaoshuo.org"
+                host: "https://www.qiuxiaoshuo.com"
             });
         })
         return Response.success(bookList, next);

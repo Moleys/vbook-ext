@@ -1,5 +1,5 @@
 function execute(url) {
-    url = url.replace('m.qiuxiaoshuo.org', 'www.qiuxiaoshuo.org');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img,"https://www.qiuxiaoshuo.com");
     let response = fetch(url);
 
     if (response.ok) {
