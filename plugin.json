@@ -1186,6 +1186,17 @@
       "description": "Đọc truyện trên trang http://www.soruncg.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "soruncg2",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/plugin.zip",
+      "version": 2,
+      "source": "http://www.soruncg.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/icon.png",
+      "description": "Đọc truyện trên trang http://www.soruncg.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

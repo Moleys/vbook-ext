@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "soruncg 2",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://infosxs.pysmei.com",
+    "regexp": "infosxs.pysmei.com/BookFiles/Html/(\\d+)/(\\d+)/info.html",
+    "description": "Đọc truyện trên trang soruncg app",
+    "local": "cn-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
