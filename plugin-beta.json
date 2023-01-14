@@ -16,50 +16,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[TXT] 15huang 🛠",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_15huang/plugin.zip",
-      "version": 1,
-      "source": "https://www.15huang.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_15huang/icon.png",
-      "description": "Tải truyện trên trang https://www.15huang.com",      
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "[TXT] wucuo8 🛠",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_wucuo8/plugin.zip",
-      "version": 2,
-      "source": "https://www.wucuo8.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_wucuo8/icon.png",
-      "description": "Tải truyện trên trang https://www.wucuo8.com",      
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "[TXT] zxcs 🛠",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_zxcs/plugin.zip",
-      "version": 1,
-      "source": "http://zxcs.me",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/txt_zxcs/icon.png",
-      "description": "Tải truyện trên trang http://zxcs.me",      
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "[App] Ciweimao 🛠💰",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/appciweimao/plugin.zip",
-      "version": 3,
-      "source": "https://www.ciweimao.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/appciweimao/icon.png",
-      "description": "Đọc truyện trên trang https://www.ciweimao.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "[Báo] Tuổi Trẻ 🛠📰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bao_tuoitre/plugin.zip",
@@ -71,28 +27,6 @@
       "locale": "vi-VN"
     },
     {
-      "name": "[Ảnh] mm4000 meinv 🛠📷",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_mm4000/plugin.zip",
-      "version": 1,
-      "source": "http://www.mm4000.com/meinv/",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_mm4000/icon.png",
-      "description": "Xem ảnh trên trang http://www.mm4000.com/meinv/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "[Ảnh] coserba 🛠📷",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_coserba/plugin.zip",
-      "version": 1,
-      "source": "https://www.coserba.net/mzjs",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_coserba/icon.png",
-      "description": "Xem ảnh trên trang https://www.coserba.net/mzjs",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "[Ảnh] Bộ sưu tập ảnh gái xinh của Mol 🛠📷",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/anh_moleys-gc/plugin.zip",
@@ -102,50 +36,6 @@
       "description": "Xem ảnh ở bộ sưu tập của Moleys",
       "type": "comic",
       "locale": "vi_VN"
-    },
-    {
-      "name": "coloredmanga 🛠",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/coloredmanga/plugin.zip",
-      "version": 1,
-      "source": "https://coloredmanga.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/coloredmanga/icon.png",
-      "description": "Đọc truyện trên trang https://coloredmanga.com",
-      "type": "comic",
-      "locale": "en_US"
-    },
-    {
-      "name": "lightnovel.us 🛠📖",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lightnovelus/plugin.zip",
-      "version": 1,
-      "source": "http://zxcs.me",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lightnovelus/icon.png",
-      "description": "Đọc truyện trên trang http://zxcs.me",      
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "pixiv 🛠",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/pixiv/plugin.zip",
-      "version": 1,
-      "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/pixiv/icon.png",
-      "description": "Đọc truyện trên trang https://www.pixiv.net",      
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "[GG Dịch] Novel Full 🛠",
-      "author": "Cá mụp cắn cáp > Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novelfull/plugin.zip",
-      "version": 1,
-      "source": "https://novelfull.com/",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novelfull/icon.png",
-      "description": "Đọc truyện trên trang Novellfull.com",      
-      "type": "novel",
-      "locale": "en-US"
     }
   ]
 }
