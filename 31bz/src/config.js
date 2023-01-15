@@ -1,1 +1,1 @@
-const BASE_URL = 'https://www.31bz.net/';
+const BASE_URL = 'https://www.31bz.net';

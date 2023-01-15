@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "soruncg 2",
+    "name": "[soruncg] Bút thú các",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "https://infosxs.pysmei.com",
     "regexp": "infosxs.pysmei.com/BookFiles/Html/(\\d+)/(\\d+)/info.html",
     "description": "Đọc truyện trên trang soruncg app",

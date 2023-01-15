@@ -778,17 +778,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "mozhua6 💬",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mozhua6/plugin.zip",
-      "version": 1,
-      "source": "https://www.mozhua6.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mozhua6/icon.png",
-      "description": "Đọc truyện trên trang https://www.mozhua6.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "lnmtl ver Tiếng Trung",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lnmtl/plugin.zip",
@@ -796,17 +785,6 @@
       "source": "https://lnmtl.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lnmtl/icon.png",
       "description": "Đọc truyện trên trang https://lnmtl.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "liudabook 💬",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/liudabook/plugin.zip",
-      "version": 1,
-      "source": "https://www.liudabook.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/liudabook/icon.png",
-      "description": "Đọc truyện trên trang https://www.liudabook.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -1188,10 +1166,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "soruncg2",
+      "name": "[soruncg] Bút thú các",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/plugin.zip",
-      "version": 3,
+      "version": 4,
       "source": "http://www.soruncg.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/icon.png",
       "description": "Đọc truyện trên trang http://www.soruncg.com",
