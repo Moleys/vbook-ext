@@ -1175,6 +1175,18 @@
       "description": "Đọc truyện trên trang http://www.soruncg.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "newhaitang",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/newhaitang/plugin.zip",
+      "version": 1,
+      "source": "http://www.newhaitang.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/newhaitang/icon.png",
+      "description": "Đọc truyện trên trang http://www.newhaitang.com",
+      "type": "chinese_novel",
+	  "tag": "nsfw",
+      "locale": "zh_CN"
     }
   ]
 }
