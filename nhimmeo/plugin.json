@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Ciweimao] Nhimmeo 💰",
     "author": "Moleys",
-    "version": 5,
+    "version": 6,
     "source": "https://nhimmeo.cf",
     "regexp": "nhimmeo.cf/book/(\\d+)",
     "description": "Đọc truyện trên trang https://nhimmeo.cf",
