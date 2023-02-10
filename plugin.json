@@ -16,16 +16,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "xinwanben",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/plugin.zip",
-      "version": 2,
-      "source": "https://www.xinwanben.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xinwanben/icon.png",
-      "description": "Đọc truyện trên trang https://www.xinwanben.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
     {
       "name": "trxsme",
       "author": "Moleys",
@@ -93,17 +83,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "piaotianzw",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaotianzw/plugin.zip",
-      "version": 1,
-      "source": "http://www.piaotianzw.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaotianzw/icon.png",
-      "description": "Đọc truyện trên trang http://www.piaotianzw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "qmxs123",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qmxs123/plugin.zip",
@@ -111,28 +90,6 @@
       "source": "http://www.qmxs123.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qmxs123/icon.png",
       "description": "Đọc truyện trên trang http://www.qmxs123.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "rengshu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rengshu/plugin.zip",
-      "version": 1,
-      "source": "http://www.rengshu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/rengshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.rengshu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "tcknh",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tcknh/plugin.zip",
-      "version": 1,
-      "source": "http://www.tcknh.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tcknh/icon.png",
-      "description": "Đọc truyện trên trang http://www.tcknh.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -302,17 +259,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "sdyfcm",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sdyfcm/plugin.zip",
-      "version": 2,
-      "source": "http://www.sdyfcm.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sdyfcm/icon.png",
-      "description": "Đọc truyện trên trang http://www.sdyfcm.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "min-yuan",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/min-yuan/plugin.zip",
@@ -441,17 +387,6 @@
       "source": "https://www.qbtr.cc",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qbtr/icon.png",
       "description": "Đọc truyện trên trang https://www.qbtr.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "80k",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/80k/plugin.zip",
-      "version": 1,
-      "source": "http://www.80k.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/80k/icon.png",
-      "description": "Đọc truyện trên trang http://www.80k.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -602,17 +537,6 @@
       "locale": "zh_CN"
     },
 	{
-      "name": "sbooktxt",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/plugin.zip",
-      "version": 1,
-      "source": "http://www.sbooktxt.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sbooktxt/icon.png",
-      "description": "Đọc truyện trên trang http://www.sbooktxt.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-	{
       "name": "jpxs123",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jpxs123/plugin.zip",
@@ -624,17 +548,6 @@
       "locale": "zh_CN"
     },
 	{
-      "name": "kenshuzw",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kenshuzw/plugin.zip",
-      "version": 2,
-      "source": "http://kenshuzw.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kenshuzw/icon.png",
-      "description": "Đọc truyện trên trang http://kenshuzw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-	{
       "name": "qiuxiaoshuo",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/plugin.zip",
@@ -642,17 +555,6 @@
       "source": "http://qiuxiaoshuo.org",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/icon.png",
       "description": "Đọc truyện trên trang http://qiuxiaoshuo.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-	{
-      "name": "biqiudu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/plugin.zip",
-      "version": 4,
-      "source": "http://www.biqiudu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqiudu/icon.png",
-      "description": "Đọc truyện trên trang http://www.biqiudu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -675,17 +577,6 @@
       "source": "http://www.shumilou.co",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/icon.png",
       "description": "Đọc truyện trên trang http://www.shumilou.co",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-	{
-      "name": "76kanshu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/76kanshu/plugin.zip",
-      "version": 1,
-      "source": "http://www.76kanshu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/76kanshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.76kanshu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -719,17 +610,6 @@
       "source": "http://www.fuxsb.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fuxsb/icon.png",
       "description": "Đọc truyện trên trang http://www.fuxsb.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "665txt",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/665txt/plugin.zip",
-      "version": 2,
-      "source": "http://www.665txt.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/665txt/icon.png",
-      "description": "Đọc truyện trên trang http://www.665txt.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -809,17 +689,6 @@
       "description": "Đọc truyện trên trang https://readcomiconline.li",
       "type": "comic",
       "locale": "en_US"
-    },
-    {
-      "name": "ibiquge",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ibiquge/plugin.zip",
-      "version": 1,
-      "source": "https://www.ibiquge.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ibiquge/icon.png",
-      "description": "Đọc truyện trên trang https://www.ibiquge.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     },
     {
       "name": "koushoku",
@@ -1033,17 +902,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "babayu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/babayu/plugin.zip",
-      "version": 2,
-      "source": "http://www.babayu.tv",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/babayu/icon.png",
-      "description": "Đọc truyện trên trang http://www.babayu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "linovelib 📖",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/plugin.zip",
@@ -1088,28 +946,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "dghsym",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/dghsym/plugin.zip",
-      "version": 1,
-      "source": "https://www.dghsym.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/dghsym/icon.png",
-      "description": "Đọc truyện trên trang https://www.dghsym.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "mangabit",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mangabit/plugin.zip",
-      "version": 1,
-      "source": "https://mangabit.top",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mangabit/icon.png",
-      "description": "Đọc truyện trên trang https://mangabit.top",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "po18gv",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18gv/plugin.zip",
@@ -1151,17 +987,6 @@
       "source": "https://nhimmeo.cf",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo/icon.png",
       "description": "Đọc truyện trên trang https://nhimmeo.cf",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "soruncg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg/plugin.zip",
-      "version": 2,
-      "source": "http://www.soruncg.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg/icon.png",
-      "description": "Đọc truyện trên trang http://www.soruncg.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
