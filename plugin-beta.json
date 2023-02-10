@@ -5,17 +5,6 @@
   },
   "data": [
     {
-      "name": "fanfanq Beta 🛠💬",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq2/plugin.zip",
-      "version": 3,
-      "source": "https://bbs.fanfanq.com/link.php?action=tag&tagname=TXT",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fanfanq2/icon.png",
-      "description": "Đọc truyện trên trang http://bbs.fanfanq.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "[Báo] Tuổi Trẻ 🛠📰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bao_tuoitre/plugin.zip",
