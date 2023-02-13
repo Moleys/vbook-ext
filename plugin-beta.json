@@ -36,6 +36,17 @@
       "description": "Đọc truyện trên trang Novellfull.com",      
       "type": "novel",
       "locale": "en-US"
+    },
+    {
+      "name": "Mol Truyện Tranh",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/moltruyentranh/plugin.zip",
+      "version": 1,
+      "source": "https://moldich.gq/truyentranh/",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/moltruyentranh/icon.png",
+      "description": "Mol Truyện Tranh",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
