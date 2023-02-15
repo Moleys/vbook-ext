@@ -1011,6 +1011,28 @@
       "type": "chinese_novel",
 	  "tag": "nsfw",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Fanqie] Cachua",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cachua/plugin.zip",
+      "version": 1,
+      "source": "http://cachua.cf",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cachua/icon.png",
+      "description": "Đọc truyện trên trang https://cachua.cf",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "Comick.app",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/plugin.zip",
+      "version": 1,
+      "source": "http://comick.app",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/icon.png",
+      "description": "Đọc truyện trên trang https://comick.app",
+      "type": "comic",
+      "locale": "en_US"
     }
   ]
 }

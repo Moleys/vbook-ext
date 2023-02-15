@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Comick.app",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://comick.app",
+    "regexp": "https://comick.app/comic/(.*?)",
+    "description": "Đọc truyện trên trang https://comick.app",
+    "locale": "en_US",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}
