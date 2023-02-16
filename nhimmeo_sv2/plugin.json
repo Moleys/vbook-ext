@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "[Ciweimao] sv2 Nhimmeo 💰",
+    "author": "Moleys",
+    "version": 8,
+    "source": "https://sv2.nhimmeo.cf",
+    "regexp": "sv2.nhimmeo.cf/(book|detail)/(\\d+)",
+    "description": "Đọc truyện trên trang https://sv2.nhimmeo.cf",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}

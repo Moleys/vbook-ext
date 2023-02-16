@@ -990,6 +990,17 @@
       "locale": "zh_CN"
     },
     {
+      "name": "[Ciweimao] sv2 Nhimmeo 💰",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo_sv2/plugin.zip",
+      "version": 8,
+      "source": "https://sv2.nhimmeo.cf",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo_sv2/icon.png",
+      "description": "Đọc truyện trên trang https://sv2.nhimmeo.cf",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "[soruncg] Bút thú các",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/plugin.zip",
