@@ -3,7 +3,7 @@ function execute(url) {
     let response = fetch(newurl);
     if (response.ok) {
         let res = response.text();
-        let item_data_list = res.match(/"id":(\d+),"name":"(.*?)","hasContent":1/gm)
+        let item_data_list = res.match(/"id":(\d+),"name":"(.*?)"/gm)
         let data = [];
         item_data_list.forEach(el1 => {
             let temp = el1.match(/"id":(\d+),"name":"(.*?)"/);
