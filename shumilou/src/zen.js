@@ -10,6 +10,7 @@ function execute(url, page) {
             data.push({
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
+                cover: "https://raw.githubusercontent.com/dat-bi/ext-vbook/main/anh-bia/0.png",
                 description: e.select(".s3 a").first().text(),
                 host: "http://www.shumilou.co"
             })

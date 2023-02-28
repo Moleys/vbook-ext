@@ -10,6 +10,7 @@ function execute(url, page) {
         ele1.forEach(e => {
             data.push({
                 name: e.select(".s2 a").first().text(),
+                cover: "https://raw.githubusercontent.com/dat-bi/ext-vbook/main/anh-bia/0.png",
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
                 host: "http://www.shumilou.co"
