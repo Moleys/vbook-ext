@@ -1033,6 +1033,17 @@
       "description": "Đọc truyện trên trang https://readwn.app",
       "type": "novel",
       "locale": "en_US"
+    },
+    {
+      "name": "html5.qq.com",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/html5qq/plugin.zip",
+      "version": 1,
+      "source": "https://bookshelf.html5.qq.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/html5qq/icon.png",
+      "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
