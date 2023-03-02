@@ -1022,16 +1022,16 @@
       "description": "Đọc truyện trên trang https://cachua.cf",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
+    }
     {
-      "name": "Comick.app",
+      "name": "readwn",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/plugin.zip",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readwn/plugin.zip",
       "version": 1,
-      "source": "http://comick.app",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/icon.png",
-      "description": "Đọc truyện trên trang https://comick.app",
-      "type": "comic",
+      "source": "https://www.readwn.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readwn/icon.png",
+      "description": "Đọc truyện trên trang https://readwn.app",
+      "type": "novel",
       "locale": "en_US"
     }
   ]
