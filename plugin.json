@@ -162,7 +162,7 @@
       "name": "bookrb",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bookrb/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "http://www.bookrb.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bookrb/icon.png",
       "description": "Đọc truyện trên trang http://www.bookrb.com",
