@@ -2,10 +2,10 @@
   "metadata": {
     "name": "bookrb",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://www.bookrb.com",
-    "regexp": "(www.|m.)?bookrb.com/\\d+/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.bookrb.com",
+    "version": 2,
+    "source": "http://www.bookrbx.com",
+    "regexp": "(www.|m.)?bookrbx.com/\\d+/\\d+(/?|\\.html)",
+    "description": "bookrb.com thành http://www.bookrbx.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

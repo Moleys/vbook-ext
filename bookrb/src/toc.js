@@ -1,5 +1,5 @@
 function execute(url) {
-	url = url.replace('m.bookrb.com', 'www.bookrb.com');
+	url = url.replace('m.bookrbx.com', 'www.bookrbx.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gbk');
@@ -10,8 +10,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url:"http://www.bookrb.com" + e.attr("href"),
-                host: "http://www.bookrb.com"
+                url:"http://www.bookrbx.com" + e.attr("href"),
+                host: "http://www.bookrbx.com"
             })
         }
         return Response.success(data);
