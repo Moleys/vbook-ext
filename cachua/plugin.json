@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Fanqie] Cachua",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://cachua.cf",
     "regexp": "fanqienovel.com/page/(\\d+)|cachua.cf/book/(\\d+)",
     "description": "Đọc truyện trên trang https://cachua.cf",
@@ -16,6 +16,7 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
+    "page": "page.js",
     "chap": "chap.js"
   }
 }
