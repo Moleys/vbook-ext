@@ -7,16 +7,15 @@ function execute(url) {
     });
     if (response.ok) {
         let res_json = response.json();
-        console.log(res_json)
-        let item = res_json.data[0];
+        let item = res_json.data;
         const book = [];
-
-        book.push({
-            name: item['title'],           
-            url: "https://cachua.cf/chap/"+item['item_id'],
-            host: "https://cachua.cf"
-        })
-        
+        for (let i = 0; i < item.length; i ++) {
+            book.push({
+                name: item[i].title,           
+                url: "https://cachua.cf/chap/"+item[i].item_id,
+                host: "https://cachua.cf"
+            })
+        }
         return Response.success(book);  
     }
     return null;

@@ -10,8 +10,18 @@ function execute(url) {
     });
     if (response.ok) {
         let res_json = response.json();
-        let allBook = res_json.data.item_list;
+        let array = res_json.data.item_list;
+        // 2048 characters
+        let chunkSize = 80
+        let allBook = []
+
+        for (let i = 0; i < array.length; i += chunkSize) {
+            const chunk = array.slice(i, i + chunkSize).join(",");
+            allBook.push(chunk);
+        }
         return Response.success(allBook);  
+
+
     }
     return null;
 }
