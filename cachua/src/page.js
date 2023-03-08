@@ -16,7 +16,8 @@ function execute(url) {
         let allBook = []
 
         for (let i = 0; i < array.length; i += chunkSize) {
-            const chunk = array.slice(i, i + chunkSize).join(",");
+            let chunk = array.slice(i, i + chunkSize).join(",");
+            console.log(chunk)
             allBook.push(chunk);
         }
         return Response.success(allBook);  
