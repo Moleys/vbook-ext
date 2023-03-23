@@ -1044,6 +1044,17 @@
       "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Comick.app",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/plugin.zip",
+      "version": 2,
+      "source": "http://comick.app",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/comick/icon.png",
+      "description": "Đọc truyện trên trang https://comick.app",
+      "type": "comic",
+      "locale": "en_US"
     }
   ]
 }

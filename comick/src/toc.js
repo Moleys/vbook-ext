@@ -33,6 +33,6 @@ function getFlagEmoji(isoCode) {
   for (let i = 0; i < codePoints.length; i++) {
     flag += String.fromCodePoint(codePoints[i]);
   }
-  flag = flag.replace("🇪🇳","🇬🇧").replace("🇨🇸","🇨🇿")
+  flag = flag.replace("🇪🇳","🇬🇧").replace("🇨🇸","🇨🇿").replace("🇻🇮","🇻🇳").replace("🇦🇷","🇸🇦").replace("🇪🇱","🇬🇷").replace("🇭🇪","🇮🇱").replace("🇿🇭🇭🇰","🇭🇰").replace("🇵🇹🇧🇷","🇧🇷")
   return flag;
 }
