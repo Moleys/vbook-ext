@@ -1,17 +1,17 @@
 function execute(url) {
-    const resourceidRegex = /resourceid=(\d+)/;
-    const match = url.match(resourceidRegex);
+    const bookidRegex = /bookid=(\d+)/;
+    const match = url.match(bookidRegex);
     const resourceid = match[1];
-    let response = fetch(url, {"headers":{"Referer":"https://bookshelf.html5.qq.com/qbread/adread/catalog"}});
+    let url_catalog = "https://novel.html5.qq.com/cgi-bin/novel_reader/catalog?book_id=" + resourceid
+    let response = fetch(url_catalog, {"headers":{"Referer":"https://bookshelf.html5.qq.com/qbread/adread/catalog"}})
     if (response.ok) {
         let doc = response.json();
-        let el = doc.rows
+        let el = doc.catalog
         const data = [];
         for (let i = 0;i < el.length; i++) {
-            let chargetype = el[i].chargetype ? "🌟" : "";
-            let link = "https://bookshelf.html5.qq.com/qbread/api/wenxue/buy/ad-chapter/v3?resourceid="+ el[i].resourceid +"&serialid="+ el[i].serialid +"&apn=1&readnum=1&duration=2&srcCh="
+            let link = "https://bookshelf.html5.qq.com/qbread/api/wenxue/buy/ad-chapter/v3?resourceid="+ resourceid +"&serialid="+ el[i].serial_id +"&apn=1&readnum=1&duration=2&srcCh="
             data.push({
-                name: el[i].serialname,
+                name: el[i].serial_name,
                 url: link,
                 host: "https://bookshelf.html5.qq.com"
             })
