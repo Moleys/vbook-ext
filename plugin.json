@@ -561,10 +561,10 @@
       "name": "shumilou",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/plugin.zip",
-      "version": 2,
-      "source": "http://www.shumilou.co",
+      "version": 3,
+      "source": "http://www.shumilouxs.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/icon.png",
-      "description": "Đọc truyện trên trang http://www.shumilou.co",
+      "description": "Đọc truyện trên trang http://www.shumilouxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
