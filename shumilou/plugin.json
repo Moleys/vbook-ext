@@ -2,10 +2,10 @@
   "metadata": {
     "name": "shumilou",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.shumilou.co",
-    "regexp": "(www.|m.)?shumilou.co/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.shumilou.co",
+    "version": 3,
+    "source": "http://www.shumilouxs.com",
+    "regexp": "(www.|m.)?shumilouxs.com/.*?",
+    "description": "Đọc truyện trên trang http://www.shumilouxs.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -13,8 +13,8 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
-    "page" : "page.js",
     "toc": "toc.js",
+    "page": "page.js",
     "genre": "genre.js",
     "chap": "chap.js"
   }
