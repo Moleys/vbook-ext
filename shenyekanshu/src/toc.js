@@ -8,8 +8,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a.g").text(),
-                url:"https://www.shenyebook.com" + e.select("a.g").attr("href"),
-                host: "https://www.shenyebook.com"
+                url:"https://www.shenyekanshu.com" + e.select("a.g").attr("href"),
+                host: "https://www.shenyekanshu.com"
             })
         }
         
