@@ -1,7 +1,8 @@
 function execute(url) {
     // let host = "https://" + url.replace("https://","").split("/")[0]
     // console.log(host)
-    const bookid = url.match(/bookid=(\d+)/)[1]
+    const bookid= url.split("_")[0]
+    const p =url.split("_")[1]
     let response = fetch("https://ebook.longmabook.com/showbooklist.php", {
         "headers": {
             "accept": "*/*",
@@ -10,6 +11,7 @@ function execute(url) {
         },
         "body": {
             "ebookid": bookid,
+            "pages": p,
             "showbooklisttype": "1"
         },
     "method": "POST",
@@ -18,8 +20,14 @@ function execute(url) {
     });
     if (response.ok) {
         let doc = response.html();
+
+
+
+
+
         let el = doc.select("li")
         const data = [];
+
         for (let i = 0;i < el.size(); i++) {
             var e = el.get(i);
             let name = e.select("a").text()
@@ -34,11 +42,13 @@ function execute(url) {
                 else{
                     cart = "❌ " //"[VIP] ";
                 }
-                data.push({
-                    name: cart + name,
-                    url: "https://ebook.longmabook.com" + e.select("a").attr("href"),
-                    host: "https://ebook.longmabook.com"
-                });
+                let link =  e.select("a").attr("href")
+                if(link)
+                    data.push({
+                        name: cart + name,
+                        url: "https://ebook.longmabook.com" + link,
+                        host: "https://ebook.longmabook.com"
+                    });
             }
         }
         return Response.success(data);
