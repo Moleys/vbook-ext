@@ -1,5 +1,5 @@
 function execute(url) {
-	url = url.replace('m.shenyekanshu.com', 'www.shenyekanshu.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, 'www.shenyebook.com');
     if(url.slice(-1) !== "/")
         url = url + "/";
 

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "shenyekanshu",
+    "name": "shenyebook",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://www.shenyekanshu.com",
-    "regexp": "(www.|m.)?shenyekanshu.com/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.shenyekanshu.com",
+    "version": 2,
+    "source": "http://www.shenyebook.com",
+    "regexp": "(www.|m.)?(shenyebook|shenyekanshu).com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.shenyebook.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
