@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let responseToc = fetch(url);
     if (responseToc.ok) {
@@ -8,8 +9,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a.g").text(),
-                url:"https://www.shenyekanshu.com" + e.select("a.g").attr("href"),
-                host: "https://www.shenyekanshu.com"
+                url:BASE_URL + e.select("a.g").attr("href"),
+                host: BASE_URL
             })
         }
         

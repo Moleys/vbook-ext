@@ -1,5 +1,6 @@
+load('config.js');
 function execute(url, page) {
-	url = url.replace('m.shenyekanshu.com', 'www.shenyekanshu.com');
+	url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if(!page) page = '1';
     if(url.slice(-1) !== "/")
         url = url + "/";
@@ -14,7 +15,7 @@ function execute(url, page) {
                 name: e.select("a.title").first().text(),
                 link: e.select("a.title").first().attr("href"),
                 description: e.select("p").last().text(),
-                host: "http://www.shenyekanshu.com"
+                host: BASE_URL
             })
         });
         return Response.success(data, next);
