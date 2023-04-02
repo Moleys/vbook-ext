@@ -716,10 +716,10 @@
       "name": "shenyekanshu",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shenyekanshu/plugin.zip",
-      "version": 1,
-      "source": "http://www.shenyekanshu.com",
+      "version": 2,
+      "source": "http://www.shenyebook.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shenyekanshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.shenyekanshu.com",
+      "description": "Đọc truyện trên trang http://www.shenyebook.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
