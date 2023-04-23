@@ -458,17 +458,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "hetushu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hetushu/plugin.zip",
-      "version": 1,
-      "source": "http://www.hetushu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hetushu/icon.png",
-      "description": "Đọc truyện trên trang http://www.hetushu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "31bz",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/31bz/plugin.zip",
@@ -1038,7 +1027,7 @@
       "name": "html5.qq.com",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/html5qq/plugin.zip",
-      "version": 1,
+      "version": 3,
       "source": "https://bookshelf.html5.qq.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/html5qq/icon.png",
       "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com",
