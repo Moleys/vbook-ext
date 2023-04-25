@@ -1033,6 +1033,17 @@
       "description": "Đọc truyện trên trang https://comick.app",
       "type": "comic",
       "locale": "en_US"
-    }
+    },
+	{
+		"name": "Râu Đỏ Nhimmeo",
+		"author": "dat-bi",
+		"path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/raudonhimmeo/plugin.zip",
+		"version": 1,
+		"source": "https://raudo.nhimmeo.cf/",
+		"icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/raudonhimmeo/icon.png",
+		"description": "Đọc truyện trên trang https://raudo.nhimmeo.cf",
+		"locale": "zh_CN",
+		"type": "chinese_novel"
+	}
   ]
 }
