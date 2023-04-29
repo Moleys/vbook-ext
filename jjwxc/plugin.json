@@ -2,8 +2,8 @@
   "metadata": {
     "name": "Jjwxc [Tấn Giang] 💰✅",
     "author": "Moleys",
-    "version": 14,
-    "source": "http://www.jjwxc.net",
+    "version": 17,
+    "source": "https://moldich.gq/tools/jjwxc-sign.php",
     "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
     "description": "Đọc truyện trên trang http://www.jjwxc.net",
     "locale": "zh_CN",
