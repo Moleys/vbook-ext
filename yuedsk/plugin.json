@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "yuedsk",
+    "author": "Moleys",
+    "version": 1,
+    "source": "http://www.yuedsk.com",
+    "regexp": "(www.|m.)?yuedsk.com/book/\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.yuedsk.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}

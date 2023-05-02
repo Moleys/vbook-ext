@@ -1044,6 +1044,17 @@
 		"description": "Đọc truyện trên trang https://raudo.nhimmeo.cf",
 		"locale": "zh_CN",
 		"type": "chinese_novel"
-	}
+	},
+    {
+      "name": "yuedsk",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuedsk/plugin.zip",
+      "version": 1,
+      "source": "https://www.yuedsk.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuedsk/icon.png",
+      "description": "Đọc truyện trên trang https://www.yuedsk.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
   ]
 }
