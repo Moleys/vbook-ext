@@ -11,7 +11,7 @@ function execute(url) {
         let text_encrypt = response.json();
         let book_info = text_encrypt.data;
         let type = "chinese_novel";
-        if (site === "metruyencv" || site === "tangthuvien") {
+        if (site === "metruyencv" || site === "tangthuvien" || site === "wattpad") {
             type = "novel";
         }
         let cover = book_info.cover_img;

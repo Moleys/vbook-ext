@@ -15,7 +15,7 @@ function execute(url) {
             let name = e.name;
             data.push({
                 name: name,
-                url: "https://raudo.nhimmeo.cf/api/" + site + "/chap.php?q=" + e.url + "&k=" + book_id,
+                url: "https://raudo.nhimmeo.cf/site/" + site + "/" + book_id + "/" + e.url,
                 host: "https://raudo.nhimmeo.cf"
             })
         });
