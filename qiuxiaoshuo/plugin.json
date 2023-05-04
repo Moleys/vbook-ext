@@ -2,10 +2,10 @@
   "metadata": {
     "name": "qiuxiaoshuo",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.qiuxiaoshuo.com",
-    "regexp": "(www.|m.)?qiuxiaoshuo.(com|org)/(book-|book/)\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.qiuxiaoshuo.com",
+    "version": 3,
+    "source": "http://www.81ht.com/",
+    "regexp": "(www.|m.)?81ht.com/(book-|book/)\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.81ht.com/",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

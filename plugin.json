@@ -25,7 +25,7 @@
       "description": "Đọc truyện trên trang https://trxs.me",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }, 
+    },
     {
       "name": "biduoxs",
       "author": "Moleys",
@@ -36,8 +36,8 @@
       "description": "Đọc truyện trên trang https://www.biduoxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },  
-    {	
+    },
+    {
       "name": "biqugeabc",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/plugin.zip",
@@ -517,10 +517,10 @@
       "name": "qiuxiaoshuo",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/plugin.zip",
-      "version": 2,
-      "source": "http://qiuxiaoshuo.org",
+      "version": 3,
+      "source": "http://www.81ht.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qiuxiaoshuo/icon.png",
-      "description": "Đọc truyện trên trang http://qiuxiaoshuo.org",
+      "description": "Đọc truyện trên trang http://www.81ht.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
