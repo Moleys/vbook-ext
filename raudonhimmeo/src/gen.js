@@ -1,22 +1,21 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let url1 = "https://raudo.nhimmeo.cf/site/" + url + "?index=0&page=" + page;
+    let url1 = "https://raudo.nhimmeo.cf/api/"+url+"/gen.php?index=0&page=" + page;
     let response = fetch(url1)
     if (response.ok) {
-        let doc = response.html();
-        let el = doc.select('#search_result > div > div');
-        let sizel = el.size()
+        let doc = response.json();
+        let item_list = doc.data.item_list
         const data = [];
-        for (let j = 0; j < sizel; j++) {
-            var e = el.get(j);
+        for (let j = 0; j < item_list.length; j++) {
             data.push({
-                name: e.select('a').first().attr("title"),
-                link: "https://raudo.nhimmeo.cf" + e.select('a').first().attr("href"),
-                cover: e.select("img").attr("data-src"),
+                name: item_list[j].book_name,
+                link: "https://raudo.nhimmeo.cf" + item_list[j].book_id,
+                cover: item_list[j].cover_img,
+                description: item_list[j].author,
                 host: "https://raudo.nhimmeo.cf"
             });
         }
-        var next = doc.select("#paginationSection a.active + a").text();
+        var next = parseInt(page, 10)+1
         return Response.success(data, next)
     }
     return null;
