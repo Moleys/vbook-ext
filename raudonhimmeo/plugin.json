@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Râu Đỏ Nhimmeo 💰",
     "author": "dat-bi",
-    "version": 3,
+    "version": 4,
     "source": "https://raudo.nhimmeo.cf/",
     "regexp": "raudo.nhimmeo.cf/site/.*?/.*?",
     "description": "Đọc truyện trên trang https://raudo.nhimmeo.cf",
