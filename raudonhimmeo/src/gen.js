@@ -9,7 +9,7 @@ function execute(url, page) {
         for (let j = 0; j < item_list.length; j++) {
             data.push({
                 name: item_list[j].book_name,
-                link: "https://raudo.nhimmeo.cf" + item_list[j].book_id,
+                link: "https://raudo.nhimmeo.cf/site/" + url +"/" + item_list[j].book_id,
                 cover: item_list[j].cover_img,
                 description: item_list[j].author,
                 host: "https://raudo.nhimmeo.cf"
