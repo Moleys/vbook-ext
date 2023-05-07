@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        { title: "metruyencv", input: "metruyencv", script: "gen.js" },
+        { title: "truyencv", input: "truyencv", script: "gen.js" },
         { title: "tangthuvien", input: "tangthuvien", script: "gen.js" },
         { title: "wattpad", input: "wattpad", script: "gen.js" },
         { title: "html5qq", input: "html5qq", script: "gen.js" },
