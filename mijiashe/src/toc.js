@@ -1,5 +1,5 @@
 function execute(url) {
-	url = url.replace('m.mijiashe.com', 'www.mijiashe.com');
+	url = url.replace('m.38kanshu.com', 'www.38kanshu.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -10,8 +10,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url:"http://www.mijiashe.com" + e.attr("href"),
-                host: "http://www.mijiashe.com"
+                url:"http://www.38kanshu.com" + e.attr("href"),
+                host: "http://www.38kanshu.com"
             })
         }
         return Response.success(data);

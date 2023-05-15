@@ -2,9 +2,9 @@
   "metadata": {
     "name": "mijiashe",
     "author": "Moleys",
-    "version": 5,
-    "source": "http://www.mijiashe.com",
-    "regexp": "(www.|m.)?mijiashe.com/\\d+/?$",
+    "version": 6,
+    "source": "http://www.38kanshu.com",
+    "regexp": "(www.|m.)?38kanshu.com/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.mijiashe.com",
     "locale": "zh_CN",
     "language": "javascript",

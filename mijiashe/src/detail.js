@@ -1,12 +1,12 @@
 function execute(url) {
-    url = url.replace('m.mijiashe.com', 'www.mijiashe.com');
+    url = url.replace('m.38kanshu.com', 'www.38kanshu.com');
     let response = fetch(url);
     if (response.ok) {
 
         let doc = response.html();
         let coverImg = doc.select("#fmimg img").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "https://www.mijiashe.com" + coverImg;
+            coverImg = "https://www.38kanshu.com" + coverImg;
         }
         let detail = doc.select("#info").first()
         let author = detail.select("p").first().text().replace(/作\s*者：/g, "").replace("作 者:","").trim()
@@ -21,7 +21,7 @@ function execute(url) {
             author: author,
             description: description.html(),
             detail: detail.html().replace(/\&nbsp;/g, ""),
-            host: "https://www.mijiashe.com"
+            host: "https://www.38kanshu.com"
         });
     }
     return null;

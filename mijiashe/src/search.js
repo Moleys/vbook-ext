@@ -1,5 +1,5 @@
 function execute(key, page) {
-    let response = fetch('https://www.mijiashe.com/search/', {
+    let response = fetch('https://www.38kanshu.com/search/', {
         method: "GET",
         queries: {
             searchkey : key,
@@ -15,7 +15,7 @@ function execute(key, page) {
                 name: e.select("td a").first().text(),
                 link: e.select("td a").first().attr("href"),
                 description: e.select("td.xs-hidden").first().text().replace(/\//g,"").trim(),
-                host: "https://www.mijiashe.com"
+                host: "https://www.38kanshu.com"
             })
         });
 

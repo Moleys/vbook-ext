@@ -3,10 +3,8 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let htm = doc.select(".wz-nr").html();
-        if(htm.length === 0){
-            htm = doc.select(".bzmtit").html();
-        }
+        let htm = doc.select(".co-by").html();
+
         htm = htm.replace(/Fxsw.org/g, "");
         return Response.success(htm);
     }
