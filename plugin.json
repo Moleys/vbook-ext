@@ -980,17 +980,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Fanqie] Cachua",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cachua/plugin.zip",
-      "version": 5,
-      "source": "http://cachua.cf",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/cachua/icon.png",
-      "description": "Đọc truyện trên trang https://cachua.cf",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "readwn",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readwn/plugin.zip",
