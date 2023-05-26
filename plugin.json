@@ -957,10 +957,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[soruncg] Bút thú các",
+      "name": "Bút thú các App",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/plugin.zip",
-      "version": 4,
+      "version": 5,
       "source": "http://www.soruncg.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/soruncg2/icon.png",
       "description": "Đọc truyện trên trang http://www.soruncg.com",
