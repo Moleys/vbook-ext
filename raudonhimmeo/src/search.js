@@ -1,5 +1,5 @@
 function execute(key, page) {
-    let site = ["tangthuvien", "metruyencv", "wattpad", "html5qq", "fanqienovel", "69shu", "jiaston"];
+    let site = ["tangthuvien", "truyencv", "wattpad", "html5qq", "69shu", "jiaston"];
     let i = 0, z = 3;
     const data = [];
     if (key.match(/[\u4E00-\u9FFF]/g) !== null) {
