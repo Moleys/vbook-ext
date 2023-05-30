@@ -9,7 +9,8 @@ function execute(url) {
             let doc = response.html();
             doc.select("script").remove();
             doc.select(".adsbygoogle").remove();
-            doc.select(".adBlock").remove();
+            doc.select(".gadBlock").remove();
+            doc.select(".adUnit").remove();
             let htm = doc.select(".content").html();
             htm = htm.replace(/\&nbsp;/g, "");
             next = doc.select("a:contains(下一章)").first().attr("href").replace(".html","");
