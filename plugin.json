@@ -25,7 +25,7 @@
       "description": "Đọc truyện trên trang https://trxs.me",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }, 
+    },
     {
       "name": "biduoxs",
       "author": "Moleys",
@@ -36,8 +36,8 @@
       "description": "Đọc truyện trên trang https://www.biduoxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },  
-    {	
+    },
+    {
       "name": "biqugeabc",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/plugin.zip",
@@ -672,7 +672,7 @@
       "name": "52shuku",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/52shuku/plugin.zip",
-      "version": 5,
+      "version": 6,
       "source": "https://www.52shuku.vip",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/52shuku/icon.png",
       "description": "Đọc truyện trên trang https://www.52shuku.vip",
@@ -815,7 +815,7 @@
       "name": "novel543",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novel543/plugin.zip",
-      "version": 3,
+      "version": 4,
       "source": "https://www.novel543.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/novel543/icon.png",
       "description": "Đọc truyện trên trang https://www.novel543.com",
