@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Legado",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://github.com/gedoor/legado",
+    "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):1122/(.*?)",
+    "description": "Đọc truyện qua app Legado",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}
