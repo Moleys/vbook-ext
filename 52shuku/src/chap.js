@@ -2,14 +2,17 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        doc.select("lineCorrect").remove();
-        let htm = doc.select("#text").html()
+        doc.select("#lineCorrect").remove();
+        doc.select("span").remove();
+        doc.select("p").last().remove();
+        let htm = doc.select(".article-content p").html().replace("Tips：如果觉得52书库不错，记得收藏网址 www.52shuku.vip 或推荐给朋友哦~拜托啦",'');
         return Response.success(cleanHtml(htm));
     }
     return null;
 }
 
 function cleanHtml(html) {
+
     // replace p tags with empty string
     html = html.replace(/<\/?p>/g, "");
     // replace a tags with empty string
