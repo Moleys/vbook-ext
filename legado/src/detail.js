@@ -1,6 +1,5 @@
 
 function execute(url) {
-    let host = "http://192.168.0.102:1122"
     let book_url = decodeURIComponent(url.split("/getChapterList?url=")[1])
 
     if (typeof host === "undefined")
