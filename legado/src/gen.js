@@ -1,7 +1,7 @@
 function execute(url, page) {
 if (typeof host === "undefined")
     {
-        return Response.error("Bật web service ở app Legado, thêm mã bổ sung [let host = 'http://192.168.0.168:1122'] (sửa url lại cho đúng, không có dấu [] )");
+        return Response.error("Bật web service ở app Legado, thêm mã bổ sung: [let host = 'http://192.168.0.168:1122'] (sửa url lại cho đúng, không có dấu [] ), tắt DNS over HTTPS");
 
     }
     else
