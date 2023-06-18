@@ -1,5 +1,5 @@
 function execute(url) {
-	// let host = 'http://192.168.0.102:1122'
+	// let host = 'http://192.168.0.104:1122'
 	let book_url = decodeURIComponent(url.split("/getChapterList?url=")[1].split("&type=")[0])
 
 	if (typeof host === "undefined")
@@ -14,7 +14,7 @@ function execute(url) {
 				let book_info;
 
 				for (let i = 0; i < book_list.length; i++) {
-					if (decodeURIComponent(book_list[i].bookUrl) == book_url) {
+					if (decodeURIComponent(book_list[i].bookUrl).includes(book_url)) {
 						book_info = book_list[i];
 						break;
 					}
@@ -24,7 +24,7 @@ function execute(url) {
 				let type_book = (url.includes("&type=comic")) ? "comic" : "chinese_novel";
 				return Response.success({
 					name: book_info.name || "Lorem ipsum",
-					cover: "http://192.168.0.102:1122/cover?path="+ book_info.coverUrl,
+					cover: host + "/cover?path="+ book_info.coverUrl,
 					author: book_info.author || "Unknown",
 					description: (book_info.intro || "").replace(/\r\n/g, "<br>"),
 					detail: "作者：" + book_info.author + "<br>" + (book_info.kind || ""),

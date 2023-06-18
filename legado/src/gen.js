@@ -1,5 +1,5 @@
 function execute(url, page) {
-	// let host = 'http://192.168.0.102:1122'
+	// let host = 'http://192.168.0.104:1122'
 
 	if (typeof host === "undefined") {
 		return Response.error("Bật web service ở app Legado, thêm mã bổ sung: [let host = 'http://192.168.0.168:1122'] (sửa url lại cho đúng, không có dấu [] ), tắt DNS over HTTPS, chi tiết xem Hướng dẫn Legado ở THẢO LUẬN.");
@@ -16,7 +16,7 @@ function execute(url, page) {
 					name: e.name,
 					link: host + "/getChapterList?url=" + e.bookUrl + type_book,
                     bookUrl: e.bookUrl,
-					cover: "http://192.168.0.102:1122/cover?path=" + e.coverUrl,
+					cover: host + "/cover?path=" + e.coverUrl,
 					description: e.author,
 					host: host
 				})

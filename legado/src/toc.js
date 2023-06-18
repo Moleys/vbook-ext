@@ -1,5 +1,5 @@
 function execute(url) {
-	// let host = 'http://192.168.0.102:1122'
+	// let host = 'http://192.168.0.104:1122'
 	let book_url = encodeURIComponent(url.split("/getChapterList?url=")[1].split("&type=")[0])
     console.log(host + "/getChapterList?url=" + book_url)
 	let response_chapter_list = fetch(host + "/getChapterList?url=" + book_url)
