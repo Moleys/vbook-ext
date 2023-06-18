@@ -10,16 +10,7 @@ function execute(url) {
 			try {
 				let json = response.json();
 				let book_list = json.data;
-				// let book_info = book_list.find(obj => obj.bookUrl === book_url);
-				let book_info;
-
-				for (let i = 0; i < book_list.length; i++) {
-					if (decodeURIComponent(book_list[i].bookUrl).includes(book_url)) {
-						book_info = book_list[i];
-						break;
-					}
-				}
-
+				let book_info = book_list.find(obj => obj.bookUrl.includes(book_url));
 				console.log(JSON.stringify(book_info))
 				let type_book = (url.includes("&type=comic")) ? "comic" : "chinese_novel";
 				return Response.success({
