@@ -1,5 +1,5 @@
 function execute(url) {
-	// let host = 'http://192.168.0.104:1122'
+	// let host = 'http://192.168.0.102:1122'
 	let book_url = decodeURIComponent(url.split("/getChapterList?url=")[1].split("&type=")[0])
 
 	if (typeof host === "undefined")
@@ -18,7 +18,7 @@ function execute(url) {
 					cover: host + "/cover?path="+ book_info.coverUrl,
 					author: book_info.author || "Unknown",
 					description: (book_info.intro || "").replace(/\r\n/g, "<br>"),
-					detail: "作者：" + book_info.author + "<br>" + (book_info.kind || ""),
+					detail: !book_info.author ? "" :"作者：" + book_info.author + "<br>" + (book_info.kind || ""),
 					host: host,
 					type: type_book
 				});
