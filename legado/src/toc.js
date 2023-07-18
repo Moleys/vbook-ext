@@ -1,5 +1,5 @@
 function execute(url) {
-	// let host = 'http://192.168.0.104:1122'
+	// let host = 'http://192.168.0.102:1122'
 	let book_url = decodeURIComponent(url.split("/getChapterList?url=")[1].split("&type=")[0])
     console.log(host + "/getChapterList?url=" + book_url)
     let response = fetch(host + "/getBookshelf")
@@ -7,7 +7,8 @@ function execute(url) {
         let json = response.json();
         let book_list = json.data;
         let book_info = book_list.find(obj => obj.bookUrl.includes(book_url));
-        let response_chapter_list = fetch(host + "/getChapterList?url=" + book_info.bookUrl)
+        let book_url2 = encodeURIComponent(book_info.bookUrl)
+        let response_chapter_list = fetch(host + "/getChapterList?url=" + book_url2)
         if (response_chapter_list.ok) {
             let json = response_chapter_list.json();
             let chapter_list = json.data;
