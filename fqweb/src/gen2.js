@@ -2,7 +2,7 @@ load('config.js');
 function execute(url, page) {
     if (!page) page = 1
     url = url.replace('{{page}}', page);
-    let response = fetch(host + url);
+    let response = fetch(config_host + url);
     if (response.ok) {
         let doc = response.json();
         let rows = doc.data.data.book_info
@@ -10,10 +10,10 @@ function execute(url, page) {
         rows.forEach(e => {
             data.push({
                 name: e.book_name,
-                link: host + "/info?book_id=" + e.book_id,
+                link: config_host + "/info?book_id=" + e.book_id,
                 cover: e.thumb_url,
                 description: e.author,
-                host: host
+                host: config_host
             })
         });
         let next = parseInt(page, 10) + 1

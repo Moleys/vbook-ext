@@ -1,7 +1,7 @@
 load('config.js');
 function execute(url) {
     let book_id = url.split("book_id=")[1]
-    let response = fetch(host + "/info?book_id=" + book_id)
+    let response = fetch(config_host + "/info?book_id=" + book_id)
     if (response.ok) {
         try {
             let json = response.json();

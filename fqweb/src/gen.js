@@ -11,7 +11,7 @@ function execute(url, page) {
             if (e.bookName)
                 data.push({
                     name: e.bookName,
-                    link: host + "/info?book_id=" + e.bookId,
+                    link: config_host + "/info?book_id=" + e.bookId,
                     cover: e.thumbUri,
                     description: e.author,
                 })
