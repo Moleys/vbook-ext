@@ -2,16 +2,16 @@
   "metadata": {
     "name": "FQWeb",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://telegra.ph/FQWeb-07-18",
-    "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)",
+    "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)|http://localhost:9999.*?",
     "description": "Đọc truyện qua app Fanqie, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
   },
   "script": {
-    "home": "home2.js",
+    "home": "home.js",
     "detail": "detail.js",
     "genre": "genre.js",
     "toc": "toc.js",

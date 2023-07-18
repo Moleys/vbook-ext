@@ -1,5 +1,5 @@
+load('config.js');
 function execute(key, page) {
-	// let host = "https://workout-assign-nation-remains.trycloudflare.com"
     if(!page) page =1
 	let response = fetch(host + "/search?query="+key+"&page="+page)
 	if (response.ok) {
