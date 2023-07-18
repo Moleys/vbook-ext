@@ -1,5 +1,5 @@
+load('config.js');
 function execute(url) {
-	// let host = 'https://workout-assign-nation-remains.trycloudflare.com'
 	let book_id = url.split("book_id=")[1]
 	let response = fetch(host + "/catalog?book_id=" + book_id)
     if (response.ok) {
@@ -9,8 +9,7 @@ function execute(url) {
         chapter_list.forEach((e) => {
             data.push({
                 name: e.title,
-                url: host + "/content?item_id=" + e.item_id,
-                host: host
+                url: host + "/content?item_id=" + e.item_id
             })
         });
         return Response.success(data)
