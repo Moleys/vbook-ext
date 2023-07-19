@@ -20,7 +20,7 @@ function execute(key, page) {
             }
 		});
         let next = parseInt(page,10) +1
-        return Response.success(data, next)
+        return Response.success(data, next.toString());
 	}
 	return null;
 }
