@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Legado",
     "author": "Moleys",
-    "version": 10,
+    "version": 11,
     "source": "https://github.com/gedoor/legado",
-    "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):1122/(.*?)",
+    "regexp": "((\\d+)[.](\\d+)[.](\\d+)[.](\\d+)|localhost):1122/(.*?)",
     "description": "Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
     "locale": "zh_CN",
     "language": "javascript",

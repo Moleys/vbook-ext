@@ -1,11 +1,12 @@
+load('config.js');
 function execute(url) {
-	// let host = 'http://192.168.0.102:1122'
+	// let config_host = 'http://192.168.0.102:1122'
 	let book_url = decodeURIComponent(url.split("/getChapterList?url=")[1].split("&type=")[0])
 
-	if (typeof host === "undefined")
+	if (typeof config_host === "undefined")
 		return Response.error(book_url);
 	else {
-		let response = fetch(host + "/getBookshelf")
+		let response = fetch(config_host + "/getBookshelf")
 		if (response.ok) {
 			try {
 				let json = response.json();
@@ -15,11 +16,11 @@ function execute(url) {
 				let type_book = (url.includes("&type=comic")) ? "comic" : "chinese_novel";
 				return Response.success({
 					name: book_info.name || "Lorem ipsum",
-					cover: host + "/cover?path="+ book_info.coverUrl,
+					cover: config_host + "/cover?path="+ book_info.coverUrl,
 					author: book_info.author || "Unknown",
 					description: (book_info.intro || "").replace(/\r\n/g, "<br>"),
 					detail: !book_info.author ? "" :"作者：" + book_info.author + "<br>" + (book_info.kind || ""),
-					host: host,
+					host: config_host,
 					type: type_book
 				});
 			} catch (error) {
