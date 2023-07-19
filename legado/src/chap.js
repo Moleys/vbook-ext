@@ -1,9 +1,8 @@
-
+load('config.js');
 function execute(url) {
-    // let host = 'http://192.168.0.102:1122'
     if(url.includes("&type=comic")) {
         let url_chap = url.split("/getBookContent")[1]
-        let response_chapter_info = fetch(host + "/getBookContent" + url_chap)
+        let response_chapter_info = fetch(config_host + "/getBookContent" + url_chap)
         if (response_chapter_info.ok) {
             let json = response_chapter_info.json();
             let data = []
@@ -16,7 +15,7 @@ function execute(url) {
     }
     else {
         let url_chap = url.split("/getBookContent")[1]
-        let response_chapter_info = fetch(host + "/getBookContent" + url_chap)
+        let response_chapter_info = fetch(config_host + "/getBookContent" + url_chap)
         if (response_chapter_info.ok) {
             let json = response_chapter_info.json();
             let chapter_info = json.data.replace(/<br\s*\/?>|\n/g, "<br><br>");

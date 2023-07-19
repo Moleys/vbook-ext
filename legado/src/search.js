@@ -1,6 +1,7 @@
+load('config.js');
 function execute(key, page) {
-	// let host = "http://192.168.0.102:1122"
-	let response = fetch(host + "/getBookshelf")
+	// let config_host = "http://192.168.0.102:1122"
+	let response = fetch(config_host + "/getBookshelf")
 	if (response.ok) {
 		let doc = response.json();
 		let item_list = doc.data
@@ -10,10 +11,10 @@ function execute(key, page) {
 			if (name.includes(key))
 				data.push({
 					name: name,
-					link: host + "/getChapterList?url=" + e.bookUrl,
+					link: config_host + "/getChapterList?url=" + e.bookUrl,
 					cover: e.coverUrl,
 					description: e.author,
-					host: host
+					host: config_host
 				})
 		});
 		return Response.success(data)
