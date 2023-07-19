@@ -16,14 +16,21 @@ function execute(url) {
                 })
             });
             let last_chapter_update_time = book_info.last_chapter_update_time
-            let last_chapter_update_time_string = formatChineseDate(last_chapter_update_time);
+            let last_chapter_update_time_string = formatChineseDate(last_chapter_update_time)
+            let serial_count = book_info.serial_count
+            let last_chapter_title = book_info.last_chapter_title
+            let read_count = book_info.read_count
+            let word_number = book_info.word_number
+            
+            let ongoing = (book_info.status == '1') ? false : true
             return Response.success({
                 name: book_info.book_name,
                 cover: book_info.thumb_url,
                 author: book_info.author,
                 description: book_info.abstract.replace(/\n/g, "<br>"),
                 genres: genres,
-                detail: "作者：" + book_info.author + "<br>" + last_chapter_update_time_string,
+                detail: `作者: ${book_info.author}<br>章节数: ${serial_count}<br>字数: ${word_number}<br>查看次数: ${read_count}<br>更新: ${last_chapter_update_time_string}<br>最后更新: ${last_chapter_title}`,
+                ongoing: ongoing
             });
         } catch (error) {
             return Response.error(error);
@@ -38,5 +45,5 @@ function formatChineseDate(timestamp) {
     const day = date.getDate();
     const hours = date.getHours();
     const minutes = date.getMinutes();
-    return `${year}年${month}月${day}日 ${hours}时${minutes}分`;
+    return `${day}/${month}/${year} ${hours}:${minutes}`;
 }
