@@ -22,7 +22,7 @@ function execute(url) {
             let read_count = book_info.read_count
             let word_number = book_info.word_number
             let score = book_info.score
-            let ongoing = (book_info.creation_status == '1') ? false : true
+            let ongoing = (book_info.creation_status == '1') ? true : false
             return Response.success({
                 name: book_info.book_name,
                 cover: book_info.thumb_url,
