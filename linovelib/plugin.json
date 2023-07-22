@@ -2,7 +2,7 @@
   "metadata": {
     "name": "linovelib 📖",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://w.linovelib.com",
     "regexp": "w.linovelib.com/novel/\\d+.html",
     "description": "Đọc truyện trên trang https://w.linovelib.com",
