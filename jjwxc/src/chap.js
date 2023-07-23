@@ -22,7 +22,13 @@ function execute(url) {
                     let chapterIntro = res_json1.chapterIntro
                     let sayBody = ""
                     if (typeof intro !== "undefined") {
-                        sayBody = (intro == 1) ? res_json1.sayBody : ""
+                        // sayBody = (intro == 1) ? res_json1.sayBody : ""
+                        if (intro == "on") {
+                            sayBody = res_json1.sayBody
+                        }
+                        else {
+                            sayBody = ""
+                        }
                     }
                     let chap_content = res_json1.content
                     chap_content = decryptContent(chap_content)
@@ -42,7 +48,13 @@ function execute(url) {
             let chapterIntro = res_json.chapterIntro
             let sayBody = ""
             if (typeof intro !== "undefined") {
-                sayBody = (intro == 1) ? res_json.sayBody : ""
+                // sayBody = (intro == 1) ? res_json1.sayBody : ""
+                if (intro == "on") {
+                    sayBody = res_json.sayBody
+                }
+                else {
+                    sayBody = ""
+                }
             }
             let chap_content = res_json.content
             return Response.success(getConent(chap_content,sayBody,chapterIntro));
