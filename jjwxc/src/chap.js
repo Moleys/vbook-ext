@@ -21,13 +21,14 @@ function execute(url) {
                 else {
                     let chapterIntro = res_json1.chapterIntro
                     let sayBody = ""
-                    if (intro == "on") {
-                        sayBody = res_json1.sayBody
-                    }
-                    else {
-                        sayBody = ""
-                    }
-                    
+                    try {
+                        if (intro == "on") {
+                            sayBody = res_json1.sayBody
+                        }
+                        else {
+                            sayBody = ""
+                        }
+                    } catch (error) {}
                     let chap_content = res_json1.content
                     chap_content = decryptContent(chap_content)
                     chap_content = getConent(chap_content,sayBody,chapterIntro);
@@ -45,14 +46,14 @@ function execute(url) {
             let res_json = response.json();
             let chapterIntro = res_json.chapterIntro
             let sayBody = ""
- 
-            if (intro == "on") {
-                sayBody = res_json.sayBody
-            }
-            else {
-                sayBody = ""
-            }
-            
+            try {
+                if (intro == "on") {
+                    sayBody = res_json.sayBody
+                }
+                else {
+                    sayBody = ""
+                }
+            } catch (error) {}
             let chap_content = res_json.content
             return Response.success(getConent(chap_content,sayBody,chapterIntro));
         }
