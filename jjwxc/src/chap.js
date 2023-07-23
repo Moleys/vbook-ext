@@ -21,6 +21,9 @@ function execute(url) {
                 else {
                     let chapterIntro = res_json1.chapterIntro
                     let sayBody = res_json1.sayBody
+                    if (typeof intro !== "undefined") {
+                        sayBody = (intro == 1) ? sayBody : ""
+                    }
                     let chap_content = res_json1.content
                     chap_content = decryptContent(chap_content)
                     chap_content = getConent(chap_content,sayBody,chapterIntro);
@@ -38,6 +41,9 @@ function execute(url) {
             let res_json = response.json();
             let chapterIntro = res_json.chapterIntro
             let sayBody = res_json.sayBody
+            if (typeof intro !== "undefined") {
+                sayBody = (intro == 1) ? sayBody : ""
+            }
             let chap_content = res_json.content
             return Response.success(getConent(chap_content,sayBody,chapterIntro));
         }
@@ -63,10 +69,10 @@ function decryptContent(content) {
 function getConent(chap_content, sayBody,chapterIntro) {
     chap_content = chap_content.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/\n　　/g,"<br>").replace(/<br><br>/g, "<br>");
     if(sayBody.trim().length>0){
-        chap_content = chap_content + "<br>••••••••<br>" + sayBody.replace(/\r\n/g,"<br>")
+        chap_content = chap_content + "<br>••••••••<br>作者留言：<br>" + sayBody.replace(/\r\n/g,"<br>")
     }
     if(chapterIntro.trim().length>0){
-        chap_content = chapterIntro.replace(/\r\n/g,"<br>") + "<br>••••••••<br>" + chap_content
+        chap_content = chapterIntro.replace(/\r\n/g,"<br>") + "内容提要：<br>••••••••<br>" + chap_content
     }
     return chap_content;
 }
