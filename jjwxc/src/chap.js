@@ -22,7 +22,7 @@ function execute(url) {
                     let chapterIntro = res_json1.chapterIntro
                     let sayBody = ""
                     try {
-                        if (intro == "on") {
+                        if (intro === "on") {
                             sayBody = res_json1.sayBody
                         }
                         else {
@@ -47,7 +47,7 @@ function execute(url) {
             let chapterIntro = res_json.chapterIntro
             let sayBody = ""
             try {
-                if (intro == "on") {
+                if (intro === "on") {
                     sayBody = res_json.sayBody
                 }
                 else {
