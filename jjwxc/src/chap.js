@@ -19,10 +19,11 @@ function execute(url) {
                     return Response.success(html1);
                 }
                 else {
+                    let chapterIntro = res_json1.chapterIntro
                     let sayBody = res_json1.sayBody
                     let chap_content = res_json1.content
                     chap_content = decryptContent(chap_content)
-                    chap_content = getConent(chap_content,sayBody);
+                    chap_content = getConent(chap_content,sayBody,chapterIntro);
                     return Response.success(chap_content);             
                 }
             }
@@ -35,9 +36,10 @@ function execute(url) {
         let response = fetch(url);
         if (response.ok) {
             let res_json = response.json();
+            let chapterIntro = res_json1.chapterIntro
             let sayBody = res_json.sayBody
             let chap_content = res_json.content
-            return Response.success(getConent(chap_content,sayBody));
+            return Response.success(getConent(chap_content,sayBody,chapterIntro));
         }
     }
 }
@@ -58,10 +60,13 @@ function decryptContent(content) {
     return decrypted.toString(CryptoJS.enc.Utf8);
 }
 
-function getConent(chap_content, sayBody) {
+function getConent(chap_content, sayBody,chapterIntro) {
     chap_content = chap_content.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/\n　　/g,"<br>").replace(/<br><br>/g, "<br>");
-    if(sayBody.length>0){
-        chap_content = chap_content + "<br>-------------<br>" + sayBody.replace(/\r\n/g,"<br>")
+    if(sayBody.trim().length>0){
+        chap_content = chap_content + "<br>••••••••<br>" + sayBody.replace(/\r\n/g,"<br>")
+    }
+    if(chapterIntro.trim().length>0){
+        chap_content = chapterIntro.replace(/\r\n/g,"<br>") + "<br>••••••••<br>" + chap_content
     }
     return chap_content;
 }
