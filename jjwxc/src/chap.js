@@ -36,7 +36,7 @@ function execute(url) {
         let response = fetch(url);
         if (response.ok) {
             let res_json = response.json();
-            let chapterIntro = res_json1.chapterIntro
+            let chapterIntro = res_json.chapterIntro
             let sayBody = res_json.sayBody
             let chap_content = res_json.content
             return Response.success(getConent(chap_content,sayBody,chapterIntro));
