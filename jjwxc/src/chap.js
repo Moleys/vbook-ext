@@ -19,16 +19,11 @@ function execute(url) {
                     return Response.success(html1);
                 }
                 else {
-                    let chapterIntro = res_json1.chapterIntro
-                    let sayBody = ""
-                    try {
-                        if (intro === "on") {
-                            sayBody = res_json1.sayBody
-                        }
-                        else {
-                            sayBody = ""
-                        }
-                    } catch (error) {}
+                    let chapterIntro = ""
+                    let sayBody = res_json1.sayBody
+                    if (typeof intro !== "undefined") {
+                        chapterIntro = (intro == 1) ? res_json1.chapterIntro : ""
+                    }
                     let chap_content = res_json1.content
                     chap_content = decryptContent(chap_content)
                     chap_content = getConent(chap_content,sayBody,chapterIntro);
@@ -44,16 +39,11 @@ function execute(url) {
         let response = fetch(url);
         if (response.ok) {
             let res_json = response.json();
-            let chapterIntro = res_json.chapterIntro
-            let sayBody = ""
-            try {
-                if (intro === "on") {
-                    sayBody = res_json.sayBody
-                }
-                else {
-                    sayBody = ""
-                }
-            } catch (error) {}
+            let chapterIntro = ""
+            let sayBody = res_json.sayBody
+            if (typeof intro !== "undefined") {
+                chapterIntro = (intro == 1) ? res_json.chapterIntro : ""
+            }
             let chap_content = res_json.content
             return Response.success(getConent(chap_content,sayBody,chapterIntro));
         }
