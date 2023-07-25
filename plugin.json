@@ -924,17 +924,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "jiaston",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jiaston/plugin.zip",
-      "version": 1,
-      "source": "https://scxs.pigqq.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jiaston/icon.png",
-      "description": "Đọc truyện trên trang jiaston",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "[Ciweimao] Nhimmeo 💰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo/plugin.zip",
