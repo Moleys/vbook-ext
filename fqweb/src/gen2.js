@@ -2,7 +2,7 @@ load('config.js');
 function execute(url, page) {
     if (!page) page = 1
     url = url.replace('{{page}}', page);
-    let response = fetch(config_host + url);
+    let response = fetch(config_host2 + url);
     if (response.ok) {
         let doc = response.json();
         let rows = doc.data.data.book_info

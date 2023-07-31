@@ -1,7 +1,7 @@
 load('config.js');
 function execute(key, page) {
     if(!page) page =1
-	let response = fetch(config_host + "/search?query="+key+"&page="+page)
+	let response = fetch(config_host2 + "/search?query="+key+"&page="+page)
 	if (response.ok) {
 		let doc = response.json();
 		let item_list = doc.data.search_tabs[0].data

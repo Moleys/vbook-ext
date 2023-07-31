@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Fanqie] FQWeb",
     "author": "Moleys",
-    "version": 9,
+    "version": 10,
     "source": "https://telegra.ph/FQWeb-07-18",
     "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)|localhost:9999/info(.*?)|api.api-fanqienovel.sunianyun.live/info(.*?)",
     "description": "Đọc truyện qua app Fanqie, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
