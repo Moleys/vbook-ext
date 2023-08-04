@@ -1,6 +1,8 @@
 load('config.js');
 function execute(url) {
-    let book_id = url.split("book_id=")[1]
+    const regex = /(?:book_id=|\/)(\d+)$/;
+    let book_id = url1.match(regex)?.[1];
+    // let book_id = url.split("book_id=")[1]
     let response = fetch(config_host2 + "/info?book_id=" + book_id)
     if (response.ok) {
         try {
