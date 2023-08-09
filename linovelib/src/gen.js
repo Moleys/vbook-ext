@@ -11,7 +11,7 @@ function execute(url, page) {
                     name: name,
                     link: e.select("a").first().attr("href"),
                     description: e.select(".book-author").first().text().split("作者 ")[1],
-                    cover: e.select("img.book-cover").first().attr("data-original"),
+                    cover: e.select("img.book-cover").first().attr("data-src"),
                     host: "http://w.linovelib.com"
                 })
             }
