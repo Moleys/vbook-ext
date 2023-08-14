@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Ciweimao] sv2 Nhimmeo 💰",
     "author": "Moleys",
-    "version": 8,
+    "version": 9,
     "source": "https://sv2.nhimmeo.cf",
     "regexp": "sv2.nhimmeo.cf/(book|detail)/(\\d+)",
     "description": "Đọc truyện trên trang https://sv2.nhimmeo.cf",
