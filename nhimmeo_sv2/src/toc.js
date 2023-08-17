@@ -4,7 +4,7 @@ function execute(url) {
         url = url.slice(0, -1);  
     const data = [];
     let book_id = url.split(/[/ ]+/).pop();
-    let url_division = "https://sv2.nhimmeo.cf/api/catalog.php?q=" + book_id;
+    let url_division = "https://sv2.nhimmeo.ovh/api/catalog.php?q=" + book_id;
     let response_chapter_list = fetch(url_division)
     if (response_chapter_list.ok) {
         let text_encrypt = response_chapter_list.json();
@@ -18,8 +18,8 @@ function execute(url) {
                 }
                 data.push({
                     name: name,
-                    url: "https://sv2.nhimmeo.cf/chap/" + e.chapter_id,
-                    host: "https://sv2.nhimmeo.cf"
+                    url: "https://sv2.nhimmeo.ovh/chap/" + e.chapter_id,
+                    host: "https://sv2.nhimmeo.ovh"
                 })
 			}); 
         });

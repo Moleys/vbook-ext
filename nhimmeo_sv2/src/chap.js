@@ -3,7 +3,7 @@ function execute(url) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1);
     let chapter_id = url.split(/[/ ]+/).pop();
-    url = "https://sv2.nhimmeo.cf/api/chap.php?q=" + chapter_id;
+    url = "https://sv2.nhimmeo.ovh/api/chap.php?q=" + chapter_id;
     let response_chapter_info = fetch(url)
     if (response_chapter_info.ok) {
 		let text_encrypt_chapter_info = response_chapter_info.json();

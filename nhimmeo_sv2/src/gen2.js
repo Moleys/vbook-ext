@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let url1 = "https://sv2.nhimmeo.cf/userchap/" + page;
+    let url1 = "https://sv2.nhimmeo.ovh/userchap/" + page;
     let response = fetch(url1);
     if (response.ok) {
             let doc = response.html();
@@ -10,10 +10,10 @@ function execute(url, page) {
                 var e = el.get(i);
                 data.push({
                     name: e.select("h5").text(),
-                    link: "https://sv2.nhimmeo.cf" + e.select("a").attr("href"),
+                    link: "https://sv2.nhimmeo.ovh" + e.select("a").attr("href"),
                     cover:  e.select("img").attr("data-src"),
                     description: e.select("p").text(),
-                    host: "https://sv2.nhimmeo.cf"
+                    host: "https://sv2.nhimmeo.ovh"
                 });
             }
 

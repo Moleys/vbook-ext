@@ -3,7 +3,7 @@ function execute(url) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1);
     let book_id = url.split(/[/ ]+/).pop();
-    url = "https://sv2.nhimmeo.cf/api/detail.php?q=" + book_id;
+    url = "https://sv2.nhimmeo.ovh/api/detail.php?q=" + book_id;
     let response = fetch(url)
     if (response.ok) {
         const data = [];
