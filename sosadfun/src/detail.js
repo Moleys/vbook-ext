@@ -1,5 +1,7 @@
+load('config.js');
+
 function execute(url) {
-    url = url.replace('m.sosadfun.org', 'www.sosadfun.org');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -14,7 +16,7 @@ function execute(url) {
             author: author,
             description: doc.select("#intro").text(),
             detail: detail.html(),
-            host: "http://www.sosadfun.org"
+            host: BASE_URL
         });
     }
     return null;

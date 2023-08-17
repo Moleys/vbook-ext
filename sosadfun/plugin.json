@@ -2,10 +2,10 @@
   "metadata": {
     "name": "sosadfun",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://www.sosadfun.org",
-    "regexp": "(www.|m.)?sosadfun.org/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.sosadfun.org",
+    "version": 2,
+    "source": "http://www.nosadfun.com",
+    "regexp": "(www.|m.)?(sosadfun.org|nosadfun.com)/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.nosadfun.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

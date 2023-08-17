@@ -1,6 +1,8 @@
+load('config.js');
+
 function execute(key, page) {
     if(!page) page = '1';
-    let response = fetch('https://www.sosadfun.org/search/'+key+"/"+page);
+    let response = fetch(BASE_URL+'/search/'+key+"/"+page);
 
     if (response.ok) {
         let doc = response.html();
@@ -12,7 +14,7 @@ function execute(key, page) {
                 name: e.select("a.g").first().attr("title"),
                 link: e.select("a").get(1).attr("href"),
                 description: e.select("a").last().text(),
-                host: "https://www.sosadfun.org"
+                host: BASE_URL
             })
         });
 
