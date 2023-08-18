@@ -2,7 +2,7 @@
   "metadata": {
     "name": "sosadfun",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.nosadfun.com",
     "regexp": "(www.|m.)?(sosadfun.org|nosadfun.com)/(b|book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.nosadfun.com",

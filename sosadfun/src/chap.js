@@ -8,11 +8,11 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         // 1/2 text đầu không bị mã hóa
-        let htm = doc.select("#C0NTENT");
+        let htm = doc.select(".RBGsectionThree-content");
         htm.select("p[style=\"color:red;\"]").remove();
-        htm = htm.html().replace("<p>收藏网址：www.sosadfun.orgm<\/p>","").replace("<p>(＞人＜；)<\/p>","");
+        htm = htm.html().replace("<p>收藏网址：www.nosadfun.com<\/p>","").replace("<p>(＞人＜；)<\/p>","");
         //1/2 text sau không bị mã hóa
-        let text0 = doc.select("script").html().split("$('#C0NTENT').html(d(\"")[1];
+        let text0 = doc.select("script").html().split(").html(d(\"")[1];
         let a = text0.split("\", \"")[0].trim().replace(/\\/g,"");
         let b = text0.split("\", \"")[1].split("\"));")[0].trim();
 
