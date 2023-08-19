@@ -2,7 +2,7 @@
   "metadata": {
     "name": "linovel 📖💰❌",
     "author": "Moleys",
-    "version": 2,
+    "version": 4,
     "source": "https://www.linovel.net",
     "regexp": "(www.|m.)?linovel.net/book/\\d+.html",
     "description": "Đọc truyện trên trang https://www.linovel.net",
