@@ -1,17 +1,17 @@
-load('config.js');
 function execute(url) {
-    let item_id = url.split("item_id=")[1]
-    url = config_host2 + "/content?item_id=" + item_id
-
-    let response_chapter_info = fetch(url)
-    if (response_chapter_info.ok) {
-        let json = response_chapter_info.json();
-        let chapter_info = json.data.data.content.replace(/<br\s*\/?>|\n/g, "<br><br>");
-        return Response.success(chapter_info);
+    let chapid = url.split("item_id=")[1]
+    let newurl = "https://novel.snssdk.com/api/novel/book/reader/full/v1/?group_id=" + chapid + "&item_id=" + chapid + "&aid=2329"
+    let response = fetch(newurl, {
+        headers: {
+            'user-agent': UserAgent.android()
+        }
+    });
+    if (response.ok) {
+        let res_json = response.json();
+        let dataa = res_json.data.content;  
+        var doc = Html.parse(dataa);
+        var content = doc.select('article').html();
+        return Response.success(content);
     }
-    return Response.error("Kiểm tra lại app Fanqie");
-
-
-
+    return null;
 }
-
