@@ -1035,13 +1035,13 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Fanqie] FQWeb",
+      "name": "[Fanqie] Cachua",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb/plugin.zip",
-      "version": 15,
-      "source": "https://telegra.ph/FQWeb-07-18",
+      "version": 16,
+      "source": "https://fanqienovel.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb/icon.png",
-      "description": "Đọc truyện qua app Fanqie",
+      "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }

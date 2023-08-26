@@ -1,1314 +1,366 @@
 function execute() {
     return Response.success([
-        {
-            title: "男-都市",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=1&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-谍战",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=507&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-综漫",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=465&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-玄幻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=7&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-武侠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=16&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-大佬",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=520&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-历史",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=12&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-大小姐",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=519&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-体育",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=15&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-鉴宝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=17&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-神豪",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=20&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-赘婿",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=25&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-神医",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=26&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-战神",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=27&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-海岛",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=40&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-奶爸",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=42&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-洪荒",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=66&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-三国",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=67&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-无限流",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=70&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-诸天万界",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=71&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-大唐",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=73&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-宠物",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=74&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-外卖",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=75&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-剑道",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=80&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市修真",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=124&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-明朝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=126&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-玄幻脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=257&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-传统玄幻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=258&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-奇幻仙侠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=259&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=262&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市种田",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=263&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-历史脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=272&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-历史古代",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=273&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-奥特同人",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=367&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-破案",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=505&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-灵异",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=100&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-火影",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=368&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-海贼",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=370&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-家庭",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=125&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-神奇宝贝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=371&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-穿越",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=37&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-网游",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=372&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-西游",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=373&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-漫威",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=374&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-特种兵",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=375&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-龙珠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=376&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-大秦",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=377&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-女帝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=378&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-求生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=379&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-聊天群",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=381&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-无女主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=391&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-学霸",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=82&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-系统",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=19&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-衍生同人",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=718&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-九叔",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=383&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-乡村",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=11&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-单女主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=389&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市青春",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=396&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-美食",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=78&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-囤物资",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=494&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-双重生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=524&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-重生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=36&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-游戏体育",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=746&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-娱乐圈",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=43&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-架空",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=452&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-扮猪吃虎",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=93&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-开局",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=453&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-打脸",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=522&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-电竞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=508&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-国运",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=496&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-武将",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=497&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-皇帝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=498&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-神探",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=506&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-末世",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=68&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-种田",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=23&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-断层",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=500&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-腹黑",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=92&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-宋朝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=501&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-宫廷侯爵",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=502&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-清朝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=503&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-钓鱼",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=493&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-东方玄幻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=511&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-异世大陆",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=512&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-二次元",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=39&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-星际",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=77&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-年代",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=79&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-高武世界",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=513&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-直播",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=69&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-灵气复苏",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=514&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-推理",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=61&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-无敌",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=384&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-末日求生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=515&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-空间",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=44&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市异能",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=516&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-四合院",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=495&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-校花",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=385&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-天才",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=90&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-反派",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=369&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-修仙",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=517&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-盗墓",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=81&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-特工",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=518&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-克苏鲁",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=705&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-悬疑灵异",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=751&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市生活",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=2&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-科幻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=8&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-职场",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=127&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-悬疑",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=10&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-影视小说",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=45&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-诗歌散文",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=46&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-生活",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=48&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-社会科学",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=50&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-科技",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=52&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-经济管理",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=53&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-教育",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=54&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-成功励志",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=56&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-文化历史",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=62&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-都市日常",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=261&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-穿书",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=382&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-抗战谍战",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=504&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-搞笑轻松",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=778&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-游戏主播",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=509&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "男-悬疑脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=539&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-            script: "gen2.js"
-        },
-        {
-            title: "女-宫斗宅斗",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=246&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-古代言情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=5&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-前世今生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=523&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-玄幻言情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=248&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-幻想言情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=32&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-现言脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=267&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-现代言情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=3&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-都市脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=262&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-古言脑洞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=253&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-豪门总裁",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=29&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-豪门世家",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=473&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-豪门爽文",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=745&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-相爱相杀",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=483&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-破镜重圆",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=475&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-职场婚恋",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=750&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-一见钟情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=477&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-青梅竹马",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=387&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-久别重逢",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=839&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-悬疑恋爱",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=747&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-职场商战",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=485&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-异世穿越",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=464&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-情有独钟",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=456&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-女扮男装",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=388&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-日久生情",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=474&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-天作之合",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=455&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-契约婚姻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=471&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-古色古香",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=877&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-古灵精怪",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=459&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-家长里短",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=862&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-可盐可甜",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=454&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双向奔赴",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=476&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-发家致富",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=840&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-扮猪吃虎",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=93&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-游戏体育",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=746&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-衍生同人",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=718&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双女主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=704&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-大佬",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=520&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-神探",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=506&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-乡村",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=11&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-电竞",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=508&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-养崽",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=847&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-快穿",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=24&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-四合院",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=495&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双重生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=524&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双男主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=275&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-钓鱼",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=493&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-综漫",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=465&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-推理",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=61&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-白切黑",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=853&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-同人",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=538&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-穿越",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=37&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-娱乐圈",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=43&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-重生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=36&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-家庭",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=125&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-逃婚",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=480&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-职场",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=127&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-兽世",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=72&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-病娇",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=380&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-强强",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=478&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-将军",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=492&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-冰山",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=468&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双面",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=469&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-王妃",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=85&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-盗墓",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=81&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-虐文",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=95&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-甜宠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=96&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-年龄差",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=848&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-无脑爽",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=850&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-打脸",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=522&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-清穿",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=76&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-无CP",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=392&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-明星",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=486&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-末世",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=68&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-美食",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=78&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-魂穿",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=852&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-囤物资",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=494&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-虐渣",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=457&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-宠妻",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=30&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-今穿古",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=463&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-女强",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=86&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-年代",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=79&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-空间",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=44&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-反派",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=369&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-无敌",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=384&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-医术",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=247&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-星际",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=77&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-腹黑",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=92&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-暗恋",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=482&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-民国",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=390&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-灵异",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=100&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-二次元",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=39&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-系统",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=19&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-公主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=83&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-忠犬",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=865&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-双洁",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=702&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-团宠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=94&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-皇后",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=84&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-天才",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=90&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-种田",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=23&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-直播",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=69&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-HE",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=484&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-大小姐",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=519&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-武侠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=16&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-穿书",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=382&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-都市",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=1&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-校花",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=385&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-无女主",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=391&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-律师",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=488&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-破案",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=505&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-校园",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=4&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-医生",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=487&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-古穿今",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=462&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-作精",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=521&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-学霸",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=82&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-独宠",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=460&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-毒医",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=491&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-嫡女",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=88&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-皇叔",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=87&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-厨娘",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=490&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-精灵",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=89&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-替身",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=470&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-婚恋",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=34&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-闪婚",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=466&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-萌宝",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=28&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-马甲",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=266&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-逃荒",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=557&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-带球跑",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=479&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-隐婚",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=467&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-群穿",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=461&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-护短",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=458&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-影视小说",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=45&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-诗歌散文",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=46&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-文学小说",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=47&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-生活",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=48&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-社会科学",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=50&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-科技",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=52&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-经济管理",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=53&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-教育",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=54&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-成功励志",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=56&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
-        {
-            title: "女-文化历史",
-            input: "/reading/bookapi/new_category/landing/v/?category_id=62&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=2",
-            script: "gen2.js"
-        },
+
+        {title: "都市",input: "&category_id=1&gender=1",script: "gen3.js"},
+        {title: "都市生活",input: "&category_id=2&gender=1",script: "gen3.js"},
+        {title: "玄幻",input: "&category_id=7&gender=1",script: "gen3.js"},
+        {title: "科幻",input: "&category_id=8&gender=1",script: "gen3.js"},
+        {title: "悬疑",input: "&category_id=10&gender=1",script: "gen3.js"},
+        {title: "乡村",input: "&category_id=11&gender=1",script: "gen3.js"},
+        {title: "历史",input: "&category_id=12&gender=1",script: "gen3.js"},
+        {title: "体育",input: "&category_id=15&gender=1",script: "gen3.js"},
+        {title: "武侠",input: "&category_id=16&gender=1",script: "gen3.js"},
+        {title: "影视小说",input: "&category_id=45&gender=1",script: "gen3.js"},
+        {title: "文学小说",input: "&category_id=47&gender=1",script: "gen3.js"},
+        {title: "生活",input: "&category_id=48&gender=1",script: "gen3.js"},
+        {title: "成功励志",input: "&category_id=56&gender=1",script: "gen3.js"},
+        {title: "文化历史",input: "&category_id=62&gender=1",script: "gen3.js"},
+        {title: "赘婿",input: "&category_id=25&gender=1",script: "gen3.js"},
+        {title: "神医",input: "&category_id=26&gender=1",script: "gen3.js"},
+        {title: "战神",input: "&category_id=27&gender=1",script: "gen3.js"},
+        {title: "奶爸",input: "&category_id=42&gender=1",script: "gen3.js"},
+        {title: "学霸",input: "&category_id=82&gender=1",script: "gen3.js"},
+        {title: "天才",input: "&category_id=90&gender=1",script: "gen3.js"},
+        {title: "腹黑",input: "&category_id=92&gender=1",script: "gen3.js"},
+        {title: "扮猪吃虎",input: "&category_id=93&gender=1",script: "gen3.js"},
+        {title: "鉴宝",input: "&category_id=17&gender=1",script: "gen3.js"},
+        {title: "系统",input: "&category_id=19&gender=1",script: "gen3.js"},
+        {title: "神豪",input: "&category_id=20&gender=1",script: "gen3.js"},
+        {title: "种田",input: "&category_id=23&gender=1",script: "gen3.js"},
+        {title: "重生",input: "&category_id=36&gender=1",script: "gen3.js"},
+        {title: "穿越",input: "&category_id=37&gender=1",script: "gen3.js"},
+        {title: "二次元",input: "&category_id=39&gender=1",script: "gen3.js"},
+        {title: "海岛",input: "&category_id=40&gender=1",script: "gen3.js"},
+        {title: "娱乐圈",input: "&category_id=43&gender=1",script: "gen3.js"},
+        {title: "空间",input: "&category_id=44&gender=1",script: "gen3.js"},
+        {title: "推理",input: "&category_id=61&gender=1",script: "gen3.js"},
+        {title: "洪荒",input: "&category_id=66&gender=1",script: "gen3.js"},
+        {title: "三国",input: "&category_id=67&gender=1",script: "gen3.js"},
+        {title: "末世",input: "&category_id=68&gender=1",script: "gen3.js"},
+        {title: "直播",input: "&category_id=69&gender=1",script: "gen3.js"},
+        {title: "无限流",input: "&category_id=70&gender=1",script: "gen3.js"},
+        {title: "诸天万界",input: "&category_id=71&gender=1",script: "gen3.js"},
+        {title: "大唐",input: "&category_id=73&gender=1",script: "gen3.js"},
+        {title: "宠物",input: "&category_id=74&gender=1",script: "gen3.js"},
+        {title: "外卖",input: "&category_id=75&gender=1",script: "gen3.js"},
+        {title: "星际",input: "&category_id=77&gender=1",script: "gen3.js"},
+        {title: "美食",input: "&category_id=78&gender=1",script: "gen3.js"},
+        {title: "年代",input: "&category_id=79&gender=1",script: "gen3.js"},
+        {title: "剑道",input: "&category_id=80&gender=1",script: "gen3.js"},
+        {title: "盗墓",input: "&category_id=81&gender=1",script: "gen3.js"},
+        {title: "战争",input: "&category_id=97&gender=1",script: "gen3.js"},
+        {title: "灵异",input: "&category_id=100&gender=1",script: "gen3.js"},
+        {title: "都市修真",input: "&category_id=124&gender=1",script: "gen3.js"},
+        {title: "家庭",input: "&category_id=125&gender=1",script: "gen3.js"},
+        {title: "明朝",input: "&category_id=126&gender=1",script: "gen3.js"},
+        {title: "职场",input: "&category_id=127&gender=1",script: "gen3.js"},
+        {title: "都市日常",input: "&category_id=261&gender=1",script: "gen3.js"},
+        {title: "都市脑洞",input: "&category_id=262&gender=1",script: "gen3.js"},
+        {title: "都市种田",input: "&category_id=263&gender=1",script: "gen3.js"},
+        {title: "历史脑洞",input: "&category_id=272&gender=1",script: "gen3.js"},
+        {title: "历史古代",input: "&category_id=273&gender=1",script: "gen3.js"},
+        {title: "惊悚",input: "&category_id=322&gender=1",script: "gen3.js"},
+        {title: "奥特同人",input: "&category_id=367&gender=1",script: "gen3.js"},
+        {title: "火影",input: "&category_id=368&gender=1",script: "gen3.js"},
+        {title: "反派",input: "&category_id=369&gender=1",script: "gen3.js"},
+        {title: "海贼",input: "&category_id=370&gender=1",script: "gen3.js"},
+        {title: "神奇宝贝",input: "&category_id=371&gender=1",script: "gen3.js"},
+        {title: "网游",input: "&category_id=372&gender=1",script: "gen3.js"},
+        {title: "西游",input: "&category_id=373&gender=1",script: "gen3.js"},
+        {title: "漫威",input: "&category_id=374&gender=1",script: "gen3.js"},
+        {title: "特种兵",input: "&category_id=375&gender=1",script: "gen3.js"},
+        {title: "龙珠",input: "&category_id=376&gender=1",script: "gen3.js"},
+        {title: "大秦",input: "&category_id=377&gender=1",script: "gen3.js"},
+        {title: "女帝",input: "&category_id=378&gender=1",script: "gen3.js"},
+        {title: "求生",input: "&category_id=379&gender=1",script: "gen3.js"},
+        {title: "聊天群",input: "&category_id=381&gender=1",script: "gen3.js"},
+        {title: "穿书",input: "&category_id=382&gender=1",script: "gen3.js"},
+        {title: "九叔",input: "&category_id=383&gender=1",script: "gen3.js"},
+        {title: "无敌",input: "&category_id=384&gender=1",script: "gen3.js"},
+        {title: "校花",input: "&category_id=385&gender=1",script: "gen3.js"},
+        {title: "单女主",input: "&category_id=389&gender=1",script: "gen3.js"},
+        {title: "无女主",input: "&category_id=391&gender=1",script: "gen3.js"},
+        {title: "都市青春",input: "&category_id=396&gender=1",script: "gen3.js"},
+        {title: "架空",input: "&category_id=452&gender=1",script: "gen3.js"},
+        {title: "开局",input: "&category_id=453&gender=1",script: "gen3.js"},
+        {title: "综漫",input: "&category_id=465&gender=1",script: "gen3.js"},
+        {title: "钓鱼",input: "&category_id=493&gender=1",script: "gen3.js"},
+        {title: "囤物资",input: "&category_id=494&gender=1",script: "gen3.js"},
+        {title: "四合院",input: "&category_id=495&gender=1",script: "gen3.js"},
+        {title: "国运",input: "&category_id=496&gender=1",script: "gen3.js"},
+        {title: "武将",input: "&category_id=497&gender=1",script: "gen3.js"},
+        {title: "皇帝",input: "&category_id=498&gender=1",script: "gen3.js"},
+        {title: "断层",input: "&category_id=500&gender=1",script: "gen3.js"},
+        {title: "宋朝",input: "&category_id=501&gender=1",script: "gen3.js"},
+        {title: "宫廷侯爵",input: "&category_id=502&gender=1",script: "gen3.js"},
+        {title: "清朝",input: "&category_id=503&gender=1",script: "gen3.js"},
+        {title: "抗战谍战",input: "&category_id=504&gender=1",script: "gen3.js"},
+        {title: "破案",input: "&category_id=505&gender=1",script: "gen3.js"},
+        {title: "神探",input: "&category_id=506&gender=1",script: "gen3.js"},
+        {title: "谍战",input: "&category_id=507&gender=1",script: "gen3.js"},
+        {title: "电竞",input: "&category_id=508&gender=1",script: "gen3.js"},
+        {title: "游戏主播",input: "&category_id=509&gender=1",script: "gen3.js"},
+        {title: "东方玄幻",input: "&category_id=511&gender=1",script: "gen3.js"},
+        {title: "异世大陆",input: "&category_id=512&gender=1",script: "gen3.js"},
+        {title: "高武世界",input: "&category_id=513&gender=1",script: "gen3.js"},
+        {title: "灵气复苏",input: "&category_id=514&gender=1",script: "gen3.js"},
+        {title: "末日求生",input: "&category_id=515&gender=1",script: "gen3.js"},
+        {title: "都市异能",input: "&category_id=516&gender=1",script: "gen3.js"},
+        {title: "修仙",input: "&category_id=517&gender=1",script: "gen3.js"},
+        {title: "特工",input: "&category_id=518&gender=1",script: "gen3.js"},
+        {title: "大小姐",input: "&category_id=519&gender=1",script: "gen3.js"},
+        {title: "大佬",input: "&category_id=520&gender=1",script: "gen3.js"},
+        {title: "打脸",input: "&category_id=522&gender=1",script: "gen3.js"},
+        {title: "双重生",input: "&category_id=524&gender=1",script: "gen3.js"},
+        {title: "同人",input: "&category_id=538&gender=1",script: "gen3.js"},
+        {title: "悬疑脑洞",input: "&category_id=539&gender=1",script: "gen3.js"},
+        {title: "克苏鲁",input: "&category_id=705&gender=1",script: "gen3.js"},
+        {title: "衍生同人",input: "&category_id=718&gender=1",script: "gen3.js"},
+        {title: "游戏体育",input: "&category_id=746&gender=1",script: "gen3.js"},
+        {title: "悬疑灵异",input: "&category_id=751&gender=1",script: "gen3.js"},
+        {title: "搞笑轻松",input: "&category_id=778&gender=1",script: "gen3.js"},
+        {title: "官场",input: "&category_id=788&gender=1",script: "gen3.js"},
+        {title: "都市生活",input: "&category_id=2&gender=0",script: "gen3.js"},
+        {title: "现代言情",input: "&category_id=3&gender=0",script: "gen3.js"},
+        {title: "古代言情",input: "&category_id=5&gender=0",script: "gen3.js"},
+        {title: "科幻",input: "&category_id=8&gender=0",script: "gen3.js"},
+        {title: "悬疑",input: "&category_id=10&gender=0",script: "gen3.js"},
+        {title: "乡村",input: "&category_id=11&gender=0",script: "gen3.js"},
+        {title: "武侠",input: "&category_id=16&gender=0",script: "gen3.js"},
+        {title: "幻想言情",input: "&category_id=32&gender=0",script: "gen3.js"},
+        {title: "婚恋",input: "&category_id=34&gender=0",script: "gen3.js"},
+        {title: "影视小说",input: "&category_id=45&gender=0",script: "gen3.js"},
+        {title: "文学小说",input: "&category_id=47&gender=0",script: "gen3.js"},
+        {title: "生活",input: "&category_id=48&gender=0",script: "gen3.js"},
+        {title: "成功励志",input: "&category_id=56&gender=0",script: "gen3.js"},
+        {title: "文化历史",input: "&category_id=62&gender=0",script: "gen3.js"},
+        {title: "萌宝",input: "&category_id=28&gender=0",script: "gen3.js"},
+        {title: "豪门总裁",input: "&category_id=29&gender=0",script: "gen3.js"},
+        {title: "宠妻",input: "&category_id=30&gender=0",script: "gen3.js"},
+        {title: "学霸",input: "&category_id=82&gender=0",script: "gen3.js"},
+        {title: "公主",input: "&category_id=83&gender=0",script: "gen3.js"},
+        {title: "皇后",input: "&category_id=84&gender=0",script: "gen3.js"},
+        {title: "王妃",input: "&category_id=85&gender=0",script: "gen3.js"},
+        {title: "女强",input: "&category_id=86&gender=0",script: "gen3.js"},
+        {title: "皇叔",input: "&category_id=87&gender=0",script: "gen3.js"},
+        {title: "嫡女",input: "&category_id=88&gender=0",script: "gen3.js"},
+        {title: "精灵",input: "&category_id=89&gender=0",script: "gen3.js"},
+        {title: "天才",input: "&category_id=90&gender=0",script: "gen3.js"},
+        {title: "腹黑",input: "&category_id=92&gender=0",script: "gen3.js"},
+        {title: "扮猪吃虎",input: "&category_id=93&gender=0",script: "gen3.js"},
+        {title: "团宠",input: "&category_id=94&gender=0",script: "gen3.js"},
+        {title: "校园",input: "&category_id=4&gender=0",script: "gen3.js"},
+        {title: "系统",input: "&category_id=19&gender=0",script: "gen3.js"},
+        {title: "种田",input: "&category_id=23&gender=0",script: "gen3.js"},
+        {title: "快穿",input: "&category_id=24&gender=0",script: "gen3.js"},
+        {title: "重生",input: "&category_id=36&gender=0",script: "gen3.js"},
+        {title: "穿越",input: "&category_id=37&gender=0",script: "gen3.js"},
+        {title: "二次元",input: "&category_id=39&gender=0",script: "gen3.js"},
+        {title: "娱乐圈",input: "&category_id=43&gender=0",script: "gen3.js"},
+        {title: "空间",input: "&category_id=44&gender=0",script: "gen3.js"},
+        {title: "推理",input: "&category_id=61&gender=0",script: "gen3.js"},
+        {title: "末世",input: "&category_id=68&gender=0",script: "gen3.js"},
+        {title: "直播",input: "&category_id=69&gender=0",script: "gen3.js"},
+        {title: "兽世",input: "&category_id=72&gender=0",script: "gen3.js"},
+        {title: "清穿",input: "&category_id=76&gender=0",script: "gen3.js"},
+        {title: "星际",input: "&category_id=77&gender=0",script: "gen3.js"},
+        {title: "美食",input: "&category_id=78&gender=0",script: "gen3.js"},
+        {title: "年代",input: "&category_id=79&gender=0",script: "gen3.js"},
+        {title: "盗墓",input: "&category_id=81&gender=0",script: "gen3.js"},
+        {title: "虐文",input: "&category_id=95&gender=0",script: "gen3.js"},
+        {title: "甜宠",input: "&category_id=96&gender=0",script: "gen3.js"},
+        {title: "战争",input: "&category_id=97&gender=0",script: "gen3.js"},
+        {title: "灵异",input: "&category_id=100&gender=0",script: "gen3.js"},
+        {title: "家庭",input: "&category_id=125&gender=0",script: "gen3.js"},
+        {title: "职场",input: "&category_id=127&gender=0",script: "gen3.js"},
+        {title: "宫斗宅斗",input: "&category_id=246&gender=0",script: "gen3.js"},
+        {title: "医术",input: "&category_id=247&gender=0",script: "gen3.js"},
+        {title: "玄幻言情",input: "&category_id=248&gender=0",script: "gen3.js"},
+        {title: "古言脑洞",input: "&category_id=253&gender=0",script: "gen3.js"},
+        {title: "都市日常",input: "&category_id=261&gender=0",script: "gen3.js"},
+        {title: "马甲",input: "&category_id=266&gender=0",script: "gen3.js"},
+        {title: "现言脑洞",input: "&category_id=267&gender=0",script: "gen3.js"},
+        {title: "现言复仇",input: "&category_id=268&gender=0",script: "gen3.js"},
+        {title: "双男主",input: "&category_id=275&gender=0",script: "gen3.js"},
+        {title: "反派",input: "&category_id=369&gender=0",script: "gen3.js"},
+        {title: "病娇",input: "&category_id=380&gender=0",script: "gen3.js"},
+        {title: "穿书",input: "&category_id=382&gender=0",script: "gen3.js"},
+        {title: "无敌",input: "&category_id=384&gender=0",script: "gen3.js"},
+        {title: "青梅竹马",input: "&category_id=387&gender=0",script: "gen3.js"},
+        {title: "女扮男装",input: "&category_id=388&gender=0",script: "gen3.js"},
+        {title: "民国",input: "&category_id=390&gender=0",script: "gen3.js"},
+        {title: "无CP",input: "&category_id=392&gender=0",script: "gen3.js"},
+        {title: "可盐可甜",input: "&category_id=454&gender=0",script: "gen3.js"},
+        {title: "天作之合",input: "&category_id=455&gender=0",script: "gen3.js"},
+        {title: "情有独钟",input: "&category_id=456&gender=0",script: "gen3.js"},
+        {title: "虐渣",input: "&category_id=457&gender=0",script: "gen3.js"},
+        {title: "护短",input: "&category_id=458&gender=0",script: "gen3.js"},
+        {title: "古灵精怪",input: "&category_id=459&gender=0",script: "gen3.js"},
+        {title: "独宠",input: "&category_id=460&gender=0",script: "gen3.js"},
+        {title: "群穿",input: "&category_id=461&gender=0",script: "gen3.js"},
+        {title: "古穿今",input: "&category_id=462&gender=0",script: "gen3.js"},
+        {title: "今穿古",input: "&category_id=463&gender=0",script: "gen3.js"},
+        {title: "异世穿越",input: "&category_id=464&gender=0",script: "gen3.js"},
+        {title: "综漫",input: "&category_id=465&gender=0",script: "gen3.js"},
+        {title: "闪婚",input: "&category_id=466&gender=0",script: "gen3.js"},
+        {title: "隐婚",input: "&category_id=467&gender=0",script: "gen3.js"},
+        {title: "冰山",input: "&category_id=468&gender=0",script: "gen3.js"},
+        {title: "双面",input: "&category_id=469&gender=0",script: "gen3.js"},
+        {title: "替身",input: "&category_id=470&gender=0",script: "gen3.js"},
+        {title: "契约婚姻",input: "&category_id=471&gender=0",script: "gen3.js"},
+        {title: "豪门世家",input: "&category_id=473&gender=0",script: "gen3.js"},
+        {title: "日久生情",input: "&category_id=474&gender=0",script: "gen3.js"},
+        {title: "破镜重圆",input: "&category_id=475&gender=0",script: "gen3.js"},
+        {title: "双向奔赴",input: "&category_id=476&gender=0",script: "gen3.js"},
+        {title: "一见钟情",input: "&category_id=477&gender=0",script: "gen3.js"},
+        {title: "强强",input: "&category_id=478&gender=0",script: "gen3.js"},
+        {title: "带球跑",input: "&category_id=479&gender=0",script: "gen3.js"},
+        {title: "逃婚",input: "&category_id=480&gender=0",script: "gen3.js"},
+        {title: "暗恋",input: "&category_id=482&gender=0",script: "gen3.js"},
+        {title: "相爱相杀",input: "&category_id=483&gender=0",script: "gen3.js"},
+        {title: "HE",input: "&category_id=484&gender=0",script: "gen3.js"},
+        {title: "职场商战",input: "&category_id=485&gender=0",script: "gen3.js"},
+        {title: "明星",input: "&category_id=486&gender=0",script: "gen3.js"},
+        {title: "医生",input: "&category_id=487&gender=0",script: "gen3.js"},
+        {title: "律师",input: "&category_id=488&gender=0",script: "gen3.js"},
+        {title: "现言萌宝",input: "&category_id=489&gender=0",script: "gen3.js"},
+        {title: "厨娘",input: "&category_id=490&gender=0",script: "gen3.js"},
+        {title: "毒医",input: "&category_id=491&gender=0",script: "gen3.js"},
+        {title: "将军",input: "&category_id=492&gender=0",script: "gen3.js"},
+        {title: "囤物资",input: "&category_id=494&gender=0",script: "gen3.js"},
+        {title: "四合院",input: "&category_id=495&gender=0",script: "gen3.js"},
+        {title: "抗战谍战",input: "&category_id=504&gender=0",script: "gen3.js"},
+        {title: "破案",input: "&category_id=505&gender=0",script: "gen3.js"},
+        {title: "电竞",input: "&category_id=508&gender=0",script: "gen3.js"},
+        {title: "游戏主播",input: "&category_id=509&gender=0",script: "gen3.js"},
+        {title: "大小姐",input: "&category_id=519&gender=0",script: "gen3.js"},
+        {title: "大佬",input: "&category_id=520&gender=0",script: "gen3.js"},
+        {title: "作精",input: "&category_id=521&gender=0",script: "gen3.js"},
+        {title: "打脸",input: "&category_id=522&gender=0",script: "gen3.js"},
+        {title: "前世今生",input: "&category_id=523&gender=0",script: "gen3.js"},
+        {title: "双重生",input: "&category_id=524&gender=0",script: "gen3.js"},
+        {title: "同人",input: "&category_id=538&gender=0",script: "gen3.js"},
+        {title: "悬疑脑洞",input: "&category_id=539&gender=0",script: "gen3.js"},
+        {title: "逃荒",input: "&category_id=557&gender=0",script: "gen3.js"},
+        {title: "双洁",input: "&category_id=702&gender=0",script: "gen3.js"},
+        {title: "双女主",input: "&category_id=704&gender=0",script: "gen3.js"},
+        {title: "衍生同人",input: "&category_id=718&gender=0",script: "gen3.js"},
+        {title: "豪门爽文",input: "&category_id=745&gender=0",script: "gen3.js"},
+        {title: "游戏体育",input: "&category_id=746&gender=0",script: "gen3.js"},
+        {title: "悬疑恋爱",input: "&category_id=747&gender=0",script: "gen3.js"},
+        {title: "霸总",input: "&category_id=748&gender=0",script: "gen3.js"},
+        {title: "青春甜宠",input: "&category_id=749&gender=0",script: "gen3.js"},
+        {title: "职场婚恋",input: "&category_id=750&gender=0",script: "gen3.js"},
+        {title: "搞笑轻松",input: "&category_id=778&gender=0",script: "gen3.js"},
+        {title: "都市",input: "&category_id=1&genre_type=160",script: "gen3.js"},
+        {title: "都市生活",input: "&category_id=2&genre_type=160",script: "gen3.js"},
+        {title: "现代言情",input: "&category_id=3&genre_type=160",script: "gen3.js"},
+        {title: "古代言情",input: "&category_id=5&genre_type=160",script: "gen3.js"},
+        {title: "玄幻",input: "&category_id=7&genre_type=160",script: "gen3.js"},
+        {title: "科幻",input: "&category_id=8&genre_type=160",script: "gen3.js"},
+        {title: "悬疑",input: "&category_id=10&genre_type=160",script: "gen3.js"},
+        {title: "历史",input: "&category_id=12&genre_type=160",script: "gen3.js"},
+        {title: "武侠",input: "&category_id=16&genre_type=160",script: "gen3.js"},
+        {title: "幻想言情",input: "&category_id=32&genre_type=160",script: "gen3.js"},
+        {title: "影视小说",input: "&category_id=45&genre_type=160",script: "gen3.js"},
+        {title: "诗歌散文",input: "&category_id=46&genre_type=160",script: "gen3.js"},
+        {title: "文学小说",input: "&category_id=47&genre_type=160",script: "gen3.js"},
+        {title: "生活",input: "&category_id=48&genre_type=160",script: "gen3.js"},
+        {title: "社会科学",input: "&category_id=50&genre_type=160",script: "gen3.js"},
+        {title: "名著经典",input: "&category_id=51&genre_type=160",script: "gen3.js"},
+        {title: "科技",input: "&category_id=52&genre_type=160",script: "gen3.js"},
+        {title: "经济管理",input: "&category_id=53&genre_type=160",script: "gen3.js"},
+        {title: "教育",input: "&category_id=54&genre_type=160",script: "gen3.js"},
+        {title: "成功励志",input: "&category_id=56&genre_type=160",script: "gen3.js"},
+        {title: "推理悬疑",input: "&category_id=61&genre_type=160",script: "gen3.js"},
+        {title: "文化历史",input: "&category_id=62&genre_type=160",script: "gen3.js"},
+        {title: "中国名著",input: "&category_id=98&genre_type=160",script: "gen3.js"},
+        {title: "外国名著",input: "&category_id=99&genre_type=160",script: "gen3.js"},
+        {title: "战神",input: "&category_id=27&genre_type=160",script: "gen3.js"},
+        {title: "萌宝",input: "&category_id=28&genre_type=160",script: "gen3.js"},
+        {title: "豪门总裁",input: "&category_id=29&genre_type=160",script: "gen3.js"},
+        {title: "宠妻",input: "&category_id=30&genre_type=160",script: "gen3.js"},
+        {title: "学霸",input: "&category_id=82&genre_type=160",script: "gen3.js"},
+        {title: "公主",input: "&category_id=83&genre_type=160",script: "gen3.js"},
+        {title: "皇后",input: "&category_id=84&genre_type=160",script: "gen3.js"},
+        {title: "王妃",input: "&category_id=85&genre_type=160",script: "gen3.js"},
+        {title: "女强",input: "&category_id=86&genre_type=160",script: "gen3.js"},
+        {title: "嫡女",input: "&category_id=88&genre_type=160",script: "gen3.js"},
+        {title: "精灵",input: "&category_id=89&genre_type=160",script: "gen3.js"},
+        {title: "天才",input: "&category_id=90&genre_type=160",script: "gen3.js"},
+        {title: "腹黑",input: "&category_id=92&genre_type=160",script: "gen3.js"},
+        {title: "校园",input: "&category_id=4&genre_type=160",script: "gen3.js"},
+        {title: "种田",input: "&category_id=23&genre_type=160",script: "gen3.js"},
+        {title: "重生",input: "&category_id=36&genre_type=160",script: "gen3.js"},
+        {title: "穿越",input: "&category_id=37&genre_type=160",script: "gen3.js"},
+        {title: "娱乐圈",input: "&category_id=43&genre_type=160",script: "gen3.js"},
+        {title: "推理",input: "&category_id=61&genre_type=160",script: "gen3.js"},
+        {title: "直播",input: "&category_id=69&genre_type=160",script: "gen3.js"},
+        {title: "大唐",input: "&category_id=73&genre_type=160",script: "gen3.js"},
+        {title: "美食",input: "&category_id=78&genre_type=160",script: "gen3.js"},
+        {title: "年代",input: "&category_id=79&genre_type=160",script: "gen3.js"},
+        {title: "剑道",input: "&category_id=80&genre_type=160",script: "gen3.js"},
+        {title: "盗墓",input: "&category_id=81&genre_type=160",script: "gen3.js"},
+        {title: "甜宠",input: "&category_id=96&genre_type=160",script: "gen3.js"},
+        {title: "战争",input: "&category_id=97&genre_type=160",script: "gen3.js"},
+        {title: "灵异",input: "&category_id=100&genre_type=160",script: "gen3.js"},
+        {title: "国学",input: "&category_id=116&genre_type=160",script: "gen3.js"},
+        {title: "家庭",input: "&category_id=125&genre_type=160",script: "gen3.js"},
+        {title: "明朝",input: "&category_id=126&genre_type=160",script: "gen3.js"},
+        {title: "职场",input: "&category_id=127&genre_type=160",script: "gen3.js"},
+        {title: "法律",input: "&category_id=142&genre_type=160",script: "gen3.js"},
+        {title: "宫斗宅斗",input: "&category_id=246&genre_type=160",script: "gen3.js"},
+        {title: "玄幻言情",input: "&category_id=248&genre_type=160",script: "gen3.js"},
+        {title: "古言脑洞",input: "&category_id=253&genre_type=160",script: "gen3.js"},
+        {title: "都市日常",input: "&category_id=261&genre_type=160",script: "gen3.js"},
+        {title: "都市脑洞",input: "&category_id=262&genre_type=160",script: "gen3.js"},
+        {title: "现言脑洞",input: "&category_id=267&genre_type=160",script: "gen3.js"},
+        {title: "历史古代",input: "&category_id=273&genre_type=160",script: "gen3.js"},
+        {title: "两性",input: "&category_id=274&genre_type=160",script: "gen3.js"},
+        {title: "特种兵",input: "&category_id=375&genre_type=160",script: "gen3.js"},
+        {title: "青梅竹马",input: "&category_id=387&genre_type=160",script: "gen3.js"},
+        {title: "女扮男装",input: "&category_id=388&genre_type=160",script: "gen3.js"},
+        {title: "民国",input: "&category_id=390&genre_type=160",script: "gen3.js"},
+        {title: "外国文学",input: "&category_id=397&genre_type=160",script: "gen3.js"},
+        {title: "古代文学",input: "&category_id=398&genre_type=160",script: "gen3.js"},
+        {title: "当代文学",input: "&category_id=399&genre_type=160",script: "gen3.js"},
+        {title: "现实小说",input: "&category_id=400&genre_type=160",script: "gen3.js"},
+        {title: "文学理论",input: "&category_id=401&genre_type=160",script: "gen3.js"},
+        {title: "中国历史",input: "&category_id=402&genre_type=160",script: "gen3.js"},
+        {title: "世界历史",input: "&category_id=403&genre_type=160",script: "gen3.js"},
+        {title: "历史传记",input: "&category_id=404&genre_type=160",script: "gen3.js"},
+        {title: "人文社科",input: "&category_id=405&genre_type=160",script: "gen3.js"},
+        {title: "哲学宗教",input: "&category_id=406&genre_type=160",script: "gen3.js"},
+        {title: "心理学",input: "&category_id=407&genre_type=160",script: "gen3.js"},
+        {title: "政治军事",input: "&category_id=408&genre_type=160",script: "gen3.js"},
+        {title: "人物传记",input: "&category_id=409&genre_type=160",script: "gen3.js"},
+        {title: "个人成长",input: "&category_id=410&genre_type=160",script: "gen3.js"},
+        {title: "思维智商",input: "&category_id=411&genre_type=160",script: "gen3.js"},
+        {title: "人际交往",input: "&category_id=412&genre_type=160",script: "gen3.js"},
+        {title: "文化艺术",input: "&category_id=413&genre_type=160",script: "gen3.js"},
+        {title: "亲子家教",input: "&category_id=415&genre_type=160",script: "gen3.js"},
+        {title: "保健养生",input: "&category_id=416&genre_type=160",script: "gen3.js"},
+        {title: "时尚美妆",input: "&category_id=418&genre_type=160",script: "gen3.js"},
+        {title: "美食休闲",input: "&category_id=419&genre_type=160",script: "gen3.js"},
+        {title: "家居旅游",input: "&category_id=420&genre_type=160",script: "gen3.js"},
+        {title: "风水占卜",input: "&category_id=421&genre_type=160",script: "gen3.js"},
+        {title: "经典国学",input: "&category_id=423&genre_type=160",script: "gen3.js"},
+        {title: "架空",input: "&category_id=452&genre_type=160",script: "gen3.js"},
+        {title: "今穿古",input: "&category_id=463&genre_type=160",script: "gen3.js"},
+        {title: "冰山",input: "&category_id=468&genre_type=160",script: "gen3.js"},
+        {title: "豪门世家",input: "&category_id=473&genre_type=160",script: "gen3.js"},
+        {title: "一见钟情",input: "&category_id=477&genre_type=160",script: "gen3.js"},
+        {title: "暗恋",input: "&category_id=482&genre_type=160",script: "gen3.js"},
+        {title: "HE",input: "&category_id=484&genre_type=160",script: "gen3.js"},
+        {title: "学校教育",input: "&category_id=721&genre_type=160",script: "gen3.js"},
+        {title: "成人教育",input: "&category_id=722&genre_type=160",script: "gen3.js"},
+        {title: "豪门爽文",input: "&category_id=745&genre_type=160",script: "gen3.js"},
+        {title: "悬疑恋爱",input: "&category_id=747&genre_type=160",script: "gen3.js"},
+        {title: "霸总",input: "&category_id=748&genre_type=160",script: "gen3.js"},
+        {title: "青春甜宠",input: "&category_id=749&genre_type=160",script: "gen3.js"},
+        {title: "职场婚恋",input: "&category_id=750&genre_type=160",script: "gen3.js"},
+        {title: "悬疑灵异",input: "&category_id=751&genre_type=160",script: "gen3.js"},
+        {title: "官场",input: "&category_id=788&genre_type=160",script: "gen3.js"},
+
     ]);
 }

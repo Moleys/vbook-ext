@@ -4,18 +4,18 @@ function execute(url) {
     let book_id = url.match(regex)[1]
 
     // let book_id = url.split("book_id=")[1]
-    let response = fetch(config_host2 + "/info?book_id=" + book_id)
+    let response = fetch("https://novel.snssdk.com/api/novel/book/directory/list/v1?device_platform=android&parent_enterfrom=novel_channel_search.tab.&aid=1967&platform_id=1&book_id=" + book_id)
     if (response.ok) {
-        try {
             let json = response.json();
-            let book_info = json.data.data;
-            let a_gen = JSON.parse(book_info.category_schema)
+            let book_info = json.data.book_info;
+            let a_gen = book_info.category_tags
+
             let genres = [];
             a_gen.forEach(e => {
                 genres.push({
-                    title: e.name,
-                    input: "/reading/bookapi/new_category/landing/v/?category_id=" + e.category_id + "&offset={{page}}&sub_category_id&genre_type=0&limit=10&source=front_category&front_page_selected_category&no_need_all_tag=true&query_gender=1",
-                    script: "gen2.js"
+                    title: e.category_name,
+                    input: "&category_id=1" + e.category_id + "",
+                    script: "gen3.js"
                 })
             });
             let last_publish_time = book_info.last_publish_time
@@ -35,9 +35,7 @@ function execute(url) {
                 detail: `作者: ${book_info.author}<br>评分: ${score}分<br>章节数: ${serial_count}<br>字数: ${word_number}<br>查看次数: ${read_count}<br>更新: ${last_publish_time_string}<br>最后更新: ${last_chapter_title}`,
                 ongoing: ongoing
             });
-        } catch (error) {
-            return Response.error(error);
-        }
+
     }
     return null;
 }

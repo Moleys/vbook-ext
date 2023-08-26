@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "[Fanqie] FQWeb",
+    "name": "[Fanqie] Cachua",
     "author": "Moleys",
-    "version": 15,
-    "source": "https://telegra.ph/FQWeb-07-18",
+    "version": 16,
+    "source": "https://fanqienovel.com/",
     "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)|localhost:9999/info(.*?)|api.api-fanqienovel.sunianyun.live/info(.*?)|list.fqapi.jilulu.cn/info(.*?)|fanqienovel.com/page/(\\d+)",
-    "description": "Đọc truyện qua app Fanqie, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
+    "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "genre": "genre.js",
+    "page": "page.js",
     "toc": "toc.js",
     "search": "search.js",
     "chap": "chap.js"
