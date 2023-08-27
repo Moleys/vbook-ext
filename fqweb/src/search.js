@@ -2,7 +2,7 @@ load('config.js');
 
 function execute(key, page) {
     if(!page) page =1
-	let response = fetch(`https://novel.snssdk.com/api/novel/channel/homepage/search/search/v1/?device_platform=android&parent_enterfrom=novel_channel_search.tab.&offset=${(page-1)*10}}&aid=1967&q=${key}`)
+	let response = fetch(`https://novel.snssdk.com/api/novel/channel/homepage/search/search/v1/?device_platform=android&parent_enterfrom=novel_channel_search.tab.&offset=${(page-1)*10}&aid=1967&q=${key}`)
 	if (response.ok) {
 		let doc = response.json();
 		let item_list = doc.data.ret_data
