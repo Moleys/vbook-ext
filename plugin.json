@@ -938,10 +938,10 @@
       "name": "[Ciweimao] sv2 Nhimmeo 💰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo_sv2/plugin.zip",
-      "version": 11,
-      "source": "https://sv2.nhimmeo.cf",
+      "version": 12,
+      "source": "https://sv2.nhimmeo.ovh",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhimmeo_sv2/icon.png",
-      "description": "Đọc truyện trên trang https://sv2.nhimmeo.cf",
+      "description": "Đọc truyện trên trang https://sv2.nhimmeo.ovh",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
