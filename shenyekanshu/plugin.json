@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "ebook8",
+    "name": "shenyekanshu",
     "author": "Moleys",
     "version": 2,
-    "source": "http://www.ebook8.com",
-    "regexp": "(www.|m.)?ebook8.com/(b|book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.ebook8.com",
+    "source": "http://www.shenyekanshu.com",
+    "regexp": "(www.|m.)?shenyekanshu.com/(b|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.shenyekanshu.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

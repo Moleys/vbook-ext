@@ -2,14 +2,14 @@
 load('cryptojs.js');
 
 function execute(url) {
-    url = url.replace('m.ebook8.com', 'www.ebook8.com');
+    url = url.replace('m.shenyekanshu.com', 'www.shenyekanshu.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
         // 1/2 text đầu không bị mã hóa
         let htm = doc.select("#C0NTENT");
         htm.select("p[style=\"color:red;\"]").remove();
-        htm = htm.html().replace("<p>收藏网址：www.ebook8.comm<\/p>","").replace("<p>(＞人＜；)<\/p>","");
+        htm = htm.html().replace("<p>收藏网址：www.shenyekanshu.comm<\/p>","").replace("<p>(＞人＜；)<\/p>","");
         //1/2 text sau không bị mã hóa
         let text0 = doc.select("script").html().split(").html(d(\"")[1];
         let a = text0.split("\", \"")[0].trim().replace(/\\/g,"");
