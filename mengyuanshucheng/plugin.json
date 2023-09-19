@@ -2,10 +2,10 @@
   "metadata": {
     "name": "mengyuanshucheng",
     "author": "Moleys",
-    "version": 2,
-    "source": "http://www.mengyuanshucheng.com",
-    "regexp": "(www.|wap.)?mengyuanshucheng.com/(my|index)/(.*?).html",
-    "description": "Đọc truyện trên trang http://www.mengyuanshucheng.com",
+    "version": 3,
+    "source": "https://www.mengyuanshuchengcn.com",
+    "regexp": "(www.|wap.)?mengyuanshuchengcn.com/(my|index)/(.*?).html",
+    "description": "Đọc truyện trên trang https://www.mengyuanshuchengcn.com/",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

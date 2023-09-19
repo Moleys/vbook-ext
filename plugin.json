@@ -173,10 +173,10 @@
       "name": "mengyuanshucheng",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mengyuanshucheng/plugin.zip",
-      "version": 2,
-      "source": "http://www.mengyuanshucheng.com",
+      "version": 3,
+      "source": "https://www.mengyuanshuchengcn.com/",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mengyuanshucheng/icon.png",
-      "description": "Đọc truyện trên trang http://www.mengyuanshucheng.com",
+      "description": "Đọc truyện trên trang https://www.mengyuanshuchengcn.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

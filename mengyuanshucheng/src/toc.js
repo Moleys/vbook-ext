@@ -1,5 +1,5 @@
 function execute(url) {
-	url = url.replace('wap.mengyuanshucheng.com', 'www.mengyuanshucheng.com');
+	url = url.replace('wap.mengyuanshuchengcn.com', 'www.mengyuanshuchengcn.com');
     url = url.replace("/my/","/index/")
     console.log(url)
     let response = fetch(url);
@@ -12,8 +12,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url:"http://www.mengyuanshucheng.com" + e.attr("href"),
-                host: "http://www.mengyuanshucheng.com"
+                url:"http://www.mengyuanshuchengcn.com" + e.attr("href"),
+                host: "http://www.mengyuanshuchengcn.com"
             })
         }
         return Response.success(data);
