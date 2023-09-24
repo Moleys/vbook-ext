@@ -8,10 +8,9 @@ function decode_text(input) {
         let matches = result.match(/"[^"]*[{}]{2,}[^"]+"/g);
         for (let i in matches) {
             let match = matches[i].match(/"([^"]*[{}]{2,})([^"]+)"/);
-            if (match[1] === "{{{}}}") {
-                let xx = CryptoJS.TripleDES.decrypt(match[2], key, { iv: iv, padding: padding }).toString(CryptoJS.enc.Utf8);
-                result = result.replace(match[1] + match[2], xx);
-            }
+            let xx = CryptoJS.TripleDES.decrypt(match[2], key, { iv: iv, padding: padding }).toString(CryptoJS.enc.Utf8);
+            result = result.replace(match[1] + match[2], xx);
+        
         }
     }
     catch (error) {
