@@ -16,7 +16,7 @@ function execute(url) {
         let lastime = res_json.data.LastTime;
         let category = res_json.data.CName;
         let bookstatus = res_json.data.BookStatus;
-        coverImg = "https://imgapixs.pysmei.com/BookFiles/BookImages/" + coverImg;
+        coverImg = "http://imgapixs.pysmei.com/BookFiles/BookImages/" + coverImg;
         return Response.success({
             name: bookname,
             cover: coverImg,

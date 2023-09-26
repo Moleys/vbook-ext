@@ -9,7 +9,7 @@ function execute(url, page) {
             let item = allBook[i];
             let coverImg = item.Img;
             coverImg = coverImg.replace("https://quapp.yphsy.com/bookfiles/bookimages/","")
-            coverImg = "https://imgapixs.pysmei.com/BookFiles/BookImages/" + coverImg;
+            coverImg = "http://imgapixs.pysmei.com/BookFiles/BookImages/" + coverImg;
             let bookId = item.Id;
             let cid = Math.floor(bookId/1000)+1;
             let link = "https://infosxs.pysmei.com/BookFiles/Html/" + cid + "/" + bookId + "/info.html";
