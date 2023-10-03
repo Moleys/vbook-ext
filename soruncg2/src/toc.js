@@ -16,7 +16,7 @@ function execute(url) {
             data.push({
                 name: temp[2],
                 url: link ,
-                host: "https://contentxs.pysmei.com"
+                host: "https://wb.pigqq.com"
             });
         }); 
         return Response.success(data);  

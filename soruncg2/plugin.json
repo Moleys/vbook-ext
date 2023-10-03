@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Bút thú các App",
     "author": "Moleys",
-    "version": 7,
-    "source": "https://infosxs.pysmei.com",
-    "regexp": "infosxs.pysmei.com/BookFiles/Html/(\\d+)/(\\d+)/info.html",
+    "version": 8,
+    "source": "https://wb.pigqq.com",
+    "regexp": "wb.pigqq.com/BookFiles/Html/(\\d+)/(\\d+)/info.html",
     "description": "Đọc truyện trên trang soruncg app",
     "local": "cn-CN",
     "language": "javascript",

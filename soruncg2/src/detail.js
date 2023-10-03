@@ -16,14 +16,14 @@ function execute(url) {
         let lastime = res_json.data.LastTime;
         let category = res_json.data.CName;
         let bookstatus = res_json.data.BookStatus;
-        coverImg = "http://imgapixs.pysmei.com/BookFiles/BookImages/" + coverImg;
+        coverImg = "https://imgapixs.pigqq.com/BookFiles/BookImages/" + coverImg;
         return Response.success({
             name: bookname,
             cover: coverImg,
             author: author,
             description: description,
             detail: "作者： " + author  + "<br>" + category + "<br>" + lastime +"<br>" + bookstatus,
-            host: "https://infosxs.pysmei.com",
+            host: "https://wb.pigqq.com",
         });
     }
     return null;
