@@ -5,8 +5,13 @@ function execute(url) {
         doc.select("#lineCorrect").remove();
         doc.select("span").remove();
         doc.select("p").last().remove();
-        let htm = doc.select(".article-content p").html().replace("Tips：如果觉得52书库不错，记得收藏网址 www.52shuku.vip 或推荐给朋友哦~拜托啦",'');
-        return Response.success(cleanHtml(htm));
+        let htm = doc.select(".article-content p")
+        let content = ""
+        htm.forEach(e => {
+            content = content + e.text() + "<br>"
+        })
+        content = content.replace("Tips：如果觉得52书库不错，记得收藏网址 www.52shuku.vip 或推荐给朋友哦~拜托啦",'');
+        return Response.success(content);
     }
     return null;
 }
