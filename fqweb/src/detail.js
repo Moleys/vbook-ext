@@ -8,13 +8,13 @@ function execute(url) {
     if (response.ok) {
             let json = response.json();
             let book_info = json.data.book_info;
-            let a_gen = book_info.category_tags
+            let a_gen=JSON.parse(book_info.category_v2);
 
             let genres = [];
             a_gen.forEach(e => {
                 genres.push({
-                    title: e.category_name,
-                    input: "&category_id=1" + e.category_id + "",
+                    title: e.Name,
+                    input: "&category_id=" + e.ObjectId + "&gender=1",
                     script: "gen3.js"
                 })
             });
