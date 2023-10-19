@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Râu Đỏ Nhimmeo",
-    "author": "dat-bi",
-    "version": 7,
+    "author": "Moleys",
+    "version": 8,
     "source": "https://raudo.nhimmeo.cf/",
     "regexp": "raudo.nhimmeo.cf/site/.*?/.*?",
     "description": "Đọc truyện trên trang https://raudo.nhimmeo.cf",
