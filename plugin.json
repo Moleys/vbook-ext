@@ -1044,6 +1044,17 @@
       "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "[Fanqie] Cachua alternative",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb2/plugin.zip",
+      "version": 18,
+      "source": "https://fanqienovel.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb2/icon.png",
+      "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
