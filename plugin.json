@@ -1055,6 +1055,17 @@
       "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Legado thêm Google dịch",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado2/plugin.zip",
+      "version": 11,
+      "source": "https://github.com/gedoor/legado",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado2/icon.png",
+      "description": "Đọc truyện qua app Legado",
+      "type": "chinese_novel",
+      "locale": "en_US"
     }
   ]
 }
