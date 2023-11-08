@@ -13,7 +13,7 @@ function execute(url) {
 				let book_list = json.data;
 				let book_info = book_list.find(obj => obj.bookUrl.includes(book_url));
 				console.log(JSON.stringify(book_info))
-				let type_book = (url.includes("&type=comic")) ? "comic" : "chinese_novel";
+				let type_book = (url.includes("&type=comic")) ? "comic" : "novel";
 				return Response.success({
 					name: book_info.name || "Lorem ipsum",
 					cover: config_host + "/cover?path="+ book_info.coverUrl,

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Legado thêm Google dịch",
     "author": "Moleys",
-    "version": 12,
+    "version": 13,
     "source": "https://github.com/gedoor/legado",
     "regexp": "((\\d+)[.](\\d+)[.](\\d+)[.](\\d+)|localhost):1122/(.*?)",
     "description": "Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
