@@ -19,7 +19,7 @@ function execute(url) {
 					cover: config_host + "/cover?path="+ book_info.coverUrl,
 					author: book_info.author || "Unknown",
 					description: (book_info.intro || "").replace(/\r\n/g, "<br>"),
-					detail: !book_info.author ? "" :"Author:" + book_info.author + "<br>" + (book_info.kind || ""),
+					detail: !book_info.author ? "" :"作者：" + book_info.author + "<br>" + (book_info.kind || ""),
 					host: config_host,
 					type: type_book
 				});
