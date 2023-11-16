@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Legado thêm Baidu Fanyi",
     "author": "Moleys",
-    "version": 14,
+    "version": 15,
     "source": "https://fanyi.baidu.com/",
     "regexp": "((\\d+)[.](\\d+)[.](\\d+)[.](\\d+)|localhost):1122/(.*?)",
-    "description": "Chạy lần đầu hãy MỞ TRANG NGUỒN. Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
+    "description": "Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
