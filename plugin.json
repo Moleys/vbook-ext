@@ -1046,17 +1046,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Fanqie] Cachua alternative",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb2/plugin.zip",
-      "version": 19,
-      "source": "https://fanqienovel.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fqweb2/icon.png",
-      "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "Legado thêm Google dịch",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado2/plugin.zip",
