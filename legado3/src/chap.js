@@ -1,6 +1,5 @@
 load('config.js');
 function execute(url) {
-    const from = "zh";
     const to = "vie";
     let default_max_length = 9500;
     
@@ -23,7 +22,7 @@ function execute(url) {
                     },
                     body: JSON.stringify({
                         'query': text,
-                        'from': from,
+                        'from': lfrom,
                         'to': to,
                         'reference': '',
                         'corpusIds': [],

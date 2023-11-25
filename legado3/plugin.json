@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Legado thêm Baidu Fanyi",
     "author": "Moleys",
-    "version": 15,
+    "version": 16,
     "source": "https://fanyi.baidu.com/",
     "regexp": "((\\d+)[.](\\d+)[.](\\d+)[.](\\d+)|localhost):1122/(.*?)",
     "description": "Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
