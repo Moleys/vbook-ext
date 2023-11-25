@@ -22,7 +22,7 @@ function execute(url) {
                     },
                     body: JSON.stringify({
                         'query': text,
-                        'from': lfrom,
+                        'from': config_from,
                         'to': to,
                         'reference': '',
                         'corpusIds': [],
