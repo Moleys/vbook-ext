@@ -16,7 +16,7 @@ function execute(url) {
         for (let i = 0; i < item.length; i ++) {
             book.push({
                 name: item[i].title,           
-                url: config_host + "/content?item_id=" + item[i].item_id,
+                url: config_host + "/reader/" + item[i].item_id,
                 host: config_host
             })
         }

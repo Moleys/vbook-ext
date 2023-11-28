@@ -10,7 +10,7 @@ function execute(url, page) {
         rows.forEach(e => {
             data.push({
                 name: e.book_name,
-                link: config_host + "/info?book_id=" + e.book_id,
+                link: config_host + "/page/" + e.book_id,
                 cover: e.thumb_url,
                 description: e.author,
                 host: config_host

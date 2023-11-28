@@ -4,10 +4,10 @@ function execute(url) {
     let book_id = url.match(regex)[1]
 
     // let book_id = url.split("book_id=")[1]
-    let response = fetch("https://novel.snssdk.com/api/novel/book/directory/list/v1?device_platform=android&parent_enterfrom=novel_channel_search.tab.&aid=1967&platform_id=1&book_id=" + book_id)
+    let response = fetch("https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=2329&iid=1&version_code=999&book_id=" + book_id)
     if (response.ok) {
             let json = response.json();
-            let book_info = json.data.book_info;
+            let book_info = json.data[0];
             let a_gen=JSON.parse(book_info.category_v2);
 
             let genres = [];

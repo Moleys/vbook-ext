@@ -1,7 +1,7 @@
 function execute(url) {
     const regex = /(?:book_id=|\/)(\d+)$/;
     let book_id = url.match(regex)[1]
-    let newurl = "https://novel.snssdk.com/api/novel/book/directory/list/v1?device_platform=android&parent_enterfrom=novel_channel_search.tab.&aid=1967&platform_id=1&book_id=" + book_id
+    let newurl = "https://novel.snssdk.com/api/novel/book/directory/list/v1/?device_platform=android&version_code=600&novel_version=&app_name=news_article&version_name=6.0.0&app_version=6.0.0aid=520&channel=1&device_type=landseer&os_api=25&os_version=10&book_id=" + book_id
 	let response = fetch(newurl, {
         headers: {
             'user-agent': UserAgent.android()
