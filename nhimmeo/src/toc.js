@@ -13,12 +13,12 @@ function execute(url) {
             let chapter_list = division.chapter_list;
 			chapter_list.forEach((e,index) => {
                 let name = e.chapter_title;
-                if(e.is_paid > 0){
-                    name = "[VIP] " + name;
-                }
+                let buy = e.is_paid > 0 ? true : false;
+
                 data.push({
                     name: name,
                     url: "https://nhimmeo.cf/chap/" + e.chapter_id,
+                    pay: buy,
                     host: "https://nhimmeo.cf"
                 })
 			}); 
