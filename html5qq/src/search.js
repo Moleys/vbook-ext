@@ -5,13 +5,15 @@ function execute(key, page) {
         let json = response.json();
         let book_list = json.data.state
 		var data = [];
+        const extractBookId = (url1) => (url1.match(/[?&]book(?:id|Id)=(\d+)/) || [])[1];
+
 		book_list.forEach(e => {
             if(e.items && e.items.length > 0)
             {
                 let e1 = e.items[0]
                 data.push({
                     name: e1.title,
-                    link: e1.jump_url,
+                    link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + extractBookId(e1.jump_url),
                     cover: e1.cover_url,
                     description: e1.author,
                     host: "https://novel.html5.qq.com"
