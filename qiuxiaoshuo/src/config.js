@@ -1,1 +1,0 @@
-const BASE_URL = 'http://www.81ht.com';
