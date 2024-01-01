@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "9x",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://novel-api.xiaoppkk.com",
+    "regexp": "novel-api.xiaoppkk.com/h5/book-id-\\d+",
+    "description": "Đọc truyện trên trang https://novel-api.xiaoppkk.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
