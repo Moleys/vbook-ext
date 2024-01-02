@@ -1,7 +1,7 @@
 load('config.js');
 
 function execute(key, page) {
-    let response = fetch('https://novel-api.xiaoppkk.com/h5/search?word=' + key);
+    let response = fetch(BASE_URL+'/h5/search?word=' + key);
 
     if (response.ok) {
         let doc = response.html();
