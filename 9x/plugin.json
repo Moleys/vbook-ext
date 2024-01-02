@@ -2,7 +2,7 @@
   "metadata": {
     "name": "9x",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://novel-api.xiaoppkk.com",
     "regexp": "novel-api.xiaoppkk.com/h5/book-id-\\d+",
     "description": "Đọc truyện trên trang https://novel-api.xiaoppkk.com",

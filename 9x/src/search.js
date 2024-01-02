@@ -1,21 +1,19 @@
+load('config.js');
+
 function execute(key, page) {
-    let response = fetch('https://www.38kanshu.com/search/', {
-        method: "GET",
-        queries: {
-            searchkey : key,
-        }
-    });
+    let response = fetch('https://novel-api.xiaoppkk.com/h5/search?word=' + key);
 
     if (response.ok) {
         let doc = response.html();
         const data = [];
         
-		doc.select("tbody tr").forEach(e => {
+		doc.select("ul.books-list li").forEach(e => {
             data.push({
-                name: e.select("td a").first().text(),
-                link: e.select("td a").first().attr("href"),
-                description: e.select("td.xs-hidden").first().text().replace(/\//g,"").trim(),
-                host: "https://www.38kanshu.com"
+                name: e.select("h3").first().text(),
+                link: e.select("a").first().attr("href"),
+                cover: e.select("img").attr("src"),
+                description: e.select("p.type span").first().text(),
+                host: BASE_URL
             })
         });
 
