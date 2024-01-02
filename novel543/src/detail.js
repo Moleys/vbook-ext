@@ -1,21 +1,29 @@
+load('config.js');
+
 function execute(url) {
-    url = url.replace('m.novel543.com', 'www.novel543.com');
+     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if(url.slice(-1) !== "/")
         url = url + "/"
     let response = fetch(url);
-    if (response.ok) {
 
+    if (response.ok) {
         let doc = response.html();
-        let coverImg = doc.select(".detail .bookimg img").first().attr("src");
-        let author = doc.select(".detail p a").first().text().replace(/作\s*者：/g, "");
+        let coverImg = doc.select('.cover img').attr('src');
+        let title = doc.select('.title').text();
+        let author = doc.select('.author').first().text();
+        let category = doc.select('.iconf a').text();
+        let updateTime = doc.select('.iconf:contains("更新")').text().replace('更新：', '');
+        let introduction = doc.select('.intro').text();
+
         return Response.success({
-            name: doc.select("h1").text(),
+            name: title,
             cover: coverImg,
             author: author,
-            description: doc.select(".intro").text(),
-            detail:  "作者：" + author + "<br>更新：" + doc.select(".i_history").text()+ "<br>分類：" + doc.select(".detail p a").get(1).text(),
-            host: "https://www.novel543.com"
+            description: introduction,
+            detail: `作者: ${author}<br>分類: ${category}<br>更新時間: ${updateTime}`,
+            host: url
         });
     }
+
     return null;
 }

@@ -1,15 +1,16 @@
+load('config.js');
 function execute(url, page) {
-	url = url.replace('m.novel543.com', 'www.novel543.com');
-    let response = fetch(url);
+	  url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let response = fetch(BASE_URL + url);
     if (response.ok) {
         let doc = response.html();
         const data = [];
-		doc.select("tbody tr").forEach(e => {
+        doc.select(".news li").forEach(e => {
             data.push({
-                name: e.select("td a").get(1).text(),
-                link: e.select("td a").get(1).attr("href"),
-                description: e.select("td a").get(2).text(),
-                host: "https://www.novel543.com"
+                name: e.select("h3 a").first().text(),
+                link: BASE_URL + e.select("a").first().attr("href"),
+                description: e.select(".author").text(),
+                host: BASE_URL
             })
         });
 

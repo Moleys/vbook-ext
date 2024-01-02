@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        {title: "首页", input: "https://www.novel543.com/", script: "gen.js"}
+        {title: "最近更新", input: "/", script: "gen.js"}
 
     ]);
 }
