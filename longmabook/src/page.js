@@ -21,9 +21,10 @@ function execute(url) {
         const data = [];
 
         let li0 = doc.select("li").first().text()
-        if(li0 === "章節數量較多，採分頁顯示")
+
+        if(li0 === "章節數量較多，採分頁顯示" || li0 === "章节数量较多，采分页显示")
         {
-            li1 = doc.select("li").last().select("a").text().trim()
+            li1 = doc.select("li").last().select("a").last().text().trim()
             for(let i = 1; i<=li1;i++) {
                 data.push(bookid+"_"+i.toString())
             }

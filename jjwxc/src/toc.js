@@ -35,20 +35,23 @@ function execute(url) {
             let name =  el[i].chaptername;
             if(el[i].chaptertype != '1')
             {
+                let buy = false
                 name = el[i].chapterid +". " + name.trim();
                 let chapterid=  el[i].chapterid
                 let link = 'https://app.jjwxc.net/androidapi/chapterContent?novelId='+bookID+'&chapterId='+chapterid;
                 let host = "http://app.jjwxc.net"
                 let checkVIP = el[i].isvip;
                 if(checkVIP>0) {
-                    name =  name + " [VIP]";
+                    buy = true
                     link = "https://android.jjwxc.net/androidapi/androidChapterBatchDownload?versionCode=290&novelId="+bookID+"&chapterIds="+chapterid+"&token="+token;
                     host = "https://android.jjwxc.net"
                 }
                 data.push({
                     name: name,
                     url: link ,
+                    pay: buy,
                     host: host
+                    
                 })
 
             }
