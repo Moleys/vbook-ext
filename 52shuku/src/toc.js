@@ -9,7 +9,7 @@ function execute(url) {
             data.push({
                 name: e.select("a").text(),
                 url: e.attr("href"),
-                host: "https://www.52shuku.vip"
+                host: "https://www.52shuku.net"
             })
         }
         return Response.success(data);

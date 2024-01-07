@@ -22,7 +22,7 @@ function execute(url) {
             author: author,
             description: description,
             detail: "作者： " + author + "<br>" + doc.select(".meta time.muted").text(),
-            host: "https://www.52shuku.vip"
+            host: "https://www.52shuku.net"
         });
     }
     return null;

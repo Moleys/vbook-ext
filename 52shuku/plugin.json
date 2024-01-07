@@ -2,10 +2,10 @@
   "metadata": {
     "name": "52shuku",
     "author": "Moleys",
-    "version": 8,
-    "source": "https://www.52shuku.vip",
-    "regexp": "(www.|m.)?52shuku.vip/(.*?)/(.*?).html",
-    "description": "Đọc truyện trên trang https://www.52shuku.vip",
+    "version": 9,
+    "source": "https://www.52shuku.net",
+    "regexp": "(www.|m.)?52shuku.(vip|net)/(.*?)/(.*?).html",
+    "description": "Đọc truyện trên trang https://www.52shuku.net",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

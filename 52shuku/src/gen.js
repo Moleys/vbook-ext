@@ -21,7 +21,7 @@ function execute(url, page) {
                     name: e.select("a").first().text(),
                     link: link,
                     description: description,
-                    host: "https://www.52shuku.vip"
+                    host: "https://www.52shuku.net"
                 });
         });
         return Response.success(data, next)
