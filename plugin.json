@@ -946,17 +946,6 @@
       "locale": "en_US"
     },
     {
-      "name": "Legado thêm Baidu Fanyi",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado3/plugin.zip",
-      "version": 17,
-      "source": "https://github.com/gedoor/legado",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado3/icon.png",
-      "description": "Đọc truyện qua app Legado",
-      "type": "novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "9x",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/9x/plugin.zip",

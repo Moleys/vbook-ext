@@ -4,7 +4,7 @@
     "author": "Moleys",
     "version": 4,
     "source": "http://www.jingwubook.com",
-    "regexp": "(www.|m.)?jingwubook.com/book/\\d+(/?|\\.html)",
+    "regexp": "(www.|m.)?jingwubook.com/(book|xs)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang http://www.jingwubook.com",
     "locale": "zh_CN",
     "language": "javascript",
