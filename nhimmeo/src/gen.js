@@ -1,4 +1,7 @@
+load('config.js');
+
 function execute(url, page) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if (!page) page = '1';
     let url1 = "https://mip.ciweimao.com/index/book_list_data?keyword=&category_type=" + url + "&pn=" + page;
     let response = fetch(url1);
@@ -14,10 +17,10 @@ function execute(url, page) {
             books.forEach(e => {
                 data.push({
                     name: e.book_name,
-                    link: "https://nhimmeo.cf/book/" + e.book_id,
+                    link: BASE_URL + "/book/" + e.book_id,
                     cover:  e.cover,
                     description: e.author_name,
-                    host: "https://nhimmeo.cf"
+                    host: BASE_URL
                 });
             });
 

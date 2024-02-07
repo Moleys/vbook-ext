@@ -1,10 +1,13 @@
 
+load('config.js');
+
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if(url.slice(-1) === "/")
         url = url.slice(0, -1);  
     const data = [];
     let book_id = url.split(/[/ ]+/).pop();
-    let url_division = "https://nhimmeo.cf/api/catalog.php?q=" + book_id;
+    let url_division = BASE_URL+"/api/catalog.php?q=" + book_id;
     let response_chapter_list = fetch(url_division)
     if (response_chapter_list.ok) {
         let text_encrypt = response_chapter_list.json();
@@ -17,9 +20,9 @@ function execute(url) {
 
                 data.push({
                     name: name,
-                    url: "https://nhimmeo.cf/chap/" + e.chapter_id,
+                    url: BASE_URL+"/chap/" + e.chapter_id,
                     pay: buy,
-                    host: "https://nhimmeo.cf"
+                    host: BASE_URL
                 })
 			}); 
         });
