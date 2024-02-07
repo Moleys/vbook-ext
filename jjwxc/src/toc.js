@@ -17,7 +17,7 @@ function execute(url) {
 
 
     let token = "error"
-    let response_tk = fetch("https://moldich.eu.org/tools/jjwxc-sign.php");
+    let response_tk = fetch("https://moldich.raudo.eu.org/tools/jjwxc-sign.php");
     if (response_tk.ok) {
         let doc = response_tk.html();
         token = doc.select("#token_display").text().trim()
