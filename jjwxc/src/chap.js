@@ -12,7 +12,7 @@ function execute(url) {
 
             let response1 = fetch(url);
             if (response1.ok) {
-                let res_json1 = response1.json().downloadContent[0];
+                let res_json1 = response1.json();
 
                 if(res_json1.message){
                     html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP ở Tấn Giang.<br>Nếu bạn vừa mới mua thì reload - tải lại chương này, để cập nhật nội dung.<br>Nếu vẫn không đọc được thì lập chủ đề bên Góp ý báo lỗi!";
