@@ -1,4 +1,5 @@
 load('crypto.js');
+load('decode.js');
 
 function execute(url) {
 
@@ -12,7 +13,16 @@ function execute(url) {
 
             let response1 = fetch(url);
             if (response1.ok) {
-                let res_json1 = response1.json();
+                let content = response1.text();
+                let res_json1
+                if (content.includes('"content"')) {
+                    res_json1 = JSON.parse(content);
+                } else {
+                    let accesskey = response1.headers.accesskey;
+                    let keyString = response1.headers.keystring;
+                    let res = decode(accesskey, keyString, content)
+                    res_json1 = JSON.parse(res)
+                }
 
                 if(res_json1.message){
                     html1 = "Đây là chương VIP. Nếu muốn đọc bạn cần mua chương VIP ở Tấn Giang.<br>Nếu bạn vừa mới mua thì reload - tải lại chương này, để cập nhật nội dung.<br>Nếu vẫn không đọc được thì lập chủ đề bên Góp ý báo lỗi!";
@@ -50,21 +60,6 @@ function execute(url) {
     }
 }
 
-function decryptContent(content) {
-    // Được hỗ trợ bởi thám tử Đạt 009
-    if (content.length <= 30) {
-        return "";
-    }
-    const key = CryptoJS.enc.Utf8.parse("KW8Dvm2N");
-    const iv = CryptoJS.enc.Utf8.parse("1ae2c94b");
-    const ciphertext = CryptoJS.enc.Base64.parse(content);
-    const decrypted = CryptoJS.DES.decrypt({ ciphertext }, key, {
-        iv,
-        mode: CryptoJS.mode.CBC,
-        padding: CryptoJS.pad.Pkcs7
-        });
-    return decrypted.toString(CryptoJS.enc.Utf8);
-}
 
 function getConent(chap_content, sayBody,chapterIntro) {
     chap_content = chap_content.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/\n　　/g,"<br>").replace(/<br><br>/g, "<br>");
@@ -76,3 +71,5 @@ function getConent(chap_content, sayBody,chapterIntro) {
     }
     return chap_content;
 }
+
+
