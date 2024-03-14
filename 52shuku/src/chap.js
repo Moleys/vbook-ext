@@ -1,4 +1,6 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -10,7 +12,7 @@ function execute(url) {
         htm.forEach(e => {
             content = content + e.text() + "<br>"
         })
-        content = content.replace("Tips：如果觉得52书库不错，记得收藏网址 www.52shuku.net 或推荐给朋友哦~拜托啦",'');
+        content = content.replace("Tips：如果觉得52书库不错，记得收藏网址 www.52shuku.vip 或推荐给朋友哦~拜托啦",'');
         return Response.success(content);
     }
     return null;

@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url, page) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1)
@@ -21,7 +23,7 @@ function execute(url, page) {
                     name: e.select("a").first().text(),
                     link: link,
                     description: description,
-                    host: "https://www.52shuku.net"
+                    host: BASE_URL
                 });
         });
         return Response.success(data, next)

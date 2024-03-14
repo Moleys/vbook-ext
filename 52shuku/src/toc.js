@@ -1,3 +1,5 @@
+load('config.js');
+
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
@@ -9,7 +11,7 @@ function execute(url) {
             data.push({
                 name: e.select("a").text(),
                 url: e.attr("href"),
-                host: "https://www.52shuku.net"
+                host: BASE_URL
             })
         }
         return Response.success(data);
