@@ -955,6 +955,17 @@
       "description": "Đọc truyện trên trang https://9x.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "po18",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18/plugin.zip",
+      "version": 1,
+      "source": "https://www.po18.tw",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18/icon.png",
+      "description": "Đọc truyện trên trang https://www.po18.tw",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
