@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Fanqie] Cachua",
     "author": "Moleys",
-    "version": 26,
+    "version": 27,
     "source": "https://fanqienovel.com/",
     "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)|localhost:9999/info(.*?)|api.api-fanqienovel.sunianyun.live/info(.*?)|list.fqapi.jilulu.cn/info(.*?)|fanqienovel.com/page/(\\d+)|fanqienovel.com/info(.*?)",
     "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
