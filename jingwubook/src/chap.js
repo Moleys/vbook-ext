@@ -1,23 +1,23 @@
 function execute(url) {
     url = url.replace('m.jingwubook.com', 'www.jingwubook.com');
-    let data  ="";
-    let part1 = url.replace("https://www.jingwubook.com", "").replace("http://www.jingwubook.com", "").replace(".html","");
-    var next = part1;
-    while (next.includes(part1)) {
-        console.log(next)
-        let response = fetch("https://www.jingwubook.com" + next +".html");
-        if (response.ok) {
-            let doc = response.html();
-            next = doc.select("a[rel=\"next\"]").attr("href").replace(".html","");
-console.log(next)
-            let htm = doc.select("#content_main").html();
-            data = data + htm;
-        } else {
-            break;
-        }
+    let url2 = "http://www.jingwubook.com"
+    const doc = fetch(url).html();
+    var content = doc.select("#booktxt")
+    content.select("script").remove()
+    content.select("ins").remove()
+    content = content.html();
+    console.log(content)
+    var nextPage = doc.select('.bottem1 a').last();
+
+    console.log(url2+nextPage.attr('href'))
+    while(nextPage.text() === '下一页'){
+        var doc2 = fetch(url2+nextPage.attr('href')).html();
+        var content2 = doc2.select("#booktxt")
+        content2.select("script").remove()
+        content2.select("ins").remove()
+        content += content2.html();
+        var nextPage = doc2.select('.bottem1 a').last();
     }
-    if (data) {
-        return Response.success(data);
-    }
-    return null;
+    content = content.replace(/<p><\/p>/g,'').replace(/&nbsp;/g,'').replace(/<div><\/div>/g,"")
+    return Response.success(content);
 }

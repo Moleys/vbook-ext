@@ -1,7 +1,7 @@
 function execute(url) {
     if(url.slice(-1) !== "/")
         url = url + "/";
-    url = url.replace("jingwubook.com/book/","jingwubook.com/xiaoshuo/");
+    url = url.replace("jingwubook.com/xs/","jingwubook.com/xsmulu/");
     
     let response = fetch(url);
     if (response.ok) {
