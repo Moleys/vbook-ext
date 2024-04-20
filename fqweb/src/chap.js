@@ -5,8 +5,13 @@ function execute(url) {
     let chapid = url.match(regex)[1]
 
     url = "https://fanqienovel.com/api/reader/full?itemId=" + chapid
+    const cookie = "novel_web_id=7357767624615331362;";
 
-    let response_chapter_info = fetch(url)
+    let response_chapter_info = fetch(url, {
+        headers: {
+            'Cookie': cookie
+        }
+    })
     if (response_chapter_info.ok) {
         let json = response_chapter_info.json();
         let chapter_info = r_content(json.data.chapterData.content)
