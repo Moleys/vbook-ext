@@ -4,18 +4,18 @@ function execute(url, page) {
     let response = fetch(url+"&page="+page);
     if (response.ok) {
         let doc = response.html();
+        let next = doc.select('ul.pagination-list').select('li.is-current + li').text();
         const data = [];
-		doc.select("ul.library.layui-row li.layui-col-lg6").forEach(e => {
+		doc.select(".list .row").forEach(e => {
             data.push({
-                name: e.select("a.bookname").first().text(),
-                link: e.select("a.bookimg").first().attr("href"),
-                cover: e.select("a.bookimg img").first().attr("src"),
-                description: e.select("p").first().text().split("|")[0],
+                name: e.select("h3 a").text(),
+                link: e.select("h3 a").attr("href"),
+                cover: e.select("img").attr("src"),
+                description: e.select(".author").text(),
                 host: "http://www.twbook.cc"
             })
         });
-        let next = doc.select("ul.pagination li.next a").attr("href").split(/[= ]+/).pop();
-        return Response.success(data,next)
+        return Response.success(data, next)
     }
     return null;
 }
