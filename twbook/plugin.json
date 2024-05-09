@@ -2,7 +2,7 @@
   "metadata": {
     "name": "twbook",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.twbook.cc",
     "regexp": "(www.|m.)?twbook.cc/\\d+/?$",
     "description": "Đọc truyện trên trang http://www.twbook.cc",
