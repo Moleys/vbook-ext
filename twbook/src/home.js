@@ -1,6 +1,5 @@
 function execute() {
     return Response.success([
-        {title: "首页", input: "https://www.twbook.cc/", script: "gen.js"}
-
+        {title: "最新發佈", input: "bookstack", script: "gen.js"}
     ]);
 }

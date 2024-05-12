@@ -6,14 +6,13 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let el1 = doc.select(".read dl").last()
-        let el = el1.select("dd a")
+        let el = doc.select(".chaplist ul.all li")
         const data = [];
         for (let i = 0;i < el.size(); i++) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url:"http://www.twbook.cc" + e.attr("href"),
+                url: e.select("a").attr("href"),
                 host: "http://www.twbook.cc"
             })
         }
