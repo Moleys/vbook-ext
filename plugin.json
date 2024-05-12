@@ -966,6 +966,17 @@
       "description": "Đọc truyện trên trang https://www.po18.tw",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Bocchi",
+      "author": "Moleys",
+      "path": "https://telegra.ph/file/9b83490a58924ed6849eb.png",
+      "version": 1,
+      "source": "https://fbi.com",
+      "icon": "https://telegra.ph/file/77dc938747c09728aee72.png",
+      "description": "Bocchi",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
