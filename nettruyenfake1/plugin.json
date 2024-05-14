@@ -2,8 +2,8 @@
   "metadata": {
     "name": "NetTruyen (Fake #1)",
     "author": "Moleys",
-    "version": 1,
-    "source": "https://www.nettruyenvv.com",
+    "version": 2,
+    "source": "https://www.nettruyencc.com",
     "regexp": "(www.)?nettruyencc.com/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang NetTruyen (Fake #1)",
     "locale": "vi_VN",
