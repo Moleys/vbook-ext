@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "NetTruyen (Fake #3)",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.nettruyenloli.com",
+    "regexp": "(www.)?nettruyencc.com/truyen-tranh/[^/]+/?$",
+    "description": "Đọc truyện trên trang NetTruyen (Fake #3)",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
