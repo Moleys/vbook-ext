@@ -2,7 +2,7 @@
   "metadata": {
     "name": "NetTruyen (Fake #2)",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://www.nettruyenviet.com",
     "regexp": "(www.)?nettruyenviet.com/manga/[^/]+/?$",
     "description": "Đọc truyện trên trang NetTruyen (Fake #2)",
