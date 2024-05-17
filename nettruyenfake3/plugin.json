@@ -4,7 +4,7 @@
     "author": "Moleys",
     "version": 1,
     "source": "https://www.nettruyenloli.com",
-    "regexp": "(www.)?nettruyencc.com/truyen-tranh/[^/]+/?$",
+    "regexp": "(www.)?nettruyenloli.com/(manga|comic)/[^/]+/?$",
     "description": "Đọc truyện trên trang NetTruyen (Fake #3)",
     "locale": "vi_VN",
     "language": "javascript",

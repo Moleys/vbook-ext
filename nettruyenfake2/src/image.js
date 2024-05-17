@@ -1,8 +1,8 @@
 function execute(url) {
     let response = fetch(url, {
-        headers: {
-            'referer': 'https://nettruyenviet.com/',
-        }
+    headers: {
+        'referer': 'https://nettruyenviet.com/'
+    }
     });
     if (response.ok) {
         return Graphics.createImage(response.base64())

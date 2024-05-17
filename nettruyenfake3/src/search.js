@@ -2,36 +2,28 @@ load('config.js');
 function execute(key, page) {
     if (!page) page = '1';
 
-    let response = fetch(BASE_URL + "/ajax/search", {
-        body: {
-            'search': 'yêu'
-        }})
-    
+    let response = fetch(BASE_URL+'/ajax/search', {
+            method: 'POST',
+            body:  {'search': key}
+        })
 
     if (response.ok) {
         let doc = response.json();
-
-
         console.log(JSON.stringify(doc))
-
-        let next = doc.select(".pagination").select("li.active + li").text();
-
         let data = [];
-        doc.select(".items .item").forEach(e => {
-            let coverImg = e.select(".image img").first().attr("data-original");
-            if (coverImg.startsWith("//")) {
-                coverImg = "https:" + coverImg;
-            }
+        doc.list.forEach(e => {
+            let coverImg = BASE_URL + e.cover
+
             data.push({
-                name: e.select("h3 a").first().text(),
-                link: e.select("h3 a").first().attr("href"),
+                name: e.name,
+                link: e.url,
                 cover: coverImg,
-                description: e.select(".chapter a").first().text(),
+                description: e.update,
                 host: BASE_URL
             });
         });
 
-        return Response.success(data, next);
+        return Response.success(data);
     }
 
     return null;
