@@ -999,6 +999,17 @@
       "description": "Đọc truyện trên trang NetTruyen (Fake #3)",
       "type": "comic",
       "locale": "vi_VN"
+    },
+    {
+      "name": "NetTruyen (Fake #4)",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake4/plugin.zip",
+      "version": 1,
+      "source": "https://nettruyendie.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake4/icon.png",
+      "description": "Đọc truyện trên trang NetTruyen (Fake #4)",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
