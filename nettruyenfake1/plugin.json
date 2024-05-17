@@ -2,9 +2,9 @@
   "metadata": {
     "name": "NetTruyen (Fake #1)",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://www.nettruyencc.com",
-    "regexp": "(www.)?nettruyencc.com/truyen-tranh/[^/]+/?$",
+    "regexp": "(www.)?(nettruyencc|nettruyenco).(com|vn)/truyen-tranh/[^/]+/?$",
     "description": "Đọc truyện trên trang NetTruyen (Fake #1)",
     "locale": "vi_VN",
     "language": "javascript",
