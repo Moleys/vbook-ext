@@ -8,10 +8,12 @@ function execute(url) {
         let data = [];
         doc.select(".page-chapter img").forEach(e => {
             let img = e.attr("data-src");
-            data.push({
-                link: img,
-                script: "image.js"
-            })
+            // data.push({
+            //     link: img,
+            //     script: "image.js"
+            // })
+            data.push(img)
+
         });
         return Response.success(data);
     }

@@ -968,46 +968,13 @@
       "locale": "zh_CN"
     },
     {
-      "name": "NetTruyen (Fake #1)",
+      "name": "NetTruyen (Fake #1b)",
       "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1/plugin.zip",
-      "version": 3,
-      "source": "https://nettruyencc.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1/icon.png",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1b/plugin.zip",
+      "version": 1,
+      "source": "https://api.tainettruyen.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1b/icon.png",
       "description": "Đọc truyện trên trang NetTruyen (Fake #1)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "NetTruyen (Fake #2)",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake2/plugin.zip",
-      "version": 2,
-      "source": "https://nettruyenviet.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake2/icon.png",
-      "description": "Đọc truyện trên trang NetTruyen (Fake #2)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "NetTruyen (Fake #3)",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake3/plugin.zip",
-      "version": 1,
-      "source": "https://nettruyenloli.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake3/icon.png",
-      "description": "Đọc truyện trên trang NetTruyen (Fake #3)",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
-      "name": "NetTruyen (Fake #4)",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake4/plugin.zip",
-      "version": 1,
-      "source": "https://nettruyendie.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake4/icon.png",
-      "description": "Đọc truyện trên trang NetTruyen (Fake #4)",
       "type": "comic",
       "locale": "vi_VN"
     }
