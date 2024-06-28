@@ -2,7 +2,7 @@
   "metadata": {
     "name": "NetTruyen (Fake #1b)",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "api.tainettruyen.com",
     "regexp": "api.tainettruyen.com/api/comic/\\d+?$",
     "description": "Đọc truyện trên trang NetTruyen Fake",

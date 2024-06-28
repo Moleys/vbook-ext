@@ -2,7 +2,7 @@
 
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch("https://api.tainettruyen.com/api/search?catId=1&statusId=1&typeId=1&keyword="+key+"&page="+page+"&limit=10&v=12&non_user=1");
+    let response = fetch("https://api.tainettruyen.com/api/search?catId=1&statusId=1&typeId=1&keyword="+encodeURI(key)+"&page="+page+"&limit=10&v=12&non_user=1");
     if (response.ok) {
         let doc = response.json();
         let data = [];
