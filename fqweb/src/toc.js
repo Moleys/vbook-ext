@@ -18,7 +18,7 @@ function execute(url) {
             var e = el.get(i);
             book.push({
                 name: e.text(),           
-                url: config_host + "/reader" + e.attr("href"),
+                url: config_host + "" + e.attr("href"),
                 host: config_host
             })
         }
