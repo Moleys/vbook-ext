@@ -1,22 +1,24 @@
 load('config.js');
 
 function execute(url) {
-    let newurl = `https://novel.snssdk.com/api/novel/book/directory/detail/v1/?aid=1967&item_ids=${url}`
+
+    const regex = /(?:book_id=|\/)(\d+)$/;
+    let book_id = url.match(regex)[1]
+    let newurl = `https://fanqienovel.com/page/${book_id}`
     console.log(newurl)
     
-	let response = fetch(newurl, {
-        headers: {
-            'user-agent': UserAgent.android()
-        }
-    });
+	let response = fetch(newurl);
     if (response.ok) {
-        let res_json = response.json();
-        let item = res_json.data;
+        let doc = response.html();
+        
+        let el = doc.select(".page-directory-content a.chapter-item-title")
+
         const book = [];
-        for (let i = 0; i < item.length; i ++) {
+        for (var i =0; i < el.size(); i++) {
+            var e = el.get(i);
             book.push({
-                name: item[i].title,           
-                url: config_host + "/reader/" + item[i].item_id,
+                name: e.text(),           
+                url: config_host + "/reader" + e.attr("href"),
                 host: config_host
             })
         }
