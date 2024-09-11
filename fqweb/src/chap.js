@@ -2,28 +2,32 @@ load('config.js');
 
 function execute(url) {
     const regex = /(?:item_id=|\/)(\d+)$/;
-    let chapid = url.match(regex)[1]
-
-    url = "https://fanqienovel.com/api/reader/full?itemId=" + chapid
+    let chapid = url.match(regex)[1];
     const cookie = "novel_web_id=7357767624615331362;";
+    const maxRetries = 25;
+    let attempts = 0;
 
-    let response_chapter_info = fetch(url, {
-        headers: {
-            'Cookie': cookie
+    while (attempts < maxRetries) {
+        let chapterUrl = "https://fanqienovel.com/api/reader/full?itemId=" + chapid;
+        let response_chapter_info = fetch(chapterUrl, {
+            headers: {
+                'Cookie': cookie
+            }
+        });
+
+        if (response_chapter_info.ok) {
+            let json = response_chapter_info.json();
+            let chapter_info = r_content(json.data.chapterData.content);
+            return Response.success(chapter_info);
+        } else {
+            attempts++;
+            console.log(`Attempt ${attempts} failed. Retrying...`);
         }
-    })
-    if (response_chapter_info.ok) {
-        let json = response_chapter_info.json();
-        let chapter_info = r_content(json.data.chapterData.content)
-        // let chapter_info = json.data.content.replace(/<br\s*\/?>|\n/g, "<br><br>");
-        // chapter_info = Html.parse(chapter_info)
-        // chapter_info = chapter_info.select("article").html()
-        return Response.success(chapter_info);
     }
+
     return Response.error("Kiểm tra lại app Fanqie");
-
-
 }
+
 
 
 const CODE_ST = 58344;
