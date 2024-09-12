@@ -734,17 +734,6 @@
       "description": "Đọc truyện trên trang https://www.po18.tw",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "NetTruyen (Fake #1b)",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1b/plugin.zip",
-      "version": 2,
-      "source": "https://api.tainettruyen.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nettruyenfake1b/icon.png",
-      "description": "Đọc truyện trên trang NetTruyen (Fake #1)",
-      "type": "comic",
-      "locale": "vi_VN"
     }
   ]
 }
