@@ -2,7 +2,7 @@
   "metadata": {
     "name": "[Fanqie] Free 5000 chap/day/all users",
     "author": "Moleys",
-    "version": 46,
+    "version": 47,
     "source": "https://torri77.nhimmeo.cf/",
     "regexp": "(\\d+)[.](\\d+)[.](\\d+)[.](\\d+):9999/info(.*?)|localhost:9999/info(.*?)|api.api-fanqienovel.sunianyun.live/info(.*?)|list.fqapi.jilulu.cn/info(.*?)|fanqienovel.com/page/(\\d+)|fanqienovel.com/info(.*?)",
     "description": "🍅🍅🍅🍅🍅🍅🍅🍅🍅",
@@ -17,5 +17,9 @@
     "toc": "toc.js",
     "search": "search.js",
     "chap": "chap.js"
+  },
+  "config": {
+    "thread_num": 1,
+    "delay": 1500
   }
 }
