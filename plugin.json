@@ -734,6 +734,17 @@
       "description": "Đọc truyện trên trang https://www.po18.tw",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Elysia",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/plugin.zip",
+      "version": 1,
+      "source": "https://cwm.elysia.rip",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/icon.png",
+      "description": "Đọc truyện trên trang Elysia",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
