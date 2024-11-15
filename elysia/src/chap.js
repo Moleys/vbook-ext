@@ -1,23 +1,25 @@
 load('config.js');
-
-function containsChinese(text) {
-    const hasChinese = /[\u4e00-\u9fff]/;
-
-  return hasChinese.test(text);
-}
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
-    let response_chapter_info = fetch(url)
-    if (response_chapter_info.ok) {
-		let doc = response_chapter_info.html();
+    let response = fetch(url)
+    if (response.ok) {
+        const cookie = response.request.headers.cookie
+        const isAutoShareOn = cookie.includes('auto_share_chapter_vip=on');
+		let doc = response.html();
         let data = []
-        doc.select("#scrollIntoView div[style*=font-size:20px]").forEach((e,index) => {
-
+        doc.select("article div[style*=font-size:20px]").forEach((e,index) => {
             data.push(e.html())
         });
-
-
-        return Response.success(data.join("<br>"));
+        if(data.length === 0 && isAutoShareOn){
+            let res2 = fetch(url.replace('chap', 'shchap'))
+            if(res2.ok){
+                let doc2 = res2.html()
+                doc2.select("article div[style*=font-size:20px]").forEach((e,index) => {
+                    data.push(e.html())
+                });
+            }
+        }
+        return Response.success(data.join('<br>'));
     }
     return null;
 }

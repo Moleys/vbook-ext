@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Elysia",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "https://cwm.elysia.rip",
     "regexp": "cwm.elysia.rip/(book|detail)/(\\d+)",
-    "description": "Đọc truyện trên trang https://cwm.elysia.rip",
+    "description": "Support by Nhocconsr",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
