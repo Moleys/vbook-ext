@@ -27,17 +27,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biduoxs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biduoxs/plugin.zip",
-      "version": 1,
-      "source": "https://www.biduoxs.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biduoxs/icon.png",
-      "description": "Đọc truyện trên trang https://www.biduoxs.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biqugeabc",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/plugin.zip",
@@ -45,17 +34,6 @@
       "source": "https://www.biqugeabc.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/icon.png",
       "description": "Đọc truyện trên trang https://www.biqugeabc.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "qmxs123",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qmxs123/plugin.zip",
-      "version": 2,
-      "source": "http://www.qmxs123.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/qmxs123/icon.png",
-      "description": "Đọc truyện trên trang http://www.qmxs123.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -100,28 +78,6 @@
       "source": "http://www.twbook.cc",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/twbook/icon.png",
       "description": "Đọc truyện trên trang http://www.twbookg.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "lanlanguoji",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lanlanguoji/plugin.zip",
-      "version": 2,
-      "source": "http://www.lanlanguoji.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lanlanguoji/icon.png",
-      "description": "Đọc truyện trên trang http://www.lanlanguoji.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "jingwubook",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/plugin.zip",
-      "version": 4,
-      "source": "http://www.jingwubook.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jingwubook/icon.png",
-      "description": "Đọc truyện trên trang http://www.jingwubook.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -369,17 +325,6 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "yodu 📚📖",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/plugin.zip",
-      "version": 3,
-      "source": "http://www.yodu.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yodu/icon.png",
-      "description": "Đọc truyện trên trang http://www.yodu.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
 	{
       "name": "Sfacg 💰",
       "author": "Moleys",
@@ -412,17 +357,6 @@
       "description": "Đọc truyện trên trang http://daoquan.vn",
       "type": "novel",
       "locale": "vi-VN"
-    },
-    {
-      "name": "ddxsss",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ddxsss/plugin.zip",
-      "version": 1,
-      "source": "https://www.ddxsss.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ddxsss/icon.png",
-      "description": "Đọc truyện trên trang https://www.ddxsss.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     },
     {
       "name": "readcomiconline",
@@ -531,17 +465,6 @@
       "source": "https://ebook.longmabook.com",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/longmabook/icon.png",
       "description": "Đọc truyện trên trang https://ebook.longmabook.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "linovel 📖💰❌",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/plugin.zip",
-      "version": 4,
-      "source": "https://www.linovel.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovel/icon.png",
-      "description": "Đọc truyện trên trang https://www.linovel.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
