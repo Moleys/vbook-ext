@@ -2,9 +2,9 @@
   "metadata": {
     "name": "jpxs123",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://jpxs123.com",
-    "regexp": "(www\\.)?jpxs123\\.com/tongren/\\d+\\.html",
+    "regexp": "(www\\.)?jpxs123\\.com/(.*?)/\\d+\\.html",
     "description": "Đọc truyện trên trang http://jpxs123.com",
     "locale": "zh_CN",
     "language": "javascript",
