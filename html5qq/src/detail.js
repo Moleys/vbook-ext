@@ -13,15 +13,17 @@ function execute(url) {
     if (response.ok) {
         let doc = response.json();
         let book = doc.data.bookInfo
-        return Response.success({
-            name: book.resourceName,
-            cover: book.picurl,
-            author: book.author,
-            description: book.summary.replace(/\n/g,"<br>"),
-            detail: "作者： " + book.author + "<br>" + book.subject,
-            ongoing: !book.isfinish,
-            host: "https://bookshelf.html5.qq.com"
-        });
+        let isAdsBook = book.isAdsBook
+        if(isAdsBook)
+            return Response.success({
+                name: book.resourceName,
+                cover: book.picurl,
+                author: book.author,
+                description: book.summary.replace(/\n/g,"<br>"),
+                detail: "作者： " + book.author + "<br>" + book.subject,
+                ongoing: !book.isfinish,
+                host: "https://bookshelf.html5.qq.com"
+            });
     }
     return null;
 }

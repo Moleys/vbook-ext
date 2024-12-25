@@ -12,13 +12,14 @@ function execute(url, page) {
         const data = [];
         if (rows.length > 0) {
             rows.forEach(e => {
-                data.push({
-                    name: e.resourceName,
-                    link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + e.resourceID,
-                    cover: e.picurl,
-                    description: e.author,
-                    host: "https://bookshelf.html5.qq.com"
-                })
+                if(e.isAdsBook)
+                    data.push({
+                        name: e.resourceName,
+                        link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + e.resourceID,
+                        cover: e.picurl,
+                        description: e.author,
+                        host: "https://bookshelf.html5.qq.com"
+                    })
             });
             let next = parseInt(page, 10) + 1;
             return Response.success(data, next);

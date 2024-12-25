@@ -10,14 +10,16 @@ function execute(key, page) {
 		book_list.forEach(e => {
             if(e.items && e.items.length > 0)
             {
+
                 let e1 = e.items[0]
-                data.push({
-                    name: e1.title,
-                    link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + extractBookId(e1.jump_url),
-                    cover: e1.cover_url,
-                    description: e1.author,
-                    host: "https://novel.html5.qq.com"
-                })
+                if(e1.adfree == "1")
+                    data.push({
+                        name: e1.title,
+                        link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + extractBookId(e1.jump_url),
+                        cover: e1.cover_url,
+                        description: e1.author,
+                        host: "https://novel.html5.qq.com"
+                    })
             }
 
         });
