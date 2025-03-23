@@ -70,17 +70,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "twbook",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/twbook/plugin.zip",
-      "version": 4,
-      "source": "http://www.twbook.cc",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/twbook/icon.png",
-      "description": "Đọc truyện trên trang http://www.twbookg.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "mengyuanshucheng",
       "author": "Moleys",
@@ -213,29 +203,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "Mip Ciweimao 💰",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mipciweimao/plugin.zip",
-      "version": 4,
-      "source": "http://mip.ciweimao.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/mipciweimao/icon.png",
-      "description": "Đọc truyện trên trang http://mip.ciweimao.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "shubaowen",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shubaowen/plugin.zip",
-      "version": 2,
-      "source": "http://www.shubaowen.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shubaowen/icon.png",
-      "description": "Đọc truyện trên trang http://www.shubaowen.com",
-      "type": "chinese_novel",
-	  "tag": "nsfw",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "haitang16",
       "author": "Moleys",
@@ -270,28 +238,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "haitang123",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/plugin.zip",
-      "version": 5,
-      "source": "http://www.haitang123.co",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang123/icon.png",
-      "description": "Đọc truyện trên trang http://www.haitang123.co",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "bijibaba",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/plugin.zip",
-      "version": 5,
-      "source": "http://www.bijibaba.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/bijibaba/icon.png",
-      "description": "Đọc truyện trên trang http://www.bijibaba.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 	{
       "name": "jpxs123",
       "author": "Moleys",
@@ -347,17 +294,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "daoquan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/daoquan/plugin.zip",
-      "version": 1,
-      "source": "http://daoquan.vn",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/daoquan/icon.png",
-      "description": "Đọc truyện trên trang http://daoquan.vn",
-      "type": "novel",
-      "locale": "vi-VN"
-    },
+
     {
       "name": "readcomiconline",
       "author": "Moleys",
@@ -380,94 +317,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "haitangkanshu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitangkanshu/plugin.zip",
-      "version": 2,
-      "source": "http://www.haitangkanshu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitangkanshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.haitangkanshu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "zhuyuqing",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zhuyuqing/plugin.zip",
-      "version": 1,
-      "source": "http://www.zhuyuqing.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/zhuyuqing/icon.png",
-      "description": "Đọc truyện trên trang http://www.zhuyuqing.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "baimalou123",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baimalou123/plugin.zip",
-      "version": 1,
-      "source": "http://www.baimalou123.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/baimalou123/icon.png",
-      "description": "Đọc truyện trên trang http://www.baimalou123.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "ebook8",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ebook8/plugin.zip",
-      "version": 2,
-      "source": "http://www.ebook8.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ebook8/icon.png",
-      "description": "Đọc truyện trên trang http://www.ebook8.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "lwread",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lwread/plugin.zip",
-      "version": 2,
-      "source": "http://www.lwread.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/lwread/icon.png",
-      "description": "Đọc truyện trên trang http://www.lwread.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "shenyekanshu",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shenyekanshu/plugin.zip",
-      "version": 2,
-      "source": "http://www.shenyekanshu.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shenyekanshu/icon.png",
-      "description": "Đọc truyện trên trang http://www.shenyekanshu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "sosadfun",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/plugin.zip",
-      "version": 3,
-      "source": "http://www.sosadfun.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sosadfun/icon.png",
-      "description": "Đọc truyện trên trang http://www.sosadfun.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "longmabook [Long Mã/Hải Đường] 💰✅",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/longmabook/plugin.zip",
-      "version": 5,
-      "source": "https://ebook.longmabook.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/longmabook/icon.png",
-      "description": "Đọc truyện trên trang https://ebook.longmabook.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "shencou 📖",
       "author": "Moleys",
@@ -580,18 +430,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "newhaitang",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/newhaitang/plugin.zip",
-      "version": 2,
-      "source": "http://www.newhaitang.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/newhaitang/icon.png",
-      "description": "Đọc truyện trên trang http://www.newhaitang.com",
-      "type": "chinese_novel",
-	  "tag": "nsfw",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "readwn",
       "author": "Moleys",
@@ -625,17 +464,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "Legado thêm Google dịch",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado2/plugin.zip",
-      "version": 13,
-      "source": "https://github.com/gedoor/legado",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/legado2/icon.png",
-      "description": "Đọc truyện qua app Legado",
-      "type": "novel",
-      "locale": "en_US"
-    },
+
     {
       "name": "9x",
       "author": "Moleys",
@@ -655,17 +484,6 @@
       "source": "https://www.po18.tw",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18/icon.png",
       "description": "Đọc truyện trên trang https://www.po18.tw",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Elysia",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/plugin.zip",
-      "version": 2,
-      "source": "https://cwm.elysia.rip",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/icon.png",
-      "description": "Đọc truyện trên trang Elysia",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
