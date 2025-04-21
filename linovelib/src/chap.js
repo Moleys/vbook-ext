@@ -1,10 +1,13 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
     let data  ="";
-    let part1 = url.replace("https://w.linovelib.com", "").replace("http://w.linovelib.com", "").replace(".html","");
+    let part1 = url;
     var next = part1;
     while (next.includes(part1)) {
         console.log(next)
-        let response = fetch("https://w.linovelib.com" + next +".html");
+        let response = fetch(BASE_URL + next +".html");
         if (response.ok) {
             let doc = response.html();
             let name = doc.select("title").text()
@@ -18,7 +21,7 @@ function execute(url) {
 
 
 
-            next = doc.select("link[rel=prerender]").attr("href").replace(".html","").replace("https://w.linovelib.com", "").replace("http://w.linovelib.com", "");
+            next = doc.select("link[rel=prerender]").attr("href").replace(".html","").replace(BASE_URL, "").replace("http://w.linovelib.com", "");
             let htm = doc.select("#acontent")
             htm.select(".cgo").remove()
             htm = htm.html()

@@ -1,4 +1,7 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
     const yUrl = url.replace('.html','/catalog');
     let response = fetch(yUrl);
     if (response.ok) {
@@ -12,7 +15,7 @@ function execute(url) {
                 list.push({
                     name: e.select(".chapter-index").text(),
                     url: link,
-                    host: "https://w.linovelib.com"
+                    host: BASE_URL
                 });
             }
         }

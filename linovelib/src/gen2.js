@@ -1,4 +1,7 @@
-function execute(url, page) {
+load('config.js');
+function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
     if(!page) page = '1';
     let response = fetch(url+"/" +page+".html");
     if (response.ok) {
