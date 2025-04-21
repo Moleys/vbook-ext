@@ -6,21 +6,34 @@ function execute(url) {
     if (response.ok) {
         let doc = response.json()
         let obj = doc.body
-        let novel_name = obj.seriesNavData.title
 
-        let novel_id = obj.seriesNavData.seriesId
-        console.log(JSON.stringify(novel_id))
+        let genres = [];
 
-        // let genres = [];
-        // obj.tags.forEach(e => {
-        //     if(e.tag)
-        //     genres.push({
-        //         title: e.tag,
-        //         input: "",
-        //         script: "gen2.js"
-        //     });
-        // });
+        obj.tags.tags.forEach(e => {
+            if(e.tag)
+            genres.push({
+                title: e.tag,
+                input: encodeURIComponent(e.tag),
+                script: "gen2.js"
+            });
+        });
+        let suggests = [];
 
+        try {
+            let novel_name = obj.seriesNavData.title;
+            let novel_id = obj.seriesNavData.seriesId;
+            console.log(JSON.stringify(novel_id));
+
+            suggests = [
+                {
+                    title: novel_name,
+                    input: novel_id,
+                    script: "suggest.js"
+                }
+            ];
+        } catch {
+            suggests = [];
+        }
 
         return Response.success({
             name: obj.title,
@@ -31,15 +44,9 @@ function execute(url) {
                 input: book_id,
                 script: "comment.js"
             },
-            suggests: [
-                {
-                    title: novel_name,
-                    input: novel_id,
-                    script: "suggest.js"
-                }
-            ],
+            suggests: suggests,
 
-
+            genres: genres,
 
             detail: "作者： " + obj.userName,
             host: "https://www.pixiv.net"
