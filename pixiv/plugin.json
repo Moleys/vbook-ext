@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "pixiv",
+    "name": "Pixiv Novel",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
     "regexp": "(www.|m.)?pixiv.net/novel/show.php(.*?)",
     "description": "Đọc truyện trên trang https://www.pixiv.net",
