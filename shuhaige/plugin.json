@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "shuhaige",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://www.shuhaige.net",
+    "regexp": "(www\\.|m\\.)?shuhaige\\.net/(shu_)?\\d+(/|\\.html)?",
+    "description": "Đọc truyện trên trang https://www.shuhaige.net",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
