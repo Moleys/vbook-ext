@@ -19,7 +19,7 @@ function execute(url, page) {
       let bookInfo = e.select('span.s1');
       if (bookInfo) {
         let bookLink = e.select('a').attr('href');
-        let bookName = e.select('a').text().trim();
+        let bookName = e.select('.s2 a').text().trim();
         let lastChapter = e.select('span.s3 a').text().trim();
 
         if (bookName)

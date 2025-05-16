@@ -12,7 +12,6 @@ function execute(url, page) {
         const data = [];
         if (rows.length > 0) {
             rows.forEach(e => {
-                if(e.isAdsBook)
                     data.push({
                         name: e.resourceName,
                         link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + e.resourceID,

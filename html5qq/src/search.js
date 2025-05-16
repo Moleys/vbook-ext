@@ -8,11 +8,11 @@ function execute(key, page) {
         const extractBookId = (url1) => (url1.match(/[?&]book(?:id|Id)=(\d+)/) || [])[1];
 
 		book_list.forEach(e => {
+
             if(e.items && e.items.length > 0)
             {
 
                 let e1 = e.items[0]
-                if(e1.adfree == "1")
                     data.push({
                         name: e1.title,
                         link: "https://bookshelf.html5.qq.com/autojump/intro?bookid=" + extractBookId(e1.jump_url),

@@ -14,7 +14,8 @@ function execute(url) {
         let doc = response.json();
         let book = doc.data.bookInfo
         let isAdsBook = book.isAdsBook
-        if(isAdsBook)
+        console.log(JSON.stringify(book))
+
             return Response.success({
                 name: book.resourceName,
                 cover: book.picurl,
