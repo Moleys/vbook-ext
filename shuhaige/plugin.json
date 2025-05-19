@@ -2,7 +2,7 @@
   "metadata": {
     "name": "shuhaige",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "https://www.shuhaige.net",
     "regexp": "(www\\.|m\\.)?shuhaige\\.net/(shu_)?\\d+(/|\\.html)?",
     "description": "Đọc truyện trên trang https://www.shuhaige.net",
