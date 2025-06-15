@@ -483,7 +483,7 @@
       "version": 4,
       "source": "https://www.pixiv.net/en/tags/%E4%B8%AD%E6%96%87/novels",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/pixiv/icon.png",
-      "description": "Đọc truyện trên trang https://www.pixiv.net",      
+      "description": "Đọc truyện trên trang https://www.pixiv.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -491,10 +491,10 @@
       "name": "shuhaige",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shuhaige/plugin.zip",
-      "version": 2,
+      "version": 3,
       "source": "https://www.shuhaige.net/",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shuhaige/icon.png",
-      "description": "Đọc truyện trên trang https://www.shuhaige.net/",      
+      "description": "Đọc truyện trên trang https://www.shuhaige.net/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
