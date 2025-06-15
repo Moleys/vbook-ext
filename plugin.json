@@ -386,17 +386,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "TruyenTranhTuan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyentranhtuan/plugin.zip",
-      "version": 3,
-      "source": "http://truyentranhtuan.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/truyentranhtuan/icon.png",
-      "description": "Đọc truyện trên trang http://truyentranhtuan.com",
-      "type": "comic",
-      "locale": "vi_VN"
-    },
-    {
       "name": "aixdzs",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aixdzs/plugin.zip",
@@ -508,6 +497,18 @@
       "description": "Đọc truyện trên trang https://www.shuhaige.net/",      
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "Elysia",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/plugin.zip",
+      "version": 4,
+      "source": "https://cwm.elysia.rip",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/elysia/icon.png",
+      "description": "Đọc truyện trên trang Elysia",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
+	
   ]
 }

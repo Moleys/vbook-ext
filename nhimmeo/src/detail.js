@@ -8,6 +8,7 @@ function execute(url) {
         url = url.slice(0, -1);
     let book_id = url.split(/[/ ]+/).pop();
     url = BASE_URL + "/api/detail.php?q=" + book_id;
+    console.log(url)
     let response = fetch(url)
     if (response.ok) {
 		let text_encrypt = response.json();

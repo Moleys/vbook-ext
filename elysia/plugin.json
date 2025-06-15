@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "[Ciweimao] Nhimmeo 💰",
+    "name": "Elysia",
     "author": "Moleys",
-    "version": 13,
-    "source": "https://nhimmeo.ovh",
-    "regexp": "backup.nhimmeo.(cf|ovh)/(book|detail)/(\\d+)",
-    "description": "Đọc truyện trên trang https://nhimmeo.ovh",
+    "version": 4,
+    "source": "https://mnz.nhimmeo.cf",
+    "regexp": "(cwm.elysia.rip|mnz.nhimmeo.cf)/(book|detail)/(\\d+)",
+    "description": "Support by Nhocconsr",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
