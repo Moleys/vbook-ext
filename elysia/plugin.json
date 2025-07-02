@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Elysia",
     "author": "Moleys",
-    "version": 4,
+    "version": 5,
     "source": "https://mnz.nhimmeo.cf",
     "regexp": "(cwm.elysia.rip|mnz.nhimmeo.cf)/(book|detail)/(\\d+)",
     "description": "Support by Nhocconsr",
