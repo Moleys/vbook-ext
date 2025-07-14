@@ -8,7 +8,7 @@ function execute(url, page) {
     if (response.ok) {
             let doc = response.html();
             let data = [];
-            let el = doc.select("div[hidden]");
+            let el = doc.select(".MuiGridLegacy-item");
             for (let i = 0;i < el.size(); i++) {
                 var e = el.get(i);
                 let name = e.select("h6").first().text()
