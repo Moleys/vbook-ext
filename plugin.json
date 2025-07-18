@@ -358,17 +358,7 @@
 	  "tag": "nsfw",
       "locale": "zh_CN"
     },
-    {
-      "name": "aduosw",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aduosw/plugin.zip",
-      "version": 1,
-      "source": "https://www.aduosw.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aduosw/icon.png",
-      "description": "Đọc truyện trên trang https://www.aduosw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 
     {
       "name": "readwn",
