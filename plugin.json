@@ -105,17 +105,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "biqu5200",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqu5200/plugin.zip",
-      "version": 1,
-      "source": "http://www.biqu5200.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqu5200/icon.png",
-      "description": "Đọc truyện trên trang http://www.biqu5200.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "bixiange",
       "author": "Moleys",
@@ -149,17 +139,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "Vietnovel ✍",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/plugin.zip",
-      "version": 2,
-      "source": "https://www.vietnovel.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/vietnovel/icon.png",
-      "description": "Đọc truyện trên trang https://www.vietnovel.com",
-      "type": "novel",
-      "locale": "vi-VN"
-    },
+
     {
       "name": "nhasachmienphi 📚",
       "author": "Moleys",
@@ -240,17 +220,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-	{
-      "name": "520banxia",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/520banxia/plugin.zip",
-      "version": 1,
-      "source": "http://520banxia.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/520banxia/icon.png",
-      "description": "Đọc truyện trên trang http://520banxia.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 	{
       "name": "shumilou",
       "author": "Moleys",
@@ -353,17 +323,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "linovelib 📖",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/plugin.zip",
-      "version": 3,
-      "source": "http://w.linovelib.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/linovelib/icon.png",
-      "description": "Đọc truyện trên trang http://w.linovelib.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "powanjuan",
       "author": "Moleys",
