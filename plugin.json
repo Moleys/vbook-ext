@@ -4,17 +4,7 @@
     "description": "🧐"
   },
   "data": [
-    {
-      "name": "147xs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/plugin.zip",
-      "version": 1,
-      "source": "https://www.147xs.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/icon.png",
-      "description": "Đọc truyện trên trang https://www.147xs.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "trxsme",
       "author": "Moleys",
