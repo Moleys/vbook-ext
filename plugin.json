@@ -49,17 +49,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "wdbqg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wdbqg/plugin.zip",
-      "version": 3,
-      "source": "http://www.wdbqg.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wdbqg/icon.png",
-      "description": "Đọc truyện trên trang http://www.wdbqg.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 
     {
       "name": "mengyuanshucheng",
@@ -72,28 +62,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "yuanshuku",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuanshuku/plugin.zip",
-      "version": 3,
-      "source": "http://www.yuanshuku.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yuanshuku/icon.png",
-      "description": "Đọc truyện trên trang http://www.yuanshuku.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "wanbenshuku",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanbenshuku/plugin.zip",
-      "version": 3,
-      "source": "http://www.wanbenshuku.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wanbenshuku/icon.png",
-      "description": "Đọc truyện trên trang http://www.wanbenshuku.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "tongrenquan",
       "author": "Moleys",
@@ -128,17 +97,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "Jjwxc [Tấn Giang] 💰✅",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/plugin.zip",
-      "version": 32,
-      "source": "https://www.jjwxc.net",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jjwxc/icon.png",
-      "description": "Đọc truyện trên trang https://www.jjwxc.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 
     {
       "name": "nhasachmienphi 📚",
@@ -394,17 +353,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "9x",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/9x/plugin.zip",
-      "version": 3,
-      "source": "https://9x.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/9x/icon.png",
-      "description": "Đọc truyện trên trang https://9x.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "po18",
       "author": "Moleys",
