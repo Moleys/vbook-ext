@@ -8,10 +8,12 @@ function execute(key, page) {
 		const data = [];
 		item_list.forEach((e, index) => {
 			let name = e.name
+			let isComic = (e.type & 64) !== 0;
+			let type_book = isComic ? "&type=comic" : "";
 			if (name.includes(key))
 				data.push({
 					name: name,
-					link: config_host + "/getChapterList?url=" + encodeURIComponent(e.bookUrl),
+					link: config_host + "/getChapterList?url=" + encodeURIComponent(e.bookUrl) + type_book,
 					cover: config_host + "/cover?path=" + e.coverUrl,
 					description: e.author,
 					host: config_host
