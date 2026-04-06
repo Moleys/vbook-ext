@@ -11,8 +11,8 @@ function execute(key, page) {
 			if (name.includes(key))
 				data.push({
 					name: name,
-					link: config_host + "/getChapterList?url=" + e.bookUrl,
-					cover: e.coverUrl,
+					link: config_host + "/getChapterList?url=" + encodeURIComponent(e.bookUrl),
+					cover: config_host + "/cover?path=" + e.coverUrl,
 					description: e.author,
 					host: config_host
 				})

@@ -18,7 +18,7 @@ function execute(url) {
 					name: book_info.name || "Lorem ipsum",
 					cover: config_host + "/cover?path="+ book_info.coverUrl,
 					author: book_info.author || "Unknown",
-					description: (book_info.intro || "").replace(/\r\n/g, "<br>"),
+					description: (book_info.intro || "").replace(/\r\n/g, "<br>").replace(/\n/g, "<br>"),
 					detail: !book_info.author ? "" :"作者：" + book_info.author + "<br>" + (book_info.kind || ""),
 					host: config_host,
 					type: type_book
