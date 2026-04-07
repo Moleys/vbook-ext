@@ -14,7 +14,7 @@ function execute(key, page) {
 				data.push({
 					name: name,
 					link: config_host + "/getChapterList?url=" + encodeURIComponent(e.bookUrl) + type_book,
-					cover: config_host + "/cover?path=" + e.coverUrl,
+					cover: config_host + "/cover?path=" + encodeURIComponent(e.coverUrl),
 					description: e.author,
 					host: config_host
 				})
