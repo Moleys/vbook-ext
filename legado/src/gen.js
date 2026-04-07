@@ -14,7 +14,7 @@ function execute(url, page) {
                 name: e.name,
                 link: config_host + "/getChapterList?url=" + book_url + type_book,
                 bookUrl: book_url,
-                cover: config_host + "/cover?path=" + e.coverUrl,
+                cover: config_host + "/cover?path=" + encodeURIComponent(e.coverUrl),
                 description: e.author,
                 host: config_host
             })
