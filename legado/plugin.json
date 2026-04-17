@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Legado",
     "author": "Moleys",
-    "version": 14,
+    "version": 16,
     "source": "https://github.com/gedoor/legado",
     "regexp": "((\\d+)[.](\\d+)[.](\\d+)[.](\\d+)|localhost):1122/(.*?)",
     "description": "Đọc truyện qua app Legado, chi tiết vui lòng xem hướng dẫn trong Thảo luận",
@@ -22,7 +22,7 @@
     "title": "Host Legado",
     "mode": "input",
     "format": "text",
-    "default": "Dành cho bản PC: Nhập địa chỉ web services của Legado vào đây"
+    "default": "http://localhost:1122"
   }
 }
 }
