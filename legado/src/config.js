@@ -1,8 +1,5 @@
-var config_host = getHost();
-
-function getHost() {
-    if (typeof host === 'undefined') return "http://localhost:1122";
-
-    let cleanVal = String(host).replace(/"/g, "").trim();
-    return cleanVal || "http://localhost:1122";
-}
+const config_host = (() => {
+    let raw = (typeof host !== "undefined") ? host : "";
+    raw = String(raw).replace(/"/g, "").trim();
+    return raw || "http://localhost:1122";
+})();
