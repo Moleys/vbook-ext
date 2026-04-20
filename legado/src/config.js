@@ -1,4 +1,5 @@
-let config_host = "http://localhost:1122";
-if (typeof host !== "undefined") {
-    config_host = host
-}
+const config_host = (() => {
+    let raw = (typeof host !== "undefined") ? host : "";
+    raw = String(raw).replace(/"/g, "").trim();
+    return raw || "http://localhost:1122";
+})();

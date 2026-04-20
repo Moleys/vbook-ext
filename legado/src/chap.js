@@ -1,7 +1,7 @@
 load('config.js');
 
 function execute(url) {
-    
+
     const bookUrl = getBookUrl(url);
 
 
@@ -12,7 +12,7 @@ function execute(url) {
         if (response_chapter_info.ok) {
             let json = response_chapter_info.json();
             let data = []
-            let html = Html.parse(json.data).select("img").forEach(e => {
+            Html.parse(json.data).select("img").forEach(e => {
                 data.push(e.attr("src"))
             })
             return Response.success(data);
@@ -41,9 +41,9 @@ function getBookUrl(fullUrl) {
 
 // Hàm thay ảnh
 function replaceImageLinks(html, bookUrl) {
-    const baseImageUrl = "http://localhost:1122/image";
+    const baseImageUrl = config_host + "/image";
     const width = 800;
-    return html.replace(/<img\s+src="([^"]+)"\s*\/?>/g, (match, imgPath) => {
+    return html.replace(/<img\s+src="([^"]+)"\s*\/?>/g, (_match, imgPath) => {
         const encodedPath = encodeURIComponent(imgPath);
         const fullImageUrl = `${baseImageUrl}?path=${encodedPath}&url=${bookUrl}&width=${width}`;
         return `<img src="${fullImageUrl}">`;
