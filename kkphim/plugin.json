@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "kkphim",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://kkphim.com",
+    "regexp": "kkphim.com/phim/.*",
+    "description": "Xem phim trên kkphim",
+    "locale": "vi_VN",
+    "type": "video",
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}

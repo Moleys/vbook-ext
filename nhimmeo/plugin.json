@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "name": "[Ciweimao] Nhimmeo 💰",
+    "name": "Backup Nhimmeo",
     "author": "Moleys",
     "version": 13,
-    "source": "https://nhimmeo.ovh",
+    "source": "https://backup.nhimmeo.cf",
     "regexp": "backup.nhimmeo.(cf|ovh)/(book|detail)/(\\d+)",
     "description": "Đọc truyện trên trang https://nhimmeo.ovh",
     "locale": "zh_CN",

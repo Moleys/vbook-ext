@@ -4,7 +4,6 @@
     "description": "🧐"
   },
   "data": [
-
     {
       "name": "trxsme",
       "author": "Moleys",
@@ -49,7 +48,6 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-
 
     {
       "name": "mengyuanshucheng",
@@ -98,7 +96,6 @@
       "locale": "zh_CN"
     },
 
-
     {
       "name": "nhasachmienphi 📚",
       "author": "Moleys",
@@ -142,7 +139,7 @@
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang16/icon.png",
       "description": "Đọc truyện trên trang http://www.haitang16.com",
       "type": "chinese_novel",
-	  "tag": "nsfw",
+      "tag": "nsfw",
       "locale": "zh_CN"
     },
     {
@@ -168,7 +165,7 @@
       "locale": "zh_CN"
     },
 
-	{
+    {
       "name": "jpxs123",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/jpxs123/plugin.zip",
@@ -180,7 +177,7 @@
       "locale": "zh_CN"
     },
 
-	{
+    {
       "name": "shumilou",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/plugin.zip",
@@ -191,7 +188,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-	{
+    {
       "name": "Sfacg 💰",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/sfacg/plugin.zip",
@@ -202,7 +199,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-	{
+    {
       "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/fuxsb/plugin.zip",
@@ -268,7 +265,7 @@
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yazhouse8/icon.png",
       "description": "Đọc truyện trên trang https://yazhouse8.com/article.php",
       "type": "chinese_novel",
-	  "tag": "nsfw",
+      "tag": "nsfw",
       "locale": "zh_CN"
     },
     {
@@ -314,10 +311,9 @@
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18gv/icon.png",
       "description": "Đọc truyện trên trang https://www.po18gv.vip",
       "type": "chinese_novel",
-	  "tag": "nsfw",
+      "tag": "nsfw",
       "locale": "zh_CN"
     },
-
 
     {
       "name": "readwn",
@@ -352,7 +348,6 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-
 
     {
       "name": "po18",
@@ -397,7 +392,17 @@
       "description": "Đọc truyện trên trang Elysia",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "kkphim",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kkphim/plugin.zip",
+      "version": 1,
+      "source": "https://kkphim.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/kkphim/icon.png",
+      "description": "Xem phim trên trang kkphim.com",
+      "type": "video",
+      "locale": "vi_VN"
     }
-
   ]
 }

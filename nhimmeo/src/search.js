@@ -8,8 +8,8 @@ function execute(url, page) {
     let response = fetch(url)
     if (response.ok) {
         const data = [];
-		let text_encrypt = response.json();
-        let json_decrypt = text_encrypt.data;
+		let data = response.json();
+        let json_decrypt = data.data;
         let book_list = json_decrypt.book_list
         book_list.forEach(e => {
             data.push({

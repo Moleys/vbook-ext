@@ -9,8 +9,8 @@ function execute(url) {
     url = "https://backup.nhimmeo.cf/api/horo9.php?q=" + chapter_id;
     let response_chapter_info = fetch(url)
     if (response_chapter_info.ok) {
-		let text_encrypt_chapter_info = response_chapter_info.json();
-        let chapter_info = text_encrypt_chapter_info.data.chapter_info.txt_content.replace(/\n/g, "<br>").replace(/　　/g, "");
+		let data_chapter_info = response_chapter_info.json();
+        let chapter_info = data_chapter_info.data.chapter_info.txt_content.replace(/\n/g, "<br>").replace(/　　/g, "");
         return Response.success(chapter_info);
     }
     return null;
