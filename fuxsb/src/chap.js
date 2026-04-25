@@ -3,7 +3,8 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let htm = doc.select(".co-by").html();
+        let htm = doc.select(".con_box div").last().html();
+
 
         htm = htm.replace(/Fxsw.org/g, "");
         return Response.success(htm);
