@@ -1,6 +1,9 @@
 function execute(url) {
-    const [resourceId, serialId] = url.match(/resourceid=(\d+).*serialid=(\d+)/).slice(1);
-    let response = fetch('https://novel.html5.qq.com/be-api/content/ads-read', {
+    var match = String(url || "").match(/resourceid=(\d+).*serialid=(\d+)/);
+    if (!match) return Response.error("Cannot detect chapter id");
+    var resourceId = match[1];
+    var serialId = match[2];
+    var response = fetch('https://novel.html5.qq.com/be-api/content/ads-read', {
     method: 'POST',
     headers: {
         'Referer': 'https://novel.html5.qq.com/',
@@ -18,10 +21,9 @@ function execute(url) {
     })
     });
     if (response.ok) {
-        let doc = response.json();
-        let content = doc.data.Content[0].Content[0]
+        var doc = response.json();
+        var content = doc.data.Content[0].Content[0]
         // if(!doc.data.isFree) return Response.success("Không FREE");
-        // let content = doc.data.content.join("<br>")
         content = content.replace(/\r\n/g,"<br>")
         return Response.success(content);
     }
