@@ -2,10 +2,10 @@
   "metadata": {
     "name": "html5.qq.com",
     "author": "Moleys",
-    "version": 8,
+    "version": 13,
     "source": "https://bookshelf.html5.qq.com/qbread/categorylist?traceid=0809004&sceneid=FeedsTab&strageid=&ch=001995&tabfrom=top&feeds_version=8516&reader_version=0&groupid=1502&tag_type_id=1%27",
     "regexp": "(bookshelf|novel)\\.html5\\.qq\\.com/(qbread|autojump|portal/novel-intro)(\\?.*)?",
-    "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com",
+    "description": "Đọc truyện trên trang https://bookshelf.html5.qq.com\n\nCONFIG GENRE\n-1 = Tất cả\n0 = Nam\n1 = Nữ\n2 = Khác",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
@@ -17,5 +17,19 @@
     "genre": "genre.js",
     "search": "search.js",
     "chap": "chap2.js"
+  },
+  "config": {
+    "CONFIG_GENRE": {
+      "title": "Lọc genre (-1: Tất cả, 0: Nam, 1: Nữ, 2: Khác)",
+      "mode": "select",
+      "values": [
+        "-1=Tất cả",
+        "0=Nam",
+        "1=Nữ",
+        "2=Khác"
+      ],
+      "default": "-1",
+      "format": "single"
+    }
   }
 }
