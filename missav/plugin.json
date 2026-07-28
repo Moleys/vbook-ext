@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "missav",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://missav.media",
+    "regexp": "missav\\.[a-z]+/.*",
+    "description": "Xem phim trên missav",
+    "locale": "vi_VN",
+    "type": "video",
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  }
+}
