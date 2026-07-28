@@ -8,6 +8,7 @@
     "description": "Xem phim trên missav",
     "locale": "vi_VN",
     "type": "video",
+    "tag": "nsfw",
     "language": "javascript"
   },
   "script": {

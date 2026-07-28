@@ -8,6 +8,7 @@
     "description": "Xem phim trên xhamster",
     "locale": "vi_VN",
     "type": "video",
+    "tag": "nsfw",
     "language": "javascript"
   },
   "script": {

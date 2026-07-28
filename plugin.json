@@ -403,6 +403,30 @@
       "description": "Xem phim trên trang kkphim.com",
       "type": "video",
       "locale": "vi_VN"
+    },
+    {
+      "name": "xhamster",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xhamster/plugin.zip",
+      "version": 1,
+      "source": "https://xhwide.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/xhamster/icon.png",
+      "description": "Xem phim trên xhamster",
+      "type": "video",
+      "tag": "nsfw",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "missav",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/missav/plugin.zip",
+      "version": 1,
+      "source": "https://missav.media",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/missav/icon.png",
+      "description": "Xem phim trên missav",
+      "type": "video",
+      "tag": "nsfw",
+      "locale": "vi_VN"
     }
   ]
 }
