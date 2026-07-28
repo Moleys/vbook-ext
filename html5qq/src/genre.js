@@ -1,5 +1,6 @@
 function execute() {
-    return Response.success([{
+    var channel = getGenreFilter();
+    var genres = [{
             title: "男-都市",
             input: "groupid=1505&start={{page}}&count=20&sort=0&sub=",
             script: "gen.js"
@@ -3954,5 +3955,60 @@ function execute() {
             input: "groupid=1694&start={{page}}&count=20&sub=彩妆/美发/美甲",
             script: "gen.js"
         }
-    ]);
+    ];
+    return Response.success(filterGenres(genres, channel));
+}
+
+function filterGenres(genres, channel) {
+    if (channel === "0") {
+        return genres.filter(function(item) {
+            return item.title.indexOf("男-") === 0;
+        }).map(cleanGenreTitle);
+    }
+    if (channel === "1") {
+        return genres.filter(function(item) {
+            return item.title.indexOf("女-") === 0;
+        }).map(cleanGenreTitle);
+    }
+    if (channel === "2") {
+        return genres.filter(function(item) {
+            return item.title.indexOf("男-") !== 0 && item.title.indexOf("女-") !== 0;
+        }).map(cleanGenreTitle);
+    }
+    return genres;
+}
+
+function cleanGenreTitle(item) {
+    return {
+        title: item.title.replace(/^男-/, "").replace(/^女-/, ""),
+        input: item.input,
+        script: item.script
+    };
+}
+
+function getGenreFilter() {
+    try {
+        if (typeof CONFIG_GENRE !== "undefined" && CONFIG_GENRE !== "") {
+            return normalizeGenreFilter(CONFIG_GENRE);
+        }
+    } catch (e) {
+    }
+    try {
+        var value = localConfig.getItem("CONFIG_GENRE");
+        if (value !== null && value !== undefined && value !== "") {
+            return normalizeGenreFilter(value);
+        }
+    } catch (e2) {
+    }
+    return "-1";
+}
+
+function normalizeGenreFilter(value) {
+    value = String(value).replace(/^\s+|\s+$/g, "");
+    if (value.indexOf("=") !== -1) value = value.split("=")[0];
+    var parsed = parseInt(value, 10);
+    if (parsed === -1 || parsed === 0 || parsed === 1 || parsed === 2) {
+        return String(parsed);
+    }
+    return "-1";
 }
