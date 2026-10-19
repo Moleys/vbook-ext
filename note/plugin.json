@@ -1,0 +1,55 @@
+{
+    "metadata":  {
+                     "name":  "note (note.com)",
+                     "author":  "Moleys",
+                     "version":  1,
+                     "source":  "https://note.com",
+                     "description":  "Đọc bài viết, tạp chí (magazine) và toàn bộ bài của một tác giả trên note.com: xu hướng, hashtag, tìm kiếm, bình luận. Bài trả phí chưa mua sẽ báo khoá.",
+                     "locale":  "ja",
+                     "regexp":  "(https?://)?(www\\.)?note\\.(com|jp)/.+",
+                     "type":  "novel",
+                     "nsfw":  false
+                 },
+    "script":  {
+                   "search":  "search.js",
+                   "explore":  "explore.js",
+                   "genre":  "genre.js",
+                   "toc":  "toc.js",
+                   "chap":  "chap.js",
+                   "detail":  "detail.js",
+                   "page":  "page.js"
+               },
+    "config":  {
+                   "DOMAIN":  {
+                                  "title":  "Domain",
+                                  "subtitle":  "note.com",
+                                  "default":  "https://note.com",
+                                  "mode":  "input",
+                                  "format":  "text"
+                              },
+                   "AUTHOR_SUGGESTS":  {
+                                           "title":  "Gợi ý bài cùng tác giả",
+                                           "default":  "true",
+                                           "mode":  "toggle"
+                                       },
+                   "thread_num":  2,
+                   "delay":  300,
+                   "MAX_TOC_PAGES":  {
+                                         "title":  "Số trang mục lục tối đa",
+                                         "subtitle":  "Áp dụng cho tác giả / tạp chí nhiều bài (20 bài mỗi trang)",
+                                         "default":  "10",
+                                         "mode":  "input",
+                                         "format":  "number"
+                                     },
+                   "TRANSLATION":  {
+                                       "title":  "Ngôn ngữ nội dung",
+                                       "subtitle":  "en = dùng bản dịch tiếng Anh của note.com (bài không có bản dịch sẽ hiển thị bản gốc)",
+                                       "default":  "off",
+                                       "values":  [
+                                                      "off",
+                                                      "en"
+                                                  ],
+                                       "mode":  "select"
+                                   }
+               }
+}

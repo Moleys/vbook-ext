@@ -1,0 +1,50 @@
+{
+    "metadata":  {
+                     "name":  "ASMR One",
+                     "author":  "Moleys",
+                     "version":  1,
+                     "source":  "https://asmr.one",
+                     "description":  "Nghe audio ASMR (同人音声) trên asmr.one",
+                     "locale":  "zh-cn",
+                     "regexp":  "asmr\\.one/work/[0-9]+",
+                     "type":  "video",
+                     "nsfw":  true
+                 },
+    "script":  {
+                   "search":  "search.js",
+                   "explore":  "explore.js",
+                   "genre":  "genre.js",
+                   "toc":  "toc.js",
+                   "chap":  "chap.js",
+                   "detail":  "detail.js",
+                   "track":  "track.js",
+                   "home":  "home.js"
+               },
+    "config":  {
+                   "DOMAIN":  {
+                                  "title":  "Domain",
+                                  "subtitle":  "Trang ASMR One",
+                                  "default":  "https://asmr.one",
+                                  "mode":  "input",
+                                  "format":  "text"
+                              },
+                   "STREAM_QUALITY":  {
+                                          "title":  "Chất lượng stream",
+                                          "subtitle":  "low = m4a (mượt, mặc định) | high = wav lossless (nặng)",
+                                          "default":  "low",
+                                          "values":  [
+                                                         "low",
+                                                         "high"
+                                                     ],
+                                          "mode":  "select",
+                                          "format":  "single"
+                                      },
+                   "API_DOMAIN":  {
+                                      "title":  "API Domain",
+                                      "subtitle":  "API backend (api.asmr-200.com)",
+                                      "default":  "https://api.asmr-200.com",
+                                      "mode":  "input",
+                                      "format":  "text"
+                                  }
+               }
+}
