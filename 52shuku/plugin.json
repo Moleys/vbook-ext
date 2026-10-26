@@ -2,7 +2,7 @@
   "metadata": {
     "name": "52shuku",
     "author": "Moleys",
-    "version": 11,
+    "version": 12,
     "source": "https://www.52shuku.net",
     "regexp": "(www.|m.)?52shuku.(vip|net)/(.*?)/(.*?).html",
     "description": "Đọc truyện trên trang https://www.52shuku.net",

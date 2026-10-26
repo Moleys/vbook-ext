@@ -6,7 +6,8 @@ function execute(url) {
         let doc = response.html();
         doc.select("#lineCorrect").remove();
         doc.select("span").remove();
-        doc.select("p").last().remove();
+        let lastP = doc.select(".article-content p").last();
+        if (lastP && /52书库|52shuku/.test(lastP.text())) lastP.remove();
         let htm = doc.select(".article-content p")
         let content = ""
         htm.forEach(e => {
