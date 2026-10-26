@@ -7,7 +7,7 @@ function execute(url) {
         doc.select("#lineCorrect").remove();
         doc.select("span").remove();
         let lastP = doc.select(".article-content p").last();
-        if (lastP && /52书库|52shuku/.test(lastP.text())) lastP.remove();
+        if (lastP && /如果觉得52书库不错/.test(lastP.text())) lastP.remove();
         let htm = doc.select(".article-content p")
         let content = ""
         htm.forEach(e => {
