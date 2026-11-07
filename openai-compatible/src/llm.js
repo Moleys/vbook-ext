@@ -93,11 +93,32 @@ function llmModelIsReasoning(model) {
     return /(reasoner|reasoning|thinking|(^|[-_/])o[134](-|$))/i.test(String(model || ""));
 }
 
-// Kept for compatibility with selections saved by older builds, where "thinking" was
-// a separate picker entry for the same API model.
+// The app keeps the reader's picker choice under a reserved key, which scripts of a
+// translate engine (including actions) can read. Older app versions ignore the default
+// argument and return null, so the empty check covers both.
+function llmSelectedModel() {
+    var value = null;
+    try {
+        value = localConfig.getItem("translate_model", "");
+    } catch (e) {
+        value = null;
+    }
+    return value === null || value === undefined ? "" : String(value).trim();
+}
+
+// Explicit argument first (what translate() received), then the reader's picker choice,
+// then the extension default. A "-thinking" suffix saved by an older build maps back to
+// the same API model.
 function llmNormalizeModel(model) {
-    var selected = String(model || "").trim().replace(/-thinking$/i, "");
-    return selected || LLM_DEFAULT_MODEL;
+    var selected = String(model || "").trim();
+    if (!selected) selected = llmSelectedModel();
+    return selected.replace(/-thinking$/i, "") || LLM_DEFAULT_MODEL;
+}
+
+// Actions get no model argument; they must follow the model the reader picked.
+function llmAnalysisModel() {
+    var selected = llmSelectedModel().replace(/-thinking$/i, "");
+    return selected || LLM_ANALYSIS_MODEL;
 }
 
 // options: { temperature, maxTokens, json }

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "OpenAI-compatible API",
     "author": "Moleys",
-    "version": 5,
+    "version": 6,
     "source": "https://api.deepseek.com/v1",
     "description": "Dịch nội dung bằng API tương thích OpenAI (DeepSeek mặc định, Gemini, OpenAI…)",
     "locale": "global",

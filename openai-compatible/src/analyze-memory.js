@@ -185,7 +185,7 @@ function analysisRequest(apiKeys, chapter, text, blockIndex, blockCount, memoryC
 
     var result = llmRequest(
         apiKeys,
-        llmBuildBody(LLM_ANALYSIS_MODEL, instruction, userText, { temperature: 0.1, maxTokens: 8192, json: true }),
+        llmBuildBody(llmAnalysisModel(), instruction, userText, { temperature: 0.1, maxTokens: 8192, json: true }),
         120000
     );
     if (result.error) {
