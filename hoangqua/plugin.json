@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "Hoàng Quả",
+    "author": "Moleys",
+    "version": 1,
+    "source": "https://huangguoai.com",
+    "description": "Hoàng Quả (黄果短剧) — phim ngắn qua API edge của HGhub, quản HAVC/HEVC HLS, ảnh bìa giải mã AES",
+    "locale": "zh_CN",
+    "regexp": "https?://huangguoai\\.(?:com|ai)/video/\\d+(?:\\?.*)?",
+    "type": "video",
+    "nsfw": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "track": "track.js"
+  },
+  "config": {
+    "PROXY": {
+      "title": "Cover proxy URL (cover.php)",
+      "default": "https://moldich.eu.org",
+      "mode": "input",
+      "format": "text"
+    },
+    "DOMAIN": {
+      "title": "线路 (Line)",
+      "default": "https://huangguoai.com",
+      "mode": "select",
+      "options": {
+        "https://huangguoai.com": "huangguoai.com (chính)",
+        "https://huangguoai.ai": "huangguoai.ai (mirror)"
+      }
+    }
+  }
+}

@@ -405,6 +405,18 @@
       "locale": "vi_VN"
     },
     {
+      "name": "Hoàng Quả 🍈🔞",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hoangqua/plugin.zip",
+      "version": 1,
+      "source": "https://huangguoai.com",
+      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hoangqua/icon.png",
+      "description": "Xem phim ngắn Hoàng Quả",
+      "type": "video",
+      "tag": "nsfw",
+      "locale": "zh_CN"
+    },
+    {
       "name": "OpenAI-compatible API",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/openai-compatible/plugin.zip",
