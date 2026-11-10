@@ -8,12 +8,24 @@ var LLM_ANALYSIS_MODEL = LLM_DEFAULT_MODEL;
 var LLM_SUPPORTS_TEMPERATURE = true;
 var LLM_TEMPERATURE_NOTE = "; bị bỏ qua với model suy luận/thinking";
 var LLM_ROTATE_KEY_STATUSES = { 401: true, 402: true, 403: true, 429: true };
+var LLM_DEFAULT_TIMEOUT_MS = 120000;
+var LLM_MIN_TIMEOUT_MS = 5000;
+var LLM_MAX_TIMEOUT_MS = 900000;
 
 function llmAddProviderConfig(config) {
     config[llmConfigKey("base_url")] = {
             title: "Base URL",
             subtitle: "API tương thích OpenAI; tự thêm /v1 nếu thiếu. Ví dụ: https://api.deepseek.com/v1 hoặc https://generativelanguage.googleapis.com/v1beta/openai/",
             default: LLM_DEFAULT_BASE_URL,
+            mode: "input",
+            format: "text"
+        };
+    // "number" is intentionally not used: the app drops this particular item when its
+    // format is "number" (Temperature/token render fine), so keep "text" and parse below.
+    config[llmConfigKey("timeout_seconds")] = {
+            title: "Thời gian chờ mỗi request (giây)",
+            subtitle: "Mặc định 120. Áp dụng cho request dịch / sửa lỗi / phân tích; tải danh sách model tối đa 60 giây",
+            default: "120",
             mode: "input",
             format: "text"
         };
@@ -33,6 +45,18 @@ function llmReadSetting(key, fallback) {
     } catch (e) {}
     if (value === null || value === undefined || String(value).trim() === "") return fallback;
     return String(value).trim();
+}
+
+// Per-request timeout in ms. The app has no bare connection timeout setting, so this is
+// an ordinary config value applied to fetch(..., { timeout }); callers pass the value
+// they used before, which stays the fallback when the user never set one.
+function llmTimeout(fallbackMs) {
+    var seconds = parseFloat(llmReadSetting("timeout_seconds", ""));
+    if (isNaN(seconds) || seconds <= 0) return fallbackMs || LLM_DEFAULT_TIMEOUT_MS;
+    var ms = Math.round(seconds * 1000);
+    if (ms < LLM_MIN_TIMEOUT_MS) ms = LLM_MIN_TIMEOUT_MS;
+    if (ms > LLM_MAX_TIMEOUT_MS) ms = LLM_MAX_TIMEOUT_MS;
+    return ms;
 }
 
 function llmReadApiKeys() {
@@ -150,6 +174,7 @@ function llmBuildBody(model, systemPrompt, userText, options) {
 function llmRequest(apiKeys, body, timeout) {
     var payload = JSON.stringify(body);
     var endpoint = llmChatEndpoint();
+    var requestTimeout = llmTimeout(timeout);
     var lastError = "";
     for (var keyIndex = 0; keyIndex < apiKeys.length; keyIndex++) {
         var response;
@@ -161,7 +186,7 @@ function llmRequest(apiKeys, body, timeout) {
                     "Authorization": "Bearer " + apiKeys[keyIndex]
                 },
                 body: payload,
-                timeout: timeout || 120000
+                timeout: requestTimeout
             });
         } catch (e) {
             lastError = LLM_NAME + ": " + String(e);
@@ -169,7 +194,7 @@ function llmRequest(apiKeys, body, timeout) {
         }
 
         if (!response.ok) {
-            lastError = llmApiError(response);
+            lastError = llmApiError(response, requestTimeout);
             if (LLM_ROTATE_KEY_STATUSES[response.status]) continue;
             return { text: "", finishReason: "", error: lastError, keyIndex: keyIndex };
         }
@@ -193,7 +218,13 @@ function llmRequest(apiKeys, body, timeout) {
     return { text: "", finishReason: "", error: lastError || "Không có " + LLM_NAME + " API key khả dụng", keyIndex: -1 };
 }
 
-function llmApiError(response) {
+function llmApiError(response, timeoutMs) {
+    // fetch reports a timeout as 504 with an empty body; say so instead of a bare code.
+    if (response.status === 504) {
+        return LLM_NAME + ": hết thời gian chờ sau " +
+            Math.round((timeoutMs || LLM_DEFAULT_TIMEOUT_MS) / 1000) +
+            "s. Kiểm tra kết nối hoặc tăng \"Thời gian chờ mỗi request (giây)\".";
+    }
     var message = "";
     try {
         var data = JSON.parse(response.text());
@@ -207,6 +238,9 @@ function llmFetchModels(apiKeys) {
     if (!apiKeys || !apiKeys.length) return { models: [], error: "chưa có API key" };
 
     var endpoint = llmBaseUrl() + "/models";
+    // The picker must never hang the settings screen, so a long translation timeout is
+    // capped here; a shorter one the user chose still applies.
+    var requestTimeout = Math.min(llmTimeout(30000), 60000);
     var lastError = "";
     for (var keyIndex = 0; keyIndex < apiKeys.length; keyIndex++) {
         var response;
@@ -214,7 +248,7 @@ function llmFetchModels(apiKeys) {
             response = fetch(endpoint, {
                 method: "GET",
                 headers: { "Authorization": "Bearer " + apiKeys[keyIndex] },
-                timeout: 30000
+                timeout: requestTimeout
             });
         } catch (e) {
             lastError = String(e);
@@ -222,7 +256,7 @@ function llmFetchModels(apiKeys) {
         }
 
         if (!response.ok) {
-            lastError = llmApiError(response);
+            lastError = llmApiError(response, requestTimeout);
             if (LLM_ROTATE_KEY_STATUSES[response.status]) continue;
             return { models: [], error: lastError };
         }

@@ -420,7 +420,7 @@
       "name": "OpenAI-compatible API",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/openai-compatible/plugin.zip",
-      "version": 6,
+      "version": 11,
       "source": "https://api.deepseek.com/v1",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/openai-compatible/icon.png",
       "description": "Dịch nội dung bằng API tương thích OpenAI (DeepSeek mặc định, Gemini, OpenAI…)",
