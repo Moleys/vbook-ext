@@ -1,7 +1,7 @@
 load('libs.js');
 
 function execute(url) {
-    url = url.replace('m.trxs.me', 'trxs.me').replace('www.trxs.me', 'trxs.me');;
+    url = url.replace(/(m|www)\.trxs\.me/, 'https://m.tongrenshe.cc').replace(/(m|www\.)?trxs\.me/, 'https://m.tongrenshe.cc');
 	
     var response = fetch(url);
     if (response.ok) {

@@ -1,7 +1,7 @@
 load('libs.js');
 
 function execute(url, page) {
-    var host = 'http://trxs.me';
+    var host = 'https://m.tongrenshe.cc';
 
     var newUrl = '';
     page = page || '1';

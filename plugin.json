@@ -8,32 +8,10 @@
       "name": "trxsme",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/plugin.zip",
-      "version": 1,
-      "source": "https://www.trxs.me",
+      "version": 2,
+      "source": "https://m.tongrenshe.cc",
       "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/icon.png",
-      "description": "Đọc truyện trên trang https://trxs.me",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "biqugeabc",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/plugin.zip",
-      "version": 5,
-      "source": "https://www.biqugeabc.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/biqugeabc/icon.png",
-      "description": "Đọc truyện trên trang https://www.biqugeabc.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "uuksorg",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/uuksorg/plugin.zip",
-      "version": 1,
-      "source": "http://www.uuks.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/uuksorg/icon.png",
-      "description": "Đọc truyện trên trang http://www.uuks.org",
+      "description": "Đọc truyện trên trang https://m.tongrenshe.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -61,17 +39,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "tongrenquan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tongrenquan/plugin.zip",
-      "version": 1,
-      "source": "http://www.tongrenquan.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/tongrenquan/icon.png",
-      "description": "Đọc truyện trên trang http://www.tongrenquan.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 
     {
       "name": "bixiange",
@@ -83,29 +51,6 @@
       "description": "Đọc truyện trên trang http://www.bixiange.top",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "ijjxs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ijjxs/plugin.zip",
-      "version": 1,
-      "source": "http://www.ijjxs.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/ijjxs/icon.png",
-      "description": "Đọc truyện trên trang http://www.ijjxs.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-
-    {
-      "name": "nhasachmienphi 📚",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/plugin.zip",
-      "version": 4,
-      "source": "http://nhasachmienphi.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/nhasachmienphi/icon.png",
-      "description": "Đọc truyện trên trang http://nhasachmienphi.com",
-      "type": "novel",
-      "locale": "vi-VN"
     },
     {
       "name": "qbtr",
@@ -130,18 +75,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "haitang16",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang16/plugin.zip",
-      "version": 2,
-      "source": "http://www.haitang16.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/haitang16/icon.png",
-      "description": "Đọc truyện trên trang http://www.haitang16.com",
-      "type": "chinese_novel",
-      "tag": "nsfw",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "txt520",
       "author": "Moleys",
@@ -153,17 +87,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "piaoyuxuan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaoyuxuan/plugin.zip",
-      "version": 2,
-      "source": "http://www.piaoyuxuan.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/piaoyuxuan/icon.png",
-      "description": "Đọc truyện trên trang http://www.piaoyuxuan.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
 
     {
       "name": "jpxs123",
@@ -177,17 +101,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "shumilou",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/plugin.zip",
-      "version": 3,
-      "source": "http://www.shumilouxs.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shumilou/icon.png",
-      "description": "Đọc truyện trên trang http://www.shumilouxs.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "Sfacg 💰",
       "author": "Moleys",
@@ -211,17 +125,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "readcomiconline",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readcomiconline/plugin.zip",
-      "version": 2,
-      "source": "https://readcomiconline.li",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readcomiconline/icon.png",
-      "description": "Đọc truyện trên trang https://readcomiconline.li",
-      "type": "comic",
-      "locale": "en_US"
-    },
+
     {
       "name": "52shuku",
       "author": "Moleys",
@@ -256,18 +160,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "yazhouse8",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yazhouse8/plugin.zip",
-      "version": 1,
-      "source": "https://yazhouse8.com/article.php",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/yazhouse8/icon.png",
-      "description": "Đọc truyện trên trang https://yazhouse8.com/article.php",
-      "type": "chinese_novel",
-      "tag": "nsfw",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "sjks88",
       "author": "Moleys",
@@ -291,17 +184,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "aixdzs",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aixdzs/plugin.zip",
-      "version": 1,
-      "source": "http://m.aixdzs.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/aixdzs/icon.png",
-      "description": "Đọc truyện trên trang http://m.aixdzs.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "po18gv",
       "author": "Moleys",
@@ -315,17 +198,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "readwn",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readwn/plugin.zip",
-      "version": 1,
-      "source": "https://www.readwn.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/readwn/icon.png",
-      "description": "Đọc truyện trên trang https://readwn.app",
-      "type": "novel",
-      "locale": "en_US"
-    },
+
     {
       "name": "html5.qq.com",
       "author": "Moleys",
@@ -349,17 +222,7 @@
       "locale": "zh_CN"
     },
 
-    {
-      "name": "po18",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18/plugin.zip",
-      "version": 1,
-      "source": "https://www.po18.tw",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/po18/icon.png",
-      "description": "Đọc truyện trên trang https://www.po18.tw",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "pixiv",
       "author": "Moleys",
@@ -371,17 +234,7 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    {
-      "name": "shuhaige",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shuhaige/plugin.zip",
-      "version": 3,
-      "source": "https://www.shuhaige.net/",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/shuhaige/icon.png",
-      "description": "Đọc truyện trên trang https://www.shuhaige.net/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
+
     {
       "name": "Elysia",
       "author": "Moleys",
@@ -403,18 +256,6 @@
       "description": "Xem phim trên trang kkphim.com",
       "type": "video",
       "locale": "vi_VN"
-    },
-    {
-      "name": "Hoàng Quả 🍈🔞",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hoangqua/plugin.zip",
-      "version": 1,
-      "source": "https://huangguoai.com",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/hoangqua/icon.png",
-      "description": "Xem phim ngắn Hoàng Quả",
-      "type": "video",
-      "tag": "nsfw",
-      "locale": "zh_CN"
     },
     {
       "name": "OpenAI-compatible API",

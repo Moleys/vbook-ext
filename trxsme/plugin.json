@@ -2,10 +2,10 @@
   "metadata": {
     "name": "trxsme",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://trxs.me",
-    "regexp": "(www\\.)?trxs\\.(me|org)/tongren/\\d+\\.html",
-    "description": "Đọc truyện trên trang http://trxs.me",
+    "version": 2,
+    "source": "https://m.tongrenshe.cc",
+    "regexp": "((www\\.)?trxs\\.(me|org)|m\\.tongrenshe\\.cc)/tongren/\\d+\\.html",
+    "description": "Đọc truyện trên trang https://m.tongrenshe.cc",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

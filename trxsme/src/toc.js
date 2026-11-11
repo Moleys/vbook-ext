@@ -1,8 +1,8 @@
 load('libs.js');
 
 function execute(url) {
-    var host = 'http://trxs.me';
-    url = url.replace('m.trxs.me', 'trxs.me').replace('www.trxs.me', 'trxs.me');
+    var host = 'https://m.tongrenshe.cc';
+    url = url.replace(/(m|www)\.trxs\.me/, host).replace(/(m|www\.)?trxs\.me/, host);
 
     var response = fetch(url);
     if (response.ok) {
