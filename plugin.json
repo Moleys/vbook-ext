@@ -5,17 +5,6 @@
   },
   "data": [
     {
-      "name": "trxsme",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/plugin.zip",
-      "version": 2,
-      "source": "https://m.tongrenshe.cc",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/trxsme/icon.png",
-      "description": "Đọc truyện trên trang https://m.tongrenshe.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "wenku8 📖🔑",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/wenku8/plugin.zip",
